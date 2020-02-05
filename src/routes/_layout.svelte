@@ -1,0 +1,101 @@
+<script>
+  import Nav from "../components/Nav.svelte";
+  import Footer from "../components/Footer.svelte";
+  export let segment;
+</script>
+
+<style>
+  main {
+    position: relative;
+    margin: 0 auto;
+    box-sizing: border-box;
+    margin-top: 220px;
+  }
+
+  /*  Servicii descriptions style START */
+  :global(.service-title) {
+    font-family: "Special Elite";
+  }
+  :global(.img-top) {
+    width: 70%;
+  }
+  :global(.img-top, .img-middle) {
+    border-radius: 10px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16),
+      0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  }
+  :global(.img-middle) {
+    height: 450px;
+  }
+  :global(.paragraph-text, .paragraph-list-items) {
+    font-family: "Josefin Sans";
+    line-height: 29px;
+    font-size: 16px;
+    color: #222;
+  }
+  :global(.text-elegant) {
+    color: #dfa974;
+  }
+  :global(blockquote) {
+    padding: 8px 120px;
+    position: relative;
+    margin: 50px 0;
+    font-weight: 700;
+    border-top: 1px dashed #cacaca;
+    display: block;
+    border-bottom: 1px dashed #cacaca;
+    padding: 8px 65px;
+    text-align: center;
+    line-height: 1.6em;
+    font-size: 1.1em;
+    border-left: none;
+    border-right: none;
+  }
+  :global(blockquote::before) {
+    top: 50px;
+    font-size: 100px;
+    content: "\201C";
+    position: absolute;
+    left: 0;
+    top: 43px;
+    font-size: 75px;
+    color: #ededed;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: initial;
+  }
+  /*  Servicii pages style END */
+
+  /* Despre noi pages style START */
+  :global(hr.style-hr) {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(
+      to right,
+      rgba(233, 169, 116, 0),
+      rgba(233, 169, 116, 0.55),
+      rgba(233, 169, 116, 0)
+    );
+  }
+  :global(.end) {
+    font-family: "Pinyon Script", cursive;
+    font-size: 30px;
+  }
+  :global(.links) {
+    text-decoration: none !important;
+    color: #dfa974;
+    opacity: 0.8;
+  }
+
+  @media screen and (max-width: 768px) {
+    main {
+      margin: 20px;
+    }
+  }
+  /* Despre noi pages style END */
+</style>
+
+<Nav {segment} />
+<main>
+  <slot />
+</main>
+<Footer />
