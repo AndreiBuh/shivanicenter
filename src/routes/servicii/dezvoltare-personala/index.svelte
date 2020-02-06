@@ -2,9 +2,9 @@
   import { fade, fly } from "svelte/transition";
 </script>
 
-<div class="container mt-5">
+<div class="container mt-4">
   <h3
-    class="service-title mb-5 text-center"
+    class="service-title mb-4 text-center"
     in:fly={{ x: 200, duration: 2000 }}>
     Dezvoltare personala
     <span class="text-elegant font-weight-bold">.</span>
@@ -15,7 +15,7 @@
       alt="imagine mediatie"
       class="img-top img-fluid" />
   </div>
-  <div class="p-5">
+  <div class="p-2 mt-3">
     <p class="paragraph-text">
       Am tot auzit foarte des această expresie de
       <span class="text-elegant font-weight-bold">dezvoltare personală</span>

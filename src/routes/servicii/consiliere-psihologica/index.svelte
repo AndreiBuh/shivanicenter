@@ -2,9 +2,9 @@
   import { fade, fly } from "svelte/transition";
 </script>
 
-<div class="container mt-5">
+<div class="container mt-4">
   <h3
-    class="service-title mb-5 text-center"
+    class="service-title mb-4 text-center"
     in:fly={{ x: 200, duration: 2000 }}>
     Consiliere psihologica
     <span class="text-elegant font-weight-bold">.</span>
@@ -15,7 +15,7 @@
       alt="imagine consiliere psihologica 1"
       class="img-top img-fluid" />
   </div>
-  <div class="p-5">
+  <div class="p-2 mt-3">
     <p class="paragraph-text">
       <span class="text-elegant font-weight-bold">Consilierea psihologică</span>
       este o intervenție psihologică în care o persoană specializată oferă
@@ -29,10 +29,13 @@
       “presupune existența unei persoane care are temporar sau permanent rolul
       de consilier și care oferă sau acceptă în mod explicit să acorde timp,
       atenție și respect uneia sau mai multor persoane, cu rolul temporar de
-      client. Sarcina consilierii este de a oferi clientului oportunitatea de a
-      explora, descoperi și clarifica moduri de a trăi valorificându-și
-      resursele, ceea ce conduce la sentimentul de bine interior, îndreptându-se
-      spre o cât mai bună existență.”
+      client.
+    </p>
+    <p class="paragraph-text">
+      Sarcina consilierii este de a oferi clientului oportunitatea de a explora,
+      descoperi și clarifica moduri de a trăi valorificându-și resursele, ceea
+      ce conduce la sentimentul de bine interior, îndreptându-se spre o cât mai
+      bună existență.”
     </p>
     <blockquote>
       Consilierea psihologică se adresează adulților, copiilor, adolescenților
@@ -43,7 +46,7 @@
     <p class="paragraph-text">
       Consilierea psihologică este similară psihoterapiei în multe privințe,
       însă există câteva distincții: după gradul de severitate al tuburării
-      clientului- consilierea este indicată pentru prevenirea apariției
+      clientului - consilierea este indicată pentru prevenirea apariției
       tulburărilor psihologice și se adresează persoanelor cu dezechilibre
       ușoare ale personalității, în timp ce psihoterapia acoperă un spectru mai
       larg de intervenție, ce cuprinde afecțiuni majore ale personalității; după
@@ -59,11 +62,13 @@
           Metodele și tehnicile utilizate sunt comune psihoterapiei și
           consilierii. Orientarea terapeutică este cea care influențează pașii
           și etapele terapeutice. Scopul consilierii este de al face pe client
-          să își folosească cât mai eficient resursele personale. Ceea ce-ți
-          oferă consilierea după ce s-a încheiat este „sa te ajute să te ajuți
-          singur”, căci doar noi suntem cei care putem să ne schimbăm. Rolul
-          nostru este de a vă ghida, de a merge împreună, de a fi acolo și de a
-          vă ajută într-un mod activ să vă autodescoperiti.
+          să își folosească cât mai eficient resursele personale.
+        </p>
+        <p class="paragraph-text">
+          Ceea ce-ți oferă consilierea după ce s-a încheiat este „sa te ajute să
+          te ajuți singur”, căci doar noi suntem cei care putem să ne schimbăm.
+          Rolul nostru este de a vă ghida, de a merge împreună, de a fi acolo și
+          de a vă ajută într-un mod activ să vă autodescoperiti.
         </p>
       </div>
       <div class="col-md-5">
@@ -73,7 +78,7 @@
           alt="Imagine consiliere psihologica 2" />
       </div>
     </div>
-    <p class="mt-5 paragraph-text">
+    <p class="mt-3 paragraph-text">
       Iată câteva exemple ce pot constitui psihoeducație:
     </p>
     <ul class="p-2">

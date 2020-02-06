@@ -134,7 +134,6 @@
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
       width: 30px;
       height: 3px;
-      transition: 0.5s;
       border-radius: 5px;
     }
 
@@ -146,7 +145,6 @@
       height: 3px;
       background: #252525;
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-      transition: 0.5s;
       border-radius: 5px;
     }
 
@@ -165,7 +163,6 @@
       flex-direction: column;
       clip-path: circle(50px at 90% -10%);
       -webkit-clip-path: circle(50px at 90% -10%);
-      transition: all 1s ease-out;
       pointer-events: none;
       margin-bottom: 40px;
     }

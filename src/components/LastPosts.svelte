@@ -10,10 +10,10 @@
     display: flex;
     min-width: 0;
     word-wrap: break-word;
-    background-color: #fff;
     background-clip: border-box;
     border-radius: 0.25rem;
     border: none;
+    background: none;
   }
 
   .card.card-cascade.wider .view.view-cascade {

@@ -6,7 +6,6 @@
   import PostsHome from "../components/PostsHome.svelte";
 </script>
 
-
 <svelte:head>
   <title>Shivani center</title>
 </svelte:head>

@@ -7,9 +7,9 @@
   <title>Psiholog Tatu Alexandra</title>
 </svelte:head>
 
-<div class="container mt-5">
+<div class="container mt-4">
   <h3
-    class="service-title mb-5 text-center"
+    class="service-title mb-4 text-center"
     in:fly={{ x: -200, duration: 2000 }}>
     Psiholog Tatu Alexandra
     <span class="text-elegant font-weight-bold">.</span>
@@ -20,7 +20,7 @@
       alt="imagine psiholog alexandra tatu"
       class="img-top img-fluid" />
   </div>
-  <div class="p-5">
+  <div class="p-2">
     <h1 class="text-center my-4">
       <span class="text-elegant font-weight-bold end">Buna,</span>
     </h1>

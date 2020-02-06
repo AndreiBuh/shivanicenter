@@ -2,9 +2,9 @@
   import { fade, fly } from "svelte/transition";
 </script>
 
-<div class="container mt-5">
+<div class="container mt-4">
   <h3
-    class="service-title mb-5 text-center"
+    class="service-title mb-4 text-center"
     in:fly={{ x: 200, duration: 2000 }}>
     Workshop
     <span class="text-elegant font-weight-bold">.</span>
@@ -15,7 +15,7 @@
       alt="imagine workshop 1"
       class="img-top img-fluid" />
   </div>
-  <div class="service-content p-5">
+  <div class="p-2 mt-3">
     <p class="paragraph-text">
       Un
       <span class="text-elegant font-weight-bold">workshop</span>
@@ -64,10 +64,12 @@
         <p class="paragraph-text">
           Asemănările dintre cele două tipuri se referă la faptul că
           participanţii au şansa să discute şi să afle alte păreri, poveşti de
-          viaţă, modalităţi de a comunica. O altă asemănare este că la începutul
-          primei întâlniri, participanţii se vor prezenta şi astfel se va pune
-          baza unei relaţii de respect, empatie, încredere, răbdare şi acceptare
-          mutuală.
+          viaţă, modalităţi de a comunica.
+        </p>
+        <p class="paragraph-text">
+          O altă asemănare este că la începutul primei întâlniri, participanţii
+          se vor prezenta şi astfel se va pune baza unei relaţii de respect,
+          empatie, încredere, răbdare şi acceptare mutuală.
         </p>
         <p class="paragraph-text">
           Se va respecta fiecare părere în parte, fiecare participant va avea
@@ -81,7 +83,7 @@
           src="workshop2.png"
           alt="Imagine workshop 2" />
       </div>
-      <blockquote>
+      <blockquote class="mt-3">
         Importanţa workshop-urilor a crescut foarte mult în ultimii ani, fiind o
         soluţie bună nu doar pentru dezvoltare personală şi psihoeducaţie, dar
         şi pentru angajarea în activităţi şi discuţii terapeutice.

@@ -34,7 +34,6 @@
   ];
 
   let tabs = [
-    "Toate",
     "Familie",
     "Relatie de cuplu",
     "Sanatate",
@@ -97,15 +96,15 @@
     {#each tabs as tab}
       <TabPanel>
         <div class="row p-5">
-          <div class="col-md-6 pr-5 pt-4">
+          <div class="col-xs-12 col-md-6 pt-4">
             <ArticleCard category={tab} />
           </div>
-          <div class="col-md-6 pl-5">
+          <div class=" col-xs-12 col-md-6">
             <hr class="mb-3" />
             {#each articles as { title, src, text, author, date }}
               <section>
                 <div class="row">
-                  <div class="col-lg-5 col-xl-4">
+                  <div class="col-lg-5">
                     <div
                       class="view overlay rounded z-depth-1-half mb-lg-0 mb-4">
                       <img class="img-fluid" {src} alt={title} />
@@ -114,7 +113,7 @@
                       </a>
                     </div>
                   </div>
-                  <div class="col-lg-7 col-xl-8">
+                  <div class="col-lg-7">
                     <h7 class="font-weight-bold mb-3">
                       <strong>{title}</strong>
                     </h7>

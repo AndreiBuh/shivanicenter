@@ -24,9 +24,7 @@
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16),
       0 2px 10px 0 rgba(0, 0, 0, 0.12);
   }
-  :global(.img-middle) {
-    height: 450px;
-  }
+
   :global(.paragraph-text, .paragraph-list-items) {
     font-family: "Josefin Sans";
     line-height: 29px;
@@ -37,7 +35,6 @@
     color: #dfa974;
   }
   :global(blockquote) {
-    padding: 8px 120px;
     position: relative;
     margin: 50px 0;
     font-weight: 700;
@@ -52,14 +49,12 @@
     border-right: none;
   }
   :global(blockquote::before) {
-    top: 50px;
-    font-size: 100px;
+    top: 20px;
     content: "\201C";
     position: absolute;
     left: 0;
-    top: 43px;
     font-size: 75px;
-    color: #ededed;
+    color: #212529;
     font-family: Georgia, "Times New Roman", Times, serif;
     font-style: initial;
   }
@@ -85,13 +80,28 @@
     color: #dfa974;
     opacity: 0.8;
   }
+  /* Despre noi pages style END */
 
   @media screen and (max-width: 768px) {
     main {
-      margin: 20px;
+      margin-top: 0px;
+    }
+    :global(.img-top) {
+      width: 100%;
+    }
+    :global(.service-title) {
+      font-size: 18px;
+    }
+
+    :global(blockquote::before) {
+      font-size: 40px;
+    }
+
+    :global(blockquote) {
+      padding: 6px 30px;
+      font-size: 14px;
     }
   }
-  /* Despre noi pages style END */
 </style>
 
 <Nav {segment} />

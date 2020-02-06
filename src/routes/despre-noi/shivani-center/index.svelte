@@ -7,9 +7,9 @@
   <title>Despre Shivani Center</title>
 </svelte:head>
 
-<div class="container mt-5">
+<div class="container mt-4">
   <h3
-    class="service-title mb-5 text-center"
+    class="service-title mb-4 text-center"
     in:fly={{ x: -200, duration: 2000 }}>
     Shivani Center
     <span class="text-elegant font-weight-bold">.</span>
@@ -17,7 +17,7 @@
   <div class="text-center" in:fade={{ duration: 2000 }}>
     <img src="center.png" alt="imagine mediatie" class="img-top img-fluid" />
   </div>
-  <div class="p-5">
+  <div class="p-2 mt-3">
     <p class="paragraph-text">
       <a href="despre-noi/shivani-center" class="links">
         <span class="text-elegant font-weight-bold">Shivani Center</span>

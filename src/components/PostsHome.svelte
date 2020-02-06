@@ -50,7 +50,7 @@
   <div class="container p-5">
     <div class="row">
       {#each posts as { title, content }, id}
-        <div class="col-lg-4">
+        <div class="col-xs-12 col-lg-4">
           <LastPosts {title} {content} />
         </div>
       {/each}

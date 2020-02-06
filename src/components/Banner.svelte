@@ -115,6 +115,16 @@
     display: flex;
     justify-content: center;
   }
+
+  @media screen and (max-width: 768px) {
+    .fn-form {
+      width: 80%;
+    }
+
+    .banner-title {
+      font-size: 16px;
+    }
+  }
 </style>
 
 {#if title == 'Cine suntem?'}

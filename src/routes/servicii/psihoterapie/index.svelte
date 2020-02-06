@@ -2,9 +2,9 @@
   import { fade, fly } from "svelte/transition";
 </script>
 
-<div class="container mt-5">
+<div class="container mt-4">
   <h3
-    class="service-title mb-5 text-center"
+    class="service-title mb-4 text-center"
     in:fly={{ x: 200, duration: 2000 }}>
     Psihoterapie
     <span class="text-elegant font-weight-bold">.</span>
@@ -15,8 +15,8 @@
       alt="imagine mediatie"
       class="img-top img-fluid" />
   </div>
-  <div class="service-content p-5">
-    <p>
+  <div class="p-2 mt-3">
+    <p class="paragraph-text">
       <span class="text-elegant font-weight-bold">Psihoterapia</span>
        este un domeniu interdisciplinar, situat la granţa dintre medicină şi
       psihologie. Psihoterapia este o modalitate de tratament cuprinzător,
@@ -33,14 +33,14 @@
       omului, fiind mult mai complexă faţă de simplele sfaturi din partea
       altora.
     </blockquote>
-    <p>
+    <p class="paragraph-text">
       Ea pune accent pe profunzimea trăirilor şi gândurilor, acceptarea acestora
       şi întelegerea lor cu scopul de a trece peste dificultăţi, blocaje,
       comportamente disfuncţionale. Familia şi prietenii reprezintă un suport
       esenţial în dezvoltarea noastră, dar lucrul cu un specialist trece dincolo
       de acele simple sfaturi şi păreri.
     </p>
-    <p>
+    <p class="paragraph-text">
       Oricine are momente de confuzie şi nelinişte, dar dacă frecvenţa şi
       intensitatea lor creşte, atunci lucrul cu un terapeut este soluţia
       potrivită. Odată cu aceste stări, apariţia gândurilor negative şi
@@ -48,7 +48,7 @@
       comportamente (cum ar fi cele la locul de muncă, de învăţare, de
       comunicare şi socializare).
     </p>
-    <p>
+    <p class="paragraph-text">
       Prin studiile şi formările sale, psihoterapeutul are cunoştiinţele şi
       experienţa necesară pentru a realiza o relaţie terapeutică bazată pe
       respect, empatie, răbdare şi acceptare. Încă de la primul contact,
@@ -60,7 +60,7 @@
     </p>
     <div class="row">
       <div class="col-md-8">
-        <p>
+        <p class="paragraph-text">
           Totodată, pe lângă aceste discuţii, anumite tehnici terapeutice au
           rolul de a da o nouă perspectivă asupra unor situaţii despre care
           clientul nu ştie să spună prea multe. Prin tehnicile de art-therapy
@@ -69,14 +69,13 @@
           de care clientul poate are nevoie să îşi depăşească blocajele şi
           momentele de confuzie.
         </p>
-        <p>
+        <p class="paragraph-text">
           Uneori confuzia este atât de mare, încât nici prin propriile vorbe
           clientul nu reuşeşte să înţeleagă ce se întâmplă. Sarcina terapeutului
           este să îl susţină într-un proces de auto-cunoaştere şi de explorare a
           lumii sale interioare.
         </p>
-
-        <p>
+        <p class="paragraph-text">
           Ca si abordare, Shivani Center are psihologi formați în psihoterapie
           experienţială a unificării. „P.E.U este o metodă holistică, centrată
           pe analiza de simbol, dezvoltare personală şi autoschimbare prin
@@ -96,7 +95,7 @@
           src="psihoterapie2.png"
           alt="Imagine psihoterapie 2" />
       </div>
-      <blockquote>
+      <blockquote class="mt-4">
         Uneori confuzia este atât de mare, încât nici prin propriile vorbe
         clientul nu reuşeşte să înţeleagă ce se întâmplă. Sarcina terapeutului
         este să îl susţină într-un proces de auto-cunoaştere şi de explorare a
