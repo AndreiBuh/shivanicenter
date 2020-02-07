@@ -63,7 +63,6 @@
   }
 
   .mainmenu ul li:hover .dropdown {
-    top: 40px;
     opacity: 1;
     visibility: visible;
   }
@@ -123,6 +122,10 @@
       height: 70px;
     }
 
+    .mainmenu ul li:hover .dropdown {
+      display: none;
+    }
+
     .hamburger {
       position: absolute;
       cursor: pointer;
@@ -161,8 +164,8 @@
       height: 100%;
       width: 100%;
       flex-direction: column;
-      clip-path: circle(50px at 90% -10%);
-      -webkit-clip-path: circle(50px at 90% -10%);
+      clip-path: circle(50px at 100% -10%);
+      -webkit-clip-path: circle(50px at 100% -10%);
       pointer-events: none;
       margin-bottom: 40px;
     }
@@ -170,8 +173,8 @@
       margin: 20px 0;
     }
     .open {
-      clip-path: circle(1200px at 90% -10%);
-      -webkit-clip-path: circle(1200px at 90% -10%);
+      clip-path: circle(1200px at 1000% -10%);
+      -webkit-clip-path: circle(1200px at 100% -10%);
       pointer-events: all;
     }
 

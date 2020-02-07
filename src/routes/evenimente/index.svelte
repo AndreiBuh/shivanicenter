@@ -40,14 +40,14 @@
 </svelte:head>
 
 <div class="container">
-  <h3 class="service-title my-5 text-center">
+  <h3 class="service-title my-4 text-center">
     Evenimente
     <span class="text-elegant font-weight-bold">.</span>
   </h3>
 
   <div class="row">
     {#each events as { title, text, date }, id}
-      <div class="col-lg-4 ">
+      <div class="col-12 col-lg-4 mt-4">
         <EventCard {title} {text} {date} />
       </div>
     {/each}
