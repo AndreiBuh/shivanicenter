@@ -25,9 +25,9 @@
     margin: 0;
     outline: 0;
     border: 0;
-    font-size: 12px;
+    font-size: 13px;
     box-sizing: border-box;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Oswald", sans-serif;
   }
 
   .icon {

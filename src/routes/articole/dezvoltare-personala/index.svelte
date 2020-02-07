@@ -1,3 +1,13 @@
+<script context="module">
+  export function preload({ params, query }) {
+    return this.fetch(`articole/dezvoltare-personala.json`)
+      .then(r => r.json())
+      .then(posts => {
+        return { posts };
+      });
+  }
+</script>
+
 <script>
   import SearchBar from "../../../components/SearchBar.svelte";
   import ArticlesRead from "../../../components/ArticlesRead.svelte";
@@ -11,28 +21,31 @@
     "Sexualitate",
     "Stiinta"
   ];
+
+  export let posts;
 </script>
 
 <style>
-  .card-content {
-    background: #f9f9f9;
+  a {
+    text-decoration: none;
+    color: #222736;
   }
-
   h5 {
     font-family: "Oswald";
   }
-
   .article-title,
   .article-text {
     font-family: "Josefin Sans";
   }
 
+  .card-content {
+    background-color: #fbfbfb;
+  }
   .card.card-cascade.wider {
     background-color: transparent;
     -webkit-box-shadow: none;
     box-shadow: none;
   }
-
   .card.card-cascade.wider .view.view-cascade {
     z-index: 2;
   }
@@ -43,7 +56,6 @@
     box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18),
       0 4px 15px 0 rgba(0, 0, 0, 0.15);
   }
-
   .overlay .mask {
     opacity: 0;
     -webkit-transition: all 0.4s ease-in-out;
@@ -136,7 +148,6 @@
       <div class="card">
         <h5 class="text-center p-3 mb-0">Dezvoltare personala</h5>
       </div>
-
       <div class="card left-section">
         <div class="card-content p-4">
           <div class="card card-cascade wider reverse border-0">
@@ -145,9 +156,6 @@
                 class="card-img-top"
                 src="franghie-atasament1.jpg"
                 alt="Franghie atasament" />
-              <a href="#!">
-                <div class="mask rgba-white-slight" />
-              </a>
             </div>
             <div class="card-body card-body-cascade text-center p-4">
               <h4 class="font-weight-bold article-title">
@@ -159,55 +167,37 @@
                 persoana cea mai apropiată acestuia.
               </p>
             </div>
-
-            <div class="articles-list mt-5">
-              <div class="card my-3">
-                <div class="row">
-                  <div class="col-lg-5 col-md-12 mb-lg-0 mb-4">
-                    <div class="view overlay rounded z-depth-1 mb-lg-0 mb-4">
-                      <img
-                        class="img-fluid"
-                        src="https://mdbootstrap.com/img/Photos/Others/images/52.jpg"
-                        alt="Sample image" />
-                      <a>
-                        <div class="mask rgba-white-slight" />
-                      </a>
+            <div class="card-content">
+              <div class="articles-list mt-5">
+                {#each posts as post}
+                  <div class="card my-3">
+                    <div class="row">
+                      <div class="col-lg-5 col-md-12 mb-lg-0 mb-4">
+                        <div
+                          class="view overlay rounded z-depth-1 mb-lg-0 mb-4">
+                          <img
+                            class="img-fluid"
+                            src="https://mdbootstrap.com/img/Photos/Others/images/52.jpg"
+                            alt="Sample image" />
+                        </div>
+                      </div>
+                      <div class="col-lg-7 col-md-6 mb-md-0 mb-4 mt-xl-4 px-5">
+                        <h5 class="font-weight-bold article-title">
+                          <a
+                            rel="prefetch"
+                            href="articole/dezvoltare-personala/{post.slug}">
+                            {post.title}
+                          </a>
+                        </h5>
+                        <p class="article-text">
+                          Option as can distributors. And to suppliers, given a
+                          copy the horrible arrange yes, we had hundreds leave
+                          was more.
+                        </p>
+                      </div>
                     </div>
                   </div>
-                  <div class="col-lg-7 col-md-6 mb-md-0 mb-4 mt-xl-4 px-5">
-                    <h5 class="font-weight-bold article-title">
-                      Convert your visitors to real customers
-                    </h5>
-                    <p class="article-text">
-                      Option as can distributors. And to suppliers, given a copy
-                      the horrible arrange yes, we had hundreds leave was more.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="card my-3">
-                <div class="row">
-                  <div class="col-lg-5 col-md-12 mb-lg-0 mb-4">
-                    <div class="view overlay rounded z-depth-1 mb-lg-0 mb-4">
-                      <img
-                        class="img-fluid"
-                        src="https://mdbootstrap.com/img/Photos/Others/images/52.jpg"
-                        alt="Sample image" />
-                      <a>
-                        <div class="mask rgba-white-slight" />
-                      </a>
-                    </div>
-                  </div>
-                  <div class="col-lg-7 col-md-6 mb-md-0 mb-4 mt-xl-4 px-5">
-                    <h5 class="font-weight-bold article-title">
-                      Convert your visitors to real customers
-                    </h5>
-                    <p class="article-text">
-                      Option as can distributors. And to suppliers, given a copy
-                      the horrible arrange yes, we had hundreds leave was more.
-                    </p>
-                  </div>
-                </div>
+                {/each}
               </div>
             </div>
           </div>

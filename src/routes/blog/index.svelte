@@ -117,6 +117,18 @@
     letter-spacing: 0;
     font-size: 18px;
   }
+
+  .author {
+    font-size: 10px;
+  }
+
+  .date {
+    color: #8c8c8c;
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-family: "Oswald", sans-serif;
+  }
 </style>
 
 <div class="container">
@@ -142,22 +154,19 @@
               class="rounded-circle img-fluid"
               alt="First sample avatar image" />
           </div>
-
+          <div class="text-center">
+            <div class="author">Psiholog Roxana Alecu</div>
+            <div class="date">18. dec 2019</div>
+          </div>
         </div>
         <div class="card-body">
           <div class="category">
             <a href="" class="category-link">Psihoterapie</a>
           </div>
-          <h2 class="content-title mt-2">
-            10 greseli in educatia unei fete care ii pot strica viitorul
-          </h2>
-
         </div>
       </div>
     </div>
-
     <div class="col-md-4">
-
       <div class="card">
         <h5 class="text-center p-3 mb-0">Cele mai citite articole</h5>
       </div>
@@ -166,7 +175,6 @@
           <ArticlesRead />
         </div>
       </div>
-
       <div class="card mt-5">
         <div class="card-content text-center p-4">
           <SearchBar />

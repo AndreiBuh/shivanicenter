@@ -24,6 +24,7 @@
     position: fixed;
     top: 0;
     z-index: 99;
+    filter: drop-shadow(0 0 5px #333);
   }
 
   .logo {
