@@ -11,6 +11,7 @@
 <script>
   import SearchBar from "../../../components/SearchBar.svelte";
   import ArticlesRead from "../../../components/ArticlesRead.svelte";
+  import ArticlesSidebar from "../../../components/ArticlesSidebar.svelte";
 
   let categories = [
     "Familie",
@@ -154,12 +155,12 @@
             <div class="view view-cascade overlay">
               <img
                 class="card-img-top"
-                src="franghie-atasament1.jpg"
-                alt="Franghie atasament" />
+                src="dezvoltare-personala3.jpg"
+                alt="Despre dezvoltare personala" />
             </div>
             <div class="card-body card-body-cascade text-center p-4">
               <h4 class="font-weight-bold article-title">
-                <a>Franghia atasamentului</a>
+                <a>Despre dezvoltare personala</a>
               </h4>
               <p class="article-text">
                 Atașamentul reprezintă o legătură emoțională puternică, bazată
@@ -206,53 +207,7 @@
     </div>
 
     <div class="col-md-4">
-
-      <div class="card">
-        <h5 class="text-center p-3 mb-0">Cele mai citite articole</h5>
-      </div>
-      <div class="card">
-        <div class="card-content text-center p-4">
-          <ArticlesRead />
-        </div>
-      </div>
-
-      <div class="card mt-5">
-        <div class="card-content text-center p-4">
-          <SearchBar />
-        </div>
-      </div>
-
-      <div class="card mt-5">
-        <div class="card-content p-4">
-          <h6 class="category-title">Categorii</h6>
-          <ul>
-            {#each categories as category, i}
-              <li class="category-item">
-                <a href=".">{category}</a>
-              </li>
-            {/each}
-          </ul>
-        </div>
-      </div>
-
-      <div class="card mt-5">
-        <h5 class="text-center p-3 mb-0">Newsletter</h5>
-      </div>
-      <div class="card">
-        <div class="card-content text-center p-4">
-          <h1>asfas</h1>
-        </div>
-      </div>
-
-      <div class="card mt-5">
-        <h5 class="text-center p-3 mb-0">Instagram</h5>
-      </div>
-      <div class="card">
-        <div class="card-content text-center p-4">
-          <h1>asfas</h1>
-        </div>
-      </div>
-
+      <ArticlesSidebar />
     </div>
 
   </div>

@@ -3,13 +3,34 @@
   import ArticlesRead from "./ArticlesRead.svelte";
 
   let categories = [
-    "Familie",
-    "Relatie de cuplu",
-    "Sanatate",
-    "Meditatie/Yoga",
-    "Dezvoltare personala",
-    "Sexualitate",
-    "Stiinta"
+    {
+      name: "Familie",
+      slug: "familie"
+    },
+    {
+      name: "Relatie de cuplu",
+      slug: "relatie-de-cuplu"
+    },
+    {
+      name: "Sanatate",
+      slug: "sanatate"
+    },
+    {
+      name: "Meditatie/Yoga",
+      slug: "meditatie-yoga"
+    },
+    {
+      name: "Dezvoltare personala",
+      slug: "dezvoltare-personala"
+    },
+    {
+      name: "Sexualitate",
+      slug: "sexualitate"
+    },
+    {
+      name: "Stiinta",
+      slug: "stiinta"
+    }
   ];
 </script>
 
@@ -65,9 +86,9 @@
   <div class="card-content p-4">
     <h6 class="category-title">Categorii</h6>
     <ul>
-      {#each categories as category, i}
+      {#each categories as { name, slug }, i}
         <li class="category-item">
-          <a href=".">{category}</a>
+          <a href="articole/{slug}" rel="prefetch">{name}</a>
         </li>
       {/each}
     </ul>
@@ -88,6 +109,6 @@
 </div>
 <div class="card">
   <div class="card-content text-center p-4">
-    <h1>asfas</h1>
+    <h1>asdas</h1>
   </div>
 </div>

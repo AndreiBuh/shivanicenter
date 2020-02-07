@@ -15,12 +15,16 @@
 
   a.category-link {
     text-decoration: none;
-    font-size: 9px;
+    font-size: 8px;
     font-family: "Noto Sans", sans-serif;
     letter-spacing: 1px;
     font-weight: 700;
     text-transform: uppercase;
     color: #d79c74;
+  }
+
+  a.category-link:hover {
+    color: #8c8c8c;
   }
 
   a.article-title {

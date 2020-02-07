@@ -24,7 +24,7 @@
     position: fixed;
     top: 0;
     z-index: 99;
-    filter: drop-shadow(0 0 5px #333);
+    box-shadow: 0 0 5px #333;
   }
 
   .logo {
@@ -212,13 +212,19 @@
           <a href="#">DESPRE NOI</a>
           <ul class="dropdown">
             <li>
-              <a href="despre-noi/shivani-center">Shivani Center</a>
+              <a rel="prefetch" href="despre-noi/shivani-center">
+                Shivani Center
+              </a>
             </li>
             <li>
-              <a href="despre-noi/roxana-alecu">Psiholog Alecu Roxana</a>
+              <a rel="prefetch" href="despre-noi/roxana-alecu">
+                Psiholog Alecu Roxana
+              </a>
             </li>
             <li>
-              <a href="despre-noi/alexandra-tatu">Psiholog Tatu Alexandra</a>
+              <a rel="prefetch" href="despre-noi/alexandra-tatu">
+                Psiholog Tatu Alexandra
+              </a>
             </li>
           </ul>
         </li>
@@ -226,25 +232,31 @@
           <a href="#">ARTICOLE</a>
           <ul class="dropdown">
             <li>
-              <a href="articole/familie">Familie</a>
+              <a rel="prefetch" href="articole/familie">Familie</a>
             </li>
             <li>
-              <a href="articole/relatie-de-cuplu">Relatie de cuplu</a>
+              <a rel="prefetch" href="articole/relatie-de-cuplu">
+                Relatie de cuplu
+              </a>
             </li>
             <li>
-              <a href="articole/sanatate">Sanatate</a>
+              <a rel="prefetch" href="articole/sanatate">Sanatate</a>
             </li>
             <li>
-              <a href="articole/meditatie-yoga">Meditatie/Yoga</a>
+              <a rel="prefetch" href="articole/meditatie-yoga">
+                Meditatie/Yoga
+              </a>
             </li>
             <li>
-              <a href="articole/dezvoltare-personala">Dezvoltare personala</a>
+              <a rel="prefetch" href="articole/dezvoltare-personala">
+                Dezvoltare personala
+              </a>
             </li>
             <li>
-              <a href="articole/sexualitate">Sexualitate</a>
+              <a rel="prefetch" href="articole/sexualitate">Sexualitate</a>
             </li>
             <li>
-              <a href="articole/stiinta">Stiinta</a>
+              <a rel="prefetch" href="articole/stiinta">Stiinta</a>
             </li>
           </ul>
         </li>
@@ -252,45 +264,57 @@
           <a href="#">SERVICII</a>
           <ul class="dropdown">
             <li>
-              <a href="servicii/consiliere-psihologica">
+              <a rel="prefetch" href="servicii/consiliere-psihologica">
                 Consiliere psihologica
               </a>
             </li>
             <li>
-              <a href="servicii/psihoterapie">Psihoterapie</a>
+              <a rel="prefetch" href="servicii/psihoterapie">Psihoterapie</a>
             </li>
             <li>
-              <a href="servicii/meditatie">Meditatie</a>
+              <a rel="prefetch" href="servicii/meditatie">Meditatie</a>
             </li>
             <li>
-              <a href="servicii/dezvoltare-personala">Dezvoltare personala</a>
+              <a rel="prefetch" href="servicii/dezvoltare-personala">
+                Dezvoltare personala
+              </a>
             </li>
             <li>
-              <a href="servicii/psihoeducatie">Psihoeducatie</a>
+              <a rel="prefetch" href="servicii/psihoeducatie">Psihoeducatie</a>
             </li>
             <li>
-              <a href="servicii/workshop">Workshop-uri</a>
+              <a rel="prefetch" href="servicii/workshop">Workshop-uri</a>
             </li>
             <li>
-              <a href="servicii/art-therapy">Art-therapy</a>
+              <a rel="prefetch" href="servicii/art-therapy">Art-therapy</a>
             </li>
             <li>
-              <a href="servicii/consiliere-vocationala">
+              <a rel="prefetch" href="servicii/consiliere-vocationala">
                 Consiliere vocationala
               </a>
             </li>
           </ul>
         </li>
         <li class="px-5" rel="prefetch">
-          <a class:selected={segment === 'evenimente'} href="evenimente">
+          <a
+            rel="prefetch"
+            class:selected={segment === 'evenimente'}
+            href="evenimente">
             EVENIMENTE
           </a>
         </li>
         <li class="px-5" rel="prefetch">
-          <a class:selected={segment === 'blog'} href="blog">BLOG</a>
+          <a rel="prefetch" class:selected={segment === 'blog'} href="blog">
+            BLOG
+          </a>
         </li>
         <li class="px-5" rel="prefetch">
-          <a class:selected={segment === 'contact'} href="contact">CONTACT</a>
+          <a
+            rel="prefetch"
+            class:selected={segment === 'contact'}
+            href="contact">
+            CONTACT
+          </a>
         </li>
       </ul>
     </div>
@@ -308,13 +332,19 @@
           <a href="#">DESPRE NOI</a>
           <ul class="dropdown">
             <li>
-              <a href="despre-noi/shivani-center">Shivani Center</a>
+              <a rel="prefetch" href="despre-noi/shivani-center">
+                Shivani Center
+              </a>
             </li>
             <li>
-              <a href="despre-noi/roxana-alecu">Psiholog Alecu Roxana</a>
+              <a rel="prefetch" href="despre-noi/roxana-alecu">
+                Psiholog Alecu Roxana
+              </a>
             </li>
             <li>
-              <a href="despre-noi/alexandra-tatu">Psiholog Tatu Alexandra</a>
+              <a rel="prefetch" href="despre-noi/alexandra-tatu">
+                Psiholog Tatu Alexandra
+              </a>
             </li>
           </ul>
         </li>
@@ -322,25 +352,31 @@
           <a href="#">ARTICOLE</a>
           <ul class="dropdown">
             <li>
-              <a href="articole/familie">Familie</a>
+              <a rel="prefetch" href="articole/familie">Familie</a>
             </li>
             <li>
-              <a href="articole/relatie-de-cuplu">Relatie de cuplu</a>
+              <a rel="prefetch" href="articole/relatie-de-cuplu">
+                Relatie de cuplu
+              </a>
             </li>
             <li>
-              <a href="articole/sanatate">Sanatate</a>
+              <a rel="prefetch" href="articole/sanatate">Sanatate</a>
             </li>
             <li>
-              <a href="articole/meditatie-yoga">Meditatie/Yoga</a>
+              <a rel="prefetch" href="articole/meditatie-yoga">
+                Meditatie/Yoga
+              </a>
             </li>
             <li>
-              <a href="articole/dezvoltare-personala">Dezvoltare personala</a>
+              <a rel="prefetch" href="articole/dezvoltare-personala">
+                Dezvoltare personala
+              </a>
             </li>
             <li>
-              <a href="articole/sexualitate">Sexualitate</a>
+              <a rel="prefetch" href="articole/sexualitate">Sexualitate</a>
             </li>
             <li>
-              <a href="articole/stiinta">Stiinta</a>
+              <a rel="prefetch" href="articole/stiinta">Stiinta</a>
             </li>
           </ul>
         </li>
@@ -348,30 +384,32 @@
           <a href="#">SERVICII</a>
           <ul class="dropdown">
             <li>
-              <a href="servicii/consiliere-psihologica">
+              <a rel="prefetch" href="servicii/consiliere-psihologica">
                 Consiliere psihologica
               </a>
             </li>
             <li>
-              <a href="servicii/psihoterapie">Psihoterapie</a>
+              <a rel="prefetch" href="servicii/psihoterapie">Psihoterapie</a>
             </li>
             <li>
-              <a href="servicii/meditatie">Meditatie</a>
+              <a rel="prefetch" href="servicii/meditatie">Meditatie</a>
             </li>
             <li>
-              <a href="servicii/dezvoltare-personala">Dezvoltare personala</a>
+              <a rel="prefetch" href="servicii/dezvoltare-personala">
+                Dezvoltare personala
+              </a>
             </li>
             <li>
-              <a href="servicii/psihoeducatie">Psihoeducatie</a>
+              <a rel="prefetch" href="servicii/psihoeducatie">Psihoeducatie</a>
             </li>
             <li>
-              <a href="servicii/workshop">Workshop-uri</a>
+              <a rel="prefetch" href="servicii/workshop">Workshop-uri</a>
             </li>
             <li>
-              <a href="servicii/art-therapy">Art-therapy</a>
+              <a rel="prefetch" href="servicii/art-therapy">Art-therapy</a>
             </li>
             <li>
-              <a href="servicii/consiliere-vocationala">
+              <a rel="prefetch" href="servicii/consiliere-vocationala">
                 Consiliere vocationala
               </a>
             </li>
@@ -383,14 +421,17 @@
           </a>
         </li>
         <li class="px-5" rel="prefetch">
-          <a class:selected={segment === 'evenimente'} href="evenimente">
+          <a
+            rel="prefetch"
+            class:selected={segment === 'evenimente'}
+            href="evenimente">
             EVENIMENTE
           </a>
         </li>
-        <li class="px-5" rel="prefetch">
+        <li rel="prefetch" class="px-5">
           <a class:selected={segment === 'blog'} href="blog">BLOG</a>
         </li>
-        <li class="px-5" rel="prefetch">
+        <li rel="prefetch" class="px-5">
           <a class:selected={segment === 'contact'} href="contact">CONTACT</a>
         </li>
       </ul>
