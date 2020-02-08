@@ -3,7 +3,7 @@
     list-style: none;
   }
   li.most-read-list-item {
-    border-top: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
     padding: 12px 0;
     text-align: left;
     position: relative;

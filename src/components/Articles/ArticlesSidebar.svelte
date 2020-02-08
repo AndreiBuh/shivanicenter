@@ -2,6 +2,7 @@
   import { fade, fly } from "svelte/transition";
   import SearchBar from "./SearchBar.svelte";
   import ArticlesTop from "./ArticlesTop.svelte";
+  import Social from "../Global/Social.svelte";
 
   let categories = [
     {
@@ -84,6 +85,14 @@
 </div>
 
 <div class="card mt-5">
+  <h5 class="text-center p-3 mb-0">Social media</h5>
+</div>
+<div class="card">
+  <div class="card-content text-center p-4">
+    <Social />
+  </div>
+</div>
+<div class="card mt-5">
   <div class="card-content p-4">
     <h6 class="category-title">Categorii</h6>
     <ul>
@@ -97,16 +106,16 @@
 </div>
 
 <div class="card mt-5">
-  <h5 class="text-center p-3 mb-0">Newsletter</h5>
+  <h5 class="text-center p-3 mb-0">Instagram</h5>
 </div>
 <div class="card">
   <div class="card-content text-center p-4">
-    <h1>asfas</h1>
+    <h1>asdas</h1>
   </div>
 </div>
 
 <div class="card mt-5">
-  <h5 class="text-center p-3 mb-0">Instagram</h5>
+  <h5 class="text-center p-3 mb-0">Newsletter</h5>
 </div>
 <div class="card">
   <div class="card-content text-center p-4">

@@ -145,12 +145,14 @@
 <div class="container">
   <div class="row">
     <div class="col-md-8 px-0">
-      <div class="card">
+      <div class="card" in:fly={{ x: -200, duration: 2000 }}>
         <h5 class="text-center p-3 mb-0">Dezvoltare personala</h5>
       </div>
       <div class="card left-section">
         <div class="card-content p-4">
-          <div class="card card-cascade wider reverse border-0">
+          <div
+            class="card card-cascade wider reverse border-0"
+            in:fade={{ duration: 2000 }}>
             <div class="view view-cascade overlay">
               <img
                 class="card-img-top"
@@ -189,7 +191,7 @@
                             {post.title}
                           </a>
                         </h5>
-                        <p class="article-text">
+                        <p class="article-text text-truncate">
                           Option as can distributors. And to suppliers, given a
                           copy the horrible arrange yes, we had hundreds leave
                           was more.
