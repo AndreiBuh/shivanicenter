@@ -63,7 +63,9 @@
       3. Funcția de inițiere și reglare a comportamentului decizional-analiză
       competențelor și independența în luarea deciziilor
     </p>
-    <p>4. Funcția de planificare a carierei pe termen mediu și lung</p>
+    <p class="paragraph-text">
+      4. Funcția de planificare a carierei pe termen mediu și lung
+    </p>
     <p class="paragraph-text">
       5. Funcția de reabilitare,reorientare și reconversie profesională în
       situații de criză economică sau a scăderii capacității de muncă. Adoptarea
