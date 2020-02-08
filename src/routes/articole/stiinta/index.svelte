@@ -9,9 +9,7 @@
 </script>
 
 <script>
-  import SearchBar from "../../../components/SearchBar.svelte";
-  import ArticlesRead from "../../../components/ArticlesRead.svelte";
-  import ArticlesSidebar from "../../../components/ArticlesSidebar.svelte";
+  import ArticlesSidebar from "../../../components/Articles/ArticlesSidebar.svelte";
 
   let categories = [
     "Familie",

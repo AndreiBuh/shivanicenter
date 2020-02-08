@@ -14,7 +14,7 @@
       icon: "flaticon-mindset",
       content:
         "Psihoterapia pune accent pe profunzimea trăirilor şi gândurilor, acceptarea acestora şi întelegerea lor, cu scopul de a trece peste dificultăţi, blocaje, comportamente disfuncţionale",
-      urlLink: "psihoterapie"
+      url: "psihoterapie"
     },
 
     {
@@ -23,7 +23,7 @@
       icon: "flaticon-yoga",
       content:
         "Nu există o tehnică corectă sau gresită de meditatie, fiecare alege ce funcționează mai bine pentru el. Important este să nu renunțăm când în demersul nostru apar capcanele minții.",
-      urlLink: "meditatie"
+      url: "meditatie"
     },
     {
       id: "4",
@@ -31,7 +31,7 @@
       icon: "flaticon-flower",
       content:
         "A te bucura de lucrurile simple și a simți compasiune față de toate ființele înseamnă dezvoltare personală. Viața nu înseamnă doar a știi, ci și a simți!",
-      urlLink: "dezvoltare-personala"
+      url: "dezvoltare-personala"
     },
     {
       id: "5",
@@ -39,7 +39,7 @@
       icon: "flaticon-mental",
       content:
         "Psihoeducația oferă oamenilor condiții de sănătate mintală, informații despre cauzele, simptomele, prognosticul și tratamentele afecțiunii lor diagnosticate.",
-      urlLink: "psihoeducatie"
+      url: "psihoeducatie"
     },
     {
       id: "6",
@@ -47,7 +47,7 @@
       icon: "flaticon-workshop",
       content:
         "Workshop-urile oferă o plajă largă de teme de interes cum ar fi legate de cuplu, familie şi copil, legături între emoţii-corp-gânduri, depăşirea unor evenimente dificile.",
-      urlLink: "workshop"
+      url: "workshop"
     },
     {
       id: "7",
@@ -55,7 +55,7 @@
       icon: "flaticon-paint",
       content:
         "Arta eliberează omul de stresul celorlalte activităţi, schimbă anumite pattern-uri de gândire şi comportament, ajută persoana să intre în contact cu propriile emoţii şi nevoi.",
-      urlLink: "art-therapy"
+      url: "art-therapy"
     },
     {
       id: "8",
@@ -63,7 +63,7 @@
       icon: "flaticon-speaker",
       content:
         "Consilierea vocaţională pune accent şi pe pasiunile, curiozităţile oamenilor, nu doar pe căutarea unui job – se doreşte ca acest job să fie strâns legat de acele pasiuni.",
-      urlLink: "consiliere-vocationala"
+      url: "consiliere-vocationala"
     }
   ];
 </script>
@@ -129,8 +129,6 @@
     font-family: "Arvo";
   }
   .section-title span {
-    font-size: 14px;
-    color: #dfa974;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -204,6 +202,10 @@
   .text-elegant {
     color: #dfa974;
   }
+
+  h4 {
+    font-family: "Oswald", sans-serif;
+  }
 </style>
 
 <section class="services-section spad">
@@ -215,8 +217,8 @@
     </div>
     <div class="row mt-2">
       {#each services as { id, title, name, url, icon, content } (id)}
-        <div class="col-lg-3 col-xs-6">
-          <a href="servicii/{url}">
+        <div class="col-xs-6 col-lg-3">
+          <a rel="prefetch" href="servicii/{url}">
             <div class="service-item">
               <i class={icon} />
               <h4>{title}</h4>

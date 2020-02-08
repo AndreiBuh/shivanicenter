@@ -1,6 +1,6 @@
 <script>
   import { fade, fly } from "svelte/transition";
-  import Testimonial from "../../../components/Testimonial.svelte";
+  import Testimonial from "../../../components/About/Testimonial.svelte";
 </script>
 
 <svelte:head>

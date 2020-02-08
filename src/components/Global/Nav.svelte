@@ -48,7 +48,7 @@
   .nav-links li a {
     color: #252525;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 17px;
     font-family: "Oswald", sans-serif;
     -webkit-transition: all 0.3s;
     -o-transition: all 0.3s;

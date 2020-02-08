@@ -1,6 +1,7 @@
 <script>
+  import { fade, fly } from "svelte/transition";
   import SearchBar from "./SearchBar.svelte";
-  import ArticlesRead from "./ArticlesRead.svelte";
+  import ArticlesTop from "./ArticlesTop.svelte";
 
   let categories = [
     {
@@ -68,12 +69,12 @@
   }
 </style>
 
-<div class="card">
+<div class="card" in:fly={{ x: 200, duration: 2000 }}>
   <h5 class="text-center p-3 mb-0">Cele mai citite articole</h5>
 </div>
-<div class="card">
+<div class="card" in:fly={{ x: 200, duration: 2000 }}>
   <div class="card-content text-center p-4">
-    <ArticlesRead />
+    <ArticlesTop />
   </div>
 </div>
 <div class="card mt-5">

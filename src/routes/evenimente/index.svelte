@@ -1,5 +1,5 @@
 <script>
-  import EventCard from "../../components/EventCard.svelte";
+  import EventCard from "../../components/Events/EventCard.svelte";
 
   let events = [
     {

@@ -45,12 +45,13 @@
 <style>
   .carousel {
     position: relative;
-    width: 80%;
     margin: auto;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    padding: 3rem 12rem;
+    max-width: 1200px;
+    width: 100%;
+    height: auto;
   }
 
   button {
@@ -69,11 +70,11 @@
   }
 
   .left {
-    left: 2vw;
+    left: 0vw;
   }
 
   .right {
-    right: 2vw;
+    right: 0vw;
   }
 
   ul {
@@ -101,17 +102,6 @@
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16),
       0 2px 10px 0 rgba(0, 0, 0, 0.12);
     border: 0;
-  }
-
-  @media only screen and (max-width: 600px) {
-    .carousel {
-      max-width: 100%;
-      padding: 0;
-    }
-    .left,
-    .right {
-      display: none;
-    }
   }
 </style>
 

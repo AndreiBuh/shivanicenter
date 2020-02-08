@@ -16,7 +16,7 @@
 </script>
 
 <script>
-  import ArticlesSidebar from "../../../components/ArticlesSidebar.svelte";
+  import ArticlesSidebar from "../../../components/Articles/ArticlesSidebar.svelte";
   export let post;
 </script>
 
