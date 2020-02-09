@@ -71,7 +71,7 @@
 </style>
 
 <div class="card" in:fly={{ x: 200, duration: 2000 }}>
-  <h5 class="text-center p-3 mb-0">Cele mai citite articole</h5>
+  <h5 class="text-center p-3 my-0">Cele mai citite articole</h5>
 </div>
 <div class="card" in:fly={{ x: 200, duration: 2000 }}>
   <div class="card-content text-center p-4">
@@ -85,7 +85,7 @@
 </div>
 
 <div class="card mt-5">
-  <h5 class="text-center p-3 mb-0">Social media</h5>
+  <h5 class="text-center p-3 my-0">Social media</h5>
 </div>
 <div class="card">
   <div class="card-content text-center p-4">
@@ -106,7 +106,7 @@
 </div>
 
 <div class="card mt-5">
-  <h5 class="text-center p-3 mb-0">Instagram</h5>
+  <h5 class="text-center p-3 my-0">Instagram</h5>
 </div>
 <div class="card">
   <div class="card-content text-center p-4">
@@ -115,7 +115,7 @@
 </div>
 
 <div class="card mt-5">
-  <h5 class="text-center p-3 mb-0">Newsletter</h5>
+  <h5 class="text-center p-3 my-0">Newsletter</h5>
 </div>
 <div class="card">
   <div class="card-content text-center p-4">

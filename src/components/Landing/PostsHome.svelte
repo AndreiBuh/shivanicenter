@@ -100,7 +100,7 @@
   <span class="text-elegant">.</span>
 </h3>
 
-<div class="card container p-5 mb-5">
+<div class="card container p-2 mb-5">
   <div class="card-columns">
     {#each posts as { title, content, src, category, author, date, read }, id}
       <div class="card p-3">

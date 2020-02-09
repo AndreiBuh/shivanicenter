@@ -102,10 +102,22 @@
 
   .article-card-body :global(h1, h2, h3, h4, h5, h6, h7) {
     font-family: "Josefin Sans", serif;
+    margin: 30px 0px;
   }
 
   .article-card-body :global(div) {
     padding: 10px;
+  }
+
+  .article-card-body :global(li) {
+    margin: 0px 0px 20px 30px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Montserrat";
+  }
+
+  .article-card-body :global(ol) {
+    margin-bottom: 70px;
   }
 </style>
 
@@ -113,7 +125,7 @@
   <div class="row">
     <div class="col-md-8 px-0">
       <div class="card">
-        <h3 class="text-center p-3 mb-0">{post.title}</h3>
+        <h3 class="text-center p-3 my-0">{post.title}</h3>
         <div class="card-content">
           <div class="view view-cascade overlay">
             <img
