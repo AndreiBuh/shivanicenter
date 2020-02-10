@@ -140,6 +140,10 @@
   ul li.category-item a:hover {
     color: #dfa974;
   }
+
+  .articles-list .card:first-child {
+    display: none;
+  }
 </style>
 
 <div class="container">
@@ -156,12 +160,16 @@
             <div class="view view-cascade overlay">
               <img
                 class="card-img-top"
-                src="dezvoltare-personala3.jpg"
-                alt="Despre dezvoltare personala" />
+                src="articole/dezvoltare-personala/atasament1.jpg"
+                alt="franghie atasament" />
             </div>
             <div class="card-body card-body-cascade text-center p-4">
               <h4 class="font-weight-bold article-title">
-                <a>Despre dezvoltare personala</a>
+                <a
+                  rel="prefetch"
+                  href="articole/dezvoltare-personala/franghia-atasamentului">
+                  Franghia atasamentului: intre libertate si atasament toxic
+                </a>
               </h4>
               <p class="article-text">
                 Atașamentul reprezintă o legătură emoțională puternică, bazată

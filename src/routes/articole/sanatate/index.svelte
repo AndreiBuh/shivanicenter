@@ -1,6 +1,6 @@
 <script context="module">
   export function preload({ params, query }) {
-    return this.fetch(`articole/dezvoltare-personala.json`)
+    return this.fetch(`articole/sanatate.json`)
       .then(r => r.json())
       .then(posts => {
         return { posts };
@@ -153,17 +153,21 @@
             <div class="view view-cascade overlay">
               <img
                 class="card-img-top"
-                src="sanatate1.jpg"
+                src="articole/sanatate/ceai1.jpg"
                 alt="Franghie atasament" />
             </div>
             <div class="card-body card-body-cascade text-center p-4">
               <h4 class="font-weight-bold article-title">
-                <a>Mananca fructe si legume</a>
+                <a
+                  rel="prefetch"
+                  href="articole/sanatate/cana-mea-de-ceai-verde">
+                  Cana mea de ceai verde
+                </a>
               </h4>
               <p class="article-text">
-                Atașamentul reprezintă o legătură emoțională puternică, bazată
-                pe instinct. Ea apare încă din copilărie, între bebeluș și
-                persoana cea mai apropiată acestuia.
+                De unde provine ceaiul verde? Conform unei legende ceaiul verde
+                a fost descoperit de catre un imparat chinez in urma cu mai bine
+                de 4000 de ani.
               </p>
             </div>
             <div class="card-content">

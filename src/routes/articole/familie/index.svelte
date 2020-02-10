@@ -1,6 +1,6 @@
 <script context="module">
   export function preload({ params, query }) {
-    return this.fetch(`articole/dezvoltare-personala.json`)
+    return this.fetch(`articole/familie.json`)
       .then(r => r.json())
       .then(posts => {
         return { posts };
@@ -139,6 +139,10 @@
   ul li.category-item a:hover {
     color: #dfa974;
   }
+
+  .articles-list .card:first-child {
+    display: none;
+  }
 </style>
 
 <div class="container">
@@ -153,17 +157,22 @@
             <div class="view view-cascade overlay">
               <img
                 class="card-img-top"
-                src="familie1.jpg"
-                alt="Franghie atasament" />
+                src="articole/familie/educatie-fete.png"
+                alt="Educatie fete" />
             </div>
-            <div class="card-body card-body-cascade text-center p-4">
+            <div class="card-body card-body-cascade text-center p-2">
               <h4 class="font-weight-bold article-title">
-                <a>7 greseli ale parintilor</a>
+                <a
+                  rel="prefetch"
+                  href="articole/familie/care-sunt-nevoile-fiicei-tale">
+                  Care sunt nevoile fiicei tale? Greșelile părinților in
+                  educația unei fete
+                </a>
               </h4>
               <p class="article-text">
-                Atașamentul reprezintă o legătură emoțională puternică, bazată
-                pe instinct. Ea apare încă din copilărie, între bebeluș și
-                persoana cea mai apropiată acestuia.
+                Copilaria reprezinta baza pe care se construiesc tiparele de
+                gandire, tipul de comportament si viziunea despre lumea
+                inconjuratoare.
               </p>
             </div>
             <div class="card-content">
@@ -182,9 +191,7 @@
                       </div>
                       <div class="col-lg-7 col-md-6 mb-md-0 mb-4 mt-xl-4 px-5">
                         <h5 class="font-weight-bold article-title">
-                          <a
-                            rel="prefetch"
-                            href="articole/dezvoltare-personala/{post.slug}">
+                          <a rel="prefetch" href="articole/familie/{post.slug}">
                             {post.title}
                           </a>
                         </h5>

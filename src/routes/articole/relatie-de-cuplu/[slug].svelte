@@ -3,7 +3,7 @@
     // the `slug` parameter is available because
     // this file is called [slug].svelte
     const res = await this.fetch(
-      `articole/dezvoltare-personala/${params.slug}.json`
+      `articole/relatie-de-cuplu/${params.slug}.json`
     );
     const data = await res.json();
 

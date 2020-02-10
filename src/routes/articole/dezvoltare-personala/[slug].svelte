@@ -90,7 +90,6 @@
     font-size: 9px;
     font-family: "Noto Sans", sans-serif;
     letter-spacing: 1px;
-    font-weight: 700;
     text-transform: uppercase;
     color: #d79c74;
   }
@@ -130,7 +129,7 @@
           <div class="view view-cascade overlay">
             <img
               class="card-img-top"
-              src="educatie-fete.png"
+              src={post.imageUrl}
               alt="Franghie atasament" />
             <div class="mask rgba-white-slight" />
           </div>
@@ -144,7 +143,9 @@
             <div class="author">{post.author}</div>
             <div class="date">{post.date}</div>
             <div class="category">
-              <a href="" class="category-link">{post.category}</a>
+              <a href="" class="category-link font-weight-bold">
+                {post.category}
+              </a>
             </div>
           </div>
         </div>

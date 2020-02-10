@@ -2,9 +2,7 @@
   export async function preload({ params, query }) {
     // the `slug` parameter is available because
     // this file is called [slug].svelte
-    const res = await this.fetch(
-      `articole/dezvoltare-personala/${params.slug}.json`
-    );
+    const res = await this.fetch(`articole/sanatate/${params.slug}.json`);
     const data = await res.json();
 
     if (res.status === 200) {
@@ -95,6 +93,8 @@
     color: #d79c74;
   }
 
+  /* Articole pages style START */
+
   .article-card-body :global(p) {
     font-family: "Josefin Sans", serif;
     font-size: 16px;
@@ -102,11 +102,34 @@
 
   .article-card-body :global(h1, h2, h3, h4, h5, h6, h7) {
     font-family: "Josefin Sans", serif;
+    margin: 30px 0px;
   }
 
   .article-card-body :global(div) {
     padding: 10px;
   }
+
+  .article-card-body :global(li) {
+    font-family: "Josefin Sans", serif;
+    color: #6b6b6b;
+  }
+
+  .article-card-body :global(ul) {
+    margin: 0px 0px 20px 30px;
+  }
+
+  .article-card-body ol :global(li) {
+    margin: 0px 0px 20px 30px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Montserrat";
+  }
+
+  .article-card-body :global(ol) {
+    margin-bottom: 70px;
+  }
+
+  /* Articole pages style END */
 </style>
 
 <div class="container">
@@ -116,10 +139,7 @@
         <h3 class="text-center p-3 my-0">{post.title}</h3>
         <div class="card-content">
           <div class="view view-cascade overlay">
-            <img
-              class="card-img-top"
-              src="educatie-fete.png"
-              alt="Franghie atasament" />
+            <img class="card-img-top" src={post.imageUrl} alt={post.title} />
             <div class="mask rgba-white-slight" />
           </div>
           <div class="avatar mx-auto white">
