@@ -336,9 +336,9 @@
             <li>
               <a
                 rel="prefetch"
-                href="articole/stiinta"
+                href="articole/timp-liber"
                 on:click={toggleMobileMenu}>
-                Stiinta
+                Timp liber
               </a>
             </li>
           </ul>
@@ -530,9 +530,9 @@
             <li>
               <a
                 rel="prefetch"
-                href="articole/stiinta"
+                href="articole/timp-liber"
                 on:click={toggleMobileMenu}>
-                Stiinta
+                Timp liber
               </a>
             </li>
           </ul>

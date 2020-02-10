@@ -188,7 +188,7 @@
                         <h5 class="font-weight-bold article-title">
                           <a
                             rel="prefetch"
-                            href="articole/dezvoltare-personala/{post.slug}">
+                            href="articole/sanatate/{post.slug}">
                             {post.title}
                           </a>
                         </h5>

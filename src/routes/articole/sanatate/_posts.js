@@ -86,7 +86,7 @@ const posts = [
 	},
 
 	{
-		title: 'Semne ale epuizarii emotionale pe care nu ar trebui sa le ignori',
+		title: 'Semne ale epuizarii emotionale pe care nu ar trebui sa le Sanatate',
 		slug: 'Semne-ale-epuizarii-emotionale-pe-care-nu-ar-trebui-sa-le-ignori',
 		html: `
 			<h2>Step one</h2>

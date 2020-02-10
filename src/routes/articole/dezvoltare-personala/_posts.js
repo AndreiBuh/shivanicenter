@@ -53,7 +53,6 @@ const posts = [
 		avatar: 'shivani3.png',
 		imageUrl: 'articole/dezvoltare-personala/atasament1.jpg',
 	},
-
 	{
 		title: '6 moduri de a-ti pastra calmul cand ai de-a face cu o persoana furioasa',
 		slug: '6-moduri-de-a-ti-pastra-calmul-cand-ai-de-a-face-cu-o-persoana-furioasa',

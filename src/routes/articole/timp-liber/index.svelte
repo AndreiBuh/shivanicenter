@@ -1,6 +1,6 @@
 <script context="module">
   export function preload({ params, query }) {
-    return this.fetch(`articole/stiinta.json`)
+    return this.fetch(`articole/timp-liber.json`)
       .then(r => r.json())
       .then(posts => {
         return { posts };
@@ -184,7 +184,7 @@
                         <h5 class="font-weight-bold article-title">
                           <a
                             rel="prefetch"
-                            href="articole/dezvoltare-personala/{post.slug}">
+                            href="articole/timp-liber/{post.slug}">
                             {post.title}
                           </a>
                         </h5>
