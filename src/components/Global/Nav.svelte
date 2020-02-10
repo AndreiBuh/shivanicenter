@@ -256,17 +256,26 @@
           <a href="#" on:click={toggleOpen1}>DESPRE NOI</a>
           <ul class="dropdown" class:active={open1} class:inactive={!open1}>
             <li>
-              <a rel="prefetch" href="despre-noi/shivani-center">
+              <a
+                rel="prefetch"
+                href="despre-noi/shivani-center"
+                on:click={toggleMobileMenu}>
                 Shivani Center
               </a>
             </li>
             <li>
-              <a rel="prefetch" href="despre-noi/roxana-alecu">
+              <a
+                rel="prefetch"
+                href="despre-noi/roxana-alecu"
+                on:click={toggleMobileMenu}>
                 Psiholog Alecu Roxana
               </a>
             </li>
             <li>
-              <a rel="prefetch" href="despre-noi/alexandra-tatu">
+              <a
+                rel="prefetch"
+                href="despre-noi/alexandra-tatu"
+                on:click={toggleMobileMenu}>
                 Psiholog Tatu Alexandra
               </a>
             </li>
@@ -276,31 +285,60 @@
           <a href="#" on:click={toggleOpen2}>ARTICOLE</a>
           <ul class="dropdown" class:active={open2} class:inactive={!open2}>
             <li>
-              <a rel="prefetch" href="articole/familie">Familie</a>
+              <a
+                rel="prefetch"
+                href="articole/familie"
+                on:click={toggleMobileMenu}>
+                Familie
+              </a>
             </li>
             <li>
-              <a rel="prefetch" href="articole/relatie-de-cuplu">
+              <a
+                rel="prefetch"
+                href="articole/relatie-de-cuplu"
+                on:click={toggleMobileMenu}>
                 Relatie de cuplu
               </a>
             </li>
             <li>
-              <a rel="prefetch" href="articole/sanatate">Sanatate</a>
+              <a
+                rel="prefetch"
+                href="articole/sanatate"
+                on:click={toggleMobileMenu}>
+                Sanatate
+              </a>
             </li>
             <li>
-              <a rel="prefetch" href="articole/meditatie-yoga">
+              <a
+                rel="prefetch"
+                href="articole/meditatie-yoga"
+                on:click={toggleMobileMenu}>
                 Meditatie/Yoga
               </a>
             </li>
             <li>
-              <a rel="prefetch" href="articole/dezvoltare-personala">
+              <a
+                rel="prefetch"
+                href="articole/dezvoltare-personala"
+                on:click={toggleMobileMenu}>
                 Dezvoltare personala
               </a>
             </li>
             <li>
-              <a rel="prefetch" href="articole/sexualitate">Sexualitate</a>
+              <a
+                rel="prefetch"
+                href="articole/sexualitate"
+                on:click={toggleMobileMenu}>
+                Sexualitate
+              </a>
             </li>
             <li>
-              <a rel="prefetch" href="articole/stiinta">Stiinta</a>
+              <a
+                rel="prefetch"
+                href="articole/stiinta"
+                on:click={toggleMobileMenu}>
+                Stiinta
+              </a>
             </li>
           </ul>
         </li>
@@ -308,32 +346,66 @@
           <a href="#" on:click={toggleOpen3}>SERVICII</a>
           <ul class="dropdown" class:active={open3} class:inactive={!open3}>
             <li>
-              <a rel="prefetch" href="servicii/consiliere-psihologica">
+              <a
+                rel="prefetch"
+                href="servicii/consiliere-psihologica"
+                on:click={toggleMobileMenu}>
                 Consiliere psihologica
               </a>
             </li>
             <li>
-              <a rel="prefetch" href="servicii/psihoterapie">Psihoterapie</a>
+              <a
+                rel="prefetch"
+                href="servicii/psihoterapie"
+                on:click={toggleMobileMenu}>
+                Psihoterapie
+              </a>
             </li>
             <li>
-              <a rel="prefetch" href="servicii/meditatie">Meditatie</a>
+              <a
+                rel="prefetch"
+                href="servicii/meditatie"
+                on:click={toggleMobileMenu}>
+                Meditatie
+              </a>
             </li>
             <li>
-              <a rel="prefetch" href="servicii/dezvoltare-personala">
+              <a
+                rel="prefetch"
+                href="servicii/dezvoltare-personala"
+                on:click={toggleMobileMenu}>
                 Dezvoltare personala
               </a>
             </li>
             <li>
-              <a rel="prefetch" href="servicii/psihoeducatie">Psihoeducatie</a>
+              <a
+                rel="prefetch"
+                href="servicii/psihoeducatie"
+                on:click={toggleMobileMenu}>
+                Psihoeducatie
+              </a>
             </li>
             <li>
-              <a rel="prefetch" href="servicii/workshop">Workshop-uri</a>
+              <a
+                rel="prefetch"
+                href="servicii/workshop"
+                on:click={toggleMobileMenu}>
+                Workshop-uri
+              </a>
             </li>
             <li>
-              <a rel="prefetch" href="servicii/art-therapy">Art-therapy</a>
+              <a
+                rel="prefetch"
+                href="servicii/art-therapy"
+                on:click={toggleMobileMenu}>
+                Art-therapy
+              </a>
             </li>
             <li>
-              <a rel="prefetch" href="servicii/consiliere-vocationala">
+              <a
+                rel="prefetch"
+                href="servicii/consiliere-vocationala"
+                on:click={toggleMobileMenu}>
                 Consiliere vocationala
               </a>
             </li>
