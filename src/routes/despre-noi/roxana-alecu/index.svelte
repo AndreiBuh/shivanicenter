@@ -9,7 +9,7 @@
 
 <div class="container mt-4">
   <h3
-    class="service-title mb-4 text-center"
+    class="service-title my-4 pt-5 pt-md-0 text-center"
     in:fly={{ x: -200, duration: 2000 }}>
     Psiholog Roxana Alecu
     <span class="text-elegant font-weight-bold">.</span>

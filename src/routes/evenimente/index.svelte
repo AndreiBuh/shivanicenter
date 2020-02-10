@@ -40,7 +40,7 @@
 </svelte:head>
 
 <div class="container">
-  <h3 class="service-title my-4 text-center">
+  <h3 class="service-title my-4 pt-5 pt-md-0 text-center">
     Evenimente
     <span class="text-elegant font-weight-bold">.</span>
   </h3>

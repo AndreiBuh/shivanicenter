@@ -60,19 +60,12 @@
     </a>
   </div>
   <div class="jssocials-share jssocials-share-whatsapp mx-2">
-    <a
-      target="_self"
-      href="whatsapp://send?text=https%3A%2F%2Fgillion.shufflehound.com%2Fjournal%2F2020%2F01%2F12%2Fdoes-coffee-help-deduce-stress-hormone-levels%2F
-      Does%20Coffee%20Help%20Deduce%20Stress%20Hormone%20Levels%3F"
-      class="jssocials-share-link">
+    <a target="_self" href="#" class="jssocials-share-link">
       <i class="fa fa-whatsapp jssocials-share-logo" />
     </a>
   </div>
   <div class="jssocials-share jssocials-share-messenger ml-2">
-    <a
-      target="_self"
-      href="fb-messenger://share?link=https%3A%2F%2Fgillion.shufflehound.com%2Fjournal%2F2020%2F01%2F12%2Fdoes-coffee-help-deduce-stress-hormone-levels%2F"
-      class="jssocials-share-link">
+    <a target="_self" href="#" class="jssocials-share-link">
       <i class="fa fa-commenting jssocials-share-logo" />
     </a>
   </div>

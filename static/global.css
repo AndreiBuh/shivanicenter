@@ -4,7 +4,7 @@ body {
   font-family: "Cabin", sans-serif;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
-  background-color: #fbfbfb!important;;
+  background-color: #fbfbfb !important;
 }
 h1,
 h2,
@@ -60,5 +60,5 @@ ol {
 }
 
 body {
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }

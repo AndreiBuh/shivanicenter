@@ -84,7 +84,7 @@
 
   @media screen and (max-width: 768px) {
     main {
-      margin-top: 0px;
+      margin-top: 30px;
     }
     :global(.img-top) {
       width: 100%;
@@ -100,6 +100,10 @@
     :global(blockquote) {
       padding: 6px 30px;
       font-size: 14px;
+    }
+
+    :global(main) {
+      margin-top: 70px !important;
     }
   }
 </style>
