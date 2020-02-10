@@ -146,7 +146,7 @@
   <div class="row">
     <div class="col-md-8 px-0">
       <div class="card" in:fly={{ x: -200, duration: 2000 }}>
-        <h5 class="text-center p-3 mb-0">Dezvoltare personala</h5>
+        <h5 class="text-center p-3 my-0">Dezvoltare personala</h5>
       </div>
       <div class="card left-section">
         <div class="card-content p-4">
