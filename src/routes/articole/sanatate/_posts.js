@@ -87,7 +87,7 @@ const posts = [
 
 	{
 		title: 'Semne ale epuizarii emotionale pe care nu ar trebui sa le Sanatate',
-		slug: 'Semne-ale-epuizarii-emotionale-pe-care-nu-ar-trebui-sa-le-ignori',
+		slug: 'semne-ale-epuizarii-emotionale-pe-care-nu-ar-trebui-sa-le-ignori',
 		html: `
 			<h2>Step one</h2>
 			<p>Create a new project, using <a href='https://github.com/Rich-Harris/degit'>degit</a>:</p>
