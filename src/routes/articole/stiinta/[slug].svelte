@@ -113,7 +113,7 @@
   <div class="row">
     <div class="col-md-8 px-0">
       <div class="card">
-        <h3 class="text-center p-3 mb-0">{post.title}</h3>
+        <h3 class="text-center p-3 my-0">{post.title}</h3>
         <div class="card-content">
           <div class="view view-cascade overlay">
             <img

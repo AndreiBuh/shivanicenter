@@ -35,16 +35,6 @@
   .jssocials-share:hover {
     box-shadow: 0px 3px 6px 1px rgba(0, 0, 0, 0.07);
   }
-
-  .read-more h6 {
-    text-transform: uppercase;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    font-size: 12px;
-    font-weight: bold;
-    font-family: "Montserrat";
-    color: #393939;
-  }
 </style>
 
 <div class="post-readmore">

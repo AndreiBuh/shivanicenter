@@ -13,7 +13,31 @@
 
   let hamburger;
   let navLinks;
-  let open = false;
+  let mobileMenu = false;
+  let open1 = false;
+  let open2 = false;
+  let open3 = false;
+
+  const toggleMobileMenu = () => {
+    mobileMenu = !mobileMenu;
+  };
+
+  const toggleOpen1 = () => {
+    open1 = !open1;
+    open2 = false;
+    open3 = false;
+  };
+
+  const toggleOpen2 = () => {
+    open1 = false;
+    open2 = !open2;
+    open3 = false;
+  };
+  const toggleOpen3 = () => {
+    open1 = false;
+    open2 = false;
+    open3 = !open3;
+  };
 </script>
 
 <style>
@@ -25,6 +49,7 @@
     top: 0;
     z-index: 99;
     box-shadow: 0 0 5px #333;
+    height: auto;
   }
 
   .logo {
@@ -48,7 +73,7 @@
   .nav-links li a {
     color: #252525;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 16px;
     font-family: "Oswald", sans-serif;
     -webkit-transition: all 0.3s;
     -o-transition: all 0.3s;
@@ -61,44 +86,30 @@
 
   .mainmenu ul li {
     position: relative;
+    text-align: center;
   }
 
-  .mainmenu ul li:hover .dropdown {
-    opacity: 1;
-    visibility: visible;
-  }
-
-  .mainmenu ul li .dropdown {
-    position: absolute;
-    left: 0;
-    width: 230px;
-    background: #ffffff;
-    z-index: 9;
-    opacity: 0;
-    visibility: hidden;
-    -webkit-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
-    -webkit-box-shadow: 0px 9px 15px rgba(25, 25, 26, 0.05);
-    box-shadow: 0px 9px 15px rgba(25, 25, 26, 0.05);
-  }
-  .mainmenu ul li .dropdown li {
+  .active {
+    display: block;
     list-style: none;
-    display: block;
+    transition: all 2s linear 1s;
+    font-size: 10px;
   }
-  .mainmenu ul li .dropdown li a {
-    font-size: 14px;
-    color: #19191a;
-    display: block;
-    text-align: left;
-    padding: 8px 15px;
-    -webkit-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
+  .active li {
+    margin: 10px 0 !important;
   }
-  .mainmenu ul li .dropdown li a:hover,
-  .mainmenu ul li a:hover {
-    color: #dfa974;
+
+  .active li a {
+    color: #9d9b9b !important;
+    font-size: 14px !important;
+  }
+
+  .active li a:hover {
+    color: #dfa974 !important;
+  }
+
+  .inactive {
+    display: none;
   }
 
   @media screen and (max-width: 768px) {
@@ -107,10 +118,25 @@
       height: 70px;
     }
 
-    .logo-wrapper {
+    .nav-links {
+      position: absolute;
+      right: 0px;
+      height: calc(100vh - 70px);
+      top: 70px;
+      background: white;
       display: flex;
-      justify-content: space-around;
+      flex-direction: column;
       align-items: center;
+      width: 50%;
+      transform: translateX(100%);
+      transition: transform 0.5s ease-in;
+    }
+    .nav-links li {
+      margin: 15px 0;
+    }
+
+    .mobileMenu {
+      transform: translateX(0%);
     }
 
     .logo {
@@ -121,10 +147,6 @@
       display: block;
       width: 120px;
       height: 70px;
-    }
-
-    .mainmenu ul li:hover .dropdown {
-      display: none;
     }
 
     .hamburger {
@@ -140,7 +162,6 @@
       height: 3px;
       border-radius: 5px;
     }
-
     .hamburger:before,
     .hamburger:after {
       content: "";
@@ -159,26 +180,6 @@
       top: 8px;
     }
 
-    .nav-links {
-      position: fixed;
-      background: #fff;
-      height: 100%;
-      width: 100%;
-      flex-direction: column;
-      clip-path: circle(50px at 100% -10%);
-      -webkit-clip-path: circle(50px at 100% -10%);
-      pointer-events: none;
-      margin-bottom: 40px;
-    }
-    .nav-links li {
-      margin: 20px 0;
-    }
-    .open {
-      clip-path: circle(1200px at 1000% -10%);
-      -webkit-clip-path: circle(1200px at 100% -10%);
-      pointer-events: all;
-    }
-
     .ham {
       background: rgba(0, 0, 0, 0);
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0);
@@ -193,6 +194,46 @@
       transform: rotate(135deg);
     }
   }
+
+  @media screen and (min-width: 768px) {
+    .mainmenu ul li:hover .dropdown {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .mainmenu ul li .dropdown {
+      position: absolute;
+      left: 0;
+      width: 230px;
+      background: #ffffff;
+      z-index: 9;
+      opacity: 0;
+      visibility: hidden;
+      -webkit-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transition: all 0.3s;
+      -webkit-box-shadow: 0px 9px 15px rgba(25, 25, 26, 0.05);
+      box-shadow: 0px 9px 15px rgba(25, 25, 26, 0.05);
+    }
+    .mainmenu ul li .dropdown li {
+      list-style: none;
+      display: block;
+    }
+    .mainmenu ul li .dropdown li a {
+      font-size: 14px;
+      color: #19191a;
+      display: block;
+      text-align: left;
+      padding: 8px 15px;
+      -webkit-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transition: all 0.3s;
+    }
+    .mainmenu ul li .dropdown li a:hover,
+    .mainmenu ul li a:hover {
+      color: #dfa974;
+    }
+  }
 </style>
 
 <svelte:window bind:scrollY={y} />
@@ -204,13 +245,16 @@
         <img src="logo.jpg" alt="logo" class="logo" />
         <img src="logo3.jpg" alt="logo" class="logo-small" />
       </a>
-      <div class="hamburger" class:ham={open} on:click={() => (open = !open)} />
+      <div
+        class="hamburger"
+        class:ham={mobileMenu}
+        on:click={toggleMobileMenu} />
     </div>
     <div class="mainmenu">
-      <ul class="nav-links container" class:open bind:this={navLinks}>
-        <li class="px-5" rel="prefetch">
-          <a href="#">DESPRE NOI</a>
-          <ul class="dropdown">
+      <ul class="nav-links" class:mobileMenu bind:this={navLinks}>
+        <li class="mx-4 mx-lg-5" rel="prefetch">
+          <a href="#" on:click={toggleOpen1}>DESPRE NOI</a>
+          <ul class="dropdown" class:active={open1} class:inactive={!open1}>
             <li>
               <a rel="prefetch" href="despre-noi/shivani-center">
                 Shivani Center
@@ -228,9 +272,9 @@
             </li>
           </ul>
         </li>
-        <li class="px-5" rel="prefetch">
-          <a href="#">ARTICOLE</a>
-          <ul class="dropdown">
+        <li class="mx-4 mx-lg-5" rel="prefetch">
+          <a href="#" on:click={toggleOpen2}>ARTICOLE</a>
+          <ul class="dropdown" class:active={open2} class:inactive={!open2}>
             <li>
               <a rel="prefetch" href="articole/familie">Familie</a>
             </li>
@@ -260,9 +304,9 @@
             </li>
           </ul>
         </li>
-        <li class="px-5" rel="prefetch">
-          <a href="#">SERVICII</a>
-          <ul class="dropdown">
+        <li class="mx-4 mx-lg-5" rel="prefetch">
+          <a href="#" on:click={toggleOpen3}>SERVICII</a>
+          <ul class="dropdown" class:active={open3} class:inactive={!open3}>
             <li>
               <a rel="prefetch" href="servicii/consiliere-psihologica">
                 Consiliere psihologica
@@ -295,24 +339,30 @@
             </li>
           </ul>
         </li>
-        <li class="px-5" rel="prefetch">
+        <li class="mx-4 mx-lg-5" rel="prefetch">
           <a
             rel="prefetch"
             class:selected={segment === 'evenimente'}
-            href="evenimente">
+            href="evenimente"
+            on:click={toggleMobileMenu}>
             EVENIMENTE
           </a>
         </li>
-        <li class="px-5" rel="prefetch">
-          <a rel="prefetch" class:selected={segment === 'blog'} href="blog">
+        <li class="mx-4 mx-lg-5" rel="prefetch">
+          <a
+            rel="prefetch"
+            class:selected={segment === 'blog'}
+            href="blog"
+            on:click={toggleMobileMenu}>
             BLOG
           </a>
         </li>
-        <li class="px-5" rel="prefetch">
+        <li class="mx-4 mx-lg-5" rel="prefetch">
           <a
             rel="prefetch"
             class:selected={segment === 'contact'}
-            href="contact">
+            href="contact"
+            on:click={toggleMobileMenu}>
             CONTACT
           </a>
         </li>
@@ -321,15 +371,15 @@
   </nav>
 {:else}
   <nav in:fly={{ y: -100, duration: 1500 }}>
-    <div class="hamburger" on:click={() => (open = !open)}>
+    <div class="hamburger" on:click={toggleMobileMenu}>
       <div class="line" />
       <div class="line" />
       <div class="line" />
     </div>
     <div class="mainmenu">
-      <ul class="nav-links container p-0" class:open bind:this={navLinks}>
-        <li class="px-5" rel="prefetch">
-          <a href="#">DESPRE NOI</a>
+      <ul class="nav-links p-0" class:mobileMenu bind:this={navLinks}>
+        <li class="mx-4 mx-lg-5" rel="prefetch">
+          <a href="#" on:click={toggleMobileMenu}>DESPRE NOI</a>
           <ul class="dropdown">
             <li>
               <a rel="prefetch" href="despre-noi/shivani-center">
@@ -348,8 +398,8 @@
             </li>
           </ul>
         </li>
-        <li class="px-5" rel="prefetch">
-          <a href="#">ARTICOLE</a>
+        <li class="mx-4 mx-lg-5" rel="prefetch">
+          <a href="#" on:click={toggleMobileMenu}>ARTICOLE</a>
           <ul class="dropdown">
             <li>
               <a rel="prefetch" href="articole/familie">Familie</a>
@@ -380,8 +430,8 @@
             </li>
           </ul>
         </li>
-        <li class="px-5" rel="prefetch">
-          <a href="#">SERVICII</a>
+        <li class="mx-4 mx-lg-5" rel="prefetch">
+          <a href="#" on:click={toggleMobileMenu}>SERVICII</a>
           <ul class="dropdown">
             <li>
               <a rel="prefetch" href="servicii/consiliere-psihologica">
@@ -420,7 +470,7 @@
             <img src="logo-small-2.jpg" alt="logo" width="60" height="70" />
           </a>
         </li>
-        <li class="px-5" rel="prefetch">
+        <li class="mx-4 mx-lg-5" rel="prefetch">
           <a
             rel="prefetch"
             class:selected={segment === 'evenimente'}
@@ -428,11 +478,21 @@
             EVENIMENTE
           </a>
         </li>
-        <li rel="prefetch" class="px-5">
-          <a class:selected={segment === 'blog'} href="blog">BLOG</a>
+        <li rel="prefetch" class="mx-4 mx-lg-5">
+          <a
+            class:selected={segment === 'blog'}
+            href="blog"
+            on:click={toggleMobileMenu}>
+            BLOG
+          </a>
         </li>
-        <li rel="prefetch" class="px-5">
-          <a class:selected={segment === 'contact'} href="contact">CONTACT</a>
+        <li rel="prefetch" class="mx-4 mx-lg-5">
+          <a
+            class:selected={segment === 'contact'}
+            href="contact"
+            on:click={toggleMobileMenu}>
+            CONTACT
+          </a>
         </li>
       </ul>
     </div>
