@@ -78,6 +78,9 @@
 </script>
 
 <style>
+  .card {
+    border: none;
+  }
   .title {
     color: #000000;
     margin-bottom: 0;
@@ -91,7 +94,12 @@
   }
 
   .card-columns .card {
-    border: none;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  }
+
+  .card-columns .card:hover {
+    box-shadow: 0 0px 8px rgba(0, 0, 0, 0.25), 0 4px 6px rgba(0, 0, 0, 0.22);
   }
 </style>
 
@@ -99,11 +107,10 @@
   Ultimele postări
   <span class="text-elegant">.</span>
 </h3>
-
-<div class="card container p-2 mb-5">
+<div class="container p-5">
   <div class="card-columns">
     {#each posts as { title, content, src, category, author, date, read }, id}
-      <div class="card p-3">
+      <div class="card p-3 m-2">
         <LastPosts {title} {content} {src} {category} {author} {date} {read} />
       </div>
     {/each}
