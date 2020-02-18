@@ -18,4 +18,7 @@
   );
 </script>
 
-<ArticlesPages articles={filteredArticles} category="Timp liber" />
+<ArticlesPages
+  articles={filteredArticles}
+  category="Timp liber"
+  slug="timp-liber" />

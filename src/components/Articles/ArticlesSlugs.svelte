@@ -1,6 +1,16 @@
 <script>
   import ArticlesSidebar from "./ArticlesSidebar.svelte";
   export let article;
+
+  let {
+    title,
+    image,
+    avatar,
+    author,
+    published,
+    content,
+    categories
+  } = article[0];
 </script>
 
 <style>
@@ -68,7 +78,6 @@
     text-decoration: none;
     font-size: 9px;
     font-family: "Noto Sans", sans-serif;
-    letter-spacing: 1px;
     font-weight: 700;
     text-transform: uppercase;
     color: #d79c74;
@@ -82,7 +91,6 @@
 
   .article-card-body :global(h1, h2, h3, h4, h5, h6, h7) {
     font-family: "Josefin Sans", serif;
-    margin: 30px 0px;
   }
 
   .article-card-body :global(div) {
@@ -92,7 +100,7 @@
   .article-card-body :global(li) {
     margin: 0px 0px 20px 30px;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 17px;
     font-family: "Montserrat";
   }
 
@@ -107,33 +115,30 @@
   <div class="row">
     <div class="col-md-8 my-5 my-md-0">
       <div class="card">
-        <h3 class="text-center p-3 my-0">{article[0].title}</h3>
+        <h3 class="text-center p-3 my-0">{title}</h3>
         <div class="card-content">
           <div class="view view-cascade overlay">
-            <img
-              class="card-img-top"
-              src={article[0].image.name}
-              alt="Educatie fete" />
+            <img class="card-img-top" src={image.name} alt="Educatie fete" />
             <div class="mask rgba-white-slight" />
           </div>
           <div class="avatar mx-auto white">
             <img
-              src={article[0].avatar.name}
+              src={avatar.name}
               class="rounded-circle img-fluid"
               alt="First sample avatar image" />
           </div>
           <div class="text-center">
-            <div class="author">{article[0].author}</div>
-            <div class="date">{article[0].published}</div>
+            <div class="author">{author}</div>
+            <div class="date">{published}</div>
             <div class="category">
               <a href="" class="category-link">
-                {article[0].categories[0].Name}
+                {categories.map(category => category.name)}
               </a>
             </div>
           </div>
         </div>
         <div class="card-body article-card-body">
-          {@html article[0].content}
+          {@html content}
         </div>
       </div>
     </div>

@@ -18,4 +18,7 @@
   );
 </script>
 
-<ArticlesPages articles={filteredArticles} category="Sexualitate" />
+<ArticlesPages
+  articles={filteredArticles}
+  category="Sexualitate"
+  slug="sexualitate" />

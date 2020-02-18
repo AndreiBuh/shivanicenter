@@ -2,6 +2,7 @@
   import ArticlesSidebar from "./ArticlesSidebar.svelte";
   export let articles;
   export let category;
+  export let slug;
 </script>
 
 <style>
@@ -35,32 +36,6 @@
     box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18),
       0 4px 15px 0 rgba(0, 0, 0, 0.15);
   }
-  .overlay .mask {
-    opacity: 0;
-    -webkit-transition: all 0.4s ease-in-out;
-    transition: all 0.4s ease-in-out;
-  }
-  .view .mask {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    background-attachment: fixed;
-  }
-  .waves-effect {
-    position: relative;
-    overflow: hidden;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    -webkit-tap-highlight-color: transparent;
-  }
 
   .card-img-top {
     width: 100%;
@@ -88,41 +63,9 @@
       0 2px 10px 0 rgba(0, 0, 0, 0.12);
   }
 
-  .category-title {
-    margin-bottom: 10px;
-    color: #222736;
-    text-transform: uppercase;
-    font-family: "Oswald", sans-serif;
-    letter-spacing: 0;
-    font-size: 14px;
-  }
-
-  ul {
-    list-style: none;
-  }
-
-  ul li.category-item {
-    font-family: "Oswald", sans-serif;
-    border-top: 1px solid #e8e8e8;
-    padding: 12px 0;
-    text-align: left;
-    position: relative;
-    line-height: 22px;
-    font-size: 14px;
-  }
-
-  ul li.category-item a {
-    color: #8c8c8c;
-    text-decoration: none !important;
-  }
-
-  ul li.category-item a:hover {
-    color: #dfa974;
-  }
-
-  /* .articles-list .card:first-child {
+  .articles-list .card:first-child {
     display: none;
-  } */
+  }
 </style>
 
 <div class="container">
@@ -137,22 +80,17 @@
             <div class="view view-cascade overlay">
               <img
                 class="card-img-top"
-                src="articole/familie/educatie-fete.png"
+                src={`articole/${slug}/${articles[0].image.name}`}
                 alt="Educatie fete" />
             </div>
             <div class="card-body card-body-cascade text-center p-2">
               <h4 class="font-weight-bold article-title">
-                <a
-                  rel="prefetch"
-                  href="articole/familie/care-sunt-nevoile-fiicei-tale">
-                  Care sunt nevoile fiicei tale? Greșelile părinților in
-                  educația unei fete
+                <a rel="prefetch" href={`articole/${slug}/${articles[0].slug}`}>
+                  {articles[0].title}
                 </a>
               </h4>
               <p class="article-text">
-                Copilaria reprezinta baza pe care se construiesc tiparele de
-                gandire, tipul de comportament si viziunea despre lumea
-                inconjuratoare.
+                {@html articles[0].excerpt}
               </p>
             </div>
             <div class="card-content">
@@ -161,15 +99,14 @@
                   <div class="card my-3">
                     <div class="row">
                       <div class="col-lg-5 col-md-12 mb-lg-0 mb-4">
-                        <div
-                          class="view overlay rounded z-depth-1 mb-lg-0 mb-4">
+                        <div class="mb-lg-0">
                           <img
                             class="img-fluid"
-                            src="https://mdbootstrap.com/img/Photos/Others/images/52.jpg"
+                            src={article.image.name}
                             alt="Sample image" />
                         </div>
                       </div>
-                      <div class="col-lg-7 col-md-6 mb-md-0 mb-4 mt-xl-4 px-5">
+                      <div class="col-lg-7 col-md-6 mb-md-0 px-4 py-3">
                         <h5 class="font-weight-bold article-title">
                           <a
                             rel="prefetch"

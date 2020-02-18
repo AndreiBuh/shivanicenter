@@ -18,4 +18,7 @@
   );
 </script>
 
-<ArticlesPages articles={filteredArticles} category="Relatie de cuplu" />
+<ArticlesPages
+  articles={filteredArticles}
+  category="Relatie de cuplu"
+  slug="relatie-de-cuplu" />

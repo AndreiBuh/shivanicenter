@@ -18,4 +18,7 @@
   );
 </script>
 
-<ArticlesPages articles={filteredArticles} category="Dezvoltare personala" />
+<ArticlesPages
+  articles={filteredArticles}
+  category="Dezvoltare personala"
+  slug="dezvoltare-personala" />

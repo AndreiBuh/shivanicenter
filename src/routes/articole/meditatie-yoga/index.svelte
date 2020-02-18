@@ -18,4 +18,7 @@
   );
 </script>
 
-<ArticlesPages articles = {filteredArticles} category="Meditatie/Yoga" />
+<ArticlesPages
+  articles={filteredArticles}
+  category="Meditatie/Yoga"
+  slug="meditatie-yoga" />

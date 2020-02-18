@@ -18,4 +18,4 @@
   );
 </script>
 
-<ArticlesPages articles={filteredArticles} category="Familie" />
+<ArticlesPages articles={filteredArticles} category="Familie" slug="familie" />
