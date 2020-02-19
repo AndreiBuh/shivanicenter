@@ -62,3 +62,7 @@ ol {
 body {
   overflow-x: hidden !important;
 }
+
+li {
+  list-style: none;
+}

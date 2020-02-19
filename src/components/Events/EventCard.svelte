@@ -53,7 +53,7 @@
     border-radius: 10px 10px 0 0;
   }
   .card-color {
-    background-color: #dfa974;
+    background-color: #212529;
   }
 
   .btn-floating:hover {
