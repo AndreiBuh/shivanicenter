@@ -57,28 +57,22 @@
     height: auto;
   }
 
+  .nav-transparent {
+    background: rgba(34, 39, 54, 0.95);
+  }
   .nav-links {
     display: flex;
-    list-style: none;
-    width: 100%;
     justify-content: center;
     align-items: center;
-    padding: 15px;
   }
 
   .nav-links li a {
     color: #fff;
-    text-decoration: none;
-    font-size: 16px;
+    font-size: 18px;
     font-family: "Oswald", sans-serif;
     -webkit-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
-  }
-
-  .logo-wrapper {
-    display: flex;
-    justify-content: center;
   }
 
   .logo-title {
@@ -98,45 +92,20 @@
     text-align: center;
   }
 
-  .active {
-    display: block;
-    list-style: none;
-    transition: all 2s linear 1s;
-    font-size: 10px;
-  }
-  .active li {
-    margin: 10px 0 !important;
-  }
-
-  .active li a {
-    color: #9d9b9b !important;
-    font-size: 14px !important;
-  }
-
-  .active li a:hover {
-    color: rgba(212, 189, 133, 1) !important;
-  }
-
-  .inactive {
-    display: none;
-  }
-
   @media screen and (max-width: 768px) {
     nav {
-      position: fixed;
       height: 70px;
     }
-
     .nav-links {
       position: absolute;
       right: 0px;
       height: calc(100vh - 70px);
-      top: 54px;
+      top: 70px;
       background: #222736;
       display: flex;
       flex-direction: column;
       align-items: center;
-      width: 50%;
+      width: 60%;
       transform: translateX(100%);
       transition: transform 0.5s ease-in;
     }
@@ -172,7 +141,6 @@
       width: 30px;
       height: 4px;
       background: #fff;
-
       border-radius: 5px;
     }
 
@@ -196,6 +164,26 @@
       top: 0;
       transform: rotate(135deg);
     }
+
+    .active {
+      display: block;
+      list-style: none;
+      transition: all 2s linear 1s;
+      font-size: 10px;
+    }
+    .active li {
+      margin: 10px 0 !important;
+    }
+    .active li a {
+      color: #9d9b9b !important;
+      font-size: 14px !important;
+    }
+    .active li a:hover {
+      color: #dfa974 !important;
+    }
+    .inactive {
+      display: none;
+    }
   }
 
   @media screen and (min-width: 768px) {
@@ -207,7 +195,7 @@
     .mainmenu ul li .dropdown {
       position: absolute;
       left: 0;
-      width: 230px;
+      width: 180px;
       background: #ffffff;
       z-index: 9;
       opacity: 0;
@@ -218,10 +206,7 @@
       -webkit-box-shadow: 0px 9px 15px rgba(25, 25, 26, 0.05);
       box-shadow: 0px 9px 15px rgba(25, 25, 26, 0.05);
     }
-    .mainmenu ul li .dropdown li {
-      list-style: none;
-      display: block;
-    }
+
     .mainmenu ul li .dropdown li a {
       font-size: 14px;
       color: #19191a;
@@ -241,7 +226,7 @@
 
 <svelte:window bind:scrollY={y} />
 
-{#if y < '300'}
+{#if y < '400'}
   <nav in:fly={{ y: -100, duration: 400 }}>
     <div class="hamburger" class:ham={mobileMenu} on:click={toggleMobileMenu} />
     <div class="mainmenu">
@@ -405,7 +390,7 @@
             </li>
           </ul>
         </li>
-        <li class="logo-list-item">
+        <li class="logo-list-item mx-5 mt-3">
           <div
             class="logo-wrapper text-center"
             in:fly={{ y: -200, duration: 2000 }}>
@@ -453,10 +438,10 @@
     </div>
   </nav>
 {:else}
-  <nav in:fly={{ y: -100, duration: 1500 }}>
+  <nav in:fly={{ y: -100, duration: 1500 }} class="nav-transparent">
     <div class="hamburger" class:ham={mobileMenu} on:click={toggleMobileMenu} />
     <div class="mainmenu">
-      <ul class="nav-links p-0 mt-3" class:mobileMenu bind:this={navLinks}>
+      <ul class="nav-links p-0" class:mobileMenu bind:this={navLinks}>
         <li class="mx-4 mx-lg-5" rel="prefetch">
           <a href="javascript:void(0)" on:click={toggleOpen1}>DESPRE NOI</a>
           <ul class="dropdown" class:active={open1} class:inactive={!open1}>
@@ -616,7 +601,7 @@
             </li>
           </ul>
         </li>
-        <li>
+        <li class="mt-3">
           <a href=".">
             <img src="logo6-min.png" alt="logo" width="70" height="70" />
           </a>

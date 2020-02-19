@@ -76,6 +76,12 @@
     color: #dfa974;
   }
 
+  i,
+  p,
+  h5 {
+    color: #fff;
+  }
+
   .fn-form {
     position: relative;
     width: 40%;
@@ -130,27 +136,27 @@
 {#if title == 'Cine suntem?'}
   <div class="banner mt-3 pt-4 pb-0">
     <div class="banner-content container">
-      <h2 class="banner-title text-elegant mb-3">{title}</h2>
+      <h2 class="banner-title mb-3 text-white">{title}</h2>
       <div class="row centered">
         <div class="col-md-3 px-3 pt-3 banner-item">
-          <h5 class="p-2 text-elegant">Misiunea noastra</h5>
-          <i class="flaticon-mission text-elegant" />
+          <h5 class="p-2">Misiunea noastra</h5>
+          <i class="flaticon-mission" />
           <p class="p-2">
             Shivani Center ofera o paleta larga de servicii psihologice de
             calitate, intr-un cadru securizant si confidential.
           </p>
         </div>
         <div class="col-md-3 px-3 p-3 banner-item">
-          <h5 class="p-2 text-elegant">Viziunea noastra</h5>
-          <i class="flaticon-eye text-elegant" />
+          <h5 class="p-2">Viziunea noastra</h5>
+          <i class="flaticon-eye" />
           <p class="p-2">
             Viziunea noastra holistica imbina in mod organic metodele de
             vindecare orientale cu psihoterapiile suportive occidentale.
           </p>
         </div>
         <div class="col-md-3 px-3 p-3 banner-item">
-          <h5 class="p-2 text-elegant">Scopul nostru</h5>
-          <i class="flaticon-goal text-elegant" />
+          <h5 class="p-2">Scopul nostru</h5>
+          <i class="flaticon-goal" />
           <p class="p-2">
             Va invitam sa exploram impreuna conexiunea dintre minte, corp si
             spirit, astfel incat sa gasiti solutiile potrivite pentru o viata
@@ -158,8 +164,8 @@
           </p>
         </div>
         <div class="col-md-3 px-3 p-3 banner-item">
-          <h5 class="p-2 text-elegant">Abordarea noastra</h5>
-          <i class="flaticon-buddhism text-elegant" />
+          <h5 class="p-2">Abordarea noastra</h5>
+          <i class="flaticon-buddhism" />
           <p class="p-2">
             Va invitam sa exploram impreuna conexiunea dintre minte, corp si
             spirit, astfel incat sa gasiti solutiile potrivite pentru o viata
