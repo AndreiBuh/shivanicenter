@@ -42,24 +42,19 @@
 </script>
 
 <style>
+  a {
+    text-decoration: none;
+  }
+
   nav {
     width: 100%;
-    background: white;
+    background: #222736;
     transition: 0.4s;
     position: fixed;
     top: 0;
     z-index: 99;
-    box-shadow: 0 0 5px #333;
+    box-shadow: 0 0 5px #222736;
     height: auto;
-  }
-
-  .logo {
-    width: 168px;
-    height: 120px;
-  }
-
-  .logo-small {
-    display: none;
   }
 
   .nav-links {
@@ -72,7 +67,7 @@
   }
 
   .nav-links li a {
-    color: #252525;
+    color: #fff;
     text-decoration: none;
     font-size: 16px;
     font-family: "Oswald", sans-serif;
@@ -82,7 +77,20 @@
   }
 
   .logo-wrapper {
+    display: flex;
     justify-content: center;
+  }
+
+  .logo-title {
+    font-family: "Cormorant", serif;
+    font-size: 30px;
+    color: #fff;
+  }
+
+  .logo-subtitle {
+    font-size: 12px;
+    color: #dfa974;
+    font-display: "Nunito Sans";
   }
 
   .mainmenu ul li {
@@ -106,7 +114,7 @@
   }
 
   .active li a:hover {
-    color: #dfa974 !important;
+    color: rgba(212, 189, 133, 1) !important;
   }
 
   .inactive {
@@ -123,8 +131,8 @@
       position: absolute;
       right: 0px;
       height: calc(100vh - 70px);
-      top: 70px;
-      background: white;
+      top: 54px;
+      background: #222736;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -134,20 +142,15 @@
     }
     .nav-links li {
       margin: 15px 0;
+      color: #fff;
     }
 
     .mobileMenu {
       transform: translateX(0%);
     }
 
-    .logo {
+    .logo-list-item {
       display: none;
-    }
-
-    .logo-small {
-      display: block;
-      width: 120px;
-      height: 70px;
     }
 
     .hamburger {
@@ -157,8 +160,7 @@
       top: 50%;
       transform: translate(-5%, -50%);
       z-index: 9999;
-      background: #252525;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      background: #fff;
       width: 30px;
       height: 3px;
       border-radius: 5px;
@@ -169,8 +171,8 @@
       position: absolute;
       width: 30px;
       height: 4px;
-      background: #252525;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      background: #fff;
+
       border-radius: 5px;
     }
 
@@ -241,16 +243,7 @@
 
 {#if y < '300'}
   <nav in:fly={{ y: -100, duration: 400 }}>
-    <div class="row logo-wrapper">
-      <a href=".">
-        <img src="logo.jpg" alt="logo" class="logo" />
-        <img src="logo3.jpg" alt="logo" class="logo-small" />
-      </a>
-      <div
-        class="hamburger"
-        class:ham={mobileMenu}
-        on:click={toggleMobileMenu} />
-    </div>
+    <div class="hamburger" class:ham={mobileMenu} on:click={toggleMobileMenu} />
     <div class="mainmenu">
       <ul class="nav-links" class:mobileMenu bind:this={navLinks}>
         <li class="mx-4 mx-lg-5" rel="prefetch">
@@ -282,7 +275,7 @@
             </li>
           </ul>
         </li>
-        <li class="mx-4 mx-lg-5" rel="prefetch">
+        <li class="mx-5 mx-lg-5" rel="prefetch">
           <a href="javascript:void(0)" on:click={toggleOpen2}>ARTICOLE</a>
           <ul class="dropdown" class:active={open2} class:inactive={!open2}>
             <li>
@@ -343,7 +336,7 @@
             </li>
           </ul>
         </li>
-        <li class="mx-4 mx-lg-5" rel="prefetch">
+        <li class="mx-5 mx-lg-5" rel="prefetch">
           <a href="javascript:void(0)" on:click={toggleOpen3}>SERVICII</a>
           <ul class="dropdown" class:active={open3} class:inactive={!open3}>
             <li>
@@ -412,7 +405,24 @@
             </li>
           </ul>
         </li>
-        <li class="mx-4 mx-lg-5" rel="prefetch">
+        <li class="logo-list-item">
+          <div
+            class="logo-wrapper text-center"
+            in:fly={{ y: -200, duration: 2000 }}>
+            <a href=".">
+              <img
+                src="logo6-min.png"
+                alt="logo"
+                class="logo"
+                width="100"
+                height="100" />
+              <div class="logo-title">SHIVANI CENTER</div>
+              <div class="logo-subtitle">Holistic therapy</div>
+            </a>
+          </div>
+
+        </li>
+        <li class="mx-5 mx-lg-5" rel="prefetch">
           <a
             rel="prefetch"
             class:selected={segment === 'evenimente'}
@@ -421,7 +431,7 @@
             EVENIMENTE
           </a>
         </li>
-        <li class="mx-4 mx-lg-5" rel="prefetch">
+        <li class="mx-5 mx-lg-5" rel="prefetch">
           <a
             rel="prefetch"
             class:selected={segment === 'blog'}
@@ -430,7 +440,7 @@
             BLOG
           </a>
         </li>
-        <li class="mx-4 mx-lg-5" rel="prefetch">
+        <li class="mx-5 mx-lg-5" rel="prefetch">
           <a
             rel="prefetch"
             class:selected={segment === 'contact'}
@@ -446,7 +456,7 @@
   <nav in:fly={{ y: -100, duration: 1500 }}>
     <div class="hamburger" class:ham={mobileMenu} on:click={toggleMobileMenu} />
     <div class="mainmenu">
-      <ul class="nav-links p-0" class:mobileMenu bind:this={navLinks}>
+      <ul class="nav-links p-0 mt-3" class:mobileMenu bind:this={navLinks}>
         <li class="mx-4 mx-lg-5" rel="prefetch">
           <a href="javascript:void(0)" on:click={toggleOpen1}>DESPRE NOI</a>
           <ul class="dropdown" class:active={open1} class:inactive={!open1}>
@@ -608,7 +618,7 @@
         </li>
         <li>
           <a href=".">
-            <img src="logo-small-2.jpg" alt="logo" width="60" height="70" />
+            <img src="logo6-min.png" alt="logo" width="70" height="70" />
           </a>
         </li>
         <li class="mx-4 mx-lg-5" rel="prefetch">

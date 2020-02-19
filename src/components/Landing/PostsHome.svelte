@@ -82,7 +82,7 @@
     border: none;
   }
   .title {
-    color: #000000;
+    color: #222736;
     margin-bottom: 0;
     margin-right: auto;
     font-family: "Special Elite", sans-serif;

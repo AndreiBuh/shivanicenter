@@ -1,10 +1,12 @@
+@import url("https://fonts.googleapis.com/css?family=Cormorant|Josefin+Sans|Montserrat|Nunito+Sans|Oswald|Pinyon+Script|Special+Elite&display=swap");
+
 html,
 body {
   height: 100%;
   font-family: "Cabin", sans-serif;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
-  background-color: #fbfbfb !important;
+  background-color: #dfa974 !important;
 }
 h1,
 h2,

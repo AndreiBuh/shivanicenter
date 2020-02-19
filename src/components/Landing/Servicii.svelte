@@ -165,7 +165,7 @@
   }
   .service-item i {
     display: inline-block;
-    color: #dfa974;
+    color: #fff;
     -webkit-transition: all 0.4s;
     -o-transition: all 0.4s;
     transition: all 0.4s;
