@@ -69,6 +69,12 @@
   .map iframe {
     width: 100%;
   }
+
+  @media screen and (max-width: 768px) {
+    span {
+      font-size: 18px;
+    }
+  }
 </style>
 
 <svelte:head>
@@ -77,34 +83,34 @@
 <section class="contact-section">
   <div class="container">
     <div class="row">
-      <div class="col-lg-6">
+      <div class="col-lg-6 text-center text-md-left">
         <h2 class="mb-5">Date de contact</h2>
         <div class="row">
-          <div class="col-md-2">
+          <div class="col-3">
             <span>Adresa:</span>
           </div>
-          <div class="col-md-10">
+          <div class="col-9">
             <span>Strada George Vraca, nr. 7, Et. 1, int. 3</span>
           </div>
         </div>
         <div class="row">
-          <div class="col-md-2">
+          <div class="col-3">
             <span>Telefon:</span>
           </div>
-          <div class="col-md-10">
+          <div class="col-9">
             <span>0754689944</span>
           </div>
         </div>
         <div class="row">
-          <div class="col-md-2">
+          <div class="col-3">
             <span>Email:</span>
           </div>
-          <div class="col-md-10">
+          <div class="col-9">
             <span>shivani.center@gmail.com</span>
           </div>
         </div>
       </div>
-      <div class="col-lg-6">
+      <div class="col-lg-6 mt-5 mt-md-0">
         <form action="#" class="contact-form">
           <div class="row">
             <div class="col-lg-6">

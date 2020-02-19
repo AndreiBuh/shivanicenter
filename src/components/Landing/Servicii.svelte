@@ -151,14 +151,19 @@
   }
 
   .card:hover {
-    transform: translateY(-10px);
+    transform: translateY(-5px);
     transition: 0.4s ease-out;
   }
 
   .card:hover ~ .card {
     position: relative;
-    left: 1px;
     transition: 0.4s ease-out;
+  }
+
+  @media screen and (max-width: 768px) {
+    .card {
+      box-shadow: 3px 3px 3px 3px #222736;
+    }
   }
 </style>
 

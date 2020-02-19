@@ -81,17 +81,6 @@
   .card {
     border: none;
   }
-  .title {
-    color: #222736;
-    margin-bottom: 0;
-    margin-right: auto;
-    font-family: "EB Garamond", serif;
-    font-weight: 700;
-  }
-
-  .text-elegant {
-    color: #dfa974;
-  }
 
   .card-columns .card {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
@@ -103,14 +92,10 @@
   }
 </style>
 
-<div class="container p-5">
-  <h3 class="title text-center mt-5 pt-5">
-    Ultimele postari
-    <span>.</span>
-  </h3>
+<div class="container">
   <div class="card-columns">
     {#each posts as { title, content, src, category, author, date, read }, id}
-      <div class="card p-3 m-2">
+      <div class="card p-3 my-3 m-md-2">
         <LastPosts {title} {content} {src} {category} {author} {date} {read} />
       </div>
     {/each}

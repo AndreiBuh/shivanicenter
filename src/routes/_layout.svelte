@@ -85,9 +85,6 @@
   /* Despre noi pages style END */
 
   @media screen and (max-width: 768px) {
-    main {
-      margin-top: 30px;
-    }
     :global(.img-top) {
       width: 100%;
     }

@@ -11,10 +11,10 @@
   }
 </style>
 
-<div class="container mt-4">
-  <div class="card p-5">
+<div class="container mt-md-4 mt-5">
+  <div class="card p-1 p-md-5">
     <h3
-      class="service-title mb-4 pt-5 pt-md-0 text-center"
+      class="service-title mb-4 pt-md-0 text-center"
       in:fly={{ x: 200, duration: 2000 }}>
       Art-therapy
       <span class="text-elegant font-weight-bold">.</span>

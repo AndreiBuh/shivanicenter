@@ -40,11 +40,6 @@
     color: #616161;
   }
 
-  .post meta {
-    display: flex;
-    justify-content: space-between;
-  }
-
   .post-meta span {
     font-size: 11px;
     color: #8d8d8d;
@@ -52,9 +47,9 @@
   }
 </style>
 
-<div class="card p-2">
+<div class="card">
   <img {src} alt="" class="post-overlay" />
-  <div class="post-categories mt-4">
+  <div class="post-categories mt-md-4 mt-0">
     <a rel="prefetch" href="articole/{category}" class="font-weight-bold">
       {category}
     </a>
@@ -63,7 +58,7 @@
     <h2 class="font-weight-bold">{title}</h2>
   </div>
   <div class="post-content">{content}</div>
-  <div class="post-meta py-3">
+  <div class="post-meta">
     <span>{author}, {date},</span>
     <span>{read}</span>
   </div>
