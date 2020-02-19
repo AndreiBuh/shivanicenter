@@ -15,6 +15,7 @@
   /*  Servicii descriptions style START */
   :global(.service-title) {
     font-family: "Special Elite";
+    color: #fff;
   }
   :global(.img-top) {
     width: 70%;
@@ -29,7 +30,7 @@
     font-family: "Josefin Sans";
     line-height: 29px;
     font-size: 16px;
-    color: #222;
+    color: #fff;
   }
   :global(.text-elegant) {
     color: #dfa974;
@@ -38,15 +39,16 @@
     position: relative;
     margin: 50px 0;
     font-weight: 700;
-    border-top: 1px dashed #cacaca;
+    /* border-top: 1px dashed #fff; */
     display: block;
-    border-bottom: 1px dashed #cacaca;
+    /* border-bottom: 1px dashed #fff; */
     padding: 8px 65px;
     text-align: center;
     line-height: 1.6em;
     font-size: 1.1em;
     border-left: none;
     border-right: none;
+    color: #fff;
   }
   :global(blockquote::before) {
     top: 20px;
@@ -54,7 +56,7 @@
     position: absolute;
     left: 0;
     font-size: 75px;
-    color: #212529;
+    color: #fff;
     font-family: Georgia, "Times New Roman", Times, serif;
     font-style: initial;
   }
@@ -66,9 +68,9 @@
     height: 1px;
     background-image: linear-gradient(
       to right,
-      rgba(233, 169, 116, 0),
-      rgba(233, 169, 116, 0.55),
-      rgba(233, 169, 116, 0)
+      rgba(43, 46, 47, 0),
+      rgba(43, 46, 57, 0.55),
+      rgba(43, 46, 57, 0)
     );
   }
   :global(.end) {

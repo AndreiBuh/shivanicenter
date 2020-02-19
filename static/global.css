@@ -1,11 +1,19 @@
-@import url("https://fonts.googleapis.com/css?family=Cormorant|Josefin+Sans|Montserrat|Nunito+Sans|Oswald|Pinyon+Script|Special+Elite&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans|Montserrat|Nunito+Sans|Oswald|Pinyon+Script|Special+Elite&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Cormorant+SC:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Amiri|Cinzel|Merienda|Old+Standard+TT|Playball|Playfair+Display+SC&display=swap');
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond&display=swap');
+
+
+@font-face {
+  font-family: "Averta";
+  src: url("font/Averta.otf") format("opentype");
+}
 
 html,
 body {
   height: 100%;
-  font-family: "Cabin", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
-  font-smoothing: antialiased;
   background-color: #dfa974 !important;
 }
 h1,
@@ -17,7 +25,7 @@ h6 {
   margin: 0;
   color: #111111;
   font-weight: 400;
-  font-family: "Lora", serif;
+  font-family: "Josefin Sans", serif;
 }
 h1 {
   font-size: 70px;
@@ -61,8 +69,4 @@ ol {
 
 body {
   overflow-x: hidden !important;
-}
-
-li {
-  list-style: none;
 }

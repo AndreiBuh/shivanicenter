@@ -7,23 +7,16 @@
     padding-top: 80px;
     padding-bottom: 80px;
   }
-  .contact-text h2 {
-    font-size: 44px;
-    color: #19191a;
-    margin-bottom: 24px;
+  h2 {
+    font-size: 40px;
+    color: #222736;
+    font-family: "Oswald";
   }
-  .contact-text p {
-    color: #707079;
-  }
-  .contact-text table tbody tr td {
-    font-size: 16px;
-    color: #19191a;
-    line-height: 36px;
-    font-weight: 500;
-  }
-  .contact-text table tbody tr td.c-o {
-    color: #707079;
-    width: 75px;
+
+  span {
+    font-size: 22px;
+    color: #222736;
+    font-family: "Oswald";
   }
   .contact-form input {
     width: 100%;
@@ -33,18 +26,6 @@
     color: #aaaab3;
     padding-left: 25px;
     margin-bottom: 28px;
-  }
-  .contact-form input::-webkit-input-placeholder {
-    color: #aaaab3;
-  }
-  .contact-form input::-moz-placeholder {
-    color: #aaaab3;
-  }
-  .contact-form input:-ms-input-placeholder {
-    color: #aaaab3;
-  }
-  .contact-form input::-ms-input-placeholder {
-    color: #aaaab3;
   }
   .contact-form input::placeholder {
     color: #aaaab3;
@@ -57,21 +38,10 @@
     color: #aaaab3;
     padding-left: 25px;
     padding-top: 12px;
-    margin-bottom: 33px;
+    margin-bottom: 30px;
     resize: none;
   }
-  .contact-form textarea::-webkit-input-placeholder {
-    color: #aaaab3;
-  }
-  .contact-form textarea::-moz-placeholder {
-    color: #aaaab3;
-  }
-  .contact-form textarea:-ms-input-placeholder {
-    color: #aaaab3;
-  }
-  .contact-form textarea::-ms-input-placeholder {
-    color: #aaaab3;
-  }
+
   .contact-form textarea::placeholder {
     color: #aaaab3;
   }
@@ -79,12 +49,16 @@
     font-size: 13px;
     font-weight: 700;
     text-transform: uppercase;
-    color: #ffffff;
+    color: #fff;
     letter-spacing: 2px;
-    background: #dfa974;
+    background: #222736;
     border: none;
     padding: 14px 34px 13px;
     display: inline-block;
+  }
+
+  .contact-form button:hover {
+    background: #36383f;
   }
   .map {
     height: 470px;
@@ -100,36 +74,37 @@
 <svelte:head>
   <title>Contact</title>
 </svelte:head>
-<!-- Contact Section Begin -->
-<section class="contact-section spad">
+<section class="contact-section">
   <div class="container">
     <div class="row">
-      <div class="col-lg-4">
-        <div class="contact-text">
-          <h2>Date de contact</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
-          <table>
-            <tbody>
-              <tr>
-                <td class="c-o">Adresa:</td>
-                <td>Strada George Vraca, nr. 7, Et. 1, int. 3</td>
-              </tr>
-              <tr>
-                <td class="c-o">Telefon:</td>
-                <td>0754689944</td>
-              </tr>
-              <tr>
-                <td class="c-o">Email:</td>
-                <td>shivani.center@gmail.com</td>
-              </tr>
-            </tbody>
-          </table>
+      <div class="col-lg-6">
+        <h2 class="mb-5">Date de contact</h2>
+        <div class="row">
+          <div class="col-md-2">
+            <span>Adresa:</span>
+          </div>
+          <div class="col-md-10">
+            <span>Strada George Vraca, nr. 7, Et. 1, int. 3</span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-2">
+            <span>Telefon:</span>
+          </div>
+          <div class="col-md-10">
+            <span>0754689944</span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-2">
+            <span>Email:</span>
+          </div>
+          <div class="col-md-10">
+            <span>shivani.center@gmail.com</span>
+          </div>
         </div>
       </div>
-      <div class="col-lg-7 offset-lg-1">
+      <div class="col-lg-6">
         <form action="#" class="contact-form">
           <div class="row">
             <div class="col-lg-6">
@@ -138,7 +113,7 @@
             <div class="col-lg-6">
               <input type="text" placeholder="Email" />
             </div>
-            <div class="col-lg-12">
+            <div class="col-lg-12 text-center">
               <textarea placeholder="Mesajul tau" />
               <button type="submit">Trimite</button>
             </div>

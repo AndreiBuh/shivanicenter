@@ -30,22 +30,6 @@
   [class*=" flaticon-"]:after {
     font-family: Flaticon;
     font-size: 30px;
-    font-style: normal;
-    margin-left: 20px;
-  }
-
-  .flaticon-mission:before {
-    content: "\f100";
-  }
-  .flaticon-eye:before {
-    content: "\f101";
-  }
-  .flaticon-goal:before {
-    content: "\f102";
-  }
-
-  .flaticon-buddhism:before {
-    content: "\f10d";
   }
   .banner {
     display: flex;
@@ -63,13 +47,8 @@
     margin: 0 auto;
   }
 
-  .banner-text {
-    font-size: 18px;
-    color: #aaaab3;
-  }
-
   .banner-title {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Playball", sans-serif;
   }
 
   .text-elegant {
@@ -77,9 +56,9 @@
   }
 
   i,
-  p,
-  h5 {
-    color: #fff;
+  h2 {
+    color: #dfa974;
+    font-family: "Playball", sans-serif;
   }
 
   .fn-form {
@@ -109,8 +88,8 @@
     border-radius: 0 2px 2px 0;
   }
   p {
-    color: #aaaab3;
-    font-family: "Montserrat";
+    color: #b5b5bf;
+    font-family: "Josefin Sans", sans-serif;
     font-size: 14px;
   }
   .banner-item {
@@ -128,7 +107,7 @@
     }
 
     .banner-title {
-      font-size: 16px;
+      font-size: 2em;
     }
   }
 </style>
@@ -136,10 +115,10 @@
 {#if title == 'Cine suntem?'}
   <div class="banner mt-3 pt-4 pb-0">
     <div class="banner-content container">
-      <h2 class="banner-title mb-3 text-white">{title}</h2>
+      <h1 class="banner-title mb-3 text-elegant">{title}</h1>
       <div class="row centered">
         <div class="col-md-3 px-3 pt-3 banner-item">
-          <h5 class="p-2">Misiunea noastra</h5>
+          <h2 class="p-2">Misiune</h2>
           <i class="flaticon-mission" />
           <p class="p-2">
             Shivani Center ofera o paleta larga de servicii psihologice de
@@ -147,7 +126,7 @@
           </p>
         </div>
         <div class="col-md-3 px-3 p-3 banner-item">
-          <h5 class="p-2">Viziunea noastra</h5>
+          <h2 class="p-2">Viziune</h2>
           <i class="flaticon-eye" />
           <p class="p-2">
             Viziunea noastra holistica imbina in mod organic metodele de
@@ -155,7 +134,7 @@
           </p>
         </div>
         <div class="col-md-3 px-3 p-3 banner-item">
-          <h5 class="p-2">Scopul nostru</h5>
+          <h2 class="p-2">Scop</h2>
           <i class="flaticon-goal" />
           <p class="p-2">
             Va invitam sa exploram impreuna conexiunea dintre minte, corp si
@@ -164,7 +143,7 @@
           </p>
         </div>
         <div class="col-md-3 px-3 p-3 banner-item">
-          <h5 class="p-2">Abordarea noastra</h5>
+          <h2 class="p-2">Abordare</h2>
           <i class="flaticon-buddhism" />
           <p class="p-2">
             Va invitam sa exploram impreuna conexiunea dintre minte, corp si

@@ -85,7 +85,7 @@
     color: #222736;
     margin-bottom: 0;
     margin-right: auto;
-    font-family: "Special Elite", sans-serif;
+    font-family: "EB Garamond", serif;
     font-weight: 700;
   }
 
@@ -103,11 +103,11 @@
   }
 </style>
 
-<h3 class="title text-center mt-5 pt-5">
-  Ultimele postări
-  <span class="text-elegant">.</span>
-</h3>
 <div class="container p-5">
+  <h3 class="title text-center mt-5 pt-5">
+    Ultimele postari
+    <span>.</span>
+  </h3>
   <div class="card-columns">
     {#each posts as { title, content, src, category, author, date, read }, id}
       <div class="card p-3 m-2">

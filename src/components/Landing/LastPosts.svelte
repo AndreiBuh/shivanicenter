@@ -30,13 +30,13 @@
     line-height: 110% !important;
     margin-bottom: 5px;
     margin-top: 5px;
-    font-family: "Nunito Sans";
+    font-family: "Josefin Sans";
     color: #505050;
   }
 
   .post-content {
     font-size: 14px;
-    font-family: "Nunito Sans";
+    font-family: "Josefin Sans";
     color: #616161;
   }
 

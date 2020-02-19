@@ -1,7 +1,7 @@
 <script>
   import { onMount, onDestroy } from "svelte";
   import Icon from "fa-svelte";
-  import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+  import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
   import {
     faFacebook,
     faInstagram,
@@ -46,6 +46,10 @@
     text-decoration: none;
   }
 
+  li {
+    list-style: none;
+  }
+
   nav {
     width: 100%;
     background: #222736;
@@ -76,15 +80,17 @@
   }
 
   .logo-title {
-    font-family: "Cormorant", serif;
-    font-size: 30px;
+    font-family: "Cormorant SC", serif;
+    letter-spacing: 5px;
+    font-size: 26px;
     color: #fff;
   }
 
   .logo-subtitle {
-    font-size: 12px;
+    font-size: 10px;
+    letter-spacing: 4px;
     color: #dfa974;
-    font-display: "Nunito Sans";
+    font-family: "Averta", sans-serif;
   }
 
   .mainmenu ul li {
@@ -114,8 +120,32 @@
       color: #fff;
     }
 
+    .logo-mobile {
+      height: 70px;
+      display: flex;
+      align-items: center;
+    }
+
+    .logo-mobile img {
+      margin: 0 0 0 10px;
+      width: 50px;
+      height: 50px;
+    }
+
+    .logo-mobile .logo-title {
+      font-size: 16px;
+    }
+
+    .logo-mobile .logo-subtitle {
+      font-size: 7px;
+    }
+
     .mobileMenu {
       transform: translateX(0%);
+    }
+
+    .image-scroll {
+      display: none;
     }
 
     .logo-list-item {
@@ -192,6 +222,10 @@
       visibility: visible;
     }
 
+    .logo-mobile {
+      display: none;
+    }
+
     .mainmenu ul li .dropdown {
       position: absolute;
       left: 0;
@@ -228,6 +262,17 @@
 
 {#if y < '400'}
   <nav in:fly={{ y: -100, duration: 400 }}>
+    <a href=".">
+      <div class="logo-mobile">
+        <div>
+          <img src="logo6-min.png" alt="logo" />
+        </div>
+        <div class="ml-2">
+          <div class="logo-title">Shivani Center</div>
+          <div class="logo-subtitle text-center">HOLISTIC PSYCHOLOGY</div>
+        </div>
+      </div>
+    </a>
     <div class="hamburger" class:ham={mobileMenu} on:click={toggleMobileMenu} />
     <div class="mainmenu">
       <ul class="nav-links" class:mobileMenu bind:this={navLinks}>
@@ -401,11 +446,10 @@
                 class="logo"
                 width="100"
                 height="100" />
-              <div class="logo-title">SHIVANI CENTER</div>
-              <div class="logo-subtitle">Holistic therapy</div>
+              <div class="logo-title">Shivani Center</div>
+              <div class="logo-subtitle">HOLISTIC PSYCHOLOGY</div>
             </a>
           </div>
-
         </li>
         <li class="mx-5 mx-lg-5" rel="prefetch">
           <a
@@ -439,6 +483,17 @@
   </nav>
 {:else}
   <nav in:fly={{ y: -100, duration: 1500 }} class="nav-transparent">
+    <a href=".">
+      <div class="logo-mobile">
+        <div>
+          <img src="logo6-min.png" alt="logo" />
+        </div>
+        <div class="ml-2">
+          <div class="logo-title">Shivani Center</div>
+          <div class="logo-subtitle text-center">HOLISTIC PSYCHOLOGY</div>
+        </div>
+      </div>
+    </a>
     <div class="hamburger" class:ham={mobileMenu} on:click={toggleMobileMenu} />
     <div class="mainmenu">
       <ul class="nav-links p-0" class:mobileMenu bind:this={navLinks}>
@@ -601,7 +656,7 @@
             </li>
           </ul>
         </li>
-        <li class="mt-3">
+        <li class="mt-3 image-scroll">
           <a href=".">
             <img src="logo6-min.png" alt="logo" width="70" height="70" />
           </a>

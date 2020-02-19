@@ -13,7 +13,7 @@
       title: "Psihoterapie",
       icon: "flaticon-mindset",
       content:
-        "Psihoterapia pune accent pe profunzimea trăirilor şi gândurilor, acceptarea acestora şi întelegerea lor, cu scopul de a trece peste dificultăţi, blocaje, comportamente disfuncţionale",
+        "Psihoterapia pune accent pe profunzimea trăirilor şi gândurilor, acceptarea acestora şi întelegerea lor, cu scopul de a trece peste comportamente disfuncţionale.",
       url: "psihoterapie"
     },
 
@@ -94,50 +94,6 @@
   [class*=" flaticon-"]:after {
     font-family: Flaticon;
     font-size: 50px;
-    font-style: normal;
-    margin-left: 20px;
-  }
-
-  .flaticon-mindset:before {
-    content: "\f103";
-  }
-  .flaticon-brain:before {
-    content: "\f104";
-  }
-  .flaticon-workshop:before {
-    content: "\f105";
-  }
-  .flaticon-flower:before {
-    content: "\f106";
-  }
-  .flaticon-yoga:before {
-    content: "\f107";
-  }
-  .flaticon-paint:before {
-    content: "\f108";
-  }
-  .flaticon-mental:before {
-    content: "\f109";
-  }
-  .flaticon-speaker:before {
-    content: "\f10a";
-  }
-
-  .section-title {
-    text-align: center;
-    margin-bottom: 22px;
-    font-family: "Arvo";
-  }
-  .section-title span {
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-  }
-  .services-section {
-    padding-bottom: 60px;
-  }
-  .services-section .section-title {
-    margin-bottom: 36px;
   }
 
   .service-item {
@@ -151,27 +107,16 @@
   a {
     text-decoration: none;
   }
-  .service-item:hover {
-    background: #dfa974;
-  }
-  .service-item:hover i {
-    color: #ffffff;
-  }
-  .service-item:hover h4 {
-    color: #ffffff;
-  }
-  .service-item:hover p {
-    color: #ffffff;
-  }
+
   .service-item i {
     display: inline-block;
-    color: #fff;
+    color: #dfa974;
     -webkit-transition: all 0.4s;
     -o-transition: all 0.4s;
     transition: all 0.4s;
   }
   .service-item h4 {
-    color: #19191a;
+    color: #fff;
     font-size: 19px;
     margin-bottom: 15px;
     margin-top: 10px;
@@ -180,51 +125,57 @@
     transition: all 0.4s;
   }
   .service-item p {
-    color: #707079;
-    -webkit-transition: all 0.6s;
-    -o-transition: all 0.6s;
-    transition: all 0.6s;
-    font-family: "Josefin Sans";
+    color: #b5b5bf;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 14px;
   }
 
   .title {
     font-size: 18px;
-    color: #000000;
+    color: #fff;
     margin-bottom: 0;
     margin-right: auto;
     font-family: "Special Elite", sans-serif;
     font-weight: 700;
   }
-  .border-btm {
-    border-bottom: 1px solid #cccccc;
-  }
-
-  .text-elegant {
-    color: #dfa974;
-  }
 
   h4 {
     font-family: "Oswald", sans-serif;
   }
+
+  .card {
+    background-color: #222736;
+    border-radius: 10px;
+    box-shadow: -0.5rem 0 0.5rem #222736;
+    transition: 0.4s ease-out;
+  }
+
+  .card:hover {
+    transform: translateY(-10px);
+    transition: 0.4s ease-out;
+  }
+
+  .card:hover ~ .card {
+    position: relative;
+    left: 1px;
+    transition: 0.4s ease-out;
+  }
 </style>
 
-<section class="services-section spad">
+<section class="services-section">
   <div class="container">
-    <div class="row border-btm pb-2">
-      <h5>
-        <span class="text-elegant">.</span>
-      </h5>
-    </div>
-    <div class="row mt-2">
+    <div class="row">
       {#each services as { id, title, name, url, icon, content } (id)}
         <div class="col-xs-6 col-lg-3">
-          <a rel="prefetch" href="servicii/{url}">
-            <div class="service-item">
-              <i class={icon} />
-              <h4>{title}</h4>
-              <p>{content}</p>
-            </div>
-          </a>
+          <div class="card mb-3 p-3">
+            <a rel="prefetch" href="servicii/{url}">
+              <div class="service-item">
+                <i class={icon} />
+                <h4>{title}</h4>
+                <p>{content}</p>
+              </div>
+            </a>
+          </div>
         </div>
       {/each}
     </div>
