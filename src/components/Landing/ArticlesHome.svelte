@@ -65,24 +65,25 @@
   }
 
   :global(.svelte-tabs li) {
-    font-size: 14px;
-    color: #fff !important;
+    font-size: 16px;
+    color: #000 !important;
     margin: 0 10px;
-    border: 2px solid #fff !important;
     font-family: "Oswald" !important;
-    letter-spacing: 3px !important;
-    background: #222736;
+    outline: none !important;
   }
 
   :global(.svelte-tabs ul),
   :global(.card) {
     border: none !important;
-    display: flex !important;
-    justify-content: center !important;
+  }
+
+  :global(.svelte-tabs__tab-list) {
+    text-align: center !important;
   }
 
   :global(.svelte-tabs li.svelte-tabs__selected) {
-    color: #dfa974 !important;
+    font-size: 20px;
+    border-bottom: 2px solid #000;
   }
 </style>
 

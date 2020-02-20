@@ -76,6 +76,7 @@
   :global(.end) {
     font-family: "Pinyon Script", cursive;
     font-size: 30px;
+    color: #fff;
   }
   :global(.links) {
     text-decoration: none !important;

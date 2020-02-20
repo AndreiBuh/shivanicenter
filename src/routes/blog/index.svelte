@@ -79,18 +79,8 @@
 
 <style>
   .card {
+    height: auto;
     border: none;
-  }
-  .title {
-    color: #222736;
-    margin-bottom: 0;
-    margin-right: auto;
-    font-family: "EB Garamond", serif;
-    font-weight: 700;
-  }
-
-  .text-elegant {
-    color: #dfa974;
   }
 
   .card-columns .card {
@@ -103,7 +93,7 @@
   }
 </style>
 
-<div class="container p-5">
+<div class="container">
   <div class="card-columns">
     {#each posts as { title, content, src, category, author, date, read }, id}
       <div class="card p-3 m-2">

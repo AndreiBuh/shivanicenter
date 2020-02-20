@@ -79,6 +79,7 @@
 
 <style>
   .card {
+    height: auto;
     border: none;
   }
 
@@ -95,7 +96,7 @@
 <div class="container">
   <div class="card-columns">
     {#each posts as { title, content, src, category, author, date, read }, id}
-      <div class="card p-3 my-3 m-md-2">
+      <div class="card p-3 m-2">
         <LastPosts {title} {content} {src} {category} {author} {date} {read} />
       </div>
     {/each}

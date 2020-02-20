@@ -169,7 +169,7 @@
     .hamburger {
       position: absolute;
       cursor: pointer;
-      right: 10%;
+      right: 9%;
       top: 46%;
       background: #fff;
       width: 30px;
