@@ -73,6 +73,4 @@
       suscipit laboriosam, nisi ut aliquid.
     </p>
   </div>
-  <div class="card-footer text-muted text-center">2 days ago</div>
-
 </div>

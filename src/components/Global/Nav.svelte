@@ -134,10 +134,12 @@
 
     .logo-mobile .logo-title {
       font-size: 16px;
+      letter-spacing: 3px;
     }
 
     .logo-mobile .logo-subtitle {
       font-size: 7px;
+      letter-spacing: 2px;
     }
 
     .mobileMenu {
@@ -152,32 +154,42 @@
       display: none;
     }
 
-    .hamburger {
+    .menu-hamburger {
+      width: 40px;
+      height: 35px;
+      border: 2px solid #fff;
       position: absolute;
       cursor: pointer;
       right: 5%;
       top: 50%;
       transform: translate(-5%, -50%);
       z-index: 9999;
+    }
+
+    .hamburger {
+      position: absolute;
+      cursor: pointer;
+      right: 10%;
+      top: 46%;
       background: #fff;
       width: 30px;
       height: 3px;
       border-radius: 5px;
     }
-    .hamburger:before,
-    .hamburger:after {
+    .hamburger::before,
+    .hamburger::after {
       content: "";
       position: absolute;
       width: 30px;
-      height: 4px;
+      height: 3px;
       background: #fff;
       border-radius: 5px;
     }
 
-    .hamburger:before {
+    .hamburger::before {
       top: -6px;
     }
-    .hamburger:after {
+    .hamburger::after {
       top: 6px;
     }
 
@@ -273,7 +285,9 @@
         </div>
       </div>
     </a>
-    <div class="hamburger" class:ham={mobileMenu} on:click={toggleMobileMenu} />
+    <div class="menu-hamburger" on:click={toggleMobileMenu}>
+      <div class="hamburger" class:ham={mobileMenu} />
+    </div>
     <div class="mainmenu">
       <ul class="nav-links" class:mobileMenu bind:this={navLinks}>
         <li class="mx-4 mx-lg-5" rel="prefetch">
@@ -494,7 +508,9 @@
         </div>
       </div>
     </a>
-    <div class="hamburger" class:ham={mobileMenu} on:click={toggleMobileMenu} />
+    <div class="menu-hamburger" on:click={toggleMobileMenu}>
+      <div class="hamburger" class:ham={mobileMenu} />
+    </div>
     <div class="mainmenu">
       <ul class="nav-links p-0" class:mobileMenu bind:this={navLinks}>
         <li class="mx-4 mx-lg-5" rel="prefetch">

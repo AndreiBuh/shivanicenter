@@ -1,6 +1,7 @@
 <script>
   import { Tabs, Tab, TabList, TabPanel } from "svelte-tabs";
   import ArticleCard from "./ArticleCard.svelte";
+  import Pagination from "../Global/Pagination.svelte";
 
   let articles = [
     {
@@ -40,19 +41,22 @@
     "Meditatie/Yoga",
     "Dezvoltare personala",
     "Sexualitate",
-    "Stiinta"
+    "Timp liber"
   ];
 </script>
 
 <style>
-  .title {
-    font-size: 18px;
-    color: #000000;
-    margin-bottom: 0;
-    margin-right: auto;
-    font-family: "Special Elite", sans-serif;
-    font-weight: 700;
+  main {
+    padding: 30px;
+    border-radius: 10px;
+    margin: 30px auto;
   }
+
+  p,
+  h6 {
+    font-family: "Josefin Sans";
+  }
+
   .z-depth-1-half {
     -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18),
       0 4px 15px 0 rgba(0, 0, 0, 0.15) !important;
@@ -60,34 +64,31 @@
       0 4px 15px 0 rgba(0, 0, 0, 0.15) !important;
   }
 
-  .author {
-    font-size: 12px;
-    line-height: 1.4;
-    color: #8d8d8d;
-  }
-
-  .elegant-text {
-    color: #dfa974;
-  }
-
   :global(.svelte-tabs li) {
     font-size: 14px;
-    color: #8d8d8d !important;
+    color: #fff !important;
     margin: 0 10px;
+    border: 2px solid #fff !important;
+    font-family: "Oswald" !important;
+    letter-spacing: 3px !important;
+    background: #222736;
+  }
+
+  :global(.svelte-tabs ul),
+  :global(.card) {
+    border: none !important;
+    display: flex !important;
+    justify-content: center !important;
   }
 
   :global(.svelte-tabs li.svelte-tabs__selected) {
-    border-bottom: 2px solid #222736;
+    color: #dfa974 !important;
   }
 </style>
 
-<div class="container mt-5 pt-5">
+<main class="container">
   <Tabs>
     <TabList>
-      <span class="title mr-5">
-        Articole
-        <span class="elegant-text">.</span>
-      </span>
       {#each tabs as tab}
         <Tab>{tab}</Tab>
       {/each}
@@ -99,32 +100,23 @@
           <div class="col-xs-12 col-md-6 pt-4">
             <ArticleCard category={tab} />
           </div>
-          <div class=" col-xs-12 col-md-6">
-            <hr class="mb-3" />
+          <div class="col-xs-12 col-md-6">
             {#each articles as { title, src, text, author, date }}
-              <section>
+              <section class="card m-3">
                 <div class="row">
                   <div class="col-lg-5">
                     <div
                       class="view overlay rounded z-depth-1-half mb-lg-0 mb-4">
                       <img class="img-fluid" {src} alt={title} />
-                      <a>
-                        <div class="mask rgba-white-slight" />
-                      </a>
                     </div>
                   </div>
-                  <div class="col-lg-7">
-                    <h7 class="font-weight-bold mb-3">
+                  <div class="col-lg-7 pt-3">
+                    <h6 class="font-weight-bold">
                       <strong>{title}</strong>
-                    </h7>
+                    </h6>
                     <p class="dark-grey-text">{text}</p>
-                    <p class="author">
-                      <a class="font-weight-bold elegant-text">{author}</a>
-                      pe {date}
-                    </p>
                   </div>
                 </div>
-                <hr class="my-3" />
               </section>
             {/each}
           </div>
@@ -132,4 +124,5 @@
       </TabPanel>
     {/each}
   </Tabs>
-</div>
+  <Pagination />
+</main>
