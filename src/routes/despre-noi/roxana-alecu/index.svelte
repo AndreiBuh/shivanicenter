@@ -10,19 +10,25 @@
     box-shadow: -0.5rem 0 0.5rem #222736;
     transition: 0.4s ease-out;
   }
+
+  @media screen and (max-width: 768px) {
+    .container {
+      margin-top: 90px;
+    }
+  }
 </style>
 
 <svelte:head>
   <title>Psiholog Roxana Alecu</title>
 </svelte:head>
-<div class="container mt-4">
-  <div class="card p-1 p-md-5">
-    <h3
-      class="service-title my-4 pt-5 pt-md-0 text-center"
+<div class="container">
+  <div class="card p-2 p-md-5">
+    <h1
+      class="service-title my-4 pt-md-0 text-center"
       in:fly={{ x: -200, duration: 2000 }}>
       Psiholog Roxana Alecu
       <span class="text-elegant font-weight-bold">.</span>
-    </h3>
+    </h1>
     <div class="text-center" in:fade={{ duration: 2000 }}>
       <img
         src="shivani.jpg"
@@ -58,12 +64,12 @@
         Universitatii din Bucuresti. De aici am primit baza de care aveam nevoie
         pentru urmatorii mei ani de studiu in domeniul psihlogiei.
       </p>
-      <blockquote>
+      <p class="paragraph-text">
         Dupa obtinerea licentei in psihologie, mi-a fost publicata lucrarea cu
         titlul “Influenta diferitelor tehnici de meditatie asupra stresului
         ocuptional” in cartea “Mindfulness si optimizarea comportamentului
         professional” a Editurii SPER.
-      </blockquote>
+      </p>
       <p class="paragraph-text">
         Simtind ca pentru o intelegere mai profunda a naturii umane e necesar sa
         privesc totul ca intreg, mi-am dorit sa inteleg mai bine interactiunea
@@ -88,12 +94,12 @@
         Psihoterapie Experientiala si a Unificarii (P.E.U.) la Institutul
         Societatii de Psihoterapie Experientiala Romana.
       </p>
-      <blockquote>
+      <p class="paragraph-text">
         Astfel am dobandit un Certificat consiliere psihologică - evaluarea și
         consilierea experiențială a copilului, adultului, cuplului și familiei
         si Avizul de liberă practică în consiliere psihologică, eliberat de
         Colegiul Psihologilor din România.
-      </blockquote>
+      </p>
       <p class="paragraph-text">
         Destinatia finala nu imi este cunoscuta, insa stiu ca nu o sa ma opresc
         niciodata din a invata, de aceea continui sa citesc, sa merg la

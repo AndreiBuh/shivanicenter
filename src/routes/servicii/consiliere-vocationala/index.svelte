@@ -9,23 +9,28 @@
     box-shadow: -0.5rem 0 0.5rem #222736;
     transition: 0.4s ease-out;
   }
+  @media screen and (max-width: 768px) {
+    .container {
+      margin-top: 90px;
+    }
+  }
 </style>
 
-<div class="container mt-4">
-  <div class="card p-5">
-    <h3
-      class="service-title mb-4 pt-5 pt-md-0 text-center"
+<div class="container">
+  <div class="card p-2 p-md-5">
+    <h1
+      class="service-title mb-4 pt-md-0 text-center"
       in:fly={{ x: 200, duration: 2000 }}>
       Consiliere vocationala
       <span class="text-elegant font-weight-bold">.</span>
-    </h3>
+    </h1>
     <div class="text-center" in:fade={{ duration: 2000 }}>
       <img
         src="consiliere-vocationala1.png"
         alt="imagine mediatie"
         class="img-top img-fluid" />
     </div>
-    <div class="p-2">
+    <div class="p-2 mt-3">
       <p class="paragraph-text">
         Într-o societate grăbită şi în permanentă schimbare, serviciile
         psihologilor s-au extins şi s-au dezvoltat în funcţie de noile nevoi ale
@@ -42,12 +47,12 @@
         informaţie a determinat schimbări frecvente ale acestor nevoi, diferite
         la fiecare om în parte.
       </p>
-      <blockquote>
+      <p class="paragraph-text">
         Consilierea vocaţională pune accent şi pe pasiunile, curiozităţile,
         deschiderea oamenilor, nu doar pe căutarea unui post – se doreşte ca
         acest post să fie strâns legat de acele pasiuni şi interese.
-      </blockquote>
-      <p class="font-weight-bold">
+      </p>
+      <p class="paragraph-text">
         Funcțiile procesului de consiliere vocațională - funcții prezente în
         formarea unor strategii realiste de opțiuni profesionale
       </p>
@@ -55,7 +60,7 @@
         1. Funcția cognitivă se materializează în procesul cunoașterii și
         autocunoasterii potențialului de care dispunem la un moment dat:
       </p>
-      <ul class="px-3">
+      <ul class="px-3 text-white">
         <li>
           se oferă informații relevante despre nivelului de dezvoltare a
           aptitudinilor, despre structura intereselor și valorilor personale

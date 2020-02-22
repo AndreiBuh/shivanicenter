@@ -21,6 +21,9 @@
 
   const toggleMobileMenu = () => {
     mobileMenu = !mobileMenu;
+    open1 = false;
+    open2 = false;
+    open3 = false;
   };
 
   const toggleOpen1 = () => {

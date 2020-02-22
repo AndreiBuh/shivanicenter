@@ -4,7 +4,6 @@
     faFacebook,
     faInstagram,
     faTwitter,
-    faYoutube,
     faLinkedin
   } from "@fortawesome/free-brands-svg-icons";
   import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
@@ -112,10 +111,6 @@
     border: none;
     border-radius: 0 2px 2px 0;
   }
-  .footer-section .copyright-option {
-    background: rgba(16, 20, 31, 0.2);
-    padding: 20px 0;
-  }
   .footer-section .copyright-option ul li {
     list-style: none;
     display: inline-block;
@@ -127,11 +122,6 @@
   .footer-section .copyright-option ul li a {
     font-size: 16px;
     color: #aaaab3;
-  }
-  .footer-section .copyright-option .co-text {
-    font-size: 16px;
-    color: #707079;
-    text-align: right;
   }
 </style>
 
@@ -150,19 +140,16 @@
               across 90 local websites
             </p>
             <div class="fa-social">
-              <a href="#">
+              <a href="http://www.facebook.com">
                 <Icon icon={faFacebook} />
               </a>
-              <a href="#">
+              <a href="http://www.instagram.com">
                 <Icon icon={faInstagram} />
               </a>
-              <a href="#">
+              <a href="http://www.twitter.com">
                 <Icon icon={faTwitter} />
               </a>
-              <a href="#">
-                <Icon icon={faYoutube} />
-              </a>
-              <a href="#">
+              <a href="http://www.linkedin.com">
                 <Icon icon={faLinkedin} />
               </a>
             </div>

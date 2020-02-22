@@ -14,7 +14,7 @@
 
   /*  Servicii descriptions style START */
   :global(.service-title) {
-    font-family: "Special Elite";
+    font-family: "Playball", "Oswald", sans-serif;
     color: #fff;
   }
   :global(.img-top) {
@@ -88,9 +88,6 @@
   @media screen and (max-width: 768px) {
     :global(.img-top) {
       width: 100%;
-    }
-    :global(.service-title) {
-      font-size: 18px;
     }
 
     :global(blockquote::before) {

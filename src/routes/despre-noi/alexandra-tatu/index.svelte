@@ -10,19 +10,25 @@
     box-shadow: -0.5rem 0 0.5rem #222736;
     transition: 0.4s ease-out;
   }
+
+  @media screen and (max-width: 768px) {
+    .container {
+      margin-top: 90px;
+    }
+  }
 </style>
 
 <svelte:head>
   <title>Psiholog Tatu Alexandra</title>
 </svelte:head>
-<div class="container mt-4">
-  <div class="card p-1 p-md-5">
-    <h3
-      class="service-title my-4 pt-5 pt-md-0 text-center"
+<div class="container">
+  <div class="card p-2 p-md-5">
+    <h1
+      class="service-title my-4 pt-md-0 text-center"
       in:fly={{ x: -200, duration: 2000 }}>
       Psiholog Tatu Alexandra
       <span class="text-elegant font-weight-bold">.</span>
-    </h3>
+    </h1>
     <div class="text-center" in:fade={{ duration: 2000 }}>
       <img
         src="alexandra.jpg"
@@ -52,9 +58,11 @@
         doresc să fac și ce îmi propun pentru viitor.
       </p>
       <blockquote>
-        În iunie 2019 la Bookfest mi s-a îndeplinit visul, acela de a publica
-        romanul meu de debut, Cheile Sinelui (editura Berg), un proiect la care
-        am lucrat cu trup și suflet. 
+        <em>
+          În iunie 2019 la Bookfest mi s-a îndeplinit visul, acela de a publica
+          romanul meu de debut, Cheile Sinelui (editura Berg), un proiect la
+          care am lucrat cu trup și suflet. 
+        </em>
       </blockquote>
       <p class="paragraph-text">
         Atunci când privești în tine găsești toate răspunsurile și asta am făcut

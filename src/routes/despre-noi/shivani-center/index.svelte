@@ -10,19 +10,25 @@
     box-shadow: -0.5rem 0 0.5rem #222736;
     transition: 0.4s ease-out;
   }
+
+  @media screen and (max-width: 768px) {
+    .container {
+      margin-top: 90px;
+    }
+  }
 </style>
 
 <svelte:head>
   <title>Despre Shivani Center</title>
 </svelte:head>
-<div class="container mt-4">
-  <div class="card p-1 p-md-5">
-    <h3
-      class="service-title my-4 pt-5 pt-md-0 text-center"
+<div class="container">
+  <div class="card p-2 p-md-5">
+    <h1
+      class="service-title my-4 pt-md-0 text-center"
       in:fly={{ x: -200, duration: 2000 }}>
       Shivani Center
       <span class="text-elegant font-weight-bold">.</span>
-    </h3>
+    </h1>
     <div class="text-center" in:fade={{ duration: 2000 }}>
       <img src="center.png" alt="imagine mediatie" class="img-top img-fluid" />
     </div>
@@ -52,11 +58,13 @@
         occidentale.
       </p>
       <blockquote>
-        Nelson Mandela spunea ca „Educaţia este cea mai puternică armă pe care
-        voi o puteţi folosi pentru a schimba lumea.” Cu totii ne dorim sa
-        schimbam lumea, dar asta porneste de la fiecare dintre noi. Doar aici si
-        acum putem actiona sa ne educam mintea spre a deveni cea mai buna
-        varianta a noastra.
+        <em>
+          Nelson Mandela spunea ca „Educaţia este cea mai puternică armă pe care
+          voi o puteţi folosi pentru a schimba lumea.” Cu totii ne dorim sa
+          schimbam lumea, dar asta porneste de la fiecare dintre noi. Doar aici
+          si acum putem actiona sa ne educam mintea spre a deveni cea mai buna
+          varianta a noastra.
+        </em>
       </blockquote>
       <p class="paragraph-text">
         Orientarea noastra in psihoterapie experentiala urmeaza un proces
@@ -98,14 +106,14 @@
         sunt aspecte vitale pentru o viata traita in armonie si continua
         dezvoltare.
       </p>
-      <blockquote>
+      <p class="paragraph-text">
         Ne adresam tuturor oamenilor care isi doresc o schimbare in stilul lor
         de viata, o imbunatatire a sanatatii si a interactiunii cu cei din jur
         si mai ales celor care simt ca nu mai pot face fata problemelor zilnice,
         se confrunta cu stari de stres, anxietate, depresie, vinovatie,
         frustrare, sentimente de neputinta, probleme in relatia de cuplu, de
         familie, etc.
-      </blockquote>
+      </p>
       <p class="paragraph-text">
         Articolele noastre va vin si ele in intampinare, pentru a va tine la
         curent cu cele mai noi informatii despre sanatatea psihica, fizica si

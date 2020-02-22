@@ -9,16 +9,21 @@
     box-shadow: -0.5rem 0 0.5rem #222736;
     transition: 0.4s ease-out;
   }
+  @media screen and (max-width: 768px) {
+    .container {
+      margin-top: 90px;
+    }
+  }
 </style>
 
-<div class="container mt-4">
-  <div class="card p-5">
-    <h3
-      class="service-title mb-4 pt-5 pt-md-0 text-center"
+<div class="container">
+  <div class="card p-2 p-md-5">
+    <h1
+      class="service-title mb-4 pt-md-0 text-center"
       in:fly={{ x: 200, duration: 2000 }}>
       Consiliere psihologica
       <span class="text-elegant font-weight-bold">.</span>
-    </h3>
+    </h1>
     <div class="service-image text-center" in:fade={{ duration: 2000 }}>
       <img
         src="consiliere-psihologica1.png"
