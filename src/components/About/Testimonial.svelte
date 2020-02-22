@@ -22,7 +22,7 @@
       name: "Vlad Sovarel",
       jobTitle: "Micul Eliade",
       text:
-        "Colaborarea cu Roxana este o colaborare bazata pe libertate de exprimare (in limita bunului simt, normal), respect reciproc si incredere maxima.",
+        "Colaborarea cu Roxana este o colaborare bazata pe libertate de exprimare.",
       imageUrl: "https://mdbootstrap.com/img/Photos/Avatars/img%20(8).jpg"
     }
   ];

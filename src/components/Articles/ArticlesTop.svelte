@@ -1,3 +1,16 @@
+<script>
+  import { onMount } from "svelte";
+  const apiUrl = process.env.SAPPER_APP_API_URL;
+  let articles = [];
+
+  onMount(async () => {
+    const res = await fetch(`${apiUrl}/articles?_limit=3`);
+    const json = await res.json();
+    articles = json;
+    console.log(articles);
+  });
+</script>
+
 <style>
   ol.most-read-list {
     list-style: none;
@@ -31,19 +44,12 @@
     text-decoration: none;
     color: #8c8c8c;
     font-family: "Oswald", sans-serif;
-    font-size: 18px;
+    font-size: 14px;
   }
 
   a.article-title:hover,
   a.category-link:hover {
     color: #dfa974;
-  }
-
-  .date {
-    font-size: 10px;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    font-family: "Oswald", sans-serif;
   }
 
   ol {
@@ -64,47 +70,30 @@
 </style>
 
 <ol class="most-read-list">
-  <li class="most-read-list-item row">
-    <div class="text-holder col-md-6 col-6">
-      <div class="category">
-        <a href="" class="category-link">Psihoterapie</a>
+  {#each articles as { title, slug, categories, category_slug, image, published, author }, i}
+    <li class="most-read-list-item row">
+      <div class="text-holder col-md-6 col-6">
+        <div class="category">
+          <a
+            rel="prefetch"
+            href="articole/{category_slug}"
+            class="category-link">
+            {categories.map(category => category.name)}
+          </a>
+        </div>
+        <a
+          rel="prefetch"
+          href="articole/{category_slug}/{slug}"
+          class="article-title">
+          {title}
+        </a>
       </div>
-      <a href="#" class="article-title">Franghia trecutului</a>
-      <div class="date">
-        <span>18. dec 2019</span>
-      </div>
-    </div>
-    <div class="image-holder col-md-6 col-6">
-      <img src="workshop2.png" />
-    </div>
-  </li>
-  <li class="most-read-list-item row">
-    <div class="text-holder col-md-6 col-6">
-      <div class="category">
-        <a href="" class="category-link">Dezvoltare personala</a>
-      </div>
-      <a href="#" class="article-title">Franghia trecutului</a>
-      <div class="date">
-        <span>18. dec 2019</span>
-      </div>
-    </div>
-    <div class="image-holder col-md-6 col-6">
-      <img src="art-therapy1.png" />
-    </div>
-  </li>
-  <li class="most-read-list-item row">
-    <div class="text-holder col-md-6 col-6">
-      <div class="category">
-        <a href="" class="category-link">Sexualitate</a>
-      </div>
-      <a href="#" class="article-title">Franghia trecutului</a>
-      <div class="date">
-        <span>18. dec 2019</span>
-      </div>
-    </div>
-    <div class="image-holder col-md-6 col-6">
-      <img src="consiliere-psihologica2.jpg" />
-    </div>
-  </li>
-
+      <a
+        rel="prefetch"
+        href="articole/{category_slug}/{slug}"
+        class="image-holder col-md-6 col-6">
+        <img src={image.name} alt={title} />
+      </a>
+    </li>
+  {/each}
 </ol>

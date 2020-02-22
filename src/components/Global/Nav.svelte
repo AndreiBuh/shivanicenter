@@ -157,7 +157,6 @@
     .menu-hamburger {
       width: 40px;
       height: 35px;
-      border: 2px solid #fff;
       position: absolute;
       cursor: pointer;
       right: 5%;

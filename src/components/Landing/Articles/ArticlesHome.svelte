@@ -1,7 +1,9 @@
 <script>
   import { Tabs, Tab, TabList, TabPanel } from "svelte-tabs";
-  import ArticleCard from "./ArticleCard.svelte";
-  import Pagination from "../Global/Pagination.svelte";
+  import ArticleCardCenter from "./ArticleCardCenter.svelte";
+  import ArticleCardSide from "./ArticleCardSide.svelte";
+  import Pagination from "../../Global/Pagination.svelte";
+  import Heading from "../../UI/Heading.svelte";
 
   let articles = [
     {
@@ -52,18 +54,6 @@
     margin: 30px auto;
   }
 
-  p,
-  h6 {
-    font-family: "Josefin Sans";
-  }
-
-  .z-depth-1-half {
-    -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18),
-      0 4px 15px 0 rgba(0, 0, 0, 0.15) !important;
-    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18),
-      0 4px 15px 0 rgba(0, 0, 0, 0.15) !important;
-  }
-
   :global(.svelte-tabs li) {
     font-size: 16px;
     color: #000 !important;
@@ -72,8 +62,7 @@
     outline: none !important;
   }
 
-  :global(.svelte-tabs ul),
-  :global(.card) {
+  :global(.svelte-tabs ul) {
     border: none !important;
   }
 
@@ -88,6 +77,7 @@
 </style>
 
 <main class="container">
+  <Heading title="Articole" />
   <Tabs>
     <TabList>
       {#each tabs as tab}
@@ -97,29 +87,17 @@
 
     {#each tabs as tab}
       <TabPanel>
-        <div class="row p-5">
-          <div class="col-xs-12 col-md-6 pt-4">
-            <ArticleCard category={tab} />
+        <div class="row mt-5">
+          <div class="col-3">
+            <ArticleCardSide />
+            <ArticleCardSide />
           </div>
-          <div class="col-xs-12 col-md-6">
-            {#each articles as { title, src, text, author, date }}
-              <section class="card m-3">
-                <div class="row">
-                  <div class="col-lg-5">
-                    <div
-                      class="view overlay rounded z-depth-1-half mb-lg-0 mb-4">
-                      <img class="img-fluid" {src} alt={title} />
-                    </div>
-                  </div>
-                  <div class="col-lg-7 pt-3">
-                    <h6 class="font-weight-bold">
-                      <strong>{title}</strong>
-                    </h6>
-                    <p class="dark-grey-text">{text}</p>
-                  </div>
-                </div>
-              </section>
-            {/each}
+          <div class="col-6">
+            <ArticleCardCenter category={tab} />
+          </div>
+          <div class="col-3">
+            <ArticleCardSide />
+            <ArticleCardSide />
           </div>
         </div>
       </TabPanel>

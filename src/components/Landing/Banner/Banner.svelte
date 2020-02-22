@@ -48,7 +48,7 @@
   }
 
   .banner-title {
-    font-family: "Josefin Sans", sans-serif;
+    font-family: "Playball", sans-serif;
   }
 
   .text-elegant {
