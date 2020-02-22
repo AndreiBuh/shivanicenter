@@ -1,14 +1,18 @@
 <script>
   export let title;
-  export let content;
-  export let src;
-  export let category;
+  export let image;
   export let author;
-  export let date;
-  export let read;
+  export let published;
+  export let excerpt;
+  export let categories;
+  export let category_slug;
+  export let slug;
 </script>
 
 <style>
+  a {
+    text-decoration: none;
+  }
   .card {
     border: none;
     border-bottom: 1px solid #f0f0f0;
@@ -48,18 +52,26 @@
 </style>
 
 <div class="card">
-  <img {src} alt="" class="post-overlay" />
+  <a rel="prefetch" href="articole/{category_slug}/{slug}">
+    <img src={image.name} alt="" class="post-overlay" />
+  </a>
   <div class="post-categories mt-md-4 mt-0">
-    <a rel="prefetch" href="articole/{category}" class="font-weight-bold">
-      {category}
+    <a rel="prefetch" href="articole/{category_slug}" class="font-weight-bold">
+      {categories.map(category => category.name)}
     </a>
   </div>
   <div class="post-title">
-    <h2 class="font-weight-bold">{title}</h2>
+    <a
+      rel="prefetch"
+      href="articole/{category_slug}/{slug}"
+      class="font-weight-bold">
+      <h2 class="font-weight-bold">{title}</h2>
+    </a>
   </div>
-  <div class="post-content">{content}</div>
+  <div class="post-content">
+    {@html excerpt}
+  </div>
   <div class="post-meta">
-    <span>{author}, {date},</span>
-    <span>{read}</span>
+    <span>{author}, {published}</span>
   </div>
 </div>

@@ -3,37 +3,17 @@
   import SearchBar from "./SearchBar.svelte";
   import ArticlesTop from "./ArticlesTop.svelte";
   import Social from "../Global/Social.svelte";
+  import { onMount } from "svelte";
 
-  let categories = [
-    {
-      name: "Familie",
-      slug: "familie"
-    },
-    {
-      name: "Relatie de cuplu",
-      slug: "relatie-de-cuplu"
-    },
-    {
-      name: "Sanatate",
-      slug: "sanatate"
-    },
-    {
-      name: "Meditatie/Yoga",
-      slug: "meditatie-yoga"
-    },
-    {
-      name: "Dezvoltare personala",
-      slug: "dezvoltare-personala"
-    },
-    {
-      name: "Sexualitate",
-      slug: "sexualitate"
-    },
-    {
-      name: "Stiinta",
-      slug: "stiinta"
-    }
-  ];
+  const apiUrl = process.env.SAPPER_APP_API_URL;
+  let categories = [];
+
+  onMount(async () => {
+    const res = await fetch(`${apiUrl}/categories`);
+    const json = await res.json();
+    categories = json;
+    console.log(categories);
+  });
 </script>
 
 <style>

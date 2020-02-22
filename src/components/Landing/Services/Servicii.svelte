@@ -1,4 +1,5 @@
 <script>
+  import Heading from "../../UI/Heading.svelte";
   let services = [
     {
       id: 1,
@@ -169,6 +170,7 @@
 
 <section class="services-section">
   <div class="container">
+    <Heading title="Servicii" />
     <div class="row">
       {#each services as { id, title, name, url, icon, content } (id)}
         <div class="col-xs-6 col-lg-3">

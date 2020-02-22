@@ -68,10 +68,10 @@
     height: 1px;
     background-image: linear-gradient(
       to right,
-      rgba(43, 46, 47, 0),
-      rgba(43, 46, 57, 0.55),
-      rgba(43, 46, 57, 0)
-    );
+      rgba(223, 169, 116, 0),
+      rgba(223, 169, 116, 0.55),
+      rgba(223, 169, 116, 0)
+    ) !important;
   }
   :global(.end) {
     font-family: "Pinyon Script", cursive;
