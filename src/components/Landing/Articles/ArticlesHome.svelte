@@ -57,7 +57,7 @@
   :global(.svelte-tabs li) {
     font-size: 16px;
     color: #000 !important;
-    margin: 0 10px;
+    margin: 0 5px;
     font-family: "Oswald" !important;
     outline: none !important;
   }
@@ -71,7 +71,7 @@
   }
 
   :global(.svelte-tabs li.svelte-tabs__selected) {
-    font-size: 20px;
+    font-weight: 700;
     border-bottom: 2px solid #000;
   }
 </style>
@@ -88,14 +88,14 @@
     {#each tabs as tab}
       <TabPanel>
         <div class="row mt-5">
-          <div class="col-3">
+          <div class="col-12 col-md-3">
             <ArticleCardSide />
             <ArticleCardSide />
           </div>
-          <div class="col-6">
+          <div class="col-12 col-md-6 mb-5 mb-md-0">
             <ArticleCardCenter category={tab} />
           </div>
-          <div class="col-3">
+          <div class="col-12 col-md-3 mt-5 mt-md-0">
             <ArticleCardSide />
             <ArticleCardSide />
           </div>

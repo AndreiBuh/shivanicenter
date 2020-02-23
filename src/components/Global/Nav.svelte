@@ -242,9 +242,10 @@
 
     .mainmenu ul li .dropdown {
       position: absolute;
-      left: 0;
+      left: -40px;
+      top: 40px;
       width: 180px;
-      background: #ffffff;
+      background: #222736;
       z-index: 9;
       opacity: 0;
       visibility: hidden;
@@ -257,7 +258,7 @@
 
     .mainmenu ul li .dropdown li a {
       font-size: 14px;
-      color: #19191a;
+      color: #fff;
       display: block;
       text-align: left;
       padding: 8px 15px;
