@@ -274,232 +274,231 @@
 </style>
 
 <svelte:window bind:scrollY={y} />
-
-{#if y < '400'}
-  <nav in:fly={{ y: -100, duration: 400 }}>
-    <a href=".">
-      <div class="logo-mobile">
-        <div>
-          <img src="logo6-min.png" alt="logo" />
-        </div>
-        <div class="ml-2">
-          <div class="logo-title">Shivani Center</div>
-          <div class="logo-subtitle text-center">HOLISTIC PSYCHOLOGY</div>
-        </div>
+<!-- {#if y < '400'} -->
+<nav>
+  <a href=".">
+    <div class="logo-mobile">
+      <div>
+        <img src="logo6-min.png" alt="logo" />
       </div>
-    </a>
-    <div class="menu-hamburger" on:click={toggleMobileMenu}>
-      <div class="hamburger" class:ham={mobileMenu} />
+      <div class="ml-2">
+        <div class="logo-title">Shivani Center</div>
+        <div class="logo-subtitle text-center">HOLISTIC PSYCHOLOGY</div>
+      </div>
     </div>
-    <div class="mainmenu">
-      <ul class="nav-links" class:mobileMenu bind:this={navLinks}>
-        <li class="mx-4 mx-lg-5" rel="prefetch">
-          <a href="javascript:void(0)" on:click={toggleOpen1}>DESPRE NOI</a>
-          <ul class="dropdown" class:active={open1} class:inactive={!open1}>
-            <li>
-              <a
-                rel="prefetch"
-                href="despre-noi/shivani-center"
-                on:click={toggleMobileMenu}>
-                Shivani Center
-              </a>
-            </li>
-            <li>
-              <a
-                rel="prefetch"
-                href="despre-noi/roxana-alecu"
-                on:click={toggleMobileMenu}>
-                Psiholog Alecu Roxana
-              </a>
-            </li>
-            <li>
-              <a
-                rel="prefetch"
-                href="despre-noi/alexandra-tatu"
-                on:click={toggleMobileMenu}>
-                Psiholog Tatu Alexandra
-              </a>
-            </li>
-          </ul>
-        </li>
-        <li class="mx-5 mx-lg-5" rel="prefetch">
-          <a href="javascript:void(0)" on:click={toggleOpen2}>ARTICOLE</a>
-          <ul class="dropdown" class:active={open2} class:inactive={!open2}>
-            <li>
-              <a
-                rel="prefetch"
-                href="articole/familie"
-                on:click={toggleMobileMenu}>
-                Familie
-              </a>
-            </li>
-            <li>
-              <a
-                rel="prefetch"
-                href="articole/relatie-de-cuplu"
-                on:click={toggleMobileMenu}>
-                Relatie de cuplu
-              </a>
-            </li>
-            <li>
-              <a
-                rel="prefetch"
-                href="articole/sanatate"
-                on:click={toggleMobileMenu}>
-                Sanatate
-              </a>
-            </li>
-            <li>
-              <a
-                rel="prefetch"
-                href="articole/meditatie-yoga"
-                on:click={toggleMobileMenu}>
-                Meditatie/Yoga
-              </a>
-            </li>
-            <li>
-              <a
-                rel="prefetch"
-                href="articole/dezvoltare-personala"
-                on:click={toggleMobileMenu}>
-                Dezvoltare personala
-              </a>
-            </li>
-            <li>
-              <a
-                rel="prefetch"
-                href="articole/sexualitate"
-                on:click={toggleMobileMenu}>
-                Sexualitate
-              </a>
-            </li>
-            <li>
-              <a
-                rel="prefetch"
-                href="articole/timp-liber"
-                on:click={toggleMobileMenu}>
-                Timp liber
-              </a>
-            </li>
-          </ul>
-        </li>
-        <li class="mx-5 mx-lg-5" rel="prefetch">
-          <a href="javascript:void(0)" on:click={toggleOpen3}>SERVICII</a>
-          <ul class="dropdown" class:active={open3} class:inactive={!open3}>
-            <li>
-              <a
-                rel="prefetch"
-                href="servicii/consiliere-psihologica"
-                on:click={toggleMobileMenu}>
-                Consiliere psihologica
-              </a>
-            </li>
-            <li>
-              <a
-                rel="prefetch"
-                href="servicii/psihoterapie"
-                on:click={toggleMobileMenu}>
-                Psihoterapie
-              </a>
-            </li>
-            <li>
-              <a
-                rel="prefetch"
-                href="servicii/meditatie"
-                on:click={toggleMobileMenu}>
-                Meditatie
-              </a>
-            </li>
-            <li>
-              <a
-                rel="prefetch"
-                href="servicii/dezvoltare-personala"
-                on:click={toggleMobileMenu}>
-                Dezvoltare personala
-              </a>
-            </li>
-            <li>
-              <a
-                rel="prefetch"
-                href="servicii/psihoeducatie"
-                on:click={toggleMobileMenu}>
-                Psihoeducatie
-              </a>
-            </li>
-            <li>
-              <a
-                rel="prefetch"
-                href="servicii/workshop"
-                on:click={toggleMobileMenu}>
-                Workshop-uri
-              </a>
-            </li>
-            <li>
-              <a
-                rel="prefetch"
-                href="servicii/art-therapy"
-                on:click={toggleMobileMenu}>
-                Art-therapy
-              </a>
-            </li>
-            <li>
-              <a
-                rel="prefetch"
-                href="servicii/consiliere-vocationala"
-                on:click={toggleMobileMenu}>
-                Consiliere vocationala
-              </a>
-            </li>
-          </ul>
-        </li>
-        <li class="logo-list-item mx-5 mt-3">
-          <div
-            class="logo-wrapper text-center"
-            in:fly={{ y: -200, duration: 2000 }}>
-            <a href=".">
-              <img
-                src="logo6-min.png"
-                alt="logo"
-                class="logo"
-                width="100"
-                height="100" />
-              <div class="logo-title">Shivani Center</div>
-              <div class="logo-subtitle">HOLISTIC PSYCHOLOGY</div>
+  </a>
+  <div class="menu-hamburger" on:click={toggleMobileMenu}>
+    <div class="hamburger" class:ham={mobileMenu} />
+  </div>
+  <div class="mainmenu">
+    <ul class="nav-links" class:mobileMenu bind:this={navLinks}>
+      <li class="mx-4 mx-lg-5" rel="prefetch">
+        <a href="javascript:void(0)" on:click={toggleOpen1}>DESPRE NOI</a>
+        <ul class="dropdown" class:active={open1} class:inactive={!open1}>
+          <li>
+            <a
+              rel="prefetch"
+              href="despre-noi/shivani-center"
+              on:click={toggleMobileMenu}>
+              Shivani Center
             </a>
-          </div>
-        </li>
-        <li class="mx-5 mx-lg-5" rel="prefetch">
-          <a
-            rel="prefetch"
-            class:selected={segment === 'evenimente'}
-            href="evenimente"
-            on:click={toggleMobileMenu}>
-            EVENIMENTE
+          </li>
+          <li>
+            <a
+              rel="prefetch"
+              href="despre-noi/roxana-alecu"
+              on:click={toggleMobileMenu}>
+              Psiholog Alecu Roxana
+            </a>
+          </li>
+          <li>
+            <a
+              rel="prefetch"
+              href="despre-noi/alexandra-tatu"
+              on:click={toggleMobileMenu}>
+              Psiholog Tatu Alexandra
+            </a>
+          </li>
+        </ul>
+      </li>
+      <li class="mx-5 mx-lg-5" rel="prefetch">
+        <a href="javascript:void(0)" on:click={toggleOpen2}>ARTICOLE</a>
+        <ul class="dropdown" class:active={open2} class:inactive={!open2}>
+          <li>
+            <a
+              rel="prefetch"
+              href="articole/familie"
+              on:click={toggleMobileMenu}>
+              Familie
+            </a>
+          </li>
+          <li>
+            <a
+              rel="prefetch"
+              href="articole/relatie-de-cuplu"
+              on:click={toggleMobileMenu}>
+              Relatie de cuplu
+            </a>
+          </li>
+          <li>
+            <a
+              rel="prefetch"
+              href="articole/sanatate"
+              on:click={toggleMobileMenu}>
+              Sanatate
+            </a>
+          </li>
+          <li>
+            <a
+              rel="prefetch"
+              href="articole/meditatie-yoga"
+              on:click={toggleMobileMenu}>
+              Meditatie/Yoga
+            </a>
+          </li>
+          <li>
+            <a
+              rel="prefetch"
+              href="articole/dezvoltare-personala"
+              on:click={toggleMobileMenu}>
+              Dezvoltare personala
+            </a>
+          </li>
+          <li>
+            <a
+              rel="prefetch"
+              href="articole/sexualitate"
+              on:click={toggleMobileMenu}>
+              Sexualitate
+            </a>
+          </li>
+          <li>
+            <a
+              rel="prefetch"
+              href="articole/timp-liber"
+              on:click={toggleMobileMenu}>
+              Timp liber
+            </a>
+          </li>
+        </ul>
+      </li>
+      <li class="mx-5 mx-lg-5" rel="prefetch">
+        <a href="javascript:void(0)" on:click={toggleOpen3}>SERVICII</a>
+        <ul class="dropdown" class:active={open3} class:inactive={!open3}>
+          <li>
+            <a
+              rel="prefetch"
+              href="servicii/consiliere-psihologica"
+              on:click={toggleMobileMenu}>
+              Consiliere psihologica
+            </a>
+          </li>
+          <li>
+            <a
+              rel="prefetch"
+              href="servicii/psihoterapie"
+              on:click={toggleMobileMenu}>
+              Psihoterapie
+            </a>
+          </li>
+          <li>
+            <a
+              rel="prefetch"
+              href="servicii/meditatie"
+              on:click={toggleMobileMenu}>
+              Meditatie
+            </a>
+          </li>
+          <li>
+            <a
+              rel="prefetch"
+              href="servicii/dezvoltare-personala"
+              on:click={toggleMobileMenu}>
+              Dezvoltare personala
+            </a>
+          </li>
+          <li>
+            <a
+              rel="prefetch"
+              href="servicii/psihoeducatie"
+              on:click={toggleMobileMenu}>
+              Psihoeducatie
+            </a>
+          </li>
+          <li>
+            <a
+              rel="prefetch"
+              href="servicii/workshop"
+              on:click={toggleMobileMenu}>
+              Workshop-uri
+            </a>
+          </li>
+          <li>
+            <a
+              rel="prefetch"
+              href="servicii/art-therapy"
+              on:click={toggleMobileMenu}>
+              Art-therapy
+            </a>
+          </li>
+          <li>
+            <a
+              rel="prefetch"
+              href="servicii/consiliere-vocationala"
+              on:click={toggleMobileMenu}>
+              Consiliere vocationala
+            </a>
+          </li>
+        </ul>
+      </li>
+      <li class="logo-list-item mx-5 mt-3">
+        <div
+          class="logo-wrapper text-center"
+          in:fly={{ y: -200, duration: 2000 }}>
+          <a href=".">
+            <img
+              src="logo6-min.png"
+              alt="logo"
+              class="logo"
+              width="100"
+              height="100" />
+            <div class="logo-title">Shivani Center</div>
+            <div class="logo-subtitle">HOLISTIC PSYCHOLOGY</div>
           </a>
-        </li>
-        <li class="mx-5 mx-lg-5" rel="prefetch">
-          <a
-            rel="prefetch"
-            class:selected={segment === 'blog'}
-            href="blog"
-            on:click={toggleMobileMenu}>
-            BLOG
-          </a>
-        </li>
-        <li class="mx-5 mx-lg-5" rel="prefetch">
-          <a
-            rel="prefetch"
-            class:selected={segment === 'contact'}
-            href="contact"
-            on:click={toggleMobileMenu}>
-            CONTACT
-          </a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-{:else}
-  <nav in:fly={{ y: -100, duration: 1500 }} class="nav-transparent">
+        </div>
+      </li>
+      <li class="mx-5 mx-lg-5" rel="prefetch">
+        <a
+          rel="prefetch"
+          class:selected={segment === 'evenimente'}
+          href="evenimente"
+          on:click={toggleMobileMenu}>
+          EVENIMENTE
+        </a>
+      </li>
+      <li class="mx-5 mx-lg-5" rel="prefetch">
+        <a
+          rel="prefetch"
+          class:selected={segment === 'blog'}
+          href="blog"
+          on:click={toggleMobileMenu}>
+          BLOG
+        </a>
+      </li>
+      <li class="mx-5 mx-lg-5" rel="prefetch">
+        <a
+          rel="prefetch"
+          class:selected={segment === 'contact'}
+          href="contact"
+          on:click={toggleMobileMenu}>
+          CONTACT
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<!-- {:else} -->
+<!-- <nav in:fly={{ y: -100, duration: 1500 }} class="nav-transparent">
     <a href=".">
       <div class="logo-mobile">
         <div>
@@ -707,5 +706,5 @@
         </li>
       </ul>
     </div>
-  </nav>
-{/if}
+  </nav> -->
+<!-- {/if} -->
