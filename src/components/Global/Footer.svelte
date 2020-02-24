@@ -7,6 +7,35 @@
     faLinkedin
   } from "@fortawesome/free-brands-svg-icons";
   import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+
+  const apiUrl = process.env.SAPPER_APP_API_URL;
+  let isLoading = false;
+  let email = "";
+
+  const addEmail = async () => {
+    let newMail = {
+      email
+    };
+    isLoading = true;
+    const response = await fetch(`${apiUrl}/newsletters`, {
+      method: "POST",
+      body: JSON.stringify(newMail),
+      headers: {
+        Accept: "application/json",
+        "Content-Type": "application/json"
+      }
+    });
+    isLoading = false;
+    email = "";
+    if (!response.ok) throw Error(response.message);
+    try {
+      const data = await response.json();
+      return data;
+    } catch (err) {
+      isLoading = false;
+      throw err;
+    }
+  };
 </script>
 
 <style>
@@ -123,6 +152,28 @@
     font-size: 16px;
     color: #aaaab3;
   }
+
+  #loading {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid rgba(204, 181, 181, 0.3);
+    border-radius: 50%;
+    border-top-color: #fff;
+    animation: spin 3s ease-in-out infinite;
+    -webkit-animation: spin 3s ease-in-out infinite;
+  }
+
+  @keyframes spin {
+    to {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+  @-webkit-keyframes spin {
+    to {
+      -webkit-transform: rotate(360deg);
+    }
+  }
 </style>
 
 <footer class="footer-section mt-5">
@@ -170,9 +221,13 @@
             <h6>Newsletter</h6>
             <p>Fii la curent cu ultimele articole.</p>
             <form class="fn-form">
-              <input type="text" placeholder="Email" />
-              <button type="submit">
-                <Icon icon={faEnvelope} />
+              <input type="email" placeholder="Email" bind:value={email} />
+              <button type="button" on:click={addEmail}>
+                {#if isLoading}
+                  <div id="loading" />
+                {:else}
+                  <Icon icon={faEnvelope} />
+                {/if}
               </button>
             </form>
           </div>
