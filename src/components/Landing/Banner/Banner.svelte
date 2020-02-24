@@ -25,9 +25,7 @@
   }
 
   [class^="flaticon-"]:before,
-  [class*=" flaticon-"]:before,
-  [class^="flaticon-"]:after,
-  [class*=" flaticon-"]:after {
+  [class^="flaticon-"]:after {
     font-family: Flaticon;
     font-size: 30px;
   }
@@ -160,8 +158,8 @@
       <h3 class="banner-title text-elegant title mb-4">{title}</h3>
       <div class="d-flex justify-content-center">
         <form class="fn-form">
-          <input type="text" placeholder="Email" />
-          <button type="submit">
+          <input type="email" placeholder="Email" />
+          <button type="button">
             <Icon icon={faEnvelope} />
           </button>
         </form>

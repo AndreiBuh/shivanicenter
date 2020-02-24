@@ -128,7 +128,7 @@
         </a>
         .
       </p>
-      <div class="m-5 text-right">
+      <div class="m-3 text-right">
         <p class="paragraph-text">Cu stima,</p>
         <p class="end">Shivani Center</p>
       </div>

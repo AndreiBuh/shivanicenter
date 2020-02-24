@@ -10,7 +10,6 @@
     const res = await fetch(`${apiUrl}/articles?_limit=9`);
     const json = await res.json();
     articles = json;
-    console.log(articles);
   });
 </script>
 
