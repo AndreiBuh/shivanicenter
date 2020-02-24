@@ -73,7 +73,7 @@
   }
 </style>
 
-<div in:fade={{ duration: 2000 }} class="mb-5">
+<div in:fade={{ duration: 1000 }} class="mb-5">
   <Carousel perPage={1} loop autoplay={4000}>
     <!-- <span class="control" slot="left-control">
       <ChevronLeftIcon />

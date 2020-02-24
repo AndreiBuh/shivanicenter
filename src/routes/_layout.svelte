@@ -1,7 +1,15 @@
 <script>
-  import Nav from "../components/Global/Nav.svelte";
+  import { onMount } from "svelte";
+  // import Nav from "../components/Global/Nav.svelte";
   import Footer from "../components/Global/Footer.svelte";
   export let segment;
+
+  let Nav;
+
+  onMount(async () => {
+    const navigation = await import("../components/Global/Nav.svelte");
+    Nav = navigation.default;
+  });
 </script>
 
 <style>
@@ -105,7 +113,7 @@
   }
 </style>
 
-<Nav {segment} />
+<svelte:component this={Nav} {segment} />
 <main>
   <slot />
 </main>
