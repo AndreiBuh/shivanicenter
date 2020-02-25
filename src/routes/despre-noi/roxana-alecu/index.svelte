@@ -21,6 +21,7 @@
 <svelte:head>
   <title>Psiholog Roxana Alecu</title>
 </svelte:head>
+
 <div class="container">
   <div class="card p-2 p-md-5">
     <h1
@@ -125,7 +126,6 @@
         <p class="paragraph-text">Cu iubire si recunostinta,</p>
         <p class="end">Roxana Alecu</p>
       </div>
-
       <hr class="style-hr" />
       <Testimonial />
       <hr class="style-hr" />

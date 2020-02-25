@@ -1,10 +1,12 @@
 <script>
   import { onMount } from "svelte";
+  import { fade, fly } from "svelte/transition";
   // import Nav from "../components/Global/Nav.svelte";
   import Footer from "../components/Global/Footer.svelte";
   export let segment;
 
   let Nav;
+  let scroll;
 
   onMount(async () => {
     const navigation = await import("../components/Global/Nav.svelte");
@@ -20,11 +22,39 @@
     margin-top: 220px;
   }
 
+  .btn-scroll {
+    display: inline-block;
+    background-color: #fff;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
+    z-index: 1000;
+    border: none;
+  }
+  .btn-scroll::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #222736;
+  }
+  .btn-scroll:hover {
+    cursor: pointer;
+    background-color: #ddd;
+  }
   /*  Servicii descriptions style START */
   :global(.service-title) {
     font-family: "Playball", "Oswald", sans-serif;
     color: #fff;
   }
+
   :global(.img-top) {
     width: 70%;
   }
@@ -47,9 +77,7 @@
     position: relative;
     margin: 50px 0;
     font-weight: 700;
-    /* border-top: 1px dashed #fff; */
     display: block;
-    /* border-bottom: 1px dashed #fff; */
     padding: 8px 65px;
     text-align: center;
     line-height: 1.6em;
@@ -94,6 +122,17 @@
   /* Despre noi pages style END */
 
   @media screen and (max-width: 768px) {
+    .btn-scroll {
+      width: 30px;
+      height: 30px;
+      bottom: 10px;
+      right: 20px;
+      border-radius: 10px;
+    }
+    .btn-scroll::after {
+      font-size: 15px;
+      line-height: 30px;
+    }
     :global(.img-top) {
       width: 100%;
     }
@@ -110,11 +149,24 @@
     :global(main) {
       margin-top: 70px !important;
     }
+
+    :global(.service-title) {
+      font-size: 28px !important;
+    }
   }
 </style>
+
+<svelte:window bind:scrollY={scroll} id:slides />
 
 <svelte:component this={Nav} {segment} />
 <main>
   <slot />
+  {#if scroll > '800'}
+    <button
+      class="btn-scroll"
+      on:click={() => (scroll = 0)}
+      in:fly={{ y: 50, duration: 1000 }}
+      out:fade />
+  {/if}
 </main>
 <Footer />

@@ -20,7 +20,7 @@
   <div class="card p-2 p-md-5">
     <h1
       class="service-title mb-4 pt-md-0 text-center"
-      in:fly={{ x: 200, duration: 2000 }}>
+      in:fly={{ x: -200, duration: 2000 }}>
       Psihoterapie
       <span class="text-elegant font-weight-bold">.</span>
     </h1>
