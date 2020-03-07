@@ -15,7 +15,7 @@
 </script>
 
 <svelte:head>
-  <title>Shivani center</title>
+  <title>Shivani Center</title>
 </svelte:head>
 <svelte:component this={HomeCarousel} />
 <LastStories />

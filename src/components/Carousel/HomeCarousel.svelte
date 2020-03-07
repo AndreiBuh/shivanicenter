@@ -93,7 +93,7 @@
           </p>
           <p class="text-truncate text-white ">{text}</p>
           <div class="p-4">
-            <button class="btn btn-outline py-2 px-4">
+            <button class="btn btn-outline py-2 px-4" aria-label="Citeste">
               <a href="despre-noi/{slug}">
                 <span class="text-white">CITEȘTE</span>
               </a>

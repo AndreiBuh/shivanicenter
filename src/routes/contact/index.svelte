@@ -136,6 +136,7 @@
 <svelte:head>
   <title>Contact</title>
 </svelte:head>
+
 <section class="contact-section">
   <div class="container">
     <div class="row">
@@ -170,14 +171,28 @@
         <form class="contact-form">
           <div class="row">
             <div class="col-lg-6">
-              <input type="text" placeholder="Nume" bind:value={name} />
+              <input
+                type="text"
+                placeholder="Nume"
+                bind:value={name}
+                aria-label="Nume" />
             </div>
             <div class="col-lg-6">
-              <input type="email" placeholder="Email" bind:value={email} />
+              <input
+                type="email"
+                placeholder="Email"
+                bind:value={email}
+                aria-label="Email" />
             </div>
             <div class="col-lg-12 text-center">
-              <textarea placeholder="Mesajul tau" bind:value={message} />
-              <button type="button" on:click={addContactMessage}>
+              <textarea
+                placeholder="Mesajul tau"
+                bind:value={message}
+                aria-label="Mesaj" />
+              <button
+                type="button"
+                on:click={addContactMessage}
+                aria-label="Trimite">
                 {#if isLoading}
                   <div id="loading" />
                 {/if}
