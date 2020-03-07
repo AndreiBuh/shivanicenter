@@ -158,8 +158,8 @@
       <h3 class="banner-title text-elegant title mb-4">{title}</h3>
       <div class="d-flex justify-content-center">
         <form class="fn-form">
-          <input type="email" placeholder="Email" />
-          <button type="button">
+          <input type="email" placeholder="Email" aria-label="email" />
+          <button type="button" aria-label="Trimite">
             <Icon icon={faEnvelope} />
           </button>
         </form>

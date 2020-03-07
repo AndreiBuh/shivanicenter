@@ -191,16 +191,19 @@
               across 90 local websites
             </p>
             <div class="fa-social">
-              <a href="http://www.facebook.com">
+              <a
+                href="http://www.facebook.com"
+                aria-label="Pagina de facebook Shivani Center">
                 <Icon icon={faFacebook} />
               </a>
-              <a href="http://www.instagram.com">
+              <a
+                href="http://www.instagram.com"
+                aria-label="Pagina de instagram Shivani Center">
                 <Icon icon={faInstagram} />
               </a>
-              <a href="http://www.twitter.com">
-                <Icon icon={faTwitter} />
-              </a>
-              <a href="http://www.linkedin.com">
+              <a
+                href="http://www.linkedin.com"
+                aria-label="Pagina de linkedin Shivani Center">
                 <Icon icon={faLinkedin} />
               </a>
             </div>
@@ -221,8 +224,12 @@
             <h6>Newsletter</h6>
             <p>Fii la curent cu ultimele articole.</p>
             <form class="fn-form">
-              <input type="email" placeholder="Email" bind:value={email} />
-              <button type="button" on:click={addEmail}>
+              <input
+                type="email"
+                placeholder="Email"
+                bind:value={email}
+                aria-label="Email" />
+              <button type="button" on:click={addEmail} aria-label="Trimite">
                 {#if isLoading}
                   <div id="loading" />
                 {:else}

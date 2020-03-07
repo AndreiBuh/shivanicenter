@@ -94,6 +94,7 @@
     letter-spacing: 4px;
     color: #dfa974;
     font-family: "Averta", sans-serif;
+    font-display: swap;
   }
 
   .mainmenu ul li {
@@ -455,10 +456,10 @@
           <div
             class="logo-wrapper text-center"
             in:fly={{ y: -200, duration: 2000 }}>
-            <a href=".">
+            <a href="." aria-label="Pagina de start Shivani Center">
               <img
                 src="logo6-min.png"
-                alt="logo"
+                alt="Shivani Center"
                 class="logo"
                 width="100"
                 height="100" />

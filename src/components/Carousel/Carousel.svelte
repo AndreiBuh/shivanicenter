@@ -106,7 +106,7 @@
 </style>
 
 <div class="carousel">
-  <button class="left" on:click={left}>
+  <button class="left" on:click={left} aria-label="left">
     <slot name="left-control" />
   </button>
   <div class="slides" bind:this={siema}>
@@ -117,7 +117,7 @@
       <li on:click={() => go(i)} />
     {/each}
   </ul>
-  <button class="right" on:click={right}>
+  <button class="right" on:click={right} aria-label="right">
     <slot name="right-control" />
   </button>
 </div>

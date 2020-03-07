@@ -164,6 +164,7 @@
   {#if scroll > '800'}
     <button
       class="btn-scroll"
+      aria-label="Top"
       on:click={() => (scroll = 0)}
       in:fly={{ y: 50, duration: 1000 }}
       out:fade />

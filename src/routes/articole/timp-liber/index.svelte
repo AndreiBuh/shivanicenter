@@ -18,6 +18,10 @@
   );
 </script>
 
+<svelte:head>
+  <title>Articole</title>
+</svelte:head>
+
 <ArticlesPages
   articles={filteredArticles}
   category="Timp liber"

@@ -17,6 +17,10 @@
   }
 </style>
 
+<svelte:head>
+  <title>Psihoeducatie</title>
+</svelte:head>
+
 <div class="container">
   <div class="card p-2 p-md-5">
     <h1
