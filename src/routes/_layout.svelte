@@ -1,17 +1,17 @@
 <script>
   import { onMount } from "svelte";
   import { fade, fly } from "svelte/transition";
-  // import Nav from "../components/Global/Nav.svelte";
+  import Nav from "../components/Global/Nav.svelte";
   import Footer from "../components/Global/Footer.svelte";
   export let segment;
 
-  let Nav;
+  // let Nav;
   let scroll;
 
-  onMount(async () => {
-    const navigation = await import("../components/Global/Nav.svelte");
-    Nav = navigation.default;
-  });
+  // onMount(async () => {
+  //   const navigation = await import("../components/Global/Nav.svelte");
+  //   Nav = navigation.default;
+  // });
 </script>
 
 <style>
