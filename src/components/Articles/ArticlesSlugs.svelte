@@ -98,14 +98,10 @@
   }
 
   .article-card-body :global(li) {
-    margin: 0px 0px 20px 30px;
+    margin: 0px 10px 10px 15px;
     font-weight: bold;
-    font-size: 17px;
+    font-size: 14px;
     font-family: "Montserrat";
-  }
-
-  .article-card-body :global(ol) {
-    margin-bottom: 70px;
   }
 
   /* Articole pages style END */
@@ -119,7 +115,6 @@
         <div class="card-content">
           <div class="view view-cascade overlay">
             <img class="card-img-top" src={image.name} alt="Educatie fete" />
-            <div class="mask rgba-white-slight" />
           </div>
           <div class="avatar mx-auto white">
             <img
