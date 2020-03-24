@@ -7,7 +7,7 @@
   let articles = [];
 
   onMount(async () => {
-    const res = await fetch(`${apiUrl}/articles?_limit=9`);
+    const res = await fetch(`${apiUrl}/articles?_limit=20`);
     const json = await res.json();
     articles = json;
   });
@@ -44,14 +44,14 @@
 <div class="container">
   <Heading title="Ultimele postari" />
   <div class="card-columns">
-    {#each articles as { title, excerpt, image, categories, category_slug, author, published, slug }, id}
+    {#each articles as { title, excerpt, image, category, category_slug, user, published, slug }, id}
       <div class="card p-3 m-2">
         <Story
           {title}
           {excerpt}
           {image}
-          {categories}
-          {author}
+          {category}
+          {user}
           {published}
           {category_slug}
           {slug} />

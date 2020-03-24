@@ -365,14 +365,6 @@
                 Dezvoltare personala
               </a>
             </li>
-            <li>
-              <a
-                rel="prefetch"
-                href="articole/sexualitate"
-                on:click={toggleMobileMenu}>
-                Sexualitate
-              </a>
-            </li>
           </ul>
         </li>
         <li class="mx-5 mx-lg-5" rel="prefetch">
@@ -578,14 +570,6 @@
                 href="articole/dezvoltare-personala"
                 on:click={toggleMobileMenu}>
                 Dezvoltare personala
-              </a>
-            </li>
-            <li>
-              <a
-                rel="prefetch"
-                href="articole/sexualitate"
-                on:click={toggleMobileMenu}>
-                Sexualitate
               </a>
             </li>
           </ul>

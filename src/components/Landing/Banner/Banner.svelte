@@ -144,9 +144,10 @@
           <h2 class="p-2">Abordare</h2>
           <i class="flaticon-buddhism" />
           <p class="p-2">
-            Va invitam sa exploram impreuna conexiunea dintre minte, corp si
-            spirit, astfel incat sa gasiti solutiile potrivite pentru o viata
-            echilibrata.
+            Abordarea noastră holistică este centrată pe analiza de simbol,
+            dezvoltare personală şi autoschimbare prin intermediul exerciţiului
+            provocator, improvizaţiei şi meditaţiei creatoare cu suport
+            artterapeutic şi expresiv.
           </p>
         </div>
       </div>

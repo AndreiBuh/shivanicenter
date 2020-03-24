@@ -14,7 +14,9 @@
       src: "slider1.png",
       text:
         "Timpul, oamenii, evenimentele, gandurile si actiunile mele mi-au revelatmereu ceva nou despre mine. Acum, ma prezint in fata voastra mai intai cafiinta umana, cu emotii, cu probleme, cu o multime de intrebari, dar mereucu putere de a depasi momentele grele ce imi provoaca suferinta.",
-      slug: "roxana-alecu"
+      slug: "roxana-alecu",
+      quote:
+        "Poți face multe descoperiri, dar cea mai mare descoperire ești chiar tu!"
     },
 
     {
@@ -22,7 +24,9 @@
       name: "Psiholog Alexandra Tatu",
       text:
         "La fel ca şi tine, şi eu am o poveste în spatele numelui meu. De fapt, cu toţii suntem protagoniştii vieţilor noastre. Mă numesc Tatu Alexandra şi dacă vreau să îmi descriu povestea în câteva cuvinte, ele sunt acestea: căutare, efort, obstacole, apreciere, imaginaţie, sinceritate, pasiune.",
-      slug: "alexandra-tatu"
+      slug: "alexandra-tatu",
+      quote:
+        "Poți face multe descoperiri, dar cea mai mare descoperire ești chiar tu!"
     }
   ];
 </script>
@@ -75,10 +79,10 @@
 
 <div in:fade={{ duration: 1000 }} class="mb-5">
   <Carousel perPage={1} loop autoplay={4000}>
-    <!-- <span class="control" slot="left-control">
+    <span class="control" slot="left-control">
       <ChevronLeftIcon />
-    </span> -->
-    {#each slides as { src, text, name, slug }}
+    </span>
+    {#each slides as { src, text, name, slug, quote }}
       <div class="slide-content row">
         <div class="pr-0 col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
           <img {src} alt="" class="img-fluid" />
@@ -86,11 +90,8 @@
         <div
           class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 slide-text p-5
           text-center">
-          <h3 class="pb-3 text-white ">{name}</h3>
-          <p class="mb-5 text-elegant quote">
-            “Two things are infinite: the universe and human stupidity; and I'm
-            not sure about the universe.”
-          </p>
+          <h3 class="pb-3 text-white">{name}</h3>
+          <p class="mb-5 text-elegant quote">{`"${quote}"`}</p>
           <p class="text-truncate text-white ">{text}</p>
           <div class="p-4">
             <button class="btn btn-outline py-2 px-4" aria-label="Citeste">
@@ -103,8 +104,8 @@
         </div>
       </div>
     {/each}
-    <!-- <span class="control" slot="right-control">
+    <span class="control" slot="right-control">
       <ChevronRightIcon />
-    </span> -->
+    </span>
   </Carousel>
 </div>

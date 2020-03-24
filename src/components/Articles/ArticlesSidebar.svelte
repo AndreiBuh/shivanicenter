@@ -12,7 +12,6 @@
     const res = await fetch(`${apiUrl}/categories`);
     const json = await res.json();
     categories = json;
-    console.log(categories);
   });
 </script>
 
@@ -76,9 +75,9 @@
   <div class="card-content p-4">
     <h6 class="category-title">Categorii</h6>
     <ul>
-      {#each categories as { name, slug }, i}
+      {#each categories as { title, slug }, i}
         <li class="category-item">
-          <a href="articole/{slug}" rel="prefetch">{name}</a>
+          <a href="articole/{slug}" rel="prefetch">{title}</a>
         </li>
       {/each}
     </ul>
@@ -90,15 +89,38 @@
 </div>
 <div class="card">
   <div class="card-content text-center p-4">
-    <h1>asdas</h1>
+    <iframe
+      title="instagram feed"
+      src="https://www.instagram.com/p/B8dVLFbJbkX/embed"
+      height="320"
+      frameborder="0"
+      scrolling="no"
+      allowtransparency="true" />
   </div>
 </div>
 
 <div class="card mt-5">
+  <h5 class="text-center p-3 my-0">Facebook</h5>
+</div>
+<div class="card">
+  <div class="card-content text-center p-4">
+    <iframe
+      title="facebook feed"
+      src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FPsihologRoxanaAlecu%2F&tabs=timeline&width=340&height=320&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+      height="320"
+      style="border:none;overflow:hidden"
+      scrolling="no"
+      frameborder="0"
+      allowTransparency="true"
+      allow="encrypted-media" />
+  </div>
+</div>
+
+<!-- <div class="card mt-5">
   <h5 class="text-center p-3 my-0">Newsletter</h5>
 </div>
 <div class="card">
   <div class="card-content text-center p-4">
     <h1>asdas</h1>
   </div>
-</div>
+</div> -->

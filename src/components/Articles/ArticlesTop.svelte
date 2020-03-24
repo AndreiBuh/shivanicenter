@@ -70,7 +70,7 @@
 </style>
 
 <ol class="most-read-list">
-  {#each articles as { title, slug, categories, category_slug, image, published, author }, i}
+  {#each articles as { title, slug, category, category_slug, image, published, author }, i}
     <li class="most-read-list-item row">
       <div class="text-holder col-md-6 col-6">
         <div class="category">
@@ -78,7 +78,7 @@
             rel="prefetch"
             href="articole/{category_slug}"
             class="category-link">
-            {categories.map(category => category.name)}
+            {category.title}
           </a>
         </div>
         <a

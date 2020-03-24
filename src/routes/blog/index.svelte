@@ -1,9 +1,18 @@
 <script>
-  import LastStories from "../../components/Landing/LastStories/LastStories.svelte";
+  import BlogItem from "../../components/Blog/BlogItem.svelte";
 </script>
 
-<LastStories />
+<style>
+  .text-elegant {
+    color: #dfa974;
+  }
+  .service-title {
+    font-family: "Special Elite";
+  }
+</style>
 
 <svelte:head>
-  <title>Blog</title>
+  <title>Evenimente</title>
 </svelte:head>
+
+<BlogItem />

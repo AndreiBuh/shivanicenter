@@ -2,46 +2,12 @@
   import ArticlesSidebar from "./ArticlesSidebar.svelte";
   export let article;
 
-  let {
-    title,
-    image,
-    avatar,
-    author,
-    published,
-    content,
-    categories
-  } = article[0];
+  let { title, image, avatar, user, published, content, category } = article[0];
 </script>
 
 <style>
   h3 {
     font-family: "Oswald";
-  }
-  .overlay .mask {
-    opacity: 0;
-    -webkit-transition: all 0.4s ease-in-out;
-    transition: all 0.4s ease-in-out;
-  }
-  .view .mask {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    background-attachment: fixed;
-  }
-  .waves-effect {
-    position: relative;
-    overflow: hidden;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    -webkit-tap-highlight-color: transparent;
   }
 
   .card-img-top {
@@ -123,12 +89,10 @@
               alt="First sample avatar image" />
           </div>
           <div class="text-center">
-            <div class="author">{author}</div>
+            <div class="author">{user.username}</div>
             <div class="date">{published}</div>
             <div class="category">
-              <a href="" class="category-link">
-                {categories.map(category => category.name)}
-              </a>
+              <a href="" class="category-link">{category.title}</a>
             </div>
           </div>
         </div>

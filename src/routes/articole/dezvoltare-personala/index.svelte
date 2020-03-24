@@ -13,8 +13,8 @@
 <script>
   import ArticlesPages from "../../../components/Articles/ArticlesPages.svelte";
   export let articles;
-  var filteredArticles = articles.filter(a =>
-    a.categories.some(cat => cat.id == 5)
+  var filteredArticles = articles.filter(
+    a => a.category_slug === "dezvoltare-personala"
   );
 </script>
 

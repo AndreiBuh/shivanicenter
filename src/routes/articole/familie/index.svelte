@@ -13,9 +13,7 @@
 <script>
   import ArticlesPages from "../../../components/Articles/ArticlesPages.svelte";
   export let articles;
-  var filteredArticles = articles.filter(a =>
-    a.categories.some(cat => cat.id == 2)
-  );
+  var filteredArticles = articles.filter(a => a.category_slug === "familie");
 </script>
 
 <svelte:head>

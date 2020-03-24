@@ -6,6 +6,7 @@
       .then(res => res.json())
       .then(articles => {
         return { articles };
+        console.log(articles);
       });
   }
 </script>
@@ -13,9 +14,7 @@
 <script>
   import ArticlesPages from "../../../components/Articles/ArticlesPages.svelte";
   export let articles;
-  var filteredArticles = articles.filter(a =>
-    a.categories.some(cat => cat.id == 1)
-  );
+  var filteredArticles = articles.filter(a => a.category_slug === "sanatate");
 </script>
 
 <svelte:head>

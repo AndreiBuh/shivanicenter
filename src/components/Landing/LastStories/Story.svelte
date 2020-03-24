@@ -1,10 +1,10 @@
 <script>
   export let title;
   export let image;
-  export let author;
+  export let user;
   export let published;
   export let excerpt;
-  export let categories;
+  export let category;
   export let category_slug;
   export let slug;
 </script>
@@ -57,7 +57,7 @@
   </a>
   <div class="post-categories mt-md-4 mt-0">
     <a rel="prefetch" href="articole/{category_slug}" class="font-weight-bold">
-      {categories.map(category => category.name)}
+      {category.title}
     </a>
   </div>
   <div class="post-title">
@@ -72,6 +72,6 @@
     {@html excerpt}
   </div>
   <div class="post-meta">
-    <span>{author}, {published}</span>
+    <span>{user.username}, {published}</span>
   </div>
 </div>
