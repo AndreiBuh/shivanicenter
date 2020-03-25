@@ -6,7 +6,6 @@
       .then(res => res.json())
       .then(articles => {
         return { articles };
-        console.log(articles);
       });
   }
 </script>

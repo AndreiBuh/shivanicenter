@@ -1,5 +1,6 @@
 <script>
   import Heading from "../../UI/Heading.svelte";
+
   let services = [
     {
       id: 1,

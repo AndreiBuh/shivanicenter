@@ -1,6 +1,30 @@
 <script>
   import { fade, fly } from "svelte/transition";
-  import Testimonial from "../../../components/About/Testimonial.svelte";
+  import TestimonialList from "../../../components/About/TestimonialList.svelte";
+
+  let reviews = [
+    {
+      name: "Andrei Buhus",
+      jobTitle: "Web developer",
+      text:
+        "Nu pot sa aduc decat cuvinte de lauda colaborarii cu domnisoara Alecu.",
+      imageUrl: "https://mdbootstrap.com/img/Photos/Avatars/img%20(1).jpg"
+    },
+    {
+      name: "Alina Tariceanu",
+      jobTitle: "Profesor sanskrita",
+      text:
+        "Este ca si cum as discuta cu cea mai buna prietena care stie sa ajunga la esenta problemei",
+      imageUrl: "https://mdbootstrap.com/img/Photos/Avatars/img%20(8).jpg"
+    },
+    {
+      name: "Vlad Sovarel",
+      jobTitle: "Micul Eliade",
+      text:
+        "Colaborarea cu Roxana este o colaborare bazata pe libertate de exprimare.",
+      imageUrl: "https://mdbootstrap.com/img/Photos/Avatars/img%20(8).jpg"
+    }
+  ];
 </script>
 
 <style>
@@ -127,7 +151,7 @@
         <p class="end">Roxana Alecu</p>
       </div>
       <hr class="style-hr" />
-      <Testimonial />
+      <TestimonialList {reviews} />
       <hr class="style-hr" />
     </div>
   </div>

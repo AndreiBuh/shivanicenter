@@ -1,5 +1,6 @@
 <script>
   import { fade, fly } from "svelte/transition";
+  export let blog;
 </script>
 
 <style>
@@ -21,14 +22,9 @@
     }
   }
 
-  .section-box {
-    display: grid;
-    grid-template-columns: 50% 50%;
-  }
-
   .box {
     position: relative;
-    background: #000;
+    background: rgba(34, 39, 54);
     margin: 15px;
     box-sizing: border-box;
     overflow: hidden;
@@ -47,7 +43,6 @@
   }
 
   .box:hover .imgBox img {
-    opacity: 0.2;
     transform: scale(1.1);
   }
 
@@ -87,17 +82,12 @@
 
   @media screen and (max-width: 768px) {
     h4 {
-      font-size: 1.25rem;
+      font-size: 1rem;
       margin: 0;
     }
     .box .content .post-details {
       font-size: 9px;
       line-height: 9px;
-    }
-
-    .section-box {
-      display: grid;
-      grid-template-columns: 100%;
     }
 
     .box .content p {
@@ -107,45 +97,16 @@
 </style>
 
 <div class="box">
-  <div class="imgBox">
-    <img src="/blog/blog2.jpg" alt="" />
-  </div>
-  <div class="content p-2 p-md-3">
-    <h4>Adevărul este în fața ochilor noștri!</h4>
-    <span class="post-details">25 april 2017 | Roxana Alecu</span>
-    <p in:fly={{ y: 200, duration: 2000 }} out:fade class="mt-2">
-      Aud zilnic oameni nemulțumiți de lumea în care trăiesc, care spun despre
-      alți oameni că sunt răi, nepăsători, indiferenți.
-    </p>
-  </div>
-</div>
-<div class="section-box">
-  <div class="box">
+  <a rel="prefetch" href={`blog/${blog.slug}`}>
     <div class="imgBox">
-      <img
-        src="https://www.remove.bg/assets/start-0e837dcc57769db2306d8d659f53555feb500b3c5d456879b9c843d1872e7baa.jpg"
-        alt="" />
+      <img src={blog.image.name} alt="" />
     </div>
     <div class="content p-2 p-md-3">
-      <h4>Image hover effect</h4>
-      <span class="post-details">25 april 2017 | Roxana Alecu</span>
-      <p in:fly={{ y: 200, duration: 2000 }} out:fade class="mt-2">
-        lorem impsum lalaasasmfiasf
+      <h4>{blog.title}</h4>
+      <span class="post-details">{blog.published} | {blog.user.username}</span>
+      <p class="mt-2 text-truncate">
+        {@html blog.excerpt}
       </p>
     </div>
-  </div>
-  <div class="box">
-    <div class="imgBox">
-      <img
-        src="https://www.remove.bg/assets/start-0e837dcc57769db2306d8d659f53555feb500b3c5d456879b9c843d1872e7baa.jpg"
-        alt="" />
-    </div>
-    <div class="content p-2 p-md-3">
-      <h4>Image hover effect</h4>
-      <span class="post-details">25 april 2017 | Roxana Alecu</span>
-      <p in:fly={{ y: 200, duration: 2000 }} out:fade class="mt-2">
-        lorem impsum lalaasasmfiasf
-      </p>
-    </div>
-  </div>
+  </a>
 </div>

@@ -110,7 +110,7 @@
                         <h5 class="font-weight-bold article-title">
                           <a
                             rel="prefetch"
-                            href="articole/familie/{article.slug}">
+                            href="articole/{slug}/{article.slug}">
                             {article.title}
                           </a>
                         </h5>

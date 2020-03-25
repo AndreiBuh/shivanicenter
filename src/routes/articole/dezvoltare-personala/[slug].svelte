@@ -13,7 +13,6 @@
 <script>
   import ArticlesSlugs from "../../../components/Articles/ArticlesSlugs.svelte";
   export let article;
-  console.log(article);
 </script>
 
 <ArticlesSlugs {article} />
