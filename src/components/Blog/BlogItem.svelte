@@ -1,7 +1,24 @@
+<script>
+  import { fade, fly } from "svelte/transition";
+</script>
+
 <style>
-  .container {
-    position: relative;
-    display: grid;
+  @-webkit-keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
   }
 
   .section-box {
@@ -31,11 +48,11 @@
 
   .box:hover .imgBox img {
     opacity: 0.2;
-    transform: scale(1.2);
+    transform: scale(1.1);
   }
 
   .box .content {
-    background: rgba(0, 0, 0, 0.85);
+    background: rgba(34, 39, 54, 0.9);
     position: absolute;
     width: 100%;
     bottom: 0;
@@ -45,70 +62,90 @@
   }
   .box .content .post-details {
     color: #939393;
-    margin-bottom: 5px;
-    font-size: 14px;
-    line-height: 14px;
+    font-size: 12px;
+    line-height: 12px;
     text-transform: uppercase;
     display: block !important;
   }
 
-  .box .content h2 {
+  h4 {
     color: #fff;
   }
 
   .box .content p {
     color: #fff;
     transition: 0.5s;
-    opacity: 0;
-    visibility: hidden;
+    display: none;
+    font-family: "Josefin Sans";
   }
 
   .box:hover p {
-    opacity: 1;
-    visibility: visible;
+    display: block;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+  }
+
+  @media screen and (max-width: 768px) {
+    h4 {
+      font-size: 1.25rem;
+      margin: 0;
+    }
+    .box .content .post-details {
+      font-size: 9px;
+      line-height: 9px;
+    }
+
+    .section-box {
+      display: grid;
+      grid-template-columns: 100%;
+    }
+
+    .box .content p {
+      font-size: 10px;
+    }
   }
 </style>
 
-<div class="container">
+<div class="box">
+  <div class="imgBox">
+    <img src="/blog/blog2.jpg" alt="" />
+  </div>
+  <div class="content p-2 p-md-3">
+    <h4>Adevărul este în fața ochilor noștri!</h4>
+    <span class="post-details">25 april 2017 | Roxana Alecu</span>
+    <p in:fly={{ y: 200, duration: 2000 }} out:fade class="mt-2">
+      Aud zilnic oameni nemulțumiți de lumea în care trăiesc, care spun despre
+      alți oameni că sunt răi, nepăsători, indiferenți.
+    </p>
+  </div>
+</div>
+<div class="section-box">
   <div class="box">
     <div class="imgBox">
-      <img src="/blog/blog2.jpg" alt="" />
+      <img
+        src="https://www.remove.bg/assets/start-0e837dcc57769db2306d8d659f53555feb500b3c5d456879b9c843d1872e7baa.jpg"
+        alt="" />
     </div>
-    <div class="content">
-      <h2>Adevărul este în fața ochilor noștri!</h2>
+    <div class="content p-2 p-md-3">
+      <h4>Image hover effect</h4>
       <span class="post-details">25 april 2017 | Roxana Alecu</span>
-      <p>
-        Aud zilnic oameni nemulțumiți de lumea în care trăiesc, care spun despre
-        alți oameni că sunt răi, nepăsători, indiferenți. Ne plângem mereu că nu
-        suntem înțeleși și că nu ne ascultă nimeni. Tu asculți? Îl auzi pe
-        celălalt? Și cel de lângă tine are nevoie de siguranță, iubire,
-        bunătate, înțelegere și ascultare! Nu este vorba despre tine, ci despre
-        NOI. Cu toții suntem locuitorii acestei planete, numită Pământ!
+      <p in:fly={{ y: 200, duration: 2000 }} out:fade class="mt-2">
+        lorem impsum lalaasasmfiasf
       </p>
     </div>
   </div>
-  <div class="section-box">
-    <div class="box">
-      <div class="imgBox">
-        <img
-          src="https://www.remove.bg/assets/start-0e837dcc57769db2306d8d659f53555feb500b3c5d456879b9c843d1872e7baa.jpg"
-          alt="" />
-      </div>
-      <div class="content">
-        <h2>Image hover effect</h2>
-        <p>lorem impsum lalaasasmfiasf</p>
-      </div>
+  <div class="box">
+    <div class="imgBox">
+      <img
+        src="https://www.remove.bg/assets/start-0e837dcc57769db2306d8d659f53555feb500b3c5d456879b9c843d1872e7baa.jpg"
+        alt="" />
     </div>
-    <div class="box">
-      <div class="imgBox">
-        <img
-          src="https://www.remove.bg/assets/start-0e837dcc57769db2306d8d659f53555feb500b3c5d456879b9c843d1872e7baa.jpg"
-          alt="" />
-      </div>
-      <div class="content">
-        <h2>Image hover effect</h2>
-        <p>lorem impsum lalaasasmfiasf</p>
-      </div>
+    <div class="content p-2 p-md-3">
+      <h4>Image hover effect</h4>
+      <span class="post-details">25 april 2017 | Roxana Alecu</span>
+      <p in:fly={{ y: 200, duration: 2000 }} out:fade class="mt-2">
+        lorem impsum lalaasasmfiasf
+      </p>
     </div>
   </div>
 </div>

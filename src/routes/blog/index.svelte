@@ -1,18 +1,17 @@
 <script>
   import BlogItem from "../../components/Blog/BlogItem.svelte";
+  import Heading from "../../components/UI/Heading.svelte";
 </script>
 
 <style>
-  .text-elegant {
-    color: #dfa974;
-  }
-  .service-title {
-    font-family: "Special Elite";
-  }
+
 </style>
 
 <svelte:head>
-  <title>Evenimente</title>
+  <title>Blog</title>
 </svelte:head>
 
-<BlogItem />
+<div class="container">
+  <Heading title="Blog" />
+  <BlogItem />
+</div>

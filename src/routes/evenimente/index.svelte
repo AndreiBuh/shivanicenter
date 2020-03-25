@@ -1,5 +1,6 @@
 <script>
   import EventCard from "../../components/Events/EventCard.svelte";
+  import Heading from "../../components/UI/Heading.svelte";
 
   let events = [
     {
@@ -40,10 +41,7 @@
 </svelte:head>
 
 <div class="container">
-  <h3 class="service-title my-4 pt-5 pt-md-0 text-center">
-    Evenimente
-    <span class="text-elegant font-weight-bold">.</span>
-  </h3>
+  <Heading title="Evenimente" />
 
   <div class="row">
     {#each events as { title, text, date }, id}

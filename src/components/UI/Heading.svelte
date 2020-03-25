@@ -11,7 +11,7 @@
     line-height: 40px;
     font-weight: 500;
     letter-spacing: 3px;
-    margin: 0 0 65px;
+    margin: 0 0 2em 0;
     font-family: "Oswald", sans-serif;
   }
 
