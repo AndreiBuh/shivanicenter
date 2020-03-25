@@ -1,50 +1,25 @@
 <script>
+  import { onMount } from "svelte";
   import { Tabs, Tab, TabList, TabPanel } from "svelte-tabs";
-  import ArticleCardCenter from "./ArticleCardCenter.svelte";
-  import ArticleCardSide from "./ArticleCardSide.svelte";
+  import ArticleHomeItem from "./ArticleHomeItem.svelte";
   import Pagination from "../../Global/Pagination.svelte";
   import Heading from "../../UI/Heading.svelte";
 
-  let articles = [
-    {
-      title: "Meditatia este buna",
-      src: "https://mdbootstrap.com/img/Photos/Others/images/49.jpg",
-      text: "Nam libero tempore, cum soluta nobis est",
-      author: "Roxana Alecu",
-      date: "Sep 29, 2017 la 9:48 am"
-    },
-    {
-      title: "Psihoterapia este geniala",
-      src: "https://mdbootstrap.com/img/Photos/Others/images/31.jpg",
-      text: "Nam libero tempore, cum soluta nobis est",
-      author: "Roxana Alecu",
-      date: "Sep 29, 2017 la 9:48 am"
-    },
-    {
-      title: "Yoga este buna",
-      src: "https://mdbootstrap.com/img/Photos/Others/images/49.jpg",
-      text: "Nam libero tempore, cum soluta nobis est",
-      author: "Roxana Alecu",
-      date: "Sep 29, 2017 la 9:48 am"
-    },
-    {
-      title: "Sexualitatea este buna",
-      src: "https://mdbootstrap.com/img/Photos/Others/images/49.jpg",
-      text: "Nam libero tempore, cum soluta nobis est",
-      author: "Alexandra Tatu",
-      date: "Sep 29, 2017 la 9:48 am"
-    }
-  ];
+  //fetch articles
+  const apiUrl = process.env.SAPPER_APP_API_URL;
+  let articles = [];
+  onMount(async () => {
+    const res = await fetch(`${apiUrl}/articles`);
+    const json = await res.json();
+    articles = json;
+  });
 
-  let tabs = [
-    "Familie",
-    "Relatie de cuplu",
-    "Sanatate",
-    "Meditatie/Yoga",
-    "Dezvoltare personala",
-    "Sexualitate",
-    "Timp liber"
-  ];
+  let categories = [];
+  onMount(async () => {
+    const res = await fetch(`${apiUrl}/categories`);
+    const json = await res.json();
+    categories = json;
+  });
 </script>
 
 <style>
@@ -80,28 +55,24 @@
   <Heading title="Articole" />
   <Tabs>
     <TabList>
-      {#each tabs as tab}
-        <Tab>{tab}</Tab>
+      {#each categories as category}
+        <Tab>{category.title.toUpperCase()}</Tab>
       {/each}
     </TabList>
-
-    {#each tabs as tab}
+    {#each categories as category}
       <TabPanel>
         <div class="row mt-5">
-          <div class="col-12 col-md-3">
-            <ArticleCardSide />
-            <ArticleCardSide />
-          </div>
-          <div class="col-12 col-md-6 mb-5 mb-md-0">
-            <ArticleCardCenter category={tab} />
-          </div>
-          <div class="col-12 col-md-3 mt-5 mt-md-0">
-            <ArticleCardSide />
-            <ArticleCardSide />
-          </div>
+          {#each articles as article, index (article.id)}
+            {#if category.title === article.category.title}
+              <div class="col-md-4">
+                <ArticleHomeItem {...article} />
+              </div>
+            {/if}
+          {/each}
         </div>
       </TabPanel>
     {/each}
+
   </Tabs>
   <Pagination />
 </main>

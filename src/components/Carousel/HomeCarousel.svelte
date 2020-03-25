@@ -16,7 +16,7 @@
         "Timpul, oamenii, evenimentele, gandurile si actiunile mi-au revelat intotdeauna ceva nou despre mine. Ma prezint in fata voastra mai intai ca fiinta umana, cu emotii, cu probleme, cu o multime de intrebari, dar mereu cu putere de a depasi momentele grele ce imi provoaca suferinta ...",
       slug: "roxana-alecu",
       quote:
-        "Poți face multe descoperiri, dar cea mai mare descoperire ești chiar tu!"
+        '"Poți face multe descoperiri, dar cea mai mare descoperire ești chiar tu!"'
     },
 
     {
@@ -26,7 +26,16 @@
         "La fel ca şi tine, şi eu am o poveste în spatele numelui meu. De fapt, cu toţii suntem protagoniştii vieţilor noastre. Mă numesc Tatu Alexandra şi dacă vreau să îmi descriu povestea în câteva cuvinte, acestea sunt acestea: căutare, efort, obstacole, apreciere, imaginaţie, sinceritate, pasiune  ...",
       slug: "alexandra-tatu",
       quote:
-        "Mereu vor fi lucruri frumoase în lumea în care trăim, atâta timp cât știm unde și cum să privim."
+        '"Mereu vor fi lucruri frumoase în lumea în care trăim, atâta timp cât știm unde și cum să privim."'
+    },
+
+    {
+      src: "phone2.jpg",
+      name: "Shivani Center",
+      text:
+        "Suport psihologic GRATUIT pentru persoanele aflate in izolare sau afectate de criza generata de raspandirea virusului COVID-19.Suport psihologic GRATUIT pentru persoanele aflate in izolare sau afectate de criza generata de raspandirea virusului COVID-19Suport psihologic GRATUIT pentru persoanele aflate in izolare sau afectate de criza generata de raspandirea virusului COVID-19. ",
+      slug: "alexandra-tatu",
+      quote: ""
     }
   ];
 </script>
@@ -97,7 +106,7 @@
           class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 slide-text p-5
           text-center">
           <h3 class="pb-3 text-white">{name}</h3>
-          <p class="mb-4 text-elegant quote text-justify">{`"${quote}"`}</p>
+          <p class="mb-4 text-elegant quote text-justify">{`${quote}`}</p>
           <p class="text-white text-justify">{text}</p>
           <div class="p-4">
             <a href="despre-noi/{slug}">

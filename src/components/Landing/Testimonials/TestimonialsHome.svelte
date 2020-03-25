@@ -4,7 +4,6 @@
 
   let testimonials = [
     {
-      id: 1,
       name: "Florin Pop",
       jobTitle: "Web developer",
       text:
@@ -12,7 +11,6 @@
       imageUrl: "https://mdbootstrap.com/img/Photos/Avatars/img%20(1).jpg"
     },
     {
-      id: 2,
       name: "Bogdan Popescu",
       jobTitle: "Profesor sanskrita",
       text:
@@ -20,7 +18,6 @@
       imageUrl: "https://mdbootstrap.com/img/Photos/Avatars/img%20(8).jpg"
     },
     {
-      id: 3,
       name: "Mircea Sovarel",
       jobTitle: "Micul Eliade",
       text:

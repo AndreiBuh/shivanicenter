@@ -1,17 +1,18 @@
+<script>
+  export let title;
+  export let image;
+  export let user;
+  export let slug;
+  export let category_slug;
+</script>
+
 <style>
-  .card {
-    border: 0;
-    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16),
-      0 2px 10px 0 rgba(0, 0, 0, 0.12);
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16),
-      0 2px 10px 0 rgba(0, 0, 0, 0.12);
-  }
-  .card.card-cascade.narrower .view.view-cascade {
+  .card-cascade.narrower .view.view-cascade {
     margin-top: -1.25rem;
     margin-right: 4%;
     margin-left: 4%;
   }
-  .card.card-cascade .view.view-cascade {
+  .card-cascade .view.view-cascade {
     border-radius: 0.25rem;
     -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18),
       0 4px 15px 0 rgba(0, 0, 0, 0.15);
@@ -42,6 +43,12 @@
     padding-bottom: 1.5rem;
     border-radius: 0 !important;
   }
+
+  h6 {
+    font-family: "Josefin Sans", sans-serif;
+    letter-spacing: 2px;
+  }
+
   .author {
     display: block;
     font-size: 15px;
@@ -51,34 +58,36 @@
     font-family: "Josefin Sans";
   }
 
-  .author a {
+  a {
     color: #000;
     font-weight: 700;
-    font-style: normal;
+    text-decoration: none;
   }
 
-  p {
-    font-family: "Josefin Sans";
+  img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+  }
+
+  a:hover,
+  h6:hover {
+    color: #444;
   }
 </style>
 
-<div class="card card-cascade narrower">
+<div class="card-cascade narrower mb-5">
   <div class="view view-cascade overlay">
-    <img
-      class="card-img-top"
-      src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(147).jpg"
-      alt="Card image cap" />
+    <a rel="prefetch" href="articole/{category_slug}/{slug}">
+      <img class="card-img-top" src={image.name} alt="Card image cap" />
+    </a>
   </div>
-  <div class="card-body card-body-cascade text-center">
-    <h4 class="font-weight-bold card-title">Cheat day inspirations</h4>
+  <div class="card-body text-center">
+    <a rel="prefetch" href="articole/{category_slug}/{slug}">
+      <h6 class="font-weight-bold card-title">{title}</h6>
+    </a>
     <span class="author">
       de
-      <a href=".">Roxana Alecu</a>
+      <a href=".">{user.username}</a>
     </span>
-    <p>
-      Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
-      suscipit laboriosam, nisi ut aliquid. Ut enim ad minima veniam, quis
-      nostrum exercitationem ullam corporis suscipit laboriosam.
-    </p>
   </div>
 </div>
