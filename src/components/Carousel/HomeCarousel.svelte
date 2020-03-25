@@ -87,16 +87,15 @@
     width: 100%;
     height: 100%;
     color: white;
-    border: 2px solid white;
     border-radius: 32px;
   }
 </style>
 
 <div in:fade={{ duration: 1000 }} class="mb-5">
   <Carousel perPage={1} loop autoplay={6000}>
-    <!-- <span class="control" slot="left-control">
+    <span class="control" slot="left-control">
       <ChevronLeftIcon />
-    </span> -->
+    </span>
     {#each slides as { src, text, name, slug, quote }}
       <div class="slide-content row">
         <div class="pr-0 col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
@@ -115,12 +114,11 @@
               </button>
             </a>
           </div>
-
         </div>
       </div>
     {/each}
-    <!-- <span class="control" slot="right-control">
+    <span class="control" slot="right-control">
       <ChevronRightIcon />
-    </span> -->
+    </span>
   </Carousel>
 </div>

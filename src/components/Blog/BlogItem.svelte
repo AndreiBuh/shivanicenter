@@ -29,6 +29,7 @@
     box-sizing: border-box;
     overflow: hidden;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
+    height: 30vh;
   }
 
   .box .imgBox {
@@ -39,7 +40,8 @@
     width: 100%;
     height: 100%;
     transition: 0.5s;
-    object-fit: contain;
+    object-fit: cover;
+    object-position: 50% 50%;
   }
 
   .box:hover .imgBox img {
@@ -63,7 +65,7 @@
     display: block !important;
   }
 
-  h4 {
+  h5 {
     color: #fff;
   }
 
@@ -81,7 +83,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    h4 {
+    h5 {
       font-size: 1rem;
       margin: 0;
     }
@@ -102,7 +104,7 @@
       <img src={blog.image.name} alt="" />
     </div>
     <div class="content p-2 p-md-3">
-      <h4>{blog.title}</h4>
+      <h5>{blog.title}</h5>
       <span class="post-details">{blog.published} | {blog.user.username}</span>
       <p class="mt-2 text-truncate">
         {@html blog.excerpt}

@@ -5,6 +5,7 @@
   // import HomeCarousel from "../components/Carousel/HomeCarousel.svelte";
   import ArticlesHome from "../components/Landing/Articles/ArticlesHome.svelte";
   import LastStories from "../components/Landing/LastStories/LastStories.svelte";
+  import Blog from "../components/Landing/Blog/Blog.svelte";
   import TestimonialsHome from "../components/Landing/Testimonials/TestimonialsHome.svelte";
 
   let HomeCarousel;
@@ -23,5 +24,6 @@
 <Banner title="Cine suntem?" />
 <ArticlesHome />
 <Servicii />
+<Blog />
 <Banner title="Iti plac articolele noastre? Aboneaza-te la newsletter!" />
 <TestimonialsHome />

@@ -14,7 +14,7 @@
       name: "Bogdan Popescu",
       jobTitle: "Profesor sanskrita",
       text:
-        "Este ca si cum as discuta cu cea mai buna prietena care stie sa ajunga la esenta problemei",
+        "Este ca si cum as discuta cu cea mai buna prietena care stie sa ajunga.",
       imageUrl: "https://mdbootstrap.com/img/Photos/Avatars/img%20(8).jpg"
     },
     {

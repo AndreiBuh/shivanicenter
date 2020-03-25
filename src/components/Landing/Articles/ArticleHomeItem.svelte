@@ -22,12 +22,14 @@
   .view {
     position: relative;
     overflow: hidden;
-    cursor: default;
+    height: 200px;
   }
 
   .view img {
     position: relative;
     display: block;
+    object-fit: cover;
+    object-position: 50% 50%;
   }
   .card-img-top {
     border-top-left-radius: calc(0.25rem - 1px);

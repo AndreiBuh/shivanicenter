@@ -16,7 +16,7 @@
     transition: 0.4s ease-out;
   }
   blockquote {
-    padding: 8px 20px;
+    padding: 0px 20px;
   }
   blockquote::before {
     color: #000;
@@ -24,7 +24,7 @@
   }
 
   .card-up {
-    height: 120px;
+    height: 80px;
     overflow: hidden;
     border-top-left-radius: 0.25rem;
     border-top-right-radius: 0.25rem;
@@ -35,14 +35,14 @@
   }
 
   .card-body span {
-    font-size: 12px;
+    font-size: 10px;
     letter-spacing: 2px;
     font-family: "Montserrat";
   }
 
   .avatar {
-    width: 120px;
-    margin-top: -60px;
+    width: 100px;
+    margin-top: -30px;
     overflow: hidden;
     border: 5px solid #fff;
     border-radius: 50%;
@@ -54,6 +54,11 @@
 
   .rounded-circle {
     border-radius: 50%;
+  }
+
+  p {
+    font-family: "Josefin Sans";
+    font-size: 14px;
   }
 </style>
 
@@ -67,7 +72,7 @@
         alt="Reviwer avatar" />
     </div>
     <div class="card-body">
-      <h4 class="font-weight-bold">{name}</h4>
+      <h6 class="font-weight-bold">{name}</h6>
       <span class="text-elegant text-uppercase">{jobTitle}</span>
       <hr />
       <blockquote>
