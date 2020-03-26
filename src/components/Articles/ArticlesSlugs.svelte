@@ -3,7 +3,17 @@
   import ShareSocialIcons from "../Global/ShareSocialIcons.svelte";
   export let article;
 
-  let { title, image, avatar, user, published, content, category } = article[0];
+  let {
+    title,
+    image,
+    avatar,
+    user,
+    published,
+    content,
+    category,
+    likes,
+    id
+  } = article[0];
 </script>
 
 <style>
@@ -95,12 +105,11 @@
             <div class="category">
               <a href="" class="category-link">{category.title}</a>
             </div>
+            <ShareSocialIcons {likes} {id} on:like />
           </div>
         </div>
         <div class="card-body article-card-body">
           {@html content}
-          <h4 class="text-center">Distribuie articolul</h4>
-          <ShareSocialIcons />
         </div>
       </div>
     </div>

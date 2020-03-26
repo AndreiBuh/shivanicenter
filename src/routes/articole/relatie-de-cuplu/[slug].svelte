@@ -13,6 +13,31 @@
 <script>
   import ArticlesSlugs from "../../../components/Articles/ArticlesSlugs.svelte";
   export let article;
+
+  const onLikeHandler = async event => {
+    const { likes, id } = event.detail;
+
+    let updatedArticle = {
+      likes
+    };
+    console.log(updatedArticle);
+    const response = await fetch(`${apiUrl}/articles/${id}`, {
+      method: "PUT",
+      body: JSON.stringify(updatedArticle),
+      headers: {
+        Accept: "application/json",
+        "Content-Type": "application/json"
+      }
+    });
+
+    if (!response.ok) throw Error(response.message);
+    try {
+      const data = await response.json();
+      return data;
+    } catch (err) {
+      throw err;
+    }
+  };
 </script>
 
-<ArticlesSlugs {article} />
+<ArticlesSlugs {article} on:like={onLikeHandler} />

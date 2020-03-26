@@ -174,20 +174,23 @@
                   type="text"
                   placeholder="Nume"
                   bind:value={name}
-                  aria-label="Nume" />
+                  aria-label="Nume"
+                  required />
               </div>
               <div class="col-lg-6">
                 <input
                   type="email"
                   placeholder="Email"
                   bind:value={email}
-                  aria-label="Email" />
+                  aria-label="Email"
+                  required />
               </div>
               <div class="col-lg-12 text-center">
                 <textarea
                   placeholder="Mesajul tau"
                   bind:value={message}
-                  aria-label="Mesaj" />
+                  aria-label="Mesaj"
+                  required />
                 <button type="submit" aria-label="Trimite">
                   {#if isLoading}
                     <div id="loading" />

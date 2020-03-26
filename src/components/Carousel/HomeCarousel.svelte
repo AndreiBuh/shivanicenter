@@ -33,7 +33,7 @@
       src: "phone2.jpg",
       name: "Shivani Center",
       text:
-        "Suport psihologic GRATUIT pentru persoanele aflate in izolare sau afectate de criza generata de raspandirea virusului COVID-19.Suport psihologic GRATUIT pentru persoanele aflate in izolare sau afectate de criza generata de raspandirea virusului COVID-19Suport psihologic GRATUIT pentru persoanele aflate in izolare sau afectate de criza generata de raspandirea virusului COVID-19. ",
+        "Suport psihologic GRATUIT pentru persoanele aflate in izolare sau afectate de criza generata de raspandirea virusului COVID-19.",
       slug: "alexandra-tatu",
       quote: ""
     }

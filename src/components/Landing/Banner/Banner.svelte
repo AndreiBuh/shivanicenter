@@ -1,6 +1,4 @@
 <script>
-  import Icon from "fa-svelte";
-  import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
   export let title;
 
   const apiUrl = process.env.SAPPER_APP_API_URL;
@@ -8,6 +6,7 @@
   let placeholder = "";
 
   let isLoading = false;
+  console.log(apiUrl);
 
   const addContactMessage = async () => {
     let newMessage = {
@@ -110,7 +109,6 @@
     color: #dfa974;
   }
 
-  i,
   h2 {
     color: #dfa974;
     font-family: "Playball", sans-serif;
@@ -225,7 +223,7 @@
               bind:value={email}
               required />
             <button type="submit" aria-label="Trimite">
-              <Icon icon={faEnvelope} />
+              <i class="fa fa-envelope" />
               {#if isLoading}
                 <div id="loading" />
               {/if}

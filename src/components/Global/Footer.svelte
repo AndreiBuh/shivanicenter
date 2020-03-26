@@ -1,12 +1,4 @@
 <script>
-  import Icon from "fa-svelte";
-  import {
-    faFacebook,
-    faInstagram,
-    faLinkedin
-  } from "@fortawesome/free-brands-svg-icons";
-  import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-
   const apiUrl = process.env.SAPPER_APP_API_URL;
   let isLoading = false;
   let email = "";
@@ -197,17 +189,17 @@
               <a
                 href="http://www.facebook.com"
                 aria-label="Pagina de facebook Shivani Center">
-                <Icon icon={faFacebook} />
+                <i class="fa fa-facebook" />
               </a>
               <a
                 href="http://www.instagram.com"
                 aria-label="Pagina de instagram Shivani Center">
-                <Icon icon={faInstagram} />
+                <i class="fa fa-instagram" />
               </a>
               <a
                 href="http://www.linkedin.com"
                 aria-label="Pagina de linkedin Shivani Center">
-                <Icon icon={faLinkedin} />
+                <i class="fa fa-linkedin" />
               </a>
             </div>
           </div>
@@ -240,7 +232,7 @@
                   {#if isLoading}
                     <div id="loading" />
                   {/if}
-                  <Icon icon={faEnvelope} />
+                  <i class="fa fa-envelope" />
                 </button>
               </form>
             {/if}
