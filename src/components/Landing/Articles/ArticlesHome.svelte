@@ -65,7 +65,7 @@
           {#each articles as article, index (article.id)}
             {#if category.title === article.category.title}
               <div class="col-md-4">
-                <ArticleHomeItem {...article} />
+                <ArticleHomeItem {article} />
               </div>
             {/if}
           {/each}

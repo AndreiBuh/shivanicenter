@@ -2,9 +2,66 @@
   import Icon from "fa-svelte";
   import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
   export let title;
+
+  const apiUrl = process.env.SAPPER_APP_API_URL;
+  let email = "";
+  let placeholder = "";
+
+  let isLoading = false;
+
+  const addContactMessage = async () => {
+    let newMessage = {
+      email
+    };
+    isLoading = true;
+    const response = await fetch(`${apiUrl}/subscribes`, {
+      method: "POST",
+      body: JSON.stringify(newMessage),
+      headers: {
+        Accept: "application/json",
+        "Content-Type": "application/json"
+      }
+    });
+
+    isLoading = false;
+    email = "";
+
+    placeholder =
+      "Te-ai abonat cu succes la newsletterul nostru. In fiecare saptamana vei primi informatii legate de noile articole.";
+
+    if (!response.ok) throw Error(response.message);
+    try {
+      const data = await response.json();
+      return data;
+    } catch (err) {
+      isLoading = false;
+      throw err;
+    }
+  };
 </script>
 
 <style>
+  #loading {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid rgba(204, 181, 181, 0.3);
+    border-radius: 50%;
+    border-top-color: #dfa974;
+    animation: spin 3s ease-in-out infinite;
+    -webkit-animation: spin 3s ease-in-out infinite;
+  }
+
+  @keyframes spin {
+    to {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+  @-webkit-keyframes spin {
+    to {
+      -webkit-transform: rotate(360deg);
+    }
+  }
   @font-face {
     font-family: "Flaticon";
     src: url("./Flaticon.eot");
@@ -155,15 +212,27 @@
 {:else}
   <div class="banner mb-5 py-5">
     <div class="banner-content text-center">
-      <h3 class="banner-title text-elegant title mb-4">{title}</h3>
-      <div class="d-flex justify-content-center">
-        <form class="fn-form">
-          <input type="email" placeholder="Email" aria-label="email" />
-          <button type="button" aria-label="Trimite">
-            <Icon icon={faEnvelope} />
-          </button>
-        </form>
-      </div>
+      {#if placeholder}
+        <h2 class="banner-title text-elegant">{placeholder}</h2>
+      {:else}
+        <h3 class="banner-title text-elegant title mb-4">{title}</h3>
+        <div class="d-flex justify-content-center">
+          <form class="fn-form" on:submit|preventDefault={addContactMessage}>
+            <input
+              type="email"
+              placeholder="Email"
+              aria-label="email"
+              bind:value={email}
+              required />
+            <button type="submit" aria-label="Trimite">
+              <Icon icon={faEnvelope} />
+              {#if isLoading}
+                <div id="loading" />
+              {/if}
+            </button>
+          </form>
+        </div>
+      {/if}
     </div>
   </div>
 {/if}

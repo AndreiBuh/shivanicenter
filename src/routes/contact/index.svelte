@@ -4,6 +4,7 @@
   let email = "";
   let message = "";
   let isLoading = false;
+  let placeholder = "";
 
   const addContactMessage = async () => {
     let newMessage = {
@@ -12,7 +13,7 @@
       message
     };
     isLoading = true;
-    const response = await fetch(`${apiUrl}/newsletters`, {
+    const response = await fetch(`${apiUrl}/messages`, {
       method: "POST",
       body: JSON.stringify(newMessage),
       headers: {
@@ -25,6 +26,8 @@
     name = "";
     email = "";
     message = "";
+    placeholder =
+      "Mesajul tau a fost transmis cu succes. Vom analiza cererea ta si vom reveni cu un raspuns. Multumim pentru incredere!";
 
     if (!response.ok) throw Error(response.message);
     try {
@@ -116,15 +119,6 @@
   .contact-form button:hover {
     background: #36383f;
   }
-  .map {
-    height: 470px;
-    -webkit-box-shadow: 0px 14px 35px rgba(0, 0, 0, 0.15);
-    box-shadow: 0px 14px 35px rgba(0, 0, 0, 0.15);
-    margin-top: 75px;
-  }
-  .map iframe {
-    width: 100%;
-  }
 
   @media screen and (max-width: 768px) {
     span {
@@ -168,48 +162,43 @@
         </div>
       </div>
       <div class="col-lg-6 mt-5 mt-md-0">
-        <form class="contact-form">
-          <div class="row">
-            <div class="col-lg-6">
-              <input
-                type="text"
-                placeholder="Nume"
-                bind:value={name}
-                aria-label="Nume" />
+        {#if placeholder}
+          <h2>{placeholder}</h2>
+        {:else}
+          <form
+            class="contact-form"
+            on:submit|preventDefault={addContactMessage}>
+            <div class="row">
+              <div class="col-lg-6">
+                <input
+                  type="text"
+                  placeholder="Nume"
+                  bind:value={name}
+                  aria-label="Nume" />
+              </div>
+              <div class="col-lg-6">
+                <input
+                  type="email"
+                  placeholder="Email"
+                  bind:value={email}
+                  aria-label="Email" />
+              </div>
+              <div class="col-lg-12 text-center">
+                <textarea
+                  placeholder="Mesajul tau"
+                  bind:value={message}
+                  aria-label="Mesaj" />
+                <button type="submit" aria-label="Trimite">
+                  {#if isLoading}
+                    <div id="loading" />
+                  {/if}
+                  Trimite
+                </button>
+              </div>
             </div>
-            <div class="col-lg-6">
-              <input
-                type="email"
-                placeholder="Email"
-                bind:value={email}
-                aria-label="Email" />
-            </div>
-            <div class="col-lg-12 text-center">
-              <textarea
-                placeholder="Mesajul tau"
-                bind:value={message}
-                aria-label="Mesaj" />
-              <button
-                type="button"
-                on:click={addContactMessage}
-                aria-label="Trimite">
-                {#if isLoading}
-                  <div id="loading" />
-                {/if}
-                Trimite
-              </button>
-            </div>
-          </div>
-        </form>
+          </form>
+        {/if}
       </div>
     </div>
-    <!-- <div class="map">
-      <iframe
-        title="Harta locatie"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.060682994123!2d-72.8735845851828!3d40.760690042573295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e85b24c9274c91%3A0xf310d41b791bcb71!2sWilliam%20Floyd%20Pkwy%2C%20Mastic%20Beach%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1578582744646!5m2!1sen!2sbd"
-        height="470"
-        style="border:0;"
-        allowfullscreen="" />
-    </div> -->
   </div>
 </section>

@@ -3,7 +3,6 @@
   import {
     faFacebook,
     faInstagram,
-    faTwitter,
     faLinkedin
   } from "@fortawesome/free-brands-svg-icons";
   import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
@@ -11,13 +10,14 @@
   const apiUrl = process.env.SAPPER_APP_API_URL;
   let isLoading = false;
   let email = "";
+  let placeholder = "";
 
   const addEmail = async () => {
     let newMail = {
       email
     };
     isLoading = true;
-    const response = await fetch(`${apiUrl}/newsletters`, {
+    const response = await fetch(`${apiUrl}/subscribes`, {
       method: "POST",
       body: JSON.stringify(newMail),
       headers: {
@@ -25,8 +25,11 @@
         "Content-Type": "application/json"
       }
     });
+
     isLoading = false;
     email = "";
+    placeholder = "Te-ai abonat cu succes la newsletterul nostru!";
+
     if (!response.ok) throw Error(response.message);
     try {
       const data = await response.json();
@@ -223,20 +226,24 @@
           <div class="ft-newslatter">
             <h6>Newsletter</h6>
             <p>Fii la curent cu ultimele articole.</p>
-            <form class="fn-form">
-              <input
-                type="email"
-                placeholder="Email"
-                bind:value={email}
-                aria-label="Email" />
-              <button type="button" on:click={addEmail} aria-label="Trimite">
-                {#if isLoading}
-                  <div id="loading" />
-                {:else}
+            {#if placeholder}
+              <h5 class="text-white">{placeholder}</h5>
+            {:else}
+              <form class="fn-form" on:submit|preventDefault={addEmail}>
+                <input
+                  type="email"
+                  required
+                  placeholder="Email"
+                  bind:value={email}
+                  aria-label="Email" />
+                <button type="submit" aria-label="Trimite">
+                  {#if isLoading}
+                    <div id="loading" />
+                  {/if}
                   <Icon icon={faEnvelope} />
-                {/if}
-              </button>
-            </form>
+                </button>
+              </form>
+            {/if}
           </div>
         </div>
       </div>

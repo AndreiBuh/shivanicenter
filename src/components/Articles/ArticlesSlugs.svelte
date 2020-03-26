@@ -1,5 +1,6 @@
 <script>
   import ArticlesSidebar from "./ArticlesSidebar.svelte";
+  import ShareSocialIcons from "../Global/ShareSocialIcons.svelte";
   export let article;
 
   let { title, image, avatar, user, published, content, category } = article[0];
@@ -98,6 +99,8 @@
         </div>
         <div class="card-body article-card-body">
           {@html content}
+          <h4 class="text-center">Distribuie articolul</h4>
+          <ShareSocialIcons />
         </div>
       </div>
     </div>

@@ -1,9 +1,6 @@
 <script>
-  export let title;
-  export let image;
-  export let user;
-  export let slug;
-  export let category_slug;
+  export let article;
+  const { title, image, user, slug, category_slug } = article;
 </script>
 
 <style>
