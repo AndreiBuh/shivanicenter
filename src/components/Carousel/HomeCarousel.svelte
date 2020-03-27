@@ -2,11 +2,7 @@
   import { fade, fly } from "svelte/transition";
 
   import Carousel from "./Carousel.svelte";
-  import {
-    ChevronLeftIcon,
-    ChevronRightIcon,
-    ArrowRightIcon
-  } from "svelte-feather-icons";
+  import { ChevronLeftIcon, ChevronRightIcon } from "svelte-feather-icons";
 
   let slides = [
     {
@@ -34,7 +30,7 @@
       name: "Shivani Center",
       text:
         "Suport psihologic GRATUIT pentru persoanele aflate in izolare sau afectate de criza generata de raspandirea virusului COVID-19.",
-      slug: "alexandra-tatu",
+      slug: "",
       quote: ""
     }
   ];

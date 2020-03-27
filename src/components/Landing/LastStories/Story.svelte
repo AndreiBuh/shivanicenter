@@ -22,20 +22,26 @@
     border-radius: 8px;
   }
   .post-categories a {
-    text-decoration: none;
     font-size: 12px;
-    color: #d79c6a;
+    color: var(--main-color);
     font-family: "Montserrat";
     letter-spacing: 2px;
     text-transform: uppercase;
   }
+
+  .post-categories a:hover {
+    color: #ea8928;
+  }
   .post-title h2 {
     font-size: 22px;
-    line-height: 110% !important;
     margin-bottom: 5px;
     margin-top: 5px;
     font-family: "Josefin Sans";
     color: #505050;
+  }
+
+  .post-title h2:hover {
+    color: var(--main-bg-color);
   }
 
   .post-content {

@@ -23,48 +23,21 @@
   /* social share */
 
   ul {
-    transform: translate(50%, 50%);
+    margin: 0 auto;
     margin-bottom: 30px;
     padding: 0;
     display: flex;
     width: 320px;
     height: 60px;
   }
-
-  ul:before {
-    position: absolute;
-    content: "\f1e0";
-    font-family: fontAwesome;
-    width: 100%;
-    height: 100%;
-    background: #212529;
-    border-radius: 30px;
-    text-align: center;
-    line-height: 60px;
-    color: #fff;
-    font-size: 30px;
-    margin: 0 2px;
-    transition: 0.5s;
-    z-index: 1;
-  }
-
-  ul:hover:before {
-    width: 60px;
-  }
-
   ul li {
-    position: absolute;
     list-style: none;
-    transition: 1s;
   }
-
   ul li a {
     display: block;
     width: 60px;
     height: 60px;
     line-height: 60px;
-    text-align: center;
-    background: #262626;
     color: #fff;
     margin: 0 2px;
     border-radius: 50%;
@@ -86,31 +59,6 @@
   }
   ul li:nth-child(5) a {
     background: #e4405f;
-  }
-
-  ul:hover li:nth-child(1) a {
-    transform: translateX(64px) rotate(360deg);
-    transition-delay: 0.8s;
-  }
-
-  ul:hover li:nth-child(2) a {
-    transform: translateX(128px) rotate(360deg);
-    transition-delay: 0.6s;
-  }
-
-  ul:hover li:nth-child(3) a {
-    transform: translateX(192px) rotate(360deg);
-    transition-delay: 0.4s;
-  }
-
-  ul:hover li:nth-child(4) a {
-    transform: translateX(256px) rotate(360deg);
-    transition-delay: 0.2s;
-  }
-
-  ul:hover li:nth-child(5) a {
-    transform: translateX(320px) rotate(360deg);
-    transition-delay: 0s;
   }
 
   /* like heart */
@@ -147,27 +95,27 @@
 
 <ul>
   <li>
-    <a href="#">
+    <a href="www.facebook.com">
       <i class="fa fa-facebook" aria-hidden="true" />
     </a>
   </li>
   <li>
-    <a href="#">
+    <a href="www.twitter.com">
       <i class="fa fa-twitter" aria-hidden="true" />
     </a>
   </li>
   <li>
-    <a href="#">
+    <a href="www.linkedin.com">
       <i class="fa fa-linkedin" aria-hidden="true" />
     </a>
   </li>
   <li>
-    <a href="#">
+    <a href="www.instagram.com">
       <i class="fa fa-instagram" aria-hidden="true" />
     </a>
   </li>
   <li>
-    <a href="#">
+    <a href="www.google.com">
       <i class="fa fa-google-plus" aria-hidden="true" />
     </a>
   </li>

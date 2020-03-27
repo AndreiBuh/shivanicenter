@@ -8,12 +8,17 @@
   src: url("font/Averta.otf") format("opentype");
 }
 
+:root {
+  --main-bg-color: #222736;
+  --main-color: #dfa974;
+}
+
 html,
 body {
-  height: 100%;
   font-family: "Josefin Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
-  background-color: #dfa974 !important;
+  background-color: var(--main-color) !important;
+  overflow-x: hidden !important;
 }
 h1,
 h2,
@@ -66,9 +71,7 @@ ol {
   margin: 0;
 }
 
-body {
-  overflow-x: hidden !important;
-}
 a {
   outline: none;
+  text-decoration: none;
 }

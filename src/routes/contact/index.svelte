@@ -66,10 +66,11 @@
     padding-top: 80px;
     padding-bottom: 80px;
   }
-  h2 {
-    font-size: 40px;
+  h3.placeholder {
+    line-height: 40px;
     color: #222736;
-    font-family: "Oswald";
+    font-family: "Josefin Sans";
+    letter-spacing: 2px;
   }
 
   span {
@@ -141,7 +142,7 @@
             <span>Adresa:</span>
           </div>
           <div class="col-9">
-            <span>Strada George Vraca, nr. 7, Et. 1, int. 3</span>
+            <span>Strada George Vraca, nr. 7, Et. 1, int. 3, Bucuresti</span>
           </div>
         </div>
         <div class="row">
@@ -163,7 +164,7 @@
       </div>
       <div class="col-lg-6 mt-5 mt-md-0">
         {#if placeholder}
-          <h2>{placeholder}</h2>
+          <h3 class="placeholder text-center">{placeholder}</h3>
         {:else}
           <form
             class="contact-form"

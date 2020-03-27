@@ -75,10 +75,6 @@
     transition: all 0.3s;
     margin-right: 7px;
   }
-  .footer-section .footer-text .ft-about .fa-social a:hover {
-    background: #dfa974;
-    border-color: #dfa974;
-  }
   .footer-section .footer-text .ft-contact {
     margin-bottom: 30px;
   }
@@ -110,10 +106,10 @@
     color: #aaaab3;
     margin-bottom: 20px;
   }
-  .footer-section .footer-text .ft-newslatter .fn-form {
+  .footer-section .footer-text .ft-newslatter .form {
     position: relative;
   }
-  .footer-section .footer-text .ft-newslatter .fn-form input {
+  .footer-section .footer-text .ft-newslatter .form input {
     width: 100%;
     height: 50px;
     border-radius: 2px;
@@ -123,7 +119,7 @@
     font-size: 16px;
     color: white;
   }
-  .footer-section .footer-text .ft-newslatter .fn-form button {
+  .footer-section .footer-text .ft-newslatter .form button {
     position: absolute;
     right: 0;
     top: 0;
@@ -159,6 +155,11 @@
     -webkit-animation: spin 3s ease-in-out infinite;
   }
 
+  .fa-social a:hover {
+    transform: translateY(-5px);
+    transition: 0.4s ease-out;
+  }
+
   @keyframes spin {
     to {
       -webkit-transform: rotate(360deg);
@@ -169,6 +170,13 @@
       -webkit-transform: rotate(360deg);
     }
   }
+
+  @media screen and (max-width: 768px) {
+    .form {
+      width: 80%;
+      margin: 0 auto;
+    }
+  }
 </style>
 
 <footer class="footer-section mt-5">
@@ -176,15 +184,11 @@
     <div class="footer-text">
       <div class="row">
         <div class="col-lg-4">
-          <div class="ft-about">
+          <div class="ft-about text-center">
             <div class="logo">
               <h6>Social Media</h6>
             </div>
-            <p>
-              We inspire and reach millions of travelers
-              <br />
-              across 90 local websites
-            </p>
+            <p>Ne puteti gasi pe retelele de socializare</p>
             <div class="fa-social">
               <a
                 href="http://www.facebook.com"
@@ -201,27 +205,37 @@
                 aria-label="Pagina de linkedin Shivani Center">
                 <i class="fa fa-linkedin" />
               </a>
+              <a
+                href="http://www.twitter.com"
+                aria-label="Pagina de twitter Shivani Center">
+                <i class="fa fa-twitter" />
+              </a>
+              <a
+                href="http://www.google-plus.com"
+                aria-label="Pagina de google plus Shivani Center">
+                <i class="fa fa-google-plus" />
+              </a>
             </div>
           </div>
         </div>
         <div class="col-lg-3 offset-lg-1">
-          <div class="ft-contact">
+          <div class="ft-contact text-center">
             <h6>Contact</h6>
             <ul>
-              <li>0754.689.944</li>
               <li>shivani.center@yahoo.com</li>
-              <li>Splaiul Independentei nr.45</li>
+              <li>Strada George Vraca, nr.7</li>
+              <li>0754.689.944</li>
             </ul>
           </div>
         </div>
         <div class="col-lg-3 offset-lg-1">
-          <div class="ft-newslatter">
+          <div class="ft-newslatter text-center">
             <h6>Newsletter</h6>
             <p>Fii la curent cu ultimele articole.</p>
             {#if placeholder}
               <h5 class="text-white">{placeholder}</h5>
             {:else}
-              <form class="fn-form" on:submit|preventDefault={addEmail}>
+              <form class="form" on:submit|preventDefault={addEmail}>
                 <input
                   type="email"
                   required

@@ -1,12 +1,5 @@
 <script>
   import { onMount, onDestroy } from "svelte";
-  import Icon from "fa-svelte";
-  import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-  import {
-    faFacebook,
-    faInstagram,
-    faTwitter
-  } from "@fortawesome/free-brands-svg-icons";
   import { fade, fly } from "svelte/transition";
 
   export let segment;
