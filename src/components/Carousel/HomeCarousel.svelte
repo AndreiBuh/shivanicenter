@@ -2,7 +2,6 @@
   import { fade, fly } from "svelte/transition";
 
   import Carousel from "./Carousel.svelte";
-  import { ChevronLeftIcon, ChevronRightIcon } from "svelte-feather-icons";
 
   let slides = [
     {
@@ -85,12 +84,16 @@
     color: white;
     border-radius: 32px;
   }
+  i {
+    color: white;
+    font-size: 24px;
+  }
 </style>
 
 <div in:fade={{ duration: 1000 }} class="mb-5">
   <Carousel perPage={1} loop autoplay={6000}>
     <span class="control" slot="left-control">
-      <ChevronLeftIcon />
+      <i class="fa fa-chevron-left" />
     </span>
     {#each slides as { src, text, name, slug, quote }}
       <div class="slide-content row">
@@ -114,7 +117,7 @@
       </div>
     {/each}
     <span class="control" slot="right-control">
-      <ChevronRightIcon />
+      <i class="fa fa-chevron-right" />
     </span>
   </Carousel>
 </div>
