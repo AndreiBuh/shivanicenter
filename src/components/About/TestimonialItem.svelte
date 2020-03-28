@@ -14,7 +14,7 @@
     font-size: 14px;
   }
   .img-testimonial {
-    max-width: 15%;
+    max-width: 30%;
   }
 
   .testimonial-text {
@@ -24,7 +24,7 @@
   }
 </style>
 
-<div class="col-md-4">
+<div class="col-md-3">
   <div class="testimonial">
     <div class="mx-auto">
       <img

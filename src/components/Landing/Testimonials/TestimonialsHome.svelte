@@ -4,25 +4,25 @@
 
   let testimonials = [
     {
-      name: "Florin Pop",
-      jobTitle: "Web developer",
+      name: "Corina Preoteasa",
+      jobTitle: "Jurnalist",
       text:
-        "Nu pot sa aduc decat cuvinte de lauda colaborarii cu domnisoara Alecu.",
-      imageUrl: "https://mdbootstrap.com/img/Photos/Avatars/img%20(1).jpg"
+        "Atunci cand te afli in prezenta Roxanei, simti ca are o aura care o inconjoara. O persoana profunda si cu o buna intuitie asupra naturii umane, va va ajuta sa descalciti incurcatele drumuri ale mintii prin empatie, ascultare activa si intelegere. Ceea ce o face diferita de alti terapeuti este ca pe langa toate competentele si atuurile necesare, Roxana are o adevarata vocatie pentru aceasta profesie.",
+      imageUrl: "testimonial-corina.jpg"
     },
     {
-      name: "Bogdan Popescu",
-      jobTitle: "Profesor sanskrita",
+      name: "Razvan Bratianu",
+      jobTitle: "Consilier parlamentar",
       text:
-        "Este ca si cum as discuta cu cea mai buna prietena care stie sa ajunga.",
-      imageUrl: "https://mdbootstrap.com/img/Photos/Avatars/img%20(8).jpg"
+        "Am cunoscut-o pe Roxana încă de când era pe băncile Facultății de Psihologie și Științele Educației. Avand abilități foarte bune de comunicare m-a sprijinit în mai multe proiecte, în mod voluntar, cu un deosebit simț al răspunderii. O recomand cu căldură, știind că, deschiderea și dedicarea ei pentru această profesie, nu doar că vă va ajuta, ci vă va deschide noi perspective în a vedea lumea reală, o lume imperfectă, dar frumoasă!",
+      imageUrl: "testimonial-razvan.jpg"
     },
     {
-      name: "Mircea Sovarel",
-      jobTitle: "Micul Eliade",
+      name: "Alina Tariceanu",
+      jobTitle: "Lector universitar doctor",
       text:
-        "Colaborarea cu Roxana este o colaborare bazata pe libertate de exprimare.",
-      imageUrl: "https://mdbootstrap.com/img/Photos/Avatars/img%20(8).jpg"
+        "O persoana generoasa, care iubește viața, un spirit liber, dar profund, capabil de o mare introspecție și atenție la detalii. Inteligenta și răbdarea o recomanda ca specialist, iar abilitatea ei de a câștiga repede incerederea celorlalți face ca experiența terapeutica sa fie una excepțională.",
+      imageUrl: "testimonial-alina.jpg"
     }
   ];
 </script>
@@ -32,7 +32,9 @@
   <section class="text-center dark-grey-text">
     <div class="row">
       {#each testimonials as testimonial}
-        <TestimonialItem {...testimonial} />
+        <div class="col-lg-4 col-md-12 mb-4">
+          <TestimonialItem {...testimonial} />
+        </div>
       {/each}
     </div>
   </section>

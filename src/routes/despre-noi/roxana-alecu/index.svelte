@@ -4,25 +4,32 @@
 
   let reviews = [
     {
-      name: "Andrei Buhus",
-      jobTitle: "Web developer",
+      name: "Corina Preoteasa",
+      jobTitle: "Jurnalist",
       text:
-        "Nu pot sa aduc decat cuvinte de lauda colaborarii cu domnisoara Alecu.",
-      imageUrl: "https://mdbootstrap.com/img/Photos/Avatars/img%20(1).jpg"
+        "O persoana profunda si cu o buna intuitie asupra naturii umane, Roxana are o adevarata vocatie pentru aceasta profesie.",
+      imageUrl: "testimonial-corina.jpg"
+    },
+    {
+      name: "Razvan Bratianu",
+      jobTitle: "Consilier parlamentar",
+      text:
+        "O recomand cu căldură, deschiderea și dedicarea ei pentru această profesie vă va deschide noi perspective în a vedea lumea reală, o lume imperfectă, dar frumoasă.",
+      imageUrl: "testimonial-razvan.jpg"
     },
     {
       name: "Alina Tariceanu",
-      jobTitle: "Profesor sanskrita",
+      jobTitle: "Lector universitar doctor",
       text:
-        "Este ca si cum as discuta cu cea mai buna prietena care stie sa ajunga la esenta problemei",
-      imageUrl: "https://mdbootstrap.com/img/Photos/Avatars/img%20(8).jpg"
+        "Inteligenta și răbdarea o recomanda ca specialist, iar abilitatea ei de a câștiga repede incerederea celorlalți face ca experiența terapeutica sa fie una excepțională.",
+      imageUrl: "testimonial-alina.jpg"
     },
     {
       name: "Vlad Sovarel",
-      jobTitle: "Micul Eliade",
+      jobTitle: "Indolog si traducator din sanskrita",
       text:
         "Colaborarea cu Roxana este o colaborare bazata pe libertate de exprimare.",
-      imageUrl: "https://mdbootstrap.com/img/Photos/Avatars/img%20(8).jpg"
+      imageUrl: "testimonial-vlad.jpg"
     }
   ];
 </script>

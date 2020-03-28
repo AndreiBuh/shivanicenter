@@ -23,6 +23,13 @@
       text:
         "Colaborarea cu Roxana este o colaborare bazata pe libertate de exprimare.",
       imageUrl: "https://mdbootstrap.com/img/Photos/Avatars/img%20(8).jpg"
+    },
+    {
+      name: "Mircea Sovarel",
+      jobTitle: "Micul Eliade",
+      text:
+        "Colaborarea cu Roxana este o colaborare bazata pe libertate de exprimare.",
+      imageUrl: "https://mdbootstrap.com/img/Photos/Avatars/img%20(8).jpg"
     }
   ];
 </script>

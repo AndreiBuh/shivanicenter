@@ -38,15 +38,10 @@
 </style>
 
 <div class="post-readmore">
-  <div class="jssocials-share jssocials-share-twitter mr-2">
-    <a target="_blank" href="https://twitter.com/" class="jssocials-share-link">
-      <i class="fa fa-twitter jssocials-share-logo" />
-    </a>
-  </div>
   <div class="jssocials-share jssocials-share-facebook mx-2">
     <a
       target="_blank"
-      href="https://facebook.com/"
+      href="https://www.facebook.com/PsihologRoxanaAlecu/"
       class="jssocials-share-link">
       <i class="fa fa-facebook jssocials-share-logo" />
     </a>
@@ -54,19 +49,18 @@
   <div class="jssocials-share jssocials-share-pinterest mx-2">
     <a
       target="_blank"
-      href="https://pinterest.com/"
+      href="https://www.instagram.com/psiholog.roxana.alecu/"
       class="jssocials-share-link">
-      <i class="fa fa-pinterest jssocials-share-logo" />
+      <i class="fa fa-instagram jssocials-share-logo" />
     </a>
   </div>
   <div class="jssocials-share jssocials-share-whatsapp mx-2">
-    <a target="_self" href="#" class="jssocials-share-link">
-      <i class="fa fa-whatsapp jssocials-share-logo" />
+    <a
+      target="blank"
+      href="https://www.linkedin.com/in/florentina-roxana-alecu-78a220186/"
+      class="jssocials-share-link">
+      <i class="fa fa-linkedin jssocials-share-logo" />
     </a>
   </div>
-  <div class="jssocials-share jssocials-share-messenger ml-2">
-    <a target="_self" href="#" class="jssocials-share-link">
-      <i class="fa fa-commenting jssocials-share-logo" />
-    </a>
-  </div>
+
 </div>

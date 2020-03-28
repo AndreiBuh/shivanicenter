@@ -191,29 +191,22 @@
             <p>Ne puteti gasi pe retelele de socializare</p>
             <div class="fa-social">
               <a
-                href="http://www.facebook.com"
-                aria-label="Pagina de facebook Shivani Center">
+                target="_blank"
+                href="https://www.facebook.com/PsihologRoxanaAlecu/"
+                aria-label="facebook">
                 <i class="fa fa-facebook" />
               </a>
               <a
-                href="http://www.instagram.com"
-                aria-label="Pagina de instagram Shivani Center">
+                target="_blank"
+                href="https://www.instagram.com/psiholog.roxana.alecu/"
+                aria-label="instagram">
                 <i class="fa fa-instagram" />
               </a>
               <a
-                href="http://www.linkedin.com"
-                aria-label="Pagina de linkedin Shivani Center">
+                target="_blank"
+                href="https://www.linkedin.com/in/florentina-roxana-alecu-78a220186/"
+                aria-label="linkedin">
                 <i class="fa fa-linkedin" />
-              </a>
-              <a
-                href="http://www.twitter.com"
-                aria-label="Pagina de twitter Shivani Center">
-                <i class="fa fa-twitter" />
-              </a>
-              <a
-                href="http://www.google-plus.com"
-                aria-label="Pagina de google plus Shivani Center">
-                <i class="fa fa-google-plus" />
               </a>
             </div>
           </div>

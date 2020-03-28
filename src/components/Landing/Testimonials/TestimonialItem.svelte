@@ -1,8 +1,12 @@
 <script>
+  import Button from "../../../components/UI/Button.svelte";
+
   export let name;
   export let jobTitle;
   export let text;
   export let imageUrl;
+  export let slug;
+  export let button;
 </script>
 
 <style>
@@ -35,7 +39,7 @@
   }
 
   .card-body span {
-    font-size: 10px;
+    font-size: 12px;
     letter-spacing: 2px;
     font-family: "Montserrat";
   }
@@ -60,26 +64,30 @@
     font-family: "Josefin Sans";
     font-size: 14px;
   }
+
+  a {
+    text-decoration: none;
+  }
 </style>
 
-<div class="col-lg-4 col-md-12 mb-4">
-  <div class="card testimonial-card">
-    <div class="card-up info-color" />
-    <div class="avatar mx-auto white">
-      <img
-        src={imageUrl}
-        class="rounded-circle img-fluid"
-        alt="Reviwer avatar" />
-    </div>
-    <div class="card-body">
-      <h6 class="font-weight-bold">{name}</h6>
-      <span class="text-elegant text-uppercase">{jobTitle}</span>
-      <hr />
-      <blockquote>
-        <em>
-          <p class="dark-grey-text mt-4">{text}</p>
-        </em>
-      </blockquote>
-    </div>
+<div class="card testimonial-card">
+  <div class="card-up info-color" />
+  <div class="avatar mx-auto white">
+    <img src={imageUrl} class="rounded-circle img-fluid" alt="Reviwer avatar" />
+  </div>
+  <div class="card-body">
+    <h5 class="font-weight-bold">{name}</h5>
+    <span class="text-elegant text-uppercase font-weight-bold">{jobTitle}</span>
+    <hr />
+    <blockquote>
+      <em>
+        <p class="dark-grey-text mt-4">{text}</p>
+      </em>
+    </blockquote>
+    {#if button}
+      <a href="/despre-noi/echipa-noastra/{slug}">
+        <Button content="Citeste mai mult" />
+      </a>
+    {/if}
   </div>
 </div>
