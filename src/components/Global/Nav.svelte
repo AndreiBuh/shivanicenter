@@ -313,6 +313,14 @@
                 Psiholog Tatu Alexandra
               </a>
             </li>
+            <li>
+              <a
+                rel="prefetch"
+                href="despre-noi/echipa-noastra"
+                on:click={toggleMobileMenu}>
+                Echipa noastra
+              </a>
+            </li>
           </ul>
         </li>
         <li class="mx-5 mx-lg-5" rel="prefetch">
@@ -518,6 +526,14 @@
                 href="despre-noi/alexandra-tatu"
                 on:click={toggleMobileMenu}>
                 Psiholog Tatu Alexandra
+              </a>
+            </li>
+            <li>
+              <a
+                rel="prefetch"
+                href="despre-noi/echipa-noastra"
+                on:click={toggleMobileMenu}>
+                Echipa noastra
               </a>
             </li>
           </ul>
