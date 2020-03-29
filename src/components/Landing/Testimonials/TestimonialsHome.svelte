@@ -7,14 +7,14 @@
       name: "Corina Preoteasa",
       jobTitle: "Jurnalist",
       text:
-        "Atunci cand te afli in prezenta Roxanei, simti ca are o aura care o inconjoara. O persoana profunda si cu o buna intuitie asupra naturii umane, va va ajuta sa descalciti incurcatele drumuri ale mintii prin empatie, ascultare activa si intelegere. Ceea ce o face diferita de alti terapeuti este ca pe langa toate competentele si atuurile necesare, Roxana are o adevarata vocatie pentru aceasta profesie.",
+        "O persoana profunda si cu o buna intuitie asupra naturii umane, Roxana va poate ajuta sa descalciti incurcatele drumuri ale mintii prin empatie, ascultare activa si intelegere. Ceea ce o face diferita de alti terapeuti este ca pe langa toate competentele si atuurile necesare, Roxana are o adevarata vocatie pentru aceasta profesie.",
       imageUrl: "testimonial-corina.jpg"
     },
     {
       name: "Razvan Bratianu",
       jobTitle: "Consilier parlamentar",
       text:
-        "Am cunoscut-o pe Roxana încă de când era pe băncile Facultății de Psihologie și Științele Educației. Avand abilități foarte bune de comunicare m-a sprijinit în mai multe proiecte, în mod voluntar, cu un deosebit simț al răspunderii. O recomand cu căldură, știind că, deschiderea și dedicarea ei pentru această profesie, nu doar că vă va ajuta, ci vă va deschide noi perspective în a vedea lumea reală, o lume imperfectă, dar frumoasă!",
+        "Avand abilități foarte bune de comunicare m-a sprijinit în mai multe proiecte, în mod voluntar, cu un deosebit simț al răspunderii. O recomand cu căldură, știind că, deschiderea și dedicarea ei pentru această profesie, nu doar că vă va ajuta, ci vă va deschide noi perspective în a vedea lumea reală, o lume imperfectă, dar frumoasă!",
       imageUrl: "testimonial-razvan.jpg"
     },
     {
@@ -23,6 +23,13 @@
       text:
         "O persoana generoasa, care iubește viața, un spirit liber, dar profund, capabil de o mare introspecție și atenție la detalii. Inteligenta și răbdarea o recomanda ca specialist, iar abilitatea ei de a câștiga repede incerederea celorlalți face ca experiența terapeutica sa fie una excepțională.",
       imageUrl: "testimonial-alina.jpg"
+    },
+    {
+      name: "Vlad Sovarel",
+      jobTitle: "Indolog si traducator din sanskrita",
+      text:
+        "Inzestrată cu pasiune, răbdare și determinare, am nu doar speranța ci și convingerea unor rezultate pe măsura efortului depus în a implementa tehnicile din practicile meditative indiene în cadrul terapiilor psihologice occidentale",
+      imageUrl: "testimonial-vlad.jpg"
     }
   ];
 </script>
@@ -32,7 +39,7 @@
   <section class="text-center dark-grey-text">
     <div class="row">
       {#each testimonials as testimonial}
-        <div class="col-lg-4 col-md-12 mb-4">
+        <div class="col-lg-3 col-md-12 mb-4">
           <TestimonialItem {...testimonial} />
         </div>
       {/each}

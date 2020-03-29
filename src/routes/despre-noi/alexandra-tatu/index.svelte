@@ -144,9 +144,9 @@
         <p class="end">Tatu Alexandra</p>
       </div>
 
-      <!-- <hr class="style-hr" />
+      <hr class="style-hr" />
       <TestimonialList {reviews} />
-      <hr class="style-hr" /> -->
+      <hr class="style-hr" />
     </div>
   </div>
 </div>

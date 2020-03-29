@@ -1,7 +1,7 @@
 <script>
   export let title;
   export let image;
-  export let user;
+  export let author;
   export let published;
   export let excerpt;
   export let category;
@@ -59,7 +59,7 @@
 
 <div class="card">
   <a rel="prefetch" href="articole/{category_slug}/{slug}">
-    <img src={image.name} alt="" class="post-overlay" />
+    <img src={image.url} alt="" class="post-overlay" />
   </a>
   <div class="post-categories mt-md-4 mt-0">
     <a rel="prefetch" href="articole/{category_slug}" class="font-weight-bold">
@@ -78,6 +78,6 @@
     {@html excerpt}
   </div>
   <div class="post-meta">
-    <span>{user.username}, {published}</span>
+    <span>{author}, {published}</span>
   </div>
 </div>

@@ -14,7 +14,7 @@
   import { fade, fly } from "svelte/transition";
   import BlogItem from "../../components/Blog/BlogItem.svelte";
   export let blog;
-  const { id, image, title, content, published, user } = blog[0];
+  const { id, image, title, content, published, author } = blog[0];
 </script>
 
 <style>
@@ -46,7 +46,7 @@
     </h1>
     <div class="text-center" in:fade={{ duration: 2000 }}>
       <img
-        src={image.name}
+        src={image.url}
         alt="imagine psiholog alexandra tatu"
         class="img-top img-fluid" />
     </div>

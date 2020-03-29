@@ -44,14 +44,14 @@
 <div class="container">
   <Heading title="Ultimele postari" />
   <div class="card-columns">
-    {#each articles as { title, excerpt, image, category, category_slug, user, published, slug }, id}
+    {#each articles as { title, excerpt, image, category, category_slug, author, published, slug }, id}
       <div class="card p-3 m-2">
         <Story
           {title}
           {excerpt}
           {image}
           {category}
-          {user}
+          {author}
           {published}
           {category_slug}
           {slug} />

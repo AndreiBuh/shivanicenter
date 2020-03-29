@@ -1,5 +1,30 @@
 <script>
   import { fade, fly } from "svelte/transition";
+  import TestimonialList from "../../../../components/About/TestimonialList.svelte";
+
+  let reviews = [
+    {
+      name: "Surpățeanu Andreea",
+      jobTitle: "HR manager",
+      text:
+        "Claudia este un suflet mare si dedicat catre oameni. Colaborarea cu ea se bazeaza pe incredere, sustinere si multa energie pozitiva",
+      imageUrl: "testimonial-andreea.jpg"
+    },
+    {
+      name: "Bianca Pereteanu",
+      jobTitle: "Senior site management coordinator",
+      text:
+        "Sprijinul si cunostintele Claudiei mi-au fost de nadejde intr-o perioada in care alimentatia si ideea de program echilibrat de viata erau departe de mine. Datorita ei am invatat sa mananc bine, sanatos si gustos, dar mai ales, am inteles ca alimentatia este o parte a ingrijirii personale, iar sanatatea trebuie tratata “holistic”",
+      imageUrl: "testimonial-bianca.jpg"
+    },
+    {
+      name: "Ana Madalina Iana",
+      jobTitle: "Farmacist specialist",
+      text:
+        "Claudia m-a ajutat sa imi inteleg foamea și metabolisuml și să îi transform din dușmanii mei, în aliații mei",
+      imageUrl: "testimonial-ana.jpg"
+    }
+  ];
 </script>
 
 <style>
@@ -90,6 +115,10 @@
         <p class="paragraph-text">Cu drag,</p>
         <p class="end">Claudia Petre</p>
       </div>
+
+      <hr class="style-hr" />
+      <TestimonialList {reviews} />
+      <hr class="style-hr" />
 
     </div>
   </div>

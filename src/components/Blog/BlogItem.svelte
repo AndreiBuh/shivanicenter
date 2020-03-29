@@ -101,11 +101,11 @@
 <div class="box">
   <a rel="prefetch" href={`blog/${blog.slug}`}>
     <div class="imgBox">
-      <img src={blog.image.name} alt="" />
+      <img src={blog.image.url} alt="" />
     </div>
     <div class="content p-2 p-md-3">
       <h5>{blog.title}</h5>
-      <span class="post-details">{blog.published} | {blog.user.username}</span>
+      <span class="post-details">{blog.published} | {blog.author}</span>
       <p class="mt-2 text-truncate">
         {@html blog.excerpt}
       </p>

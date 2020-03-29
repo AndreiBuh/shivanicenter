@@ -1,5 +1,6 @@
 <script>
   import Button from "../../../components/UI/Button.svelte";
+  import Social from "../../Global/Social.svelte";
 
   export let name;
   export let jobTitle;
@@ -7,6 +8,9 @@
   export let imageUrl;
   export let slug;
   export let button;
+  export let facebook;
+  export let instagram;
+  export let linkedin;
 </script>
 
 <style>
@@ -18,13 +22,6 @@
   .card:hover {
     transform: translateY(-5px);
     transition: 0.4s ease-out;
-  }
-  blockquote {
-    padding: 0px 20px;
-  }
-  blockquote::before {
-    color: #000;
-    font-size: 30px;
   }
 
   .card-up {
@@ -39,8 +36,7 @@
   }
 
   .card-body span {
-    font-size: 12px;
-    letter-spacing: 2px;
+    font-size: 9px;
     font-family: "Montserrat";
   }
 
@@ -79,15 +75,16 @@
     <h5 class="font-weight-bold">{name}</h5>
     <span class="text-elegant text-uppercase font-weight-bold">{jobTitle}</span>
     <hr />
-    <blockquote>
-      <em>
-        <p class="dark-grey-text mt-4">{text}</p>
-      </em>
-    </blockquote>
+    <em>
+      <p class="dark-grey-text mt-4">{text}</p>
+    </em>
     {#if button}
       <a href="/despre-noi/echipa-noastra/{slug}">
         <Button content="Citeste mai mult" />
       </a>
+      <div class="mt-4">
+        <Social {facebook} {instagram} {linkedin} />
+      </div>
     {/if}
   </div>
 </div>

@@ -1,3 +1,9 @@
+<script>
+  export let facebook = "https://www.facebook.com/PsihologRoxanaAlecu/";
+  export let instagram = "https://www.instagram.com/psiholog.roxana.alecu/";
+  export let linkedin = "https://www.instagram.com/psiholog.roxana.alecu/";
+</script>
+
 <style>
   a {
     text-decoration: none;
@@ -39,26 +45,17 @@
 
 <div class="post-readmore">
   <div class="jssocials-share jssocials-share-facebook mx-2">
-    <a
-      target="_blank"
-      href="https://www.facebook.com/PsihologRoxanaAlecu/"
-      class="jssocials-share-link">
+    <a target="_blank" href={facebook} class="jssocials-share-link">
       <i class="fa fa-facebook jssocials-share-logo" />
     </a>
   </div>
   <div class="jssocials-share jssocials-share-pinterest mx-2">
-    <a
-      target="_blank"
-      href="https://www.instagram.com/psiholog.roxana.alecu/"
-      class="jssocials-share-link">
+    <a target="_blank" href={instagram} class="jssocials-share-link">
       <i class="fa fa-instagram jssocials-share-logo" />
     </a>
   </div>
   <div class="jssocials-share jssocials-share-whatsapp mx-2">
-    <a
-      target="blank"
-      href="https://www.linkedin.com/in/florentina-roxana-alecu-78a220186/"
-      class="jssocials-share-link">
+    <a target="blank" href={linkedin} class="jssocials-share-link">
       <i class="fa fa-linkedin jssocials-share-logo" />
     </a>
   </div>

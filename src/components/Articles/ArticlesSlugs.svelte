@@ -7,11 +7,12 @@
     title,
     image,
     avatar,
-    user,
+    author,
     published,
     content,
     category,
     likes,
+    category_slug,
     id
   } = article[0];
 </script>
@@ -91,19 +92,21 @@
         <h3 class="text-center p-3 my-0">{title}</h3>
         <div class="card-content">
           <div class="view view-cascade overlay">
-            <img class="card-img-top" src={image.name} alt="Educatie fete" />
+            <img class="card-img-top" src={image.url} alt="Educatie fete" />
           </div>
           <div class="avatar mx-auto white">
             <img
-              src={avatar.name}
+              src={avatar.url}
               class="rounded-circle img-fluid"
               alt="First sample avatar image" />
           </div>
           <div class="text-center">
-            <div class="author">{user.username}</div>
+            <div class="author">{author}</div>
             <div class="date">{published}</div>
             <div class="category">
-              <a href="" class="category-link">{category.title}</a>
+              <a href="/articole/{category_slug}" class="category-link">
+                {category.title}
+              </a>
             </div>
             <ShareSocialIcons {likes} {id} on:like />
           </div>
