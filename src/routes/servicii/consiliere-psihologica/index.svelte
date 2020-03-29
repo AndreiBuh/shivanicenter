@@ -29,7 +29,7 @@
     </h1>
     <div class="service-image text-center" in:fade={{ duration: 2000 }}>
       <img
-        src="consiliere-psihologica1.png"
+        src="consiliere-psihologica1.jpg"
         alt="imagine consiliere psihologica 1"
         class="img-top img-fluid" />
     </div>

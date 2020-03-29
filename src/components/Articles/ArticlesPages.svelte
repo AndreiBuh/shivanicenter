@@ -80,7 +80,7 @@
             <div class="view view-cascade overlay">
               <img
                 class="card-img-top"
-                src={`articole/${slug}/${articles[0].image.name}`}
+                src={articles[0].image.url}
                 alt="Educatie fete" />
             </div>
             <div class="card-body card-body-cascade text-center p-2">
@@ -102,7 +102,7 @@
                         <div class="mb-lg-0">
                           <img
                             class="img-fluid"
-                            src={article.image.name}
+                            src={article.image.url}
                             alt="Sample image" />
                         </div>
                       </div>

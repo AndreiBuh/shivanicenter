@@ -31,8 +31,8 @@
     </h1>
     <div class="service-image text-center" in:fade={{ duration: 2000 }}>
       <img
-        src="psihoeducatie1.png"
-        alt="imagine mediatie"
+        src="psihoeducatie1.jpg"
+        alt="psihoeducatie"
         class="img-top img-fluid" />
     </div>
     <div class="p-2 mt-3">

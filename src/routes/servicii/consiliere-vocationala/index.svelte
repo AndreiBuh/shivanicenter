@@ -29,8 +29,8 @@
     </h1>
     <div class="text-center" in:fade={{ duration: 2000 }}>
       <img
-        src="consiliere-vocationala1.png"
-        alt="imagine mediatie"
+        src="consiliere-vocationala1.jpg"
+        alt="consiliere vocationala"
         class="img-top img-fluid" />
     </div>
     <div class="p-2 mt-3">
@@ -146,8 +146,8 @@
         <div class="col-md-5">
           <img
             class="img-middle img-fluid"
-            src="consiliere-vocationala2.png"
-            alt="Imagine consiliere vocationala 2" />
+            src="consiliere-vocationala2.jpg"
+            alt="consiliere vocationala" />
         </div>
       </div>
     </div>

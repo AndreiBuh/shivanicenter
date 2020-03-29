@@ -28,10 +28,7 @@
       <span class="text-elegant font-weight-bold">.</span>
     </h1>
     <div class="service-image text-center" in:fade={{ duration: 2000 }}>
-      <img
-        src="art-therapy1.png"
-        alt="imagine mediatie"
-        class="img-top img-fluid" />
+      <img src="art-therapy1.jpg" alt="art therapy" class="img-top img-fluid" />
     </div>
     <div class="p-2 mt-3">
       <p class="paragraph-text">
@@ -125,8 +122,8 @@
         <div class="col-md-4">
           <img
             class="img-middle img-fluid"
-            src="art-therapy2.png"
-            alt="Imagine psihoterapie 2" />
+            src="art-therapy2.jpg"
+            alt="art therapy" />
         </div>
       </div>
     </div>

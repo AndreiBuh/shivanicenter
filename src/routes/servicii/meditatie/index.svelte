@@ -31,7 +31,7 @@
     </h1>
     <div class="text-center" in:fade={{ duration: 2000 }}>
       <img
-        src="meditatie1.png"
+        src="meditatie1.jpg"
         alt="imagine mediatie"
         class="img-top img-fluid" />
     </div>

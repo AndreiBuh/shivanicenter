@@ -30,10 +30,7 @@
       <span class="text-elegant font-weight-bold">.</span>
     </h1>
     <div class="text-center" in:fade={{ duration: 2000 }}>
-      <img
-        src="workshop1.png"
-        alt="imagine workshop 1"
-        class="img-top img-fluid" />
+      <img src="workshop1.jpg" alt="workshop" class="img-top img-fluid" />
     </div>
     <div class="p-2 mt-3">
       <p class="paragraph-text">
@@ -101,7 +98,7 @@
           <img
             class="img-middle img-fluid"
             src="workshop2.png"
-            alt="Imagine workshop 2" />
+            alt="workshop" />
         </div>
         <blockquote class="mt-3">
           <em>

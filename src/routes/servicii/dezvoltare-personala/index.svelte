@@ -31,8 +31,8 @@
     </h1>
     <div class="text-center" in:fade={{ duration: 2000 }}>
       <img
-        src="dezvoltare-personala1.png"
-        alt="imagine mediatie"
+        src="dezvoltare-personala1.jpg"
+        alt="dezvoltare personala"
         class="img-top img-fluid" />
     </div>
     <div class="p-2 mt-3">
@@ -121,8 +121,8 @@
         <div class="col-md-5 col-xs-12">
           <img
             class="img-middle img-fluid"
-            src="dezvoltare-personala2.png"
-            alt="Imagine psihoterapie 2" />
+            src="dezvoltare-personala2.jpg"
+            alt="dezvoltare personala" />
         </div>
       </div>
       <p class="mt-5 paragraph-text">
