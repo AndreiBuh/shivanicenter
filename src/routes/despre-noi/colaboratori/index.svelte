@@ -23,7 +23,7 @@
         "Numele meu este Alexandra Pană și sunt psihoterapeut! Pe fundal aud în cor câteva persoane “Bună Alexandraaa”, cam așa încep întâlnirile în grupurile de terapie pe care le mai vedem prin filme. Nu au fost puține ipostazele în care am fost pusă în postura de a mă prezenta de-a lungul vieții și de fiecare dată am ales să o fac într-un mod cât mai creativ.",
       slug: "alexandra-pana",
       button: true,
-      facebook: "https://www.facebook.com/alexandramaria.pana",
+      facebook: "https://www.facebook.com/alexandrapana.psihoterapeut/",
       instagram: "https://www.instagram.com/angiintheskywithdiamonds/",
       linkedin: "https://www.linkedin.com"
     },

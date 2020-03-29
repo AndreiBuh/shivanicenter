@@ -69,7 +69,7 @@
 <div class="card testimonial-card">
   <div class="card-up info-color" />
   <div class="avatar mx-auto white">
-    <a href="/despre-noi/echipa-noastra/{slug}">
+    <a href="/despre-noi/colaboratori/{slug}">
       <img
         src={imageUrl}
         class="rounded-circle img-fluid"
@@ -77,7 +77,7 @@
     </a>
   </div>
   <div class="card-body">
-    <a href="/despre-noi/echipa-noastra/{slug}">
+    <a href="/despre-noi/colaboratori/{slug}">
       <h5 class="font-weight-bold">{name}</h5>
     </a>
     <span class="text-elegant text-uppercase font-weight-bold">{jobTitle}</span>
@@ -86,7 +86,7 @@
       <p class="dark-grey-text mt-4">{text}</p>
     </em>
     {#if button}
-      <a href="/despre-noi/echipa-noastra/{slug}">
+      <a href="/despre-noi/colaboratori/{slug}">
         <Button content="Citeste mai mult" />
       </a>
       <div class="mt-4">

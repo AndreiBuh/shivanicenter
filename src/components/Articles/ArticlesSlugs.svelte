@@ -77,9 +77,8 @@
 
   .article-card-body :global(li) {
     margin: 0px 10px 10px 15px;
-    font-weight: bold;
-    font-size: 14px;
-    font-family: "Montserrat";
+    font-size: 16px;
+    font-family: "Josefin Sans";
   }
 
   /* Articole pages style END */
