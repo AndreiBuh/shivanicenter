@@ -37,14 +37,14 @@
       button: true,
       facebook: "https://www.facebook.com/PsiGinaIlie/",
       instagram: "https://www.instagram.com/_gi.psy_/",
-      linkedin: "https://www.linkedin.com"
+      linkedin: "https://www.linkedin.com/in/gina-ilie-0a0218121/"
     }
   ];
 </script>
 
-<style>
-
-</style>
+<svelte:head>
+  <title>Colaboratori</title>
+</svelte:head>
 
 <div class="container mt-5">
   <Heading title="Colaboratori" />

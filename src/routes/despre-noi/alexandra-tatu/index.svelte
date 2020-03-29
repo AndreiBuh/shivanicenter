@@ -4,32 +4,32 @@
 
   let reviews = [
     {
-      name: "Florin Pop",
-      jobTitle: "Web developer",
+      name: "Lacramioara Rotaru",
+      jobTitle: "Jurist",
       text:
-        "Nu pot sa aduc decat cuvinte de lauda colaborarii cu domnisoara Alecu.",
-      imageUrl: "https://mdbootstrap.com/img/Photos/Avatars/img%20(1).jpg"
+        "Profunda, dar și copilaroasa, un amalgam între tradiție și modern, deosebit de creativa, își pune sufletul în tot ceea ce face, cu dăruire și perseverentă.",
+      imageUrl: "testimonial-lacramioara-rotaru.jpg"
     },
     {
-      name: "Bogdan Popescu",
-      jobTitle: "Profesor sanskrita",
+      name: "Craciun Beatrice",
+      jobTitle: "Profesor",
       text:
-        "Este ca si cum as discuta cu cea mai buna prietena care stie sa ajunga la esenta problemei",
-      imageUrl: "https://mdbootstrap.com/img/Photos/Avatars/img%20(8).jpg"
+        "O apreciez pe Alexandra în mod deosebit, pentru evoluția ei spirituală ",
+      imageUrl: "testimonial-craciun-beatrice.jpg"
     },
     {
-      name: "Mircea Sovarel",
-      jobTitle: "Micul Eliade",
+      name: "Raluca Irimie",
+      jobTitle: "Psiholog/Autor",
       text:
-        "Colaborarea cu Roxana este o colaborare bazata pe libertate de exprimare.",
-      imageUrl: "https://mdbootstrap.com/img/Photos/Avatars/img%20(8).jpg"
+        "O persoană deschisă, generoasă în cuvinte, încurajând oamenii. Fiind atentă la detalii, îți dorești să faci lucrurile într-un mod profesionist",
+      imageUrl: "testimonial-raluca-irimie.jpg"
     },
     {
-      name: "Mircea Sovarel",
-      jobTitle: "Micul Eliade",
+      name: "Carmen Stoian",
+      jobTitle: "Autor",
       text:
-        "Colaborarea cu Roxana este o colaborare bazata pe libertate de exprimare.",
-      imageUrl: "https://mdbootstrap.com/img/Photos/Avatars/img%20(8).jpg"
+        "Un om serios, de cuvant, sensibil si inteligent. Ca psihoterapeut cred ca detii multe informatii si teorii bune de puse in aplicare",
+      imageUrl: "testimonial-carmen-stoian.jpg"
     }
   ];
 </script>

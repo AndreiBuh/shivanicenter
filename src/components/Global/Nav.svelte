@@ -316,9 +316,9 @@
             <li>
               <a
                 rel="prefetch"
-                href="despre-noi/echipa-noastra"
+                href="despre-noi/colaboratori"
                 on:click={toggleMobileMenu}>
-                Echipa noastra
+                Colaboratori
               </a>
             </li>
           </ul>
@@ -531,9 +531,9 @@
             <li>
               <a
                 rel="prefetch"
-                href="despre-noi/echipa-noastra"
+                href="despre-noi/colaboratori"
                 on:click={toggleMobileMenu}>
-                Echipa noastra
+                Colaboratori
               </a>
             </li>
           </ul>

@@ -14,7 +14,7 @@
       name: "Bianca Pereteanu",
       jobTitle: "Senior site management coordinator",
       text:
-        "Sprijinul si cunostintele Claudiei mi-au fost de nadejde intr-o perioada in care alimentatia si ideea de program echilibrat de viata erau departe de mine. Datorita ei am invatat sa mananc bine, sanatos si gustos, dar mai ales, am inteles ca alimentatia este o parte a ingrijirii personale, iar sanatatea trebuie tratata “holistic”",
+        "Sprijinul si cunostintele Claudiei mi-au fost de nadejde intr-o perioada in care alimentatia si ideea de program echilibrat de viata erau departe de mine",
       imageUrl: "testimonial-bianca.jpg"
     },
     {

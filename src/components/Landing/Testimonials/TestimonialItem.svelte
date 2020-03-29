@@ -69,10 +69,17 @@
 <div class="card testimonial-card">
   <div class="card-up info-color" />
   <div class="avatar mx-auto white">
-    <img src={imageUrl} class="rounded-circle img-fluid" alt="Reviwer avatar" />
+    <a href="/despre-noi/echipa-noastra/{slug}">
+      <img
+        src={imageUrl}
+        class="rounded-circle img-fluid"
+        alt="Reviwer avatar" />
+    </a>
   </div>
   <div class="card-body">
-    <h5 class="font-weight-bold">{name}</h5>
+    <a href="/despre-noi/echipa-noastra/{slug}">
+      <h5 class="font-weight-bold">{name}</h5>
+    </a>
     <span class="text-elegant text-uppercase font-weight-bold">{jobTitle}</span>
     <hr />
     <em>
