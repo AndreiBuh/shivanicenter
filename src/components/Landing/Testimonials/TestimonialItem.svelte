@@ -2,15 +2,19 @@
   import Button from "../../../components/UI/Button.svelte";
   import Social from "../../Global/Social.svelte";
 
-  export let name;
-  export let jobTitle;
-  export let text;
-  export let imageUrl;
-  export let slug;
-  export let button;
-  export let facebook;
-  export let instagram;
-  export let linkedin;
+  export let testimonial;
+
+  const {
+    name,
+    jobTitle,
+    text,
+    imageUrl,
+    slug,
+    button,
+    facebook,
+    instagram,
+    linkedin
+  } = testimonial;
 </script>
 
 <style>

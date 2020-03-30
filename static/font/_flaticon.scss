@@ -7,7 +7,6 @@
   font-family: "Flaticon";
   src: url("./Flaticon.eot");
   src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
-       url("./Flaticon.woff2") format("woff2"),
        url("./Flaticon.woff") format("woff"),
        url("./Flaticon.ttf") format("truetype"),
        url("./Flaticon.svg#Flaticon") format("svg");
@@ -53,7 +52,7 @@
 .flaticon-buddhism:before { content: "\f10d"; }
 .flaticon-mortar:before { content: "\f10e"; }
 .flaticon-buddhism-1:before { content: "\f10f"; }
-    
+
     $font-Flaticon-mission: "\f100";
     $font-Flaticon-eye: "\f101";
     $font-Flaticon-goal: "\f102";

@@ -38,9 +38,9 @@
   <Heading title="Testimoniale" />
   <section class="text-center dark-grey-text">
     <div class="row">
-      {#each testimonials as testimonial}
+      {#each testimonials as testimonial, index}
         <div class="col-lg-3 col-md-12 mb-4">
-          <TestimonialItem {...testimonial} />
+          <TestimonialItem {testimonial} />
         </div>
       {/each}
     </div>

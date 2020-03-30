@@ -44,17 +44,9 @@
 <div class="container">
   <Heading title="Ultimele postari" />
   <div class="card-columns">
-    {#each articles as { title, excerpt, image, category, category_slug, author, published, slug }, id}
+    {#each articles as article, index (article.id)}
       <div class="card p-3 m-2">
-        <Story
-          {title}
-          {excerpt}
-          {image}
-          {category}
-          {author}
-          {published}
-          {category_slug}
-          {slug} />
+        <Story {...article} />
       </div>
     {/each}
   </div>

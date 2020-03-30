@@ -1,12 +1,12 @@
 <script>
   export let title;
-  export let image;
-  export let author;
   export let published;
   export let excerpt;
+  export let image;
   export let category;
   export let category_slug;
   export let slug;
+  export let author;
 </script>
 
 <style>
@@ -59,7 +59,7 @@
 
 <div class="card">
   <a rel="prefetch" href="articole/{category_slug}/{slug}">
-    <img src={image.url} alt="" class="post-overlay" />
+    <img src={image.url} alt="image" class="post-overlay" />
   </a>
   <div class="post-categories mt-md-4 mt-0">
     <a rel="prefetch" href="articole/{category_slug}" class="font-weight-bold">
