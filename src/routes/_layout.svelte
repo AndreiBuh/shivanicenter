@@ -3,15 +3,11 @@
   import { fade, fly } from "svelte/transition";
   import Nav from "../components/Global/Nav.svelte";
   import Footer from "../components/Global/Footer.svelte";
+  import GoogleAnalytics from "../components/GoogleAnalytics.svelte";
+
   export let segment;
 
-  // let Nav;
   let scroll;
-
-  // onMount(async () => {
-  //   const navigation = await import("../components/Global/Nav.svelte");
-  //   Nav = navigation.default;
-  // });
 </script>
 
 <style>
@@ -156,6 +152,7 @@
   }
 </style>
 
+<GoogleAnalytics />
 <svelte:window bind:scrollY={scroll} id:slides />
 
 <svelte:component this={Nav} {segment} />
