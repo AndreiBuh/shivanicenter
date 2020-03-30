@@ -215,7 +215,7 @@
           <div class="ft-contact text-center">
             <h6>Contact</h6>
             <ul>
-              <li>shivani.center@yahoo.com</li>
+              <li>shivani.center@gmail.com</li>
               <li>Strada George Vraca, nr.7</li>
               <li>0754.689.944</li>
             </ul>

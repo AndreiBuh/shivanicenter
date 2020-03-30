@@ -72,6 +72,10 @@
     .card-columns {
       column-count: 1;
     }
+
+    :global(.svelte-tabs li) {
+      font-size: 14px;
+    }
   }
 </style>
 
