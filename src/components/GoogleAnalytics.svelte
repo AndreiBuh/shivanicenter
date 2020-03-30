@@ -3,7 +3,7 @@
   const { page } = stores();
   $: {
     if (typeof gtag !== "undefined") {
-      gtag("config", "G-EVJYXDFFN8", {
+      gtag("config", "UA-162205149-1", {
         page_path: $page.path
       });
     }
