@@ -91,7 +91,7 @@
         rel="prefetch"
         href="articole/{category_slug}/{slug}"
         class="image-holder col-md-6 col-6">
-        <img src={image.name} alt={title} />
+        <img src={image.url} alt={title} />
       </a>
     </li>
   {/each}
