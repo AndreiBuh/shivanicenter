@@ -52,7 +52,7 @@
     <div class="row">
       {#each collaborators as collaborator}
         <div class="col-md-4 col-12">
-          <TestimonialItem {...collaborator} />
+          <TestimonialItem {collaborator} />
         </div>
       {/each}
     </div>

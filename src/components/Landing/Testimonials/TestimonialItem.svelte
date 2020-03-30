@@ -2,7 +2,7 @@
   import Button from "../../../components/UI/Button.svelte";
   import Social from "../../Global/Social.svelte";
 
-  export let testimonial;
+  export let collaborator;
 
   const {
     name,
@@ -14,7 +14,7 @@
     facebook,
     instagram,
     linkedin
-  } = testimonial;
+  } = collaborator;
 </script>
 
 <style>
