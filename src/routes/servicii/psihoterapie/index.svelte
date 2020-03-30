@@ -30,8 +30,8 @@
     </h1>
     <div class="text-center" in:fade={{ duration: 2000 }}>
       <img
-        src="psihoterapie1.png"
-        alt="imagine mediatie"
+        src="psihoterapie1.jpg"
+        alt="psihoterapie"
         class="img-top img-fluid" />
     </div>
     <div class="p-2 mt-3">
@@ -113,8 +113,8 @@
         <div class="col-md-4">
           <img
             class="img-middle img-fluid"
-            src="psihoterapie2.png"
-            alt="Imagine psihoterapie 2" />
+            src="psihoterapie2.jpg"
+            alt="psihoterapie" />
         </div>
         <blockquote class="mt-4">
           <em>

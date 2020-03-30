@@ -2,7 +2,7 @@
   const apiUrl = process.env.SAPPER_APP_API_URL;
 
   export async function preload({ params, query }) {
-    return this.fetch(`${apiUrl}/blogs?slug=${params.slug}`, null)
+    return this.fetch(`${apiUrl}/blogs?slug=${params.slug}`)
       .then(res => res.json())
       .then(blog => {
         return { blog };
