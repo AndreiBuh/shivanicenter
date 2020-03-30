@@ -50,7 +50,7 @@
     width: 100%;
   }
   .banner-title {
-    font-family: "Playball", sans-serif;
+    font-family: "Oswald", sans-serif;
   }
 
   h5.placeholder,

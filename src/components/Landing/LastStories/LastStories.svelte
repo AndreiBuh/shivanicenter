@@ -7,7 +7,7 @@
   let articles = [];
 
   onMount(async () => {
-    const res = await fetch(`${apiUrl}/articles?_limit=3`);
+    const res = await fetch(`${apiUrl}/articles?_limit=3&featured=true`);
     const json = await res.json();
     articles = json;
   });

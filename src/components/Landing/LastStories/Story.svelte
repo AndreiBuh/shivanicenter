@@ -24,7 +24,7 @@
   .post-categories a {
     font-size: 12px;
     color: var(--main-color);
-    font-family: "Montserrat";
+    font-family: "Oswald";
     letter-spacing: 2px;
     text-transform: uppercase;
   }
@@ -53,7 +53,7 @@
   .post-meta span {
     font-size: 11px;
     color: #8d8d8d;
-    font-family: "Montserrat";
+    font-family: "Oswald";
   }
 </style>
 

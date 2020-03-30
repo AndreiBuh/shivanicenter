@@ -47,7 +47,7 @@
   }
   /*  Servicii descriptions style START */
   :global(.service-title) {
-    font-family: "Playball", "Oswald", sans-serif;
+    font-family: "Oswald", sans-serif;
     color: #fff;
   }
 

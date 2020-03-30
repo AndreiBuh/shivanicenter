@@ -110,7 +110,7 @@
     color: #fff;
     margin-bottom: 0;
     margin-right: auto;
-    font-family: "Special Elite", sans-serif;
+    font-family: "Special Oswald", sans-serif;
     font-weight: 700;
   }
 

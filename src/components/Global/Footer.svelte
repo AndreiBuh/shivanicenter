@@ -50,7 +50,6 @@
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 3px;
-    font-family: "Special Elite", sans-serif;
     margin-bottom: 20px;
   }
   .footer-section .footer-text .ft-about .logo a {
@@ -84,7 +83,6 @@
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 3px;
-    font-family: "Special Elite", sans-serif;
     margin-bottom: 20px;
   }
   .footer-section .footer-text .ft-contact ul li {
@@ -99,7 +97,6 @@
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 3px;
-    font-family: "Special Elite", sans-serif;
     margin-bottom: 20px;
   }
   .footer-section .footer-text .ft-newslatter p {

@@ -48,7 +48,7 @@
     color: color;
     border-radius: 6px;
     font-size: 12px;
-    font-family: "Montserrat";
+    font-family: "Oswald";
     letter-spacing: 3px;
   }
 

@@ -10,7 +10,7 @@
 
 <style>
   .testimonial {
-    font-family: "Montserrat";
+    font-family: "Oswald";
     font-size: 14px;
   }
   .img-testimonial {

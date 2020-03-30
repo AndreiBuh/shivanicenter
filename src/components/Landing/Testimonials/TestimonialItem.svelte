@@ -36,8 +36,8 @@
   }
 
   .card-body span {
-    font-size: 9px;
-    font-family: "Montserrat";
+    font-size: 12px;
+    font-family: "Oswald";
   }
 
   .avatar {
