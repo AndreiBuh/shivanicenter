@@ -58,11 +58,10 @@
     text-align: center;
   }
   .box .content .post-details {
-    color: #939393;
-    font-size: 12px;
-    line-height: 12px;
-    text-transform: uppercase;
-    display: block !important;
+    color: #8d8d8d;
+    font-size: 13px;
+    font-family: var(--font-main), sans-serif;
+    letter-spacing: 1px;
   }
 
   h5 {
@@ -73,7 +72,7 @@
     color: #fff;
     transition: 0.5s;
     display: none;
-    font-family: "Josefin Sans";
+    font-family: var(--font-text);
   }
 
   .box:hover p {

@@ -130,7 +130,7 @@
       </p>
       <div class="m-3 text-right">
         <p class="paragraph-text">Cu stima,</p>
-        <p class="end">Shivani Center</p>
+        <p class="signature">Shivani Center</p>
       </div>
 
     </div>

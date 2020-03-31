@@ -2,7 +2,7 @@
   import { fade, fly } from "svelte/transition";
   import TestimonialList from "../../../components/About/TestimonialList.svelte";
 
-  let reviews = [
+  let testimonials = [
     {
       name: "Lacramioara Rotaru",
       jobTitle: "Jurist",
@@ -68,7 +68,7 @@
     </div>
     <div class="p-2">
       <h1 class="text-center my-4">
-        <span class="text-elegant font-weight-bold end">Buna,</span>
+        <span class="text-elegant font-weight-bold signature">Buna,</span>
       </h1>
       <p class="paragraph-text">
         La fel ca şi tine, şi eu am o poveste în spatele numelui meu. De fapt,
@@ -141,11 +141,11 @@
 
       <div class="m-3 text-right">
         <p class="paragraph-text">Cu drag,</p>
-        <p class="end">Tatu Alexandra</p>
+        <p class="signature">Tatu Alexandra</p>
       </div>
 
       <hr class="style-hr" />
-      <TestimonialList {reviews} />
+      <TestimonialList {testimonials} />
       <hr class="style-hr" />
     </div>
   </div>

@@ -19,7 +19,7 @@
 
 <style>
   h3 {
-    font-family: "Oswald";
+    font-family: var(--font-main), cursive;
   }
 
   .card-img-top {
@@ -40,31 +40,31 @@
     border: 5px solid #fff;
   }
 
-  .date {
+  .details {
     color: #8c8c8c;
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-family: "Oswald", sans-serif;
+    font-family: var(--font-main), sans-serif;
   }
 
   a.category-link {
     text-decoration: none;
     font-size: 12px;
     color: var(--main-color);
-    font-family: "Oswald";
+    font-family: var(--font-main);
     letter-spacing: 2px;
     text-transform: uppercase;
   }
   /* Articole pages style START */
 
   .article-card-body :global(p) {
-    font-family: "Roboto", "Josefin Sans", sans-serif;
+    font-family: var(--font-text), sans-serif;
     font-size: 18px;
   }
 
   .article-card-body :global(h1, h2, h3, h4, h5, h6, h7) {
-    font-family: "Roboto", "Josefin Sans", sans-serif;
+    font-family: var(--font-main), sans-serif;
   }
 
   .article-card-body :global(div) {
@@ -73,8 +73,8 @@
 
   .article-card-body :global(li) {
     margin: 0px 10px 10px 15px;
-    font-size: 18px;
-    font-family: "Roboto", "Josefin Sans", sans-serif;
+    font-size: 20px;
+    font-family: var(--font-text), sans-serif;
   }
 
   /* Articole pages style END */
@@ -96,7 +96,7 @@
               alt="First sample avatar image" />
           </div>
           <div class="text-center">
-            <div class="date">{author} | {published}</div>
+            <div class="details">{author} | {published}</div>
             <div class="category">
               <a href="/articole/{category_slug}" class="category-link">
                 {category.title}
@@ -105,7 +105,7 @@
             <ShareSocialIcons {likes} {id} on:like />
           </div>
         </div>
-        <div class="card-body article-card-body text-justify">
+        <div class="card-body article-card-body">
           {@html content}
         </div>
       </div>

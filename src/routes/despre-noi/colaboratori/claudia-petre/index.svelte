@@ -2,27 +2,34 @@
   import { fade, fly } from "svelte/transition";
   import TestimonialList from "../../../../components/About/TestimonialList.svelte";
 
-  let reviews = [
+  let testimonials = [
     {
       name: "Surpățeanu Andreea",
       jobTitle: "HR manager",
       text:
-        "Claudia este un suflet mare si dedicat catre oameni. Colaborarea cu ea se bazeaza pe incredere, sustinere si multa energie pozitiva",
+        "Claudia este un suflet mare și dedicat către oameni. Colaborarea cu ea se bazează pe încredere, susținere și multă energie pozitivă",
       imageUrl: "testimonial-andreea.jpg"
     },
     {
-      name: "Bianca Pereteanu",
-      jobTitle: "Senior site management coordinator",
+      name: "Bianca Perețeanu",
+      jobTitle: "Senior site management",
       text:
-        "Sprijinul si cunostintele Claudiei mi-au fost de nadejde intr-o perioada in care alimentatia si ideea de program echilibrat de viata erau departe de mine",
+        "Sprijinul și cunoștințele Claudiei mi-au fost de nădejde într-o perioadă în care alimentația și ideea de program echilibrat de viață erau departe de mine",
       imageUrl: "testimonial-bianca.jpg"
     },
     {
-      name: "Ana Madalina Iana",
+      name: "Ana Mădălina Iana",
       jobTitle: "Farmacist specialist",
       text:
-        "Claudia m-a ajutat sa imi inteleg foamea și metabolisuml și să îi transform din dușmanii mei, în aliații mei",
+        "Claudia m-a ajutat sa îmi înțeleg foamea și metabolismul, să îi transform din dușmanii mei, în aliații mei",
       imageUrl: "testimonial-ana.jpg"
+    },
+    {
+      name: "Andrei Bogdan Nicolescu",
+      jobTitle: "Senior brand ambassador",
+      text:
+        "Claudia Petre m-a ajutat să învăț să aleg alimentele prietenoase, să-mi organizez mesele, mi-a răspuns la toate incertitudinile mele legate de alimentație",
+      imageUrl: "testimonial-andrei.jpg"
     }
   ];
 </script>
@@ -50,7 +57,7 @@
     <h1
       class="service-title my-4 pt-md-0 text-center"
       in:fly={{ x: -200, duration: 2000 }}>
-      Nutritionist Claudia Petre
+      Nutriționist Claudia Petre
       <span class="text-elegant font-weight-bold">.</span>
     </h1>
     <div class="text-center" in:fade={{ duration: 2000 }}>
@@ -110,16 +117,13 @@
         simți schimbarea în bine a tonusului general și veți ajunge la
         rezultatele dorite fără a depune efort.
       </p>
-
       <div class="m-3 text-right">
         <p class="paragraph-text">Cu drag,</p>
-        <p class="end">Claudia Petre</p>
+        <p class="signature">Claudia Petre</p>
       </div>
-
       <hr class="style-hr" />
-      <TestimonialList {reviews} />
+      <TestimonialList {testimonials} />
       <hr class="style-hr" />
-
     </div>
   </div>
 </div>

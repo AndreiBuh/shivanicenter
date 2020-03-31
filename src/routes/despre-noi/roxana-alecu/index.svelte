@@ -2,33 +2,33 @@
   import { fade, fly } from "svelte/transition";
   import TestimonialList from "../../../components/About/TestimonialList.svelte";
 
-  let reviews = [
+  let testimonials = [
     {
       name: "Corina Preoteasa",
       jobTitle: "Jurnalist",
       text:
-        "O persoana profunda si cu o buna intuitie asupra naturii umane, Roxana are o adevarata vocatie pentru aceasta profesie.",
+        "O persoană profundă și cu o bună intuiție asupra naturii umane, Roxana are o adevărată vocație pentru această profesie.",
       imageUrl: "testimonial-corina.jpg"
     },
     {
-      name: "Razvan Bratianu",
+      name: "Răzvan Brătianu",
       jobTitle: "Consilier parlamentar",
       text:
         "O recomand cu căldură, deschiderea și dedicarea ei pentru această profesie vă va deschide noi perspective în a vedea lumea reală, o lume imperfectă, dar frumoasă.",
       imageUrl: "testimonial-razvan.jpg"
     },
     {
-      name: "Alina Tariceanu",
+      name: "Alina Tăriceanu",
       jobTitle: "Lector universitar doctor",
       text:
         "Inteligenta și răbdarea o recomanda ca specialist, iar abilitatea ei de a câștiga repede incerederea celorlalți face ca experiența terapeutica sa fie una excepțională.",
       imageUrl: "testimonial-alina.jpg"
     },
     {
-      name: "Vlad Sovarel",
-      jobTitle: "Indolog si traducator din sanskrita",
+      name: "Vlad Șovărel",
+      jobTitle: "Indolog și sanskritolog",
       text:
-        "Colaborarea cu Roxana este o colaborare bazata pe libertate de exprimare.",
+        "Înzestrată cu pasiune, răbdare și determinare, am convingerea unor rezultate pe măsura efortului depus în a implementa tehnicile din practicile meditative indiene în cadrul terapiilor psihologice occidentale",
       imageUrl: "testimonial-vlad.jpg"
     }
   ];
@@ -69,7 +69,7 @@
     </div>
     <div class="p-2">
       <h1 class="text-center my-4">
-        <span class="text-elegant font-weight-bold end">Namaste,</span>
+        <span class="text-elegant font-weight-bold signature">Namaste,</span>
       </h1>
       <p class="paragraph-text">
         Inca din copilarie m-am intrebat cine sunt eu. Am crezut de foarte multe
@@ -155,10 +155,10 @@
 
       <div class="m-3 text-right">
         <p class="paragraph-text">Cu iubire si recunostinta,</p>
-        <p class="end">Roxana Alecu</p>
+        <p class="signature">Roxana Alecu</p>
       </div>
       <hr class="style-hr" />
-      <TestimonialList {reviews} />
+      <TestimonialList {testimonials} />
       <hr class="style-hr" />
     </div>
   </div>

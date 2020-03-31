@@ -1,21 +1,24 @@
-@import url("https://fonts.googleapis.com/css?family=Josefin+Sans|Oswald|Roboto|Cormorant+SC:700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans|Oswald|EB+Garamond|Alex+Brush|Cormorant+SC:700&display=swap");
 
 @font-face {
   font-family: "Averta";
   src: url("font/Averta.otf") format("opentype");
 }
 
+
 :root {
   --main-bg-color: #222736;
   --main-color: #dfa974;
+  --font-main: 'Oswald';
+  --font-text: 'EB Garamond';
+  --font-signature: 'Alex Brush';
 }
 
 html,
 body {
-  font-family: "Roboto", sans-serif;
-  -webkit-font-smoothing: antialiased;
   background-color: var(--main-color) !important;
   overflow-x: hidden !important;
+  font-family: var(--font-text);
 }
 h1,
 h2,
@@ -24,9 +27,9 @@ h4,
 h5,
 h6 {
   margin: 0;
-  color: #111111;
+  color: var(--main-bg-color);
   font-weight: 400;
-  font-family: "Josefin Sans", serif;
+  font-family: var(--font-main), serif;
 }
 h1 {
   font-size: 70px;

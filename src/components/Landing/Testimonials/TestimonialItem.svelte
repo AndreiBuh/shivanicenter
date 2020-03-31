@@ -36,8 +36,9 @@
   }
 
   .card-body span {
-    font-size: 13px;
-    font-family: "Oswald";
+    font-size: 12px;
+    font-family: "Averta";
+    letter-spacing: 1px;
   }
 
   .avatar {
@@ -57,7 +58,7 @@
   }
 
   p {
-    font-family: "Josefin Sans";
+    font-family: var(--font-text), sans-serif;
     font-size: 14px;
   }
 
@@ -72,15 +73,15 @@
     <img src={imageUrl} class="rounded-circle img-fluid" alt="Reviwer avatar" />
   </div>
   <div class="card-body">
-    <h6 class="font-weight-bold">{name}</h6>
-    <span class="text-elegant text-uppercase font-weight-bold">{jobTitle}</span>
+    <h6>{name}</h6>
+    <span class="text-elegant text-uppercase">{jobTitle}</span>
     <hr />
     <em>
       <p class="dark-grey-text mt-4">{text}</p>
     </em>
     {#if button}
       <a href="/despre-noi/colaboratori/{slug}">
-        <Button content="Citeste mai mult" />
+        <Button content="Citește mai mult" />
       </a>
       <div class="mt-4">
         <Social {facebook} {instagram} {linkedin} />

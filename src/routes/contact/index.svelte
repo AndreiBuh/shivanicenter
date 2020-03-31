@@ -69,14 +69,14 @@
   h3.placeholder {
     line-height: 40px;
     color: #222736;
-    font-family: "Josefin Sans";
+    font-family: var(--font-text);
     letter-spacing: 2px;
   }
 
   span {
     font-size: 22px;
     color: #222736;
-    font-family: "Oswald";
+    font-family: var(--font-main);
   }
   .contact-form input {
     width: 100%;

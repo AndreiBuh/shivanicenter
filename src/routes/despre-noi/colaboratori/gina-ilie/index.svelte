@@ -96,7 +96,7 @@
 
       <div class="m-3 text-right">
         <p class="paragraph-text">Cu drag,</p>
-        <p class="end">Gina Ilie</p>
+        <p class="signature">Gina Ilie</p>
       </div>
     </div>
   </div>

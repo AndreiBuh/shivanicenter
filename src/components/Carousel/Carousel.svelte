@@ -57,9 +57,9 @@
 
   button {
     position: absolute;
-    width: 40px;
-    height: 40px;
-    top: 50%;
+    width: 30px;
+    height: 30px;
+    top: 15%;
     z-index: 50;
     border: none;
     background-color: transparent;
@@ -104,11 +104,11 @@
     border: 0;
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (min-width: 768px) {
     button {
-      top: 20%;
-      width: 30px;
-      height: 30px;
+      top: 50%;
+      width: 40px;
+      height: 40px;
     }
   }
 </style>

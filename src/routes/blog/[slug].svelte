@@ -51,7 +51,7 @@
         class="img-top img-fluid" />
     </div>
     <div class="p-2 text-white">
-      <p class="paragraph-text text-justify">
+      <p class="paragraph-text">
         {@html content}
       </p>
     </div>

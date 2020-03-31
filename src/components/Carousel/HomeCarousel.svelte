@@ -48,7 +48,7 @@
     color: color;
     border-radius: 6px;
     font-size: 12px;
-    font-family: "Oswald";
+    font-family: var(--font-main);
     letter-spacing: 3px;
   }
 
@@ -69,7 +69,7 @@
 
   .text-white,
   .quote {
-    font-family: "Oswald";
+    font-family: var(--font-main);
     font-size: 16px;
     letter-spacing: 1px;
   }
@@ -104,8 +104,8 @@
           class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 slide-text p-5
           text-center">
           <h3 class="pb-3 text-white">{name}</h3>
-          <p class="mb-4 text-elegant quote text-justify">{`${quote}`}</p>
-          <p class="text-white text-justify">{text}</p>
+          <p class="mb-4 text-elegant quote">{`${quote}`}</p>
+          <p class="text-white">{text}</p>
           <div class="p-4">
             <a href="despre-noi/{slug}">
               <button class="btn btn-outline py-2 px-4" aria-label="Citeste">

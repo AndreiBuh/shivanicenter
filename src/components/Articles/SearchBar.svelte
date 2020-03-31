@@ -18,7 +18,6 @@
     height: 42px;
     line-height: 42px;
     width: calc(100% - 42px);
-    float: right;
     text-decoration: none;
     color: #909090;
     background-color: transparent;
@@ -27,7 +26,7 @@
     border: 0;
     font-size: 13px;
     box-sizing: border-box;
-    font-family: "Oswald", sans-serif;
+    font-family: var(--font-main), sans-serif;
   }
 
   .icon {

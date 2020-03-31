@@ -11,11 +11,11 @@
     color: #222736;
   }
   h5 {
-    font-family: "Oswald", sans-serif;
+    font-family: var(--font-main), sans-serif;
   }
   .article-title,
   .article-text {
-    font-family: "Slab", "Josefin Sans", sans-serif;
+    font-family: var(--font-text), sans-serif;
   }
 
   .card-content {
@@ -90,7 +90,7 @@
                   {articles[0].title}
                 </a>
               </h4>
-              <p class="article-text text-justify">
+              <p class="article-text">
                 {@html articles[0].excerpt}
               </p>
             </div>
@@ -107,7 +107,7 @@
                             alt="Sample image" />
                         </div>
                       </div>
-                      <div class="col-lg-7 col-md-6 mb-md-0 px-4 py-3">
+                      <div class="col-lg-7 col-md-12 mb-md-0 px-4 py-3">
                         <h5 class="font-weight-bold article-title">
                           <a
                             rel="prefetch"
@@ -115,7 +115,7 @@
                             {article.title}
                           </a>
                         </h5>
-                        <p class="article-text text-justify">
+                        <p class="article-text">
                           {@html article.excerpt}
                         </p>
                       </div>

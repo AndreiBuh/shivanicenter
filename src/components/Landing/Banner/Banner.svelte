@@ -45,19 +45,19 @@
     height: auto;
     text-align: center;
     box-shadow: 2px 2px 4px #666;
-    background: #222736;
+    background: var(--main-bg-color);
     bottom: 0;
     width: 100%;
   }
   .banner-title {
-    font-family: "Oswald", sans-serif;
+    font-family: var(--font-main), sans-serif;
+    letter-spacing: 3px;
   }
 
   h5.placeholder,
   h4 {
-    color: #dfa974;
-    font-family: "Josefin Sans", sans-serif;
-    letter-spacing: 2px;
+    color: var(--main-color);
+    font-family: var(--font-text), sans-serif;
   }
 
   i {
@@ -91,8 +91,9 @@
   }
   p {
     color: #b5b5bf;
-    font-family: "Josefin Sans", sans-serif;
-    font-size: 14px;
+    font-family: var(--font-text), sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
   }
   .banner-item {
     border-radius: 6px;
@@ -108,7 +109,7 @@
 {#if title == 'Cine suntem?'}
   <div class="banner pt-5 mt-5">
     <div class="container">
-      <h1 class="banner-title mb-3 text-elegant">{title}</h1>
+      <h3 class="banner-title mb-3 text-elegant">{title}</h3>
       <div class="row">
         <div class="col-md-3 px-3 pt-3 banner-item">
           <h4 class="p-2">Misiune</h4>

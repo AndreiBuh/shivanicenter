@@ -24,7 +24,7 @@
   .post-categories a {
     font-size: 12px;
     color: var(--main-color);
-    font-family: "Oswald";
+    font-family: "Averta";
     letter-spacing: 2px;
     text-transform: uppercase;
   }
@@ -33,7 +33,7 @@
     color: #ea8928;
   }
   .post-title h5 {
-    font-family: "Josefin Sans";
+    font-family: var(--font-text), sans-serif;
     color: #505050;
   }
 
@@ -43,14 +43,15 @@
 
   .post-content {
     font-size: 15px;
-    font-family: "Josefin Sans";
+    font-family: var(--font-text), sans-serif;
     color: #616161;
   }
 
   .post-meta span {
     font-size: 13px;
     color: #8d8d8d;
-    font-family: "Oswald";
+    font-family: var(--font-main);
+    letter-spacing: 1px;
   }
 </style>
 

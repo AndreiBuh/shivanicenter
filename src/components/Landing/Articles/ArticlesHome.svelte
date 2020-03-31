@@ -31,10 +31,9 @@
 
   :global(.svelte-tabs li) {
     font-size: 16px;
-    color: #000 !important;
+    color: var(--main-bg-color) !important;
     margin: 0 5px;
-    font-family: "Oswald" !important;
-    outline: none !important;
+    font-family: var(--font-main) !important;
   }
 
   :global(.svelte-tabs__tab-list) {
@@ -45,7 +44,7 @@
 
   :global(.svelte-tabs li.svelte-tabs__selected) {
     font-weight: 700;
-    border-bottom: 2px solid #000;
+    border-bottom: 2px solid var(--main-bg-color);
   }
 
   .card {

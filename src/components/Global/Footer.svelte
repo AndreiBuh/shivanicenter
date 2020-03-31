@@ -46,7 +46,7 @@
   }
   .footer-section .footer-text .ft-about h6 {
     font-size: 14px;
-    color: #dfa974;
+    color: var(--main-color);
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 3px;
@@ -58,6 +58,7 @@
   .footer-section .footer-text .ft-about p {
     color: #aaaab3;
     margin-bottom: 20px;
+    font-family: var(--font-text), sans-serif;
   }
   .footer-section .footer-text .ft-about .fa-social a {
     display: inline-block;

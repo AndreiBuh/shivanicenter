@@ -47,7 +47,7 @@
   }
   /*  Servicii descriptions style START */
   :global(.service-title) {
-    font-family: "Oswald", sans-serif;
+    font-family: var(--font-main), sans-serif;
     color: #fff;
   }
 
@@ -61,13 +61,13 @@
   }
 
   :global(.paragraph-text, .paragraph-list-items) {
-    font-family: "Josefin Sans";
-    line-height: 29px;
-    font-size: 16px;
+    font-family: var(--font-text);
+    line-height: 25px;
+    font-size: 20px;
     color: #fff;
   }
   :global(.text-elegant) {
-    color: #dfa974;
+    color: var(--main-color);
   }
   :global(blockquote) {
     position: relative;
@@ -105,8 +105,8 @@
       rgba(223, 169, 116, 0)
     ) !important;
   }
-  :global(.end) {
-    font-family: "Pinyon Script", cursive;
+  :global(.signature) {
+    font-family: var(--font-signature), cursive;
     font-size: 30px;
     color: #fff;
   }

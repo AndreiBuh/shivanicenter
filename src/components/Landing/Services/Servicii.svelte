@@ -101,7 +101,7 @@
   }
   .service-item p {
     color: #b5b5bf;
-    font-family: "Josefin Sans", sans-serif;
+    font-family: var(--font-text), sans-serif;
     font-size: 14px;
   }
 
@@ -110,12 +110,12 @@
     color: #fff;
     margin-bottom: 0;
     margin-right: auto;
-    font-family: "Special Oswald", sans-serif;
+    font-family: var(--font-main), sans-serif;
     font-weight: 700;
   }
 
   h4 {
-    font-family: "Oswald", sans-serif;
+    font-family: var(--font-main), sans-serif;
   }
 
   .card {

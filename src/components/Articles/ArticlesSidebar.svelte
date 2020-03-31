@@ -21,7 +21,7 @@
   }
 
   ul li.category-item {
-    font-family: "Oswald", sans-serif;
+    font-family: var(--font-main), sans-serif;
     border-top: 1px solid #e8e8e8;
     padding: 12px 0;
     text-align: left;
@@ -34,7 +34,7 @@
     margin-bottom: 10px;
     color: #222736;
     text-transform: uppercase;
-    font-family: "Oswald", sans-serif;
+    font-family: var(--font-main), sans-serif;
     letter-spacing: 0;
     font-size: 14px;
   }

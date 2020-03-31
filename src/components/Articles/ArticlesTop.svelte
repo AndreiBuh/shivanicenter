@@ -34,7 +34,7 @@
   a.category-link {
     font-size: 12px;
     color: var(--main-color);
-    font-family: "Oswald";
+    font-family: var(--font-main), cursive;
     letter-spacing: 2px;
     text-transform: uppercase;
   }
@@ -46,7 +46,7 @@
   a.article-title {
     text-decoration: none;
     color: #8c8c8c;
-    font-family: "Oswald", sans-serif;
+    font-family: var(--font-main), sans-serif;
     font-size: 14px;
   }
 
@@ -71,7 +71,7 @@
 <ol class="most-read-list">
   {#each articles as { title, slug, category, category_slug, image, published, author }, i}
     <li class="most-read-list-item row">
-      <div class="text-holder col-md-6 col-6">
+      <div class="text-holder col-md-6 col-12">
         <div class="category">
           <a
             rel="prefetch"
@@ -90,7 +90,7 @@
       <a
         rel="prefetch"
         href="articole/{category_slug}/{slug}"
-        class="image-holder col-md-6">
+        class="image-holder col-md-6 col-6">
         <img src={image.url} alt={title} class="rounded" />
       </a>
     </li>

@@ -26,5 +26,5 @@
 <ArticlesHome />
 <Servicii />
 <Blog />
-<Banner title="Iti plac articolele noastre? Aboneaza-te la newsletter!" />
+<Banner title="Îți plac articolele noastre? Abonează-te la newsletter!" />
 <TestimonialsHome />

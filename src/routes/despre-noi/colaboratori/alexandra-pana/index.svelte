@@ -36,7 +36,7 @@
     </div>
     <div class="p-2 mt-5">
       <h1 class="text-center my-4">
-        <span class="text-elegant font-weight-bold end">Salut,</span>
+        <span class="text-elegant font-weight-bold signature">Salut,</span>
       </h1>
       <p class="paragraph-text">
         Numele meu este Alexandra Pană și sunt psihoterapeut! Pe fundal aud în
@@ -118,7 +118,7 @@
 
       <div class="m-3 text-right">
         <p class="paragraph-text">Cu multă iubire,</p>
-        <p class="end">Alexandra Pană</p>
+        <p class="signature">Alexandra Pană</p>
       </div>
 
     </div>
