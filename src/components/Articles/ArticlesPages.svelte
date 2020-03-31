@@ -15,7 +15,7 @@
   }
   .article-title,
   .article-text {
-    font-family: "Robot Slab", "Josefin Sans", sans-serif;
+    font-family: "Slab", "Josefin Sans", sans-serif;
   }
 
   .card-content {

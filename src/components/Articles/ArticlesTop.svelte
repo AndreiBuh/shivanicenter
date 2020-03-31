@@ -90,7 +90,7 @@
       <a
         rel="prefetch"
         href="articole/{category_slug}/{slug}"
-        class="image-holder col-md-6 col-6">
+        class="image-holder col-md-6">
         <img src={image.url} alt={title} class="rounded" />
       </a>
     </li>
