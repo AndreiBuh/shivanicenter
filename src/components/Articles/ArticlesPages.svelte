@@ -11,11 +11,11 @@
     color: #222736;
   }
   h5 {
-    font-family: "Oswald";
+    font-family: "Oswald", sans-serif;
   }
   .article-title,
   .article-text {
-    font-family: "Josefin Sans";
+    font-family: "Robot Slab", "Josefin Sans", sans-serif;
   }
 
   .card-content {
@@ -29,17 +29,18 @@
   .card.card-cascade.wider .view.view-cascade {
     z-index: 2;
   }
+  .card,
   .card.card-cascade .view.view-cascade {
-    border-radius: 0.25rem;
+    border-radius: 0.5rem;
     -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18),
       0 4px 15px 0 rgba(0, 0, 0, 0.15);
     box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18),
       0 4px 15px 0 rgba(0, 0, 0, 0.15);
   }
 
-  .card-img-top {
+  img {
     width: 100%;
-    border-radius: calc(0.25rem - 1px);
+    border-radius: 0.5rem;
   }
 
   .card.card-cascade.wider.reverse .card-body.card-body-cascade {
@@ -89,7 +90,7 @@
                   {articles[0].title}
                 </a>
               </h4>
-              <p class="article-text">
+              <p class="article-text text-justify">
                 {@html articles[0].excerpt}
               </p>
             </div>
@@ -114,7 +115,7 @@
                             {article.title}
                           </a>
                         </h5>
-                        <p class="article-text">
+                        <p class="article-text text-justify">
                           {@html article.excerpt}
                         </p>
                       </div>

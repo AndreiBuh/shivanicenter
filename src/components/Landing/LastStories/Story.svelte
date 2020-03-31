@@ -32,26 +32,23 @@
   .post-categories a:hover {
     color: #ea8928;
   }
-  .post-title h2 {
-    font-size: 22px;
-    margin-bottom: 5px;
-    margin-top: 5px;
+  .post-title h5 {
     font-family: "Josefin Sans";
     color: #505050;
   }
 
-  .post-title h2:hover {
+  .post-title h5:hover {
     color: var(--main-bg-color);
   }
 
   .post-content {
-    font-size: 14px;
+    font-size: 15px;
     font-family: "Josefin Sans";
     color: #616161;
   }
 
   .post-meta span {
-    font-size: 11px;
+    font-size: 13px;
     color: #8d8d8d;
     font-family: "Oswald";
   }
@@ -71,13 +68,13 @@
       rel="prefetch"
       href="articole/{category_slug}/{slug}"
       class="font-weight-bold">
-      <h2 class="font-weight-bold">{title}</h2>
+      <h5 class="font-weight-bold my-1">{title}</h5>
     </a>
   </div>
   <div class="post-content">
     {@html excerpt}
   </div>
   <div class="post-meta">
-    <span>{author}, {published}</span>
+    <span>{author} | {published}</span>
   </div>
 </div>

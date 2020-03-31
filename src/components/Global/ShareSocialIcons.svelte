@@ -23,25 +23,22 @@
   /* social share */
 
   ul {
-    margin: 0 auto;
-    margin-bottom: 30px;
-    padding: 0;
     display: flex;
-    width: 320px;
-    height: 60px;
+    justify-content: center;
+    height: 40px;
   }
   ul li {
     list-style: none;
   }
   ul li a {
     display: block;
-    width: 60px;
-    height: 60px;
-    line-height: 60px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
     color: #fff;
     margin: 0 2px;
     border-radius: 50%;
-    font-size: 30px;
+    font-size: 18px;
     transition: 1s;
   }
 
@@ -52,10 +49,10 @@
     background: #55acee;
   }
   ul li:nth-child(3) a {
-    background: #3b5999;
+    background: #0077b5;
   }
   ul li:nth-child(4) a {
-    background: #0077b5;
+    background: #ee2a7b;
   }
   ul li:nth-child(5) a {
     background: #e4405f;
@@ -64,7 +61,7 @@
   /* like heart */
   .heart-box i,
   .heart-box span {
-    font-size: 25px;
+    font-size: 20px;
   }
   .heart-box span {
     color: #262626;
@@ -75,9 +72,14 @@
     color: #f50057;
   }
 
-  .heart-box i:hover {
+  .heart-box:hover {
     color: #d20057;
     cursor: pointer;
+  }
+
+  ul li a:hover {
+    transform: translateY(-5px);
+    transition: 0.4s ease-out;
   }
 </style>
 

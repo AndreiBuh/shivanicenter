@@ -60,7 +60,6 @@
     height: 40px;
     top: 50%;
     z-index: 50;
-    margin-top: -20px;
     border: none;
     background-color: transparent;
   }
@@ -102,6 +101,14 @@
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16),
       0 2px 10px 0 rgba(0, 0, 0, 0.12);
     border: 0;
+  }
+
+  @media screen and (max-width: 768px) {
+    button {
+      top: 20%;
+      width: 30px;
+      height: 30px;
+    }
   }
 </style>
 
