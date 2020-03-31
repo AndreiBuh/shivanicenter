@@ -228,7 +228,6 @@
               <form class="form" on:submit|preventDefault={addEmail}>
                 <input
                   type="email"
-                  required
                   placeholder="Email"
                   bind:value={email}
                   aria-label="Email" />

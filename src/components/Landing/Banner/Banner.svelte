@@ -160,8 +160,7 @@
               type="email"
               placeholder="Email"
               aria-label="email"
-              bind:value={email}
-              required />
+              bind:value={email} />
             <button type="submit" aria-label="Trimite">
               <i class="fa fa-envelope" />
             </button>

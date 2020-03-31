@@ -7,7 +7,7 @@
     text-align: center;
     text-transform: uppercase;
     overflow: hidden;
-    font-size: 25px;
+    font-size: 30px;
     line-height: 40px;
     font-weight: 500;
     letter-spacing: 3px;
@@ -38,8 +38,14 @@
     right: 100%;
     left: -9999px;
   }
+
+  .elegant-shadow {
+    color: var(--main-bg-color);
+    text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),
+      0px -5px 35px rgba(255, 255, 255, 0.3);
+  }
 </style>
 
-<h2 class="decor-heading">
+<h2 class="decor-heading elegant-shadow">
   <span>{title}</span>
 </h2>

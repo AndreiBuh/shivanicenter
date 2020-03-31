@@ -46,18 +46,11 @@
     background: #3b5999;
   }
   ul li:nth-child(2) a {
-    background: #55acee;
-  }
-  ul li:nth-child(3) a {
     background: #0077b5;
   }
-  ul li:nth-child(4) a {
+  ul li:nth-child(3) a {
     background: #ee2a7b;
   }
-  ul li:nth-child(5) a {
-    background: #e4405f;
-  }
-
   /* like heart */
   .heart-box i,
   .heart-box span {
@@ -95,30 +88,22 @@
   </p>
 </div>
 
-<ul>
-  <li>
-    <a href="www.facebook.com">
-      <i class="fa fa-facebook" aria-hidden="true" />
-    </a>
-  </li>
-  <li>
-    <a href="www.twitter.com">
-      <i class="fa fa-twitter" aria-hidden="true" />
-    </a>
-  </li>
-  <li>
-    <a href="www.linkedin.com">
-      <i class="fa fa-linkedin" aria-hidden="true" />
-    </a>
-  </li>
-  <li>
-    <a href="www.instagram.com">
-      <i class="fa fa-instagram" aria-hidden="true" />
-    </a>
-  </li>
-  <li>
-    <a href="www.google.com">
-      <i class="fa fa-google-plus" aria-hidden="true" />
-    </a>
-  </li>
-</ul>
+<div class="article-share">
+  <ul>
+    <li>
+      <a href="www.facebook.com">
+        <i class="fa fa-facebook" aria-hidden="true" />
+      </a>
+    </li>
+    <li>
+      <a href="www.linkedin.com">
+        <i class="fa fa-linkedin" aria-hidden="true" />
+      </a>
+    </li>
+    <li>
+      <a href="www.instagram.com">
+        <i class="fa fa-instagram" aria-hidden="true" />
+      </a>
+    </li>
+  </ul>
+</div>
