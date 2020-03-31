@@ -59,12 +59,12 @@
   /* Articole pages style START */
 
   .article-card-body :global(p) {
-    font-family: "Roboto Slab", "Josefin Sans", sans-serif;
-    font-size: 16px;
+    font-family: "Roboto", "Josefin Sans", sans-serif;
+    font-size: 18px;
   }
 
   .article-card-body :global(h1, h2, h3, h4, h5, h6, h7) {
-    font-family: "Roboto Slab", "Josefin Sans", sans-serif;
+    font-family: "Roboto", "Josefin Sans", sans-serif;
   }
 
   .article-card-body :global(div) {
@@ -73,8 +73,8 @@
 
   .article-card-body :global(li) {
     margin: 0px 10px 10px 15px;
-    font-size: 16px;
-    font-family: "Roboto Slab", "Josefin Sans", sans-serif;
+    font-size: 18px;
+    font-family: "Roboto", "Josefin Sans", sans-serif;
   }
 
   /* Articole pages style END */

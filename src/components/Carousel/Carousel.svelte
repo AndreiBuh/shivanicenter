@@ -52,6 +52,7 @@
     max-width: 1200px;
     width: 100%;
     height: auto;
+    background: var(--main-bg-color);
   }
 
   button {

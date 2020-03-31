@@ -51,7 +51,7 @@
   <section class="text-center dark-grey-text">
     <div class="row">
       {#each collaborators as collaborator}
-        <div class="col-md-4 col-12">
+        <div class="col-12 col-md-4 mt-4">
           <TestimonialItem {...collaborator} />
         </div>
       {/each}

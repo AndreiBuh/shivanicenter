@@ -11,10 +11,15 @@
 </script>
 
 <style>
-  ol.most-read-list {
-    list-style: none;
+  a {
+    text-decoration: none;
   }
-  li.most-read-list-item {
+  ol {
+    list-style: none;
+    counter-reset: my-awesome-counter;
+    flex-wrap: wrap;
+  }
+  ol li.most-read-list-item {
     border-bottom: 1px solid #e8e8e8;
     padding: 12px 0;
     text-align: left;
@@ -23,16 +28,15 @@
     font-size: 14px;
     font-weight: 400;
     color: #8c8c8c;
+    counter-increment: my-awesome-counter;
   }
 
   a.category-link {
-    text-decoration: none;
-    font-size: 8px;
-    font-family: "Noto Sans", sans-serif;
-    letter-spacing: 1px;
-    font-weight: 700;
+    font-size: 12px;
+    color: var(--main-color);
+    font-family: "Oswald";
+    letter-spacing: 2px;
     text-transform: uppercase;
-    color: #d79c74;
   }
 
   a.category-link:hover {
@@ -48,16 +52,12 @@
 
   a.article-title:hover,
   a.category-link:hover {
-    color: #dfa974;
+    color: #ea8928;
+  }
+  a.article-title:hover {
+    color: var(--main-bg-color);
   }
 
-  ol {
-    counter-reset: my-awesome-counter;
-    flex-wrap: wrap;
-  }
-  ol li {
-    counter-increment: my-awesome-counter;
-  }
   .text-holder::before {
     content: "0" counter(my-awesome-counter);
     font-weight: bold;
@@ -91,7 +91,7 @@
         rel="prefetch"
         href="articole/{category_slug}/{slug}"
         class="image-holder col-md-6 col-6">
-        <img src={image.url} alt={title} />
+        <img src={image.url} alt={title} class="rounded" />
       </a>
     </li>
   {/each}

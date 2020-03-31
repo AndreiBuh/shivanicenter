@@ -136,7 +136,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-6 text-center text-md-left">
-        <h2 class="mb-5">Date de contact</h2>
+        <h2 class="mb-5 text-center">Date de contact</h2>
         <div class="row">
           <div class="col-3">
             <span>Adresa:</span>
@@ -166,6 +166,7 @@
         {#if placeholder}
           <h3 class="placeholder text-center">{placeholder}</h3>
         {:else}
+          <h2 class="mb-5 text-center">Contactează-ne!</h2>
           <form
             class="contact-form"
             on:submit|preventDefault={addContactMessage}>

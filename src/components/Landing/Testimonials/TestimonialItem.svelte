@@ -36,7 +36,7 @@
   }
 
   .card-body span {
-    font-size: 12px;
+    font-size: 13px;
     font-family: "Oswald";
   }
 
@@ -72,7 +72,7 @@
     <img src={imageUrl} class="rounded-circle img-fluid" alt="Reviwer avatar" />
   </div>
   <div class="card-body">
-    <h5 class="font-weight-bold">{name}</h5>
+    <h6 class="font-weight-bold">{name}</h6>
     <span class="text-elegant text-uppercase font-weight-bold">{jobTitle}</span>
     <hr />
     <em>
