@@ -3,6 +3,7 @@
 @font-face {
   font-family: "Averta";
   src: url("font/Averta.otf") format("opentype");
+  font-display: swap;
 }
 
 
@@ -37,7 +38,7 @@ h1 {
   font-size: 70px;
 }
 h2 {
-  font-size: 36px;
+  font-size: 34px;
 }
 h3 {
   font-size: 30px;
