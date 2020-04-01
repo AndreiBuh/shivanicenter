@@ -4,7 +4,7 @@
 
   const collaborators = [
     {
-      name: "Alexandra Maria Pana",
+      name: "Alexandra Pană",
       imageUrl: "testimonial-alexandra.jpg",
       jobTitle: "Psihoterapeut exeperiențial",
       text:

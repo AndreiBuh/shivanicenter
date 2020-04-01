@@ -29,7 +29,7 @@
     box-sizing: border-box;
     overflow: hidden;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
-    height: 90%;
+    height: 85%;
   }
 
   .box .imgBox {
@@ -83,20 +83,19 @@
 
   @media screen and (max-width: 768px) {
     h5 {
-      font-size: 14px;
+      font-size: 16px;
       margin: 0;
     }
     .box .content .post-details {
-      font-size: 9px;
-      line-height: 9px;
+      font-size: 11px;
     }
 
     .box .content p {
-      font-size: 10px;
+      font-size: 14px;
     }
 
     .box {
-      height: 75%;
+      height: 80%;
     }
   }
 </style>

@@ -5,7 +5,7 @@
   let testimonials = [
     {
       name: "Dragoș Dimoftei",
-      jobTitle: "HR manager",
+      jobTitle: "HR",
       text:
         "Un terapeut bun, cum este Gina de altfel, vă va ghida în călătoria descoperirii resurselor personale, a dezvoltării rezilienței, a vindecării și a acceptării de sine.",
       imageUrl: "testimonial-dragos.jpg"

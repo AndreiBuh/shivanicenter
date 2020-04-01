@@ -29,6 +29,12 @@
   .flex-item:nth-child(1) {
     width: 100%;
   }
+
+  @media screen and (max-width: 768px) {
+    .flex {
+      flex-direction: column;
+    }
+  }
 </style>
 
 <svelte:head>

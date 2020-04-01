@@ -55,13 +55,13 @@
     },
     {
       id: 3,
-      name: "Psiholog Gina ilie",
+      name: "Psihoterapeut Gina ilie",
       phone: "+40 768 137 032",
       email: "psih.ginailie@gmail.com"
     },
     {
       id: 4,
-      name: "Psiholog Alexandra Maria Pană",
+      name: "Psiholog Alexandra Pană",
       phone: "+40 721 821 910",
       email: "alexandra.pana.psihoterapeut@gmail.com"
     },
