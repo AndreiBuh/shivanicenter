@@ -62,7 +62,6 @@
 
   :global(.paragraph-text, .paragraph-list-items) {
     font-family: var(--font-text);
-    line-height: 25px;
     font-size: 20px;
     color: #fff;
   }

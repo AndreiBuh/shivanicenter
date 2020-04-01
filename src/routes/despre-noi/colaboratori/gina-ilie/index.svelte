@@ -1,6 +1,37 @@
 <script>
   import { fade, fly } from "svelte/transition";
   import TestimonialList from "../../../../components/About/TestimonialList.svelte";
+
+  let testimonials = [
+    {
+      name: "Dragoș Dimoftei",
+      jobTitle: "HR manager",
+      text:
+        "Un terapeut bun, cum este Gina de altfel, vă va ghida în călătoria descoperirii resurselor personale, a dezvoltării rezilienței, a vindecării și a acceptării de sine.",
+      imageUrl: "testimonial-dragos.jpg"
+    },
+    {
+      name: "Denisa Andrei",
+      jobTitle: "Studentă psihologie",
+      text:
+        "Odată ce o cunoști pe Gina, îți este greu să te mai despărți de ceea ce poate să pună în lumină în orice context! Dacă toți ar avea-o pe Gina în viața lor, lumea ar fi zen!",
+      imageUrl: "testimonial-denisa.jpg"
+    },
+    {
+      name: "Lucian Geană",
+      jobTitle: "Student ASE",
+      text:
+        "M-am simțit ascultat, înțeles și ajutat. Am simțit o schimbare majoră în viața mea, iar din aceste motive aș recomanda-o cu drag pe Gina celor ce caută un psihoterapeut experimentat și inteligent.",
+      imageUrl: "testimonial-lucian.jpg"
+    },
+    {
+      name: "Daniela Simulescu",
+      jobTitle: "Astrolog",
+      text:
+        "Întreg procesul terapeutic alături de ea este ca o călătorie. Pentru mine inițiatică. Și revelatoare. Și clar vindecătoare. Lumea are nevoie de creativitate, curaj și provocare pentru a trăi frumos, iar Gina ți le poate oferi din plin.",
+      imageUrl: "testimonial-daniela.jpg"
+    }
+  ];
 </script>
 
 <style>
@@ -98,6 +129,9 @@
         <p class="paragraph-text">Cu drag,</p>
         <p class="signature">Gina Ilie</p>
       </div>
+      <hr class="style-hr" />
+      <TestimonialList {testimonials} />
+      <hr class="style-hr" />
     </div>
   </div>
 </div>

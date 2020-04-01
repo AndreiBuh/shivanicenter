@@ -87,9 +87,11 @@
         neconştientizate până atunci.
       </p>
       <blockquote>
-        Arta, sub nenumăratele ei forme, eliberează omul de stresul celorlalte
-        activităţi, schimbă anumite pattern-uri de gândire şi comportament, şi
-        ajută persoana să intre în contact cu propriile emoţii şi nevoi.
+        <em>
+          Arta, sub nenumăratele ei forme, eliberează omul de stresul celorlalte
+          activităţi, schimbă anumite pattern-uri de gândire şi comportament, şi
+          ajută persoana să intre în contact cu propriile emoţii şi nevoi.
+        </em>
       </blockquote>
       <div class="row">
         <div class="col-md-8">

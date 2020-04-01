@@ -1,4 +1,6 @@
 <script>
+  import { scale } from "svelte/transition";
+
   export let title;
   export let published;
   export let excerpt;
@@ -53,9 +55,23 @@
     font-family: var(--font-main);
     letter-spacing: 1px;
   }
+
+  .card {
+    height: auto;
+    border: none;
+  }
+
+  .card {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  }
+
+  .card:hover {
+    box-shadow: 0 0px 8px rgba(0, 0, 0, 0.25), 0 4px 6px rgba(0, 0, 0, 0.22);
+  }
 </style>
 
-<div class="card">
+<div class="card p-3 m-2" in:scale>
   <a rel="prefetch" href="articole/{category_slug}/{slug}">
     <img src={image.url} alt="image" class="post-overlay" />
   </a>

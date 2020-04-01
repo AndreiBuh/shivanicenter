@@ -1,5 +1,5 @@
 <script>
-  import { fade, fly } from "svelte/transition";
+  import { fade, fly, scale } from "svelte/transition";
   export let blog;
 </script>
 
@@ -97,7 +97,7 @@
   }
 </style>
 
-<div class="box">
+<div class="box" transition:scale>
   <a rel="prefetch" href={`blog/${blog.slug}`}>
     <div class="imgBox">
       <img src={blog.image.url} alt="" />

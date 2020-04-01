@@ -1,12 +1,17 @@
 <script>
   import { onMount } from "svelte";
-  const apiUrl = process.env.SAPPER_APP_API_URL;
-  let articles = [];
+  import { scale } from "svelte/transition";
+  import LoadingSpinner from "../UI/LoadingSpinner.svelte";
 
+  const apiUrl = process.env.SAPPER_APP_API_URL;
+
+  let isLoading = true;
+  let articles = [];
   onMount(async () => {
     const res = await fetch(`${apiUrl}/articles?_limit=3`);
     const json = await res.json();
     articles = json;
+    isLoading = false;
   });
 </script>
 
@@ -68,31 +73,37 @@
   }
 </style>
 
-<ol class="most-read-list">
-  {#each articles as { title, slug, category, category_slug, image, published, author }, i}
-    <li class="most-read-list-item row">
-      <div class="text-holder col-md-6 col-12">
-        <div class="category">
+{#if isLoading}
+  <div class="loading">
+    <LoadingSpinner />
+  </div>
+{:else}
+  <ol class="most-read-list" transition:scale>
+    {#each articles as { title, slug, category, category_slug, image, published, author }, i}
+      <li class="most-read-list-item row">
+        <div class="text-holder col-md-6 col-12">
+          <div class="category">
+            <a
+              rel="prefetch"
+              href="articole/{category_slug}"
+              class="category-link">
+              {category.title}
+            </a>
+          </div>
           <a
             rel="prefetch"
-            href="articole/{category_slug}"
-            class="category-link">
-            {category.title}
+            href="articole/{category_slug}/{slug}"
+            class="article-title">
+            {title}
           </a>
         </div>
         <a
           rel="prefetch"
           href="articole/{category_slug}/{slug}"
-          class="article-title">
-          {title}
+          class="image-holder col-md-6 col-6">
+          <img src={image.url} alt={title} class="rounded" />
         </a>
-      </div>
-      <a
-        rel="prefetch"
-        href="articole/{category_slug}/{slug}"
-        class="image-holder col-md-6 col-6">
-        <img src={image.url} alt={title} class="rounded" />
-      </a>
-    </li>
-  {/each}
-</ol>
+      </li>
+    {/each}
+  </ol>
+{/if}

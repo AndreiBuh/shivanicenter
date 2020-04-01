@@ -102,7 +102,7 @@
   .service-item p {
     color: #b5b5bf;
     font-family: var(--font-text), sans-serif;
-    font-size: 14px;
+    font-size: 17px;
   }
 
   .title {

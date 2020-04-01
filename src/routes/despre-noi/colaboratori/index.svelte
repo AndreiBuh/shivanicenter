@@ -4,18 +4,6 @@
 
   const collaborators = [
     {
-      name: "Claudia Petre",
-      imageUrl: "claudia.jpg",
-      jobTitle: "Tehnician nutriționist",
-      text:
-        "Numele meu este Claudia Petre și sunt de meserie farmacist. Am absolvit Facultatea de medicină și Farmacie din cadrul UMF Carol Davila în anul 2013. Fiind pasionată de nutriție, am urmat un curs de 8 luni în cadrul Școlii Fitness Scandinavia, în urma căruia am obținut acreditarea de tehnician nutriționist. ",
-      slug: "claudia-petre",
-      button: true,
-      facebook: "https://www.facebook.com/claudia.stancu.33",
-      instagram: "https://www.instagram.com/stclaudia.nutritionist/",
-      linkedin: "https://www.linkedin.com/in/petre-claudia-74740054/"
-    },
-    {
       name: "Alexandra Maria Pana",
       imageUrl: "alexandraa.jpg",
       jobTitle: "Psihoterapeut exeperiențial",
@@ -38,6 +26,18 @@
       facebook: "https://www.facebook.com/PsiGinaIlie/",
       instagram: "https://www.instagram.com/_gi.psy_/",
       linkedin: "https://www.linkedin.com/in/gina-ilie-0a0218121/"
+    },
+    {
+      name: "Claudia Petre",
+      imageUrl: "claudia.jpg",
+      jobTitle: "Tehnician nutriționist",
+      text:
+        "Numele meu este Claudia Petre și sunt de meserie farmacist. Am absolvit Facultatea de medicină și Farmacie din cadrul UMF Carol Davila în anul 2013. Fiind pasionată de nutriție, am urmat un curs de 8 luni în cadrul Școlii Fitness Scandinavia, în urma căruia am obținut acreditarea de tehnician nutriționist. ",
+      slug: "claudia-petre",
+      button: true,
+      facebook: "https://www.facebook.com/claudia.stancu.33",
+      instagram: "https://www.instagram.com/stclaudia.nutritionist/",
+      linkedin: "https://www.linkedin.com/in/petre-claudia-74740054/"
     }
   ];
 </script>

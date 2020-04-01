@@ -4,14 +4,18 @@
   import Pagination from "../../Global/Pagination.svelte";
   import Heading from "../../UI/Heading.svelte";
   import Story from "../LastStories/Story.svelte";
+  import LoadingSpinner from "../../UI/LoadingSpinner.svelte";
 
   //fetch articles
   const apiUrl = process.env.SAPPER_APP_API_URL;
+  let isLoading = true;
+
   let articles = [];
   onMount(async () => {
     const res = await fetch(`${apiUrl}/articles`);
     const json = await res.json();
     articles = json;
+    isLoading = false;
   });
 
   let categories = [];
@@ -47,20 +51,6 @@
     border-bottom: 2px solid var(--main-bg-color);
   }
 
-  .card {
-    height: auto;
-    border: none;
-  }
-
-  .card-columns .card {
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-  }
-
-  .card-columns .card:hover {
-    box-shadow: 0 0px 8px rgba(0, 0, 0, 0.25), 0 4px 6px rgba(0, 0, 0, 0.22);
-  }
-
   @media (max-width: 992px) {
     .card-columns {
       column-count: 2;
@@ -80,28 +70,29 @@
 
 <main class="container">
   <Heading title="Articole" />
-  <Tabs>
-    <TabList>
+  {#if isLoading}
+    <div class="loading">
+      <LoadingSpinner />
+    </div>
+  {:else}
+    <Tabs>
+      <TabList>
+        {#each categories as category (category.id)}
+          <Tab>{category.title.toUpperCase()}</Tab>
+        {/each}
+      </TabList>
       {#each categories as category}
-        <Tab>{category.title.toUpperCase()}</Tab>
-      {/each}
-    </TabList>
-    {#each categories as category}
-      <TabPanel>
-        <div class="card-columns">
-
-          {#each articles as article, index (article.id)}
-            {#if category.title === article.category.title}
-              <div class="card p-3 m-2">
+        <TabPanel>
+          <div class="card-columns">
+            {#each articles as article (article.id)}
+              {#if category.title === article.category.title}
                 <Story {...article} />
-              </div>
-            {/if}
-          {/each}
-
-        </div>
-
-      </TabPanel>
-    {/each}
-  </Tabs>
+              {/if}
+            {/each}
+          </div>
+        </TabPanel>
+      {/each}
+    </Tabs>
+  {/if}
   <Pagination />
 </main>
