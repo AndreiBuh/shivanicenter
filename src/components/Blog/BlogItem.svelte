@@ -83,7 +83,7 @@
 
   @media screen and (max-width: 768px) {
     h5 {
-      font-size: 1rem;
+      font-size: 14px;
       margin: 0;
     }
     .box .content .post-details {
@@ -93,6 +93,10 @@
 
     .box .content p {
       font-size: 10px;
+    }
+
+    .box {
+      height: 75%;
     }
   }
 </style>

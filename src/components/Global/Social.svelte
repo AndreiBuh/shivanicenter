@@ -45,17 +45,29 @@
 
 <div class="post-readmore">
   <div class="jssocials-share jssocials-share-facebook mx-2">
-    <a target="_blank" href={facebook} class="jssocials-share-link">
+    <a
+      target="_blank"
+      href={facebook}
+      class="jssocials-share-link"
+      rel="noopener">
       <i class="fa fa-facebook jssocials-share-logo" />
     </a>
   </div>
   <div class="jssocials-share jssocials-share-pinterest mx-2">
-    <a target="_blank" href={instagram} class="jssocials-share-link">
+    <a
+      target="_blank"
+      href={instagram}
+      class="jssocials-share-link"
+      rel="noopener">
       <i class="fa fa-instagram jssocials-share-logo" />
     </a>
   </div>
   <div class="jssocials-share jssocials-share-whatsapp mx-2">
-    <a target="blank" href={linkedin} class="jssocials-share-link">
+    <a
+      target="blank"
+      href={linkedin}
+      class="jssocials-share-link"
+      rel="noopener">
       <i class="fa fa-linkedin jssocials-share-logo" />
     </a>
   </div>

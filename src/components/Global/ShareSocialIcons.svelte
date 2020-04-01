@@ -91,17 +91,17 @@
 <div class="article-share">
   <ul>
     <li>
-      <a href="www.facebook.com">
+      <a href="www.facebook.com" rel="noopener">
         <i class="fa fa-facebook" aria-hidden="true" />
       </a>
     </li>
     <li>
-      <a href="www.linkedin.com">
+      <a href="www.linkedin.com" rel="noopener">
         <i class="fa fa-linkedin" aria-hidden="true" />
       </a>
     </li>
     <li>
-      <a href="www.instagram.com">
+      <a href="www.instagram.com" rel="noopener">
         <i class="fa fa-instagram" aria-hidden="true" />
       </a>
     </li>

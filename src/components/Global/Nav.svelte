@@ -270,7 +270,7 @@
 <svelte:window bind:scrollY={y} />
 {#if y < '400'}
   <nav in:fade={{ duration: 1000 }}>
-    <a href=".">
+    <a href="/">
       <div class="logo-mobile">
         <div>
           <img src="logo6-min.png" alt="logo" />

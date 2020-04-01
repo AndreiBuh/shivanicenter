@@ -186,21 +186,24 @@
             <div class="logo">
               <h6>Social Media</h6>
             </div>
-            <p>Ne puteti gasi pe retelele de socializare</p>
+            <p>Ne puteți găsi pe rețelele de socializare!</p>
             <div class="fa-social">
               <a
+                rel="noopener"
                 target="_blank"
                 href="https://www.facebook.com/PsihologRoxanaAlecu/"
                 aria-label="facebook">
                 <i class="fa fa-facebook" />
               </a>
               <a
+                rel="noopener"
                 target="_blank"
                 href="https://www.instagram.com/psiholog.roxana.alecu/"
                 aria-label="instagram">
                 <i class="fa fa-instagram" />
               </a>
               <a
+                rel="noopener"
                 target="_blank"
                 href="https://www.linkedin.com/in/florentina-roxana-alecu-78a220186/"
                 aria-label="linkedin">
@@ -213,16 +216,16 @@
           <div class="ft-contact text-center">
             <h6>Contact</h6>
             <ul>
-              <li>shivani.center@gmail.com</li>
+              <li>shivanicenter.psychologist@gmail.com</li>
               <li>Strada George Vraca, nr.7</li>
-              <li>0754.689.944</li>
+              <li>+40 790 420 493</li>
             </ul>
           </div>
         </div>
         <div class="col-lg-3 offset-lg-1">
           <div class="ft-newslatter text-center">
             <h6>Newsletter</h6>
-            <p>Fii la curent cu ultimele articole.</p>
+            <p>Fii la curent cu ultimele articole!</p>
             {#if placeholder}
               <h5 class="text-white">{placeholder}</h5>
             {:else}
