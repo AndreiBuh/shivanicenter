@@ -18,14 +18,14 @@
 </style>
 
 <svelte:head>
-  <title>Psihoterapeut Alexandra Maria Pană</title>
+  <title>Psihoterapeut Alexandra Pană</title>
 </svelte:head>
 <div class="container">
   <div class="card p-2 p-md-5">
     <h1
       class="service-title my-4 pt-md-0 text-center"
       in:fly={{ x: -200, duration: 2000 }}>
-      Psihoterapeut Alexandra Maria Pana
+      Psihoterapeut Alexandra Pană
       <span class="text-elegant font-weight-bold">.</span>
     </h1>
     <div class="text-center" in:fade={{ duration: 2000 }}>
