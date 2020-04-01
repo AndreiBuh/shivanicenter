@@ -17,7 +17,18 @@
 </script>
 
 <style>
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
+  .flex-item:not(:first-child) {
+    flex: 1;
+  }
+
+  .flex-item:nth-child(1) {
+    width: 100%;
+  }
 </style>
 
 <svelte:head>
@@ -25,9 +36,9 @@
 </svelte:head>
 <div class="container">
   <Heading title="Blog" />
-  <div class="row">
+  <div class="flex">
     {#each blogs as blog}
-      <div class="col-md-6">
+      <div class="flex-item">
         <BlogItem {blog} />
       </div>
     {/each}

@@ -29,7 +29,7 @@
     box-sizing: border-box;
     overflow: hidden;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
-    height: 30vh;
+    height: 90%;
   }
 
   .box .imgBox {
@@ -97,7 +97,7 @@
   }
 </style>
 
-<div class="box" transition:scale>
+<div class="box" in:scale>
   <a rel="prefetch" href={`blog/${blog.slug}`}>
     <div class="imgBox">
       <img src={blog.image.url} alt="" />

@@ -39,6 +39,7 @@
     font-size: 12px;
     font-family: "Averta";
     letter-spacing: 1px;
+    color: var(--category-color);
   }
 
   .avatar {
@@ -74,7 +75,7 @@
   </div>
   <div class="card-body">
     <h6>{name}</h6>
-    <span class="text-elegant text-uppercase">{jobTitle}</span>
+    <span class="text-uppercase">{jobTitle}</span>
     <hr />
     <em>
       <p class="dark-grey-text mt-4">{text}</p>

@@ -20,6 +20,7 @@
 
   .card-content {
     background-color: #fbfbfb;
+    border-radius: 0.5rem;
   }
   .card.card-cascade.wider {
     background-color: transparent;

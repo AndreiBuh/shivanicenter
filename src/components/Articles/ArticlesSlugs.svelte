@@ -51,7 +51,7 @@
   a.category-link {
     text-decoration: none;
     font-size: 12px;
-    color: var(--main-color);
+    color: var(--category-color);
     font-family: var(--font-main);
     letter-spacing: 2px;
     text-transform: uppercase;

@@ -25,7 +25,7 @@
   }
   .post-categories a {
     font-size: 12px;
-    color: var(--main-color);
+    color: var(--category-color);
     font-family: "Averta";
     letter-spacing: 2px;
     text-transform: uppercase;

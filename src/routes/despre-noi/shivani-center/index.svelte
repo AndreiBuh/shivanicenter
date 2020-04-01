@@ -30,7 +30,7 @@
       <span class="text-elegant font-weight-bold">.</span>
     </h1>
     <div class="text-center" in:fade={{ duration: 2000 }}>
-      <img src="center.png" alt="imagine mediatie" class="img-top img-fluid" />
+      <img src="center.jpg" alt="imagine mediatie" class="img-top img-fluid" />
     </div>
     <div class="p-2 mt-3">
       <p class="paragraph-text">
