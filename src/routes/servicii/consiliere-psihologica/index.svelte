@@ -21,12 +21,12 @@
 </svelte:head>
 <div class="container">
   <div class="card p-2 p-md-5">
-    <h1
+    <h2
       class="service-title mb-4 pt-md-0 text-center"
       in:fly={{ x: -200, duration: 2000 }}>
-      Consiliere psihologica
+      Consiliere psihologică
       <span class="text-elegant font-weight-bold">.</span>
-    </h1>
+    </h2>
     <div class="service-image text-center" in:fade={{ duration: 2000 }}>
       <img
         src="consiliere-psihologica1.jpg"

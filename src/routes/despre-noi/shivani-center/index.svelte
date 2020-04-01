@@ -23,12 +23,12 @@
 </svelte:head>
 <div class="container">
   <div class="card p-2 p-md-5">
-    <h1
+    <h2
       class="service-title my-4 pt-md-0 text-center"
       in:fly={{ x: -200, duration: 2000 }}>
       Shivani Center
       <span class="text-elegant font-weight-bold">.</span>
-    </h1>
+    </h2>
     <div class="text-center" in:fade={{ duration: 2000 }}>
       <img src="center.jpg" alt="imagine mediatie" class="img-top img-fluid" />
     </div>
