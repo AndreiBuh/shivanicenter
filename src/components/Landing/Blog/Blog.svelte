@@ -1,25 +1,19 @@
-<script context="module">
-  const apiUrl = process.env.SAPPER_APP_API_URL;
-
-  export function preload({ params, query }) {
-    return this.fetch(`${apiUrl}/blogs?_limit=2`)
-      .then(res => res.json())
-      .then(blogs => {
-        return { blogs };
-      });
-  }
-</script>
-
 <script>
-  import { onMount } from "svelte";
   import BlogItem from "../../Blog/BlogItem.svelte";
   import Heading from "../../UI/Heading.svelte";
   import LoadingSpinner from "../../UI/LoadingSpinner.svelte";
+  import { onMount } from "svelte";
 
-  export let blogs;
+  const apiUrl = process.env.SAPPER_APP_API_URL;
+  let blogs = [];
   let isLoading = true;
 
-  onMount(() => (isLoading = false));
+  onMount(async () => {
+    const res = await fetch(`${apiUrl}/blogs?_limit=2`);
+    const json = await res.json();
+    blogs = json;
+    isLoading = false;
+  });
 </script>
 
 <style>
