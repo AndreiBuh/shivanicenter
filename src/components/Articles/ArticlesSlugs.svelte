@@ -41,7 +41,7 @@
   }
 
   .details {
-    color: #8c8c8c;
+    color: var(--main-bg-color);
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 1px;

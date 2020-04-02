@@ -1,12 +1,28 @@
 <script>
   import Heading from "../../components/UI/Heading.svelte";
+  import TextInput from "../../components/UI/TextInput.svelte";
+  import { isEmpty, isValidEmail } from "../../helpers/validation.js";
   const apiUrl = process.env.SAPPER_APP_API_URL;
-  let name = "";
-  let email = "";
-  let message = "";
+
   let isLoading = false;
   let placeholder = "";
 
+  let name = "";
+  let email = "";
+  let message = "";
+  let formIsValid = false;
+
+  //validation
+  let valid = true;
+  let validityMessage = "";
+  let touched = false;
+
+  $: nameValid = !isEmpty(name);
+  $: emailValid = isValidEmail(email);
+  $: messageValid = !isEmpty(message);
+  $: formIsValid = nameValid && emailValid && messageValid;
+
+  //POST request
   const addContactMessage = async () => {
     let newMessage = {
       name,
@@ -116,31 +132,7 @@
   i {
     font-size: 20px;
   }
-  .contact-form input {
-    width: 100%;
-    height: 50px;
-    border: 1px solid #e1e1e1;
-    font-size: 16px;
-    color: #aaaab3;
-    padding-left: 25px;
-    margin-bottom: 28px;
-  }
-  .contact-form input::placeholder {
-    color: #aaaab3;
-  }
-  .contact-form textarea {
-    width: 100%;
-    border: 1px solid #e1e1e1;
-    font-size: 16px;
-    color: #aaaab3;
-    padding-left: 25px;
-    padding-top: 12px;
-    margin-bottom: 30px;
-    resize: none;
-  }
-  .contact-form textarea::placeholder {
-    color: #aaaab3;
-  }
+
   .btn:not(:disabled):not(.disabled) {
     cursor: pointer;
   }
@@ -155,9 +147,15 @@
 
   .btn:hover {
     color: white;
-    border: 1px solid !important;
     background: #444c54 !important;
   }
+
+  .btn[disabled]:hover {
+    background: var(--main-bg-color) !important;
+    cursor: not-allowed;
+    pointer-events: all !important;
+  }
+
   @media screen and (max-width: 768px) {
     span {
       font-size: 18px;
@@ -204,29 +202,46 @@
         <h2 class="mb-5 text-center text-white">Contactează-ne!</h2>
         <form class="contact-form" on:submit|preventDefault={addContactMessage}>
           <div class="row">
-            <div class="col-lg-6">
-              <input
-                type="text"
-                placeholder="Nume"
-                bind:value={name}
-                aria-label="Nume" />
+            <div class="col-lg-6 p-3">
+              <TextInput
+                type="input"
+                id="nume"
+                label="Nume"
+                value={name}
+                on:input={e => (name = e.target.value)}
+                valid={nameValid}
+                validityMessage="Te rugăm sa introduci un nume valid!" />
             </div>
-            <div class="col-lg-6">
-              <input
+            <div class="col-lg-6 p-3">
+              <TextInput
                 type="email"
-                placeholder="Email"
-                bind:value={email}
-                aria-label="Email" />
+                id="email"
+                label="Email"
+                value={email}
+                on:input={e => (email = e.target.value)}
+                valid={emailValid}
+                validityMessage="Te rugăm sa introduci un email valid!" />
             </div>
-            <div class="col-lg-12 text-center">
-              <textarea
-                rows="10"
-                placeholder="Mesajul tau"
-                bind:value={message}
-                aria-label="Mesaj" />
+          </div>
+          <div>
+            <div class="row">
+              <div class="col-md-12 p-3">
+                <TextInput
+                  controlType="textarea"
+                  rows="10"
+                  id="mesaj"
+                  label="Mesaj"
+                  value={message}
+                  on:input={e => (message = e.target.value)}
+                  valid={messageValid}
+                  validityMessage="Te rugăm sa introduci un mesaj valid!" />
+              </div>
+            </div>
+            <div class="text-center mt-3">
               <button
                 type="submit"
                 class="btn btn-outline py-2 px-4"
+                disabled={!formIsValid}
                 aria-label="Trimite">
                 {#if isLoading}
                   <div id="loading" />

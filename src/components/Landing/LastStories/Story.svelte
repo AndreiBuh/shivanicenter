@@ -36,7 +36,7 @@
   }
   .post-title h5 {
     font-family: var(--font-text), sans-serif;
-    color: #505050;
+    color: var(--main-bg-color);
   }
 
   .post-title h5:hover {
@@ -51,7 +51,7 @@
 
   .post-meta span {
     font-size: 13px;
-    color: #8d8d8d;
+    color: var(--main-bg-color);
     font-family: var(--font-main);
     letter-spacing: 1px;
   }

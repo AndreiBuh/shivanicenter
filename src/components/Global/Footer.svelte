@@ -1,8 +1,13 @@
 <script>
+  import TextInput from "../UI/TextInput.svelte";
+  import { isValidEmail } from "../../helpers/validation.js";
   const apiUrl = process.env.SAPPER_APP_API_URL;
   let isLoading = false;
-  let email = "";
   let placeholder = "";
+  let email = "";
+
+  $: emailValid = isValidEmail(email);
+  $: formIsValid = emailValid;
 
   const addEmail = async () => {
     let newMail = {
@@ -107,16 +112,6 @@
   .footer-section .footer-text .ft-newslatter .form {
     position: relative;
   }
-  .footer-section .footer-text .ft-newslatter .form input {
-    width: 100%;
-    height: 50px;
-    border-radius: 2px;
-    background: #393d4a;
-    border: none;
-    padding-left: 20px;
-    font-size: 16px;
-    color: white;
-  }
   .footer-section .footer-text .ft-newslatter .form button {
     position: absolute;
     right: 0;
@@ -156,6 +151,11 @@
   .fa-social a:hover {
     transform: translateY(-5px);
     transition: 0.4s ease-out;
+  }
+
+  button[disabled]:hover {
+    cursor: not-allowed;
+    pointer-events: all !important;
   }
 
   @keyframes spin {
@@ -230,15 +230,19 @@
               <h5 class="text-white">{placeholder}</h5>
             {:else}
               <form class="form" on:submit|preventDefault={addEmail}>
-                <input
+                <TextInput
                   type="email"
-                  placeholder="Email"
-                  bind:value={email}
-                  aria-label="Email" />
-                <button type="submit" aria-label="Trimite">
-                  {#if isLoading}
-                    <div id="loading" />
-                  {/if}
+                  id="email"
+                  value={email}
+                  on:input={e => (email = e.target.value)}
+                  valid={emailValid}
+                  validityMessage="Te rugăm sa introduci un email valid!"
+                  placeholder="Introdu adresa ta de email" />
+                <button
+                  type="submit"
+                  disabled={!formIsValid}
+                  aria-label="Trimite"
+                  placeholder="Introdu adresa ta de email">
                   <i class="fa fa-envelope" />
                 </button>
               </form>
@@ -249,3 +253,7 @@
     </div>
   </div>
 </footer>
+
+{#if isLoading}
+  <div id="loading" />
+{/if}

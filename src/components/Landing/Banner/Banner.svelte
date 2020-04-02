@@ -1,10 +1,15 @@
 <script>
+  import TextInput from "../../UI/TextInput.svelte";
+  import { isValidEmail } from "../../../helpers/validation.js";
   export let title;
 
   const apiUrl = process.env.SAPPER_APP_API_URL;
-  let email = "";
   let placeholder = "";
   let isLoading = false;
+  let email = "";
+
+  $: emailValid = isValidEmail(email);
+  $: formIsValid = emailValid;
 
   // Newsletter POST request
   const addContactMessage = async () => {
@@ -24,7 +29,7 @@
     isLoading = false;
     email = "";
     placeholder =
-      "Te-ai abonat cu succes la newsletterul nostru. In fiecare saptamana vei primi informatii legate de noile articole.";
+      "Te-ai abonat cu succes la newsletterul nostru! În fiecare săptămână vei primi informații legate de noile articole.";
 
     if (!response.ok) throw Error(response.message);
     try {
@@ -54,7 +59,6 @@
     letter-spacing: 3px;
   }
 
-  h5.placeholder,
   h4 {
     color: var(--main-color);
     font-family: var(--font-text), sans-serif;
@@ -67,17 +71,9 @@
   .form {
     position: relative;
     width: 40%;
+    margin: 0 auto;
   }
-  .form input {
-    width: 100%;
-    height: 50px;
-    border-radius: 2px;
-    background: #393d4a;
-    border: none;
-    padding-left: 20px;
-    font-size: 16px;
-    color: white;
-  }
+
   .form button {
     position: absolute;
     right: 0;
@@ -97,6 +93,11 @@
   }
   .banner-item {
     border-radius: 6px;
+  }
+
+  button[disabled]:hover {
+    cursor: not-allowed;
+    pointer-events: all !important;
   }
 
   @media screen and (max-width: 768px) {
@@ -152,21 +153,26 @@
   <div class="banner mb-5 py-5">
     <div class="container">
       {#if placeholder}
-        <h5 class="text-elegant placeholder">{placeholder}</h5>
+        <h4 class="text-elegant placeholder">{placeholder}</h4>
       {:else}
         <h3 class="banner-title text-elegant title mb-4">{title}</h3>
-        <div class="d-flex justify-content-center">
-          <form class="form" on:submit|preventDefault={addContactMessage}>
-            <input
-              type="email"
-              placeholder="Email"
-              aria-label="email"
-              bind:value={email} />
-            <button type="submit" aria-label="Trimite">
-              <i class="fa fa-envelope" />
-            </button>
-          </form>
-        </div>
+        <form class="form" on:submit|preventDefault={addContactMessage}>
+          <TextInput
+            type="email"
+            id="email"
+            value={email}
+            on:input={e => (email = e.target.value)}
+            valid={emailValid}
+            validityMessage="Te rugăm sa introduci un email valid!"
+            placeholder="Introdu adresa ta de email" />
+          <button
+            type="submit"
+            aria-label="Trimite"
+            disabled={!formIsValid}
+            placeholder="Introdu adresa ta de email">
+            <i class="fa fa-envelope" />
+          </button>
+        </form>
       {/if}
     </div>
   </div>
