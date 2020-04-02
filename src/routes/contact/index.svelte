@@ -61,31 +61,36 @@
       id: 1,
       name: "Psiholog Roxana Alecu",
       phone: "+40 790 420 493",
-      email: "alecuroxana19@yahoo.com"
+      email: "alecuroxana19@yahoo.com",
+      image: "testimonial-roxana.jpg"
     },
     {
       id: 2,
       name: "Psiholog Alexandra Tatu ",
       phone: "+40 727 574 486",
-      email: "tatu_alexandra15@yahoo.com "
+      email: "tatu_alexandra15@yahoo.com ",
+      image: "testimonial-alexandra-tatu.jpg"
     },
     {
       id: 3,
       name: "Psihoterapeut Gina ilie",
       phone: "+40 768 137 032",
-      email: "psih.ginailie@gmail.com"
+      email: "psih.ginailie@gmail.com",
+      image: "testimonial-gina.jpg"
     },
     {
       id: 4,
       name: "Psiholog Alexandra Pană",
       phone: "+40 721 821 910",
-      email: "alexandra.pana.psihoterapeut@gmail.com"
+      email: "alexandra.pana.psihoterapeut@gmail.com",
+      image: "testimonial-alexandra.jpg"
     },
     {
       id: 5,
       name: "Nutriționist Claudia Petre",
       phone: "+40 753 465 211",
-      email: "stancuclaudia23@gmail.com"
+      email: "stancuclaudia23@gmail.com",
+      image: "testimonial-claudia.jpg"
     }
   ];
 </script>
@@ -106,6 +111,12 @@
     border-radius: 10px;
     box-shadow: -0.5rem 0 0.5rem #222736;
     transition: 0.4s ease-out;
+  }
+
+  .contact-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
   }
   #loading {
     display: inline-block;
@@ -156,6 +167,21 @@
     pointer-events: all !important;
   }
 
+  .avatar {
+    width: 100px;
+    overflow: hidden;
+    border: 5px solid #fff;
+    border-radius: 50%;
+  }
+
+  .avatar img {
+    width: 100%;
+  }
+
+  .rounded-circle {
+    border-radius: 50%;
+  }
+
   @media screen and (max-width: 768px) {
     span {
       font-size: 18px;
@@ -176,20 +202,28 @@
   <div class="row">
 
     <div class="col-lg-5">
-      {#each psychologists as { id, name, email, phone } (id)}
-        <div class="card my-2 p-2">
-          <h5 class="text-elegant">{name}</h5>
-          <div class="row m-1">
-            <span class="mr-3 text-white">
-              <i class="fa fa-phone" />
-            </span>
-            <span class="text-white">{phone}</span>
+      {#each psychologists as { id, name, email, phone, image } (id)}
+        <div class="card my-2 p-2 contact-container">
+          <div class="contact-content">
+            <h5 class="text-elegant">{name}</h5>
+            <div class="row m-1">
+              <span class="mr-3 text-white">
+                <i class="fas fa-phone" />
+              </span>
+              <span class="text-white">{phone}</span>
+            </div>
+            <div class="row m-1">
+              <span class="mr-3 text-white">
+                <i class="fas fa-envelope" />
+              </span>
+              <span class="text-white">{email}</span>
+            </div>
           </div>
-          <div class="row m-1">
-            <span class="mr-3 text-white">
-              <i class="fa fa-envelope" />
-            </span>
-            <span class="text-white">{email}</span>
+          <div class="avatar white">
+            <img
+              src={image}
+              class="rounded-circle img-fluid"
+              alt="imagine psiholog" />
           </div>
         </div>
       {/each}

@@ -216,7 +216,7 @@
           <div class="ft-contact text-center">
             <h6>Contact</h6>
             <ul>
-              <li>shivanicenter.psychologist@gmail.com</li>
+              <li>shivanicenter.psychology@gmail.com</li>
               <li>Strada George Vraca, nr.7</li>
               <li>+40 790 420 493</li>
             </ul>
@@ -243,7 +243,7 @@
                   disabled={!formIsValid}
                   aria-label="Trimite"
                   placeholder="Introdu adresa ta de email">
-                  <i class="fa fa-envelope" />
+                  <i class="fas fa-envelope" />
                 </button>
               </form>
             {/if}
