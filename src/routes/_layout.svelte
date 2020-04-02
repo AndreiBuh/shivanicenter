@@ -126,7 +126,14 @@
     color: #dfa974;
     opacity: 0.8;
   }
-  /* Despre noi pages style END */
+
+  /* container override css */
+
+  @media screen and (min-width: 1200px) {
+    :global(.container) {
+      max-width: 1230px !important;
+    }
+  }
 
   @media screen and (max-width: 768px) {
     .btn-scroll {

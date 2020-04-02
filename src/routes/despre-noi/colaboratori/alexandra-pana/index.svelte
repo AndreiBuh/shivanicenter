@@ -22,12 +22,12 @@
 </svelte:head>
 <div class="container">
   <div class="card p-2 p-md-5">
-    <h2
+    <h3
       class="service-title my-4 pt-md-0 text-center"
       in:fly={{ x: -200, duration: 2000 }}>
       Psihoterapeut Alexandra Pană
       <span class="text-elegant font-weight-bold">.</span>
-    </h2>
+    </h3>
     <div class="text-center" in:fade={{ duration: 2000 }}>
       <img
         src="alexandraa.jpg"
@@ -118,7 +118,7 @@
 
       <div class="m-3 text-right">
         <p class="paragraph-text">Cu multă iubire,</p>
-        <p class="signature">Alexandra Pană</p>
+        <p class="signature">Alexandra Pana</p>
       </div>
 
     </div>
