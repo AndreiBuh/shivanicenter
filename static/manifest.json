@@ -6,7 +6,7 @@
 	"description": "Shivani Center - Centru de psihologie holistica",
 	"display": "minimal-ui",
 	"orientation": "portrait",
-	"start_url": "/",
+	"start_url": "/index.html",
 	"lang": "ro",
 	"icons": [
 		{

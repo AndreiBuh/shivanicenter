@@ -190,6 +190,13 @@
     .container {
       margin-top: 90px;
     }
+    span {
+      font-size: 16px;
+    }
+
+    i {
+      font-size: 18px;
+    }
   }
 </style>
 
