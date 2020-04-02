@@ -227,7 +227,7 @@
               <span class="text-white">{phone}</span>
             </div>
             <div class="row m-1">
-              <span class="mr-3 text-white">
+              <span class="mr-2 mr-md-3 text-white">
                 <i class="fas fa-envelope" />
               </span>
               <span class="text-white">{email}</span>
