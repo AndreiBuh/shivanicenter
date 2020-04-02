@@ -117,6 +117,7 @@
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    align-items: center;
   }
   #loading {
     display: inline-block;
@@ -191,18 +192,18 @@
       margin-top: 90px;
     }
     span {
-      font-size: 14px;
+      font-size: 13px;
     }
 
     i {
       font-size: 16px;
     }
     .avatar {
-      width: 80px;
-      height: 80px;
+      width: 70px;
+      height: 70px;
     }
     .avatar img {
-      width: 80px;
+      width: 70px;
     }
   }
 </style>
@@ -217,7 +218,7 @@
 
     <div class="col-lg-5">
       {#each psychologists as { id, name, email, phone, image } (id)}
-        <div class="card my-2 p-2 contact-container">
+        <div class="card my-2 p-1 p-md-2 contact-container">
           <div class="contact-content">
             <h5 class="text-elegant">{name}</h5>
             <div class="row m-1">
