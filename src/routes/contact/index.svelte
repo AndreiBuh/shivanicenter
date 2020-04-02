@@ -191,18 +191,18 @@
       margin-top: 90px;
     }
     span {
-      font-size: 15px;
+      font-size: 14px;
     }
 
     i {
-      font-size: 18px;
+      font-size: 16px;
     }
     .avatar {
-      width: 70px;
-      height: 70px;
+      width: 80px;
+      height: 80px;
     }
     .avatar img {
-      width: 70px;
+      width: 80px;
     }
   }
 </style>
