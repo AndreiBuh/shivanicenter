@@ -11,6 +11,7 @@
 </script>
 
 <script>
+  import { onMount } from "svelte";
   import BlogItem from "../../Blog/BlogItem.svelte";
   import Heading from "../../UI/Heading.svelte";
   import LoadingSpinner from "../../UI/LoadingSpinner.svelte";
