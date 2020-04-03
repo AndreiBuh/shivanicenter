@@ -13,6 +13,8 @@
     const json = await res.json();
     categories = json;
   });
+
+  export let bla;
 </script>
 
 <style>

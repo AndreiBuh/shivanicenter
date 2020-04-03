@@ -14,6 +14,10 @@
     .container {
       margin-top: 90px;
     }
+
+    h3 {
+      font-size: 25px;
+    }
   }
 </style>
 

@@ -15,6 +15,8 @@
     category_slug,
     id
   } = article[0];
+
+  let y;
 </script>
 
 <style>
@@ -79,6 +81,8 @@
 
   /* Articole pages style END */
 </style>
+
+<svelte:window bind:scrollY={y} />
 
 <div class="container">
   <div class="row">

@@ -20,7 +20,6 @@
 html,
 body {
   background-color: var(--main-color) !important;
-  overflow-x: hidden !important;
   font-family: "EB Garamond", "Oswald", cursive;
 }
 h1,
@@ -63,7 +62,8 @@ textarea:focus {
 }
 
 ul,
-ol {
+ol{
+  outline: none;
   padding: 0;
   margin: 0;
 }

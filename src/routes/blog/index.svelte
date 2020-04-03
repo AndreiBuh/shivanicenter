@@ -14,6 +14,8 @@
   import BlogItem from "../../components/Blog/BlogItem.svelte";
   import Heading from "../../components/UI/Heading.svelte";
   export let blogs;
+
+  import Pagination from "../../components/Global/Pagination.svelte";
 </script>
 
 <style>
@@ -50,3 +52,5 @@
     {/each}
   </div>
 </div>
+
+<Pagination />

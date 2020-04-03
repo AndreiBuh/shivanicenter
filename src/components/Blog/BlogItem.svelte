@@ -29,7 +29,7 @@
     box-sizing: border-box;
     overflow: hidden;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
-    height: 85%;
+    height: 75%;
   }
 
   .box .imgBox {

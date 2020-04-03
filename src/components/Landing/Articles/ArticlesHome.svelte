@@ -34,10 +34,11 @@
   }
 
   :global(.svelte-tabs li) {
-    font-size: 16px;
+    font-size: 18px;
     color: var(--main-bg-color) !important;
     margin: 0 5px;
     font-family: var(--font-main) !important;
+    outline: none !important;
   }
 
   :global(.svelte-tabs__tab-list) {
@@ -48,7 +49,7 @@
 
   :global(.svelte-tabs li.svelte-tabs__selected) {
     font-weight: 700;
-    border-bottom: 2px solid var(--main-bg-color);
+    border-bottom: 3px solid var(--main-bg-color);
   }
 
   @media (max-width: 992px) {
