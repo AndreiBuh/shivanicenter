@@ -269,7 +269,7 @@
 <svelte:window bind:scrollY={y} />
 {#if y < '400'}
   <nav in:fade={{ duration: 1000 }}>
-    <a href="/" title="home">
+    <a href="/" title="home" on:click={toggleMobileMenu}>
       <div class="logo-mobile">
         <div>
           <img src="logo6-min.png" alt="logo" />
@@ -440,7 +440,7 @@
           <div
             class="logo-wrapper text-center"
             in:fly={{ y: -200, duration: 2000 }}>
-            <a href="." aria-label="Pagina de start Shivani Center">
+            <a href="/" aria-label="Pagina de start Shivani Center">
               <img
                 src="logo6-min.png"
                 alt="Shivani Center"

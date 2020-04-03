@@ -187,10 +187,6 @@
     span {
       font-size: 18px;
     }
-
-    .container {
-      margin-top: 90px;
-    }
     span {
       font-size: 14px;
     }
@@ -215,7 +211,6 @@
 <div class="container">
   <Heading title="Date de contact" />
   <div class="row">
-
     <div class="col-lg-5">
       {#each psychologists as { id, name, email, phone, image } (id)}
         <div class="card my-2 p-1 p-md-2 contact-container">

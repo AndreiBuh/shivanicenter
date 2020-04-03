@@ -9,18 +9,13 @@
     box-shadow: -0.5rem 0 0.5rem #222736;
     transition: 0.4s ease-out;
   }
-  @media screen and (max-width: 768px) {
-    .container {
-      margin-top: 90px;
-    }
-  }
 </style>
 
 <svelte:head>
   <title>Art therapy</title>
 </svelte:head>
 <div class="container">
-  <div class="card p-2 p-md-5">
+  <div class="card p-2 p-md-5 mt-3">
     <h2
       class="service-title mb-4 pt-md-0 text-center"
       in:fly={{ x: -200, duration: 2000 }}>

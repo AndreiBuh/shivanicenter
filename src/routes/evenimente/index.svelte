@@ -21,13 +21,6 @@
   .container {
     margin-bottom: 200px;
   }
-
-  @media screen and (max-width: 768px) {
-    .container {
-      margin-top: 90px;
-      margin-bottom: 100px;
-    }
-  }
 </style>
 
 <svelte:head>
