@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Josefin+Sans|Oswald|EB+Garamond|Alex+Brush|Cormorant+SC:700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans|Oswald|Hind|EB+Garamond|Alex+Brush|Cormorant+SC:700&display=swap");
 
 @font-face {
   font-family: "Averta";
@@ -13,7 +13,7 @@
   --category-color: #ad5907;
 
   --font-main: 'Oswald';
-  --font-text: 'EB Garamond';
+  --font-text: 'Hind';
   --font-signature: 'Alex Brush';
 }
 

@@ -40,27 +40,27 @@
     <h1
       class="service-title my-4 pt-md-0 text-center"
       in:fly={{ x: -200, duration: 2000 }}>
-      In curand
+      În curând
       <span class="text-elegant font-weight-bold">...</span>
     </h1>
     <div class="p-2">
       <p class="paragraph-text">
-        Datorita acestei perioade dificile pentru fiecare dintre noi,
-        evenimentele si workshop-urile din urmatoarea perioada au fost
+        Datorită acestei perioade dificile pentru fiecare dintre noi,
+        evenimentele și workshop-urile din următoarea perioadă au fost
         suspendate.
       </p>
       <p class="paragraph-text">
-        In curand, te vom astepta cu noi evenimente pe diferite teme care sa te
-        inspire, sa te motiveze si sa te ajute sa intri in contact cu lumea ta
-        interioara.
+        În curând, te vom aștepta cu noi evenimente pe diferite teme care să te
+        inspire, să te motiveze și să te ajute să intri în contact cu lumea ta
+        interioară.
       </p>
       <p class="paragraph-text">
-        Pana atunci, suntem alaturi de tine prin serviciile noastre online
+        Până atunci, suntem alaturi de tine prin serviciile noastre online
         <span class="text-elegant text-uppercase">gratuite</span>
-        de consiliere psihologica .
+        de consiliere psihologică.
       </p>
       <p class="paragraph-text">
-        Impreuna vom trece peste aceasta perioada si vom fi mult mai puternici
+        Împreună vom trece peste această perioadă și vom fi mult mai puternici
         decat am intrat.
       </p>
     </div>

@@ -160,7 +160,7 @@
     }
 
     :global(.service-title) {
-      font-size: 28px !important;
+      font-size: 24px !important;
     }
   }
 </style>

@@ -9,12 +9,6 @@
     box-shadow: -0.5rem 0 0.5rem #222736;
     transition: 0.4s ease-out;
   }
-
-  @media screen and (max-width: 768px) {
-    h3 {
-      font-size: 25px;
-    }
-  }
 </style>
 
 <svelte:head>
@@ -22,12 +16,12 @@
 </svelte:head>
 <div class="container">
   <div class="card p-2 p-md-5 mt-3">
-    <h3
+    <h2
       class="service-title my-4 pt-md-0 text-center"
       in:fly={{ x: -200, duration: 2000 }}>
       Psihoterapeut Alexandra Pană
       <span class="text-elegant font-weight-bold">.</span>
-    </h3>
+    </h2>
     <div class="text-center" in:fade={{ duration: 2000 }}>
       <img
         src="alexandraa.jpg"

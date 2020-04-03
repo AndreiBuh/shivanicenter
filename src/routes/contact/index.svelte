@@ -171,7 +171,7 @@
   .avatar {
     width: 100px;
     overflow: hidden;
-    border: 5px solid #fff;
+    border: 2px solid #fff;
     border-radius: 50%;
   }
 
