@@ -20,7 +20,8 @@
 		"polka": "next",
 		"sapper-environment": "^1.0.1",
 		"siema": "^1.5.1",
-		"sirv": "^0.4.0"
+		"sirv": "^0.4.0",
+		"svelte-lazy": "^0.1.8"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.0.0",

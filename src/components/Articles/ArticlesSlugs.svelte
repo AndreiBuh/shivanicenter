@@ -1,6 +1,7 @@
 <script>
   import ArticlesSidebar from "./ArticlesSidebar.svelte";
   import ShareSocialIcons from "../Global/ShareSocialIcons.svelte";
+
   export let article;
 
   let {

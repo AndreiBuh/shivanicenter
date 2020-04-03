@@ -6,6 +6,7 @@
   import Story from "../LastStories/Story.svelte";
   import LoadingSpinner from "../../UI/LoadingSpinner.svelte";
 
+
   //fetch articles
   const apiUrl = process.env.SAPPER_APP_API_URL;
   let isLoading = true;
@@ -82,17 +83,17 @@
           <Tab>{category.title.toUpperCase()}</Tab>
         {/each}
       </TabList>
-      {#each categories as category}
-        <TabPanel>
-          <div class="card-columns">
-            {#each articles as article (article.id)}
-              {#if category.title === article.category.title}
-                <Story {...article} />
-              {/if}
-            {/each}
-          </div>
-        </TabPanel>
-      {/each}
+        {#each categories as category}
+          <TabPanel>
+            <div class="card-columns">
+              {#each articles as article (article.id)}
+                {#if category.title === article.category.title}
+                  <Story {...article} />
+                {/if}
+              {/each}
+            </div>
+          </TabPanel>
+        {/each}
     </Tabs>
   {/if}
   <Pagination />

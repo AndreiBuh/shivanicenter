@@ -1,6 +1,5 @@
 <script>
   import { fade, fly } from "svelte/transition";
-
   import Carousel from "./Carousel.svelte";
 
   let slides = [

@@ -3,6 +3,8 @@
   export let articles;
   export let category;
   export let slug;
+
+  import Lazy from "svelte-lazy";
 </script>
 
 <style>
@@ -102,10 +104,12 @@
                     <div class="row">
                       <div class="col-lg-5 col-md-12 mb-lg-0 mb-4">
                         <div class="mb-lg-0">
-                          <img
-                            class="img-fluid"
-                            src={article.image.url}
-                            alt="Sample image" />
+                          <Lazy offset={150}>
+                            <img
+                              class="img-fluid"
+                              src={article.image.url}
+                              alt="Sample image" />
+                          </Lazy>
                         </div>
                       </div>
                       <div class="col-lg-7 col-md-12 mb-md-0 px-4 py-3">
@@ -121,6 +125,7 @@
                         </p>
                       </div>
                     </div>
+
                   </div>
                 {/each}
               </div>
