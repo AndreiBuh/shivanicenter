@@ -271,7 +271,7 @@
 <svelte:window bind:scrollY={y} />
 {#if y < '400'}
   <nav in:fade={{ duration: 1000 }}>
-    <a href="/" title="home" on:click={toggleMobileMenu}>
+    <a href="/" title="home" on:click={() => (mobileMenu = false)}>
       <div class="logo-mobile">
         <div>
           <img src="logo6-min.png" alt="logo" />
@@ -486,7 +486,7 @@
   </nav>
 {:else}
   <nav in:fly={{ y: -100, duration: 1500 }} class="nav-transparent">
-    <a href="." title="home">
+    <a href="/" title="home">
       <div class="logo-mobile">
         <div>
           <img src="logo6-min.png" alt="logo" />
@@ -654,7 +654,7 @@
           </ul>
         </li>
         <li class="mt-3 image-scroll">
-          <a href=".">
+          <a href="/">
             <img src="logo6-min.png" alt="logo" width="70" height="70" />
           </a>
         </li>

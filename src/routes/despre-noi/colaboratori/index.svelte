@@ -42,11 +42,19 @@
   ];
 </script>
 
+<style>
+  @media screen and (max-width: 768px) {
+    .container {
+      margin-top: 100px;
+    }
+  }
+</style>
+
 <svelte:head>
   <title>Colaboratori</title>
 </svelte:head>
 
-<div class="container mt-5">
+<div class="container">
   <Heading title="Colaboratori" />
   <section class="text-center dark-grey-text">
     <div class="row">

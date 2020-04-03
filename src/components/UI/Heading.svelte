@@ -52,6 +52,6 @@
   }
 </style>
 
-<h2 class="decor-heading elegant-shadow mt-5">
+<h2 class="decor-heading elegant-shadow">
   <span>{title}</span>
 </h2>

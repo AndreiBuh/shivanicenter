@@ -139,6 +139,10 @@
     .card {
       box-shadow: 3px 3px 3px 3px #222736;
     }
+
+    .container {
+      margin-top: 0 !important;
+    }
   }
 </style>
 
