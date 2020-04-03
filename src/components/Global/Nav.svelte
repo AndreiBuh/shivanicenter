@@ -97,6 +97,8 @@
   @media screen and (max-width: 768px) {
     nav {
       height: 70px;
+      position: fixed;
+      top: 0;
     }
     .nav-links {
       position: absolute;

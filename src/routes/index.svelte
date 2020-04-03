@@ -9,15 +9,24 @@
   import TestimonialsHome from "../components/Landing/Testimonials/TestimonialsHome.svelte";
 </script>
 
+<style>
+  @media screen and (max-width: 768px) {
+    main {
+      margin-top: 70px;
+    }
+  }
+</style>
+
 <svelte:head>
   <title>Shivani Center</title>
 </svelte:head>
-
-<HomeCarousel />
-<LastStories />
-<Banner title="Cine suntem?" />
-<ArticlesHome />
-<Servicii />
-<Blog />
-<Banner title="Îți plac articolele noastre? Abonează-te la newsletter!" />
-<TestimonialsHome />
+<main>
+  <HomeCarousel />
+  <LastStories />
+  <Banner title="Cine suntem?" />
+  <ArticlesHome />
+  <Servicii />
+  <Blog />
+  <Banner title="Îți plac articolele noastre? Abonează-te la newsletter!" />
+  <TestimonialsHome />
+</main>

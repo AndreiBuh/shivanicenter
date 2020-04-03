@@ -72,9 +72,14 @@ a {
   outline: none;
   text-decoration: none;
 }
-/*
-@media screen and (max-width: 768px) {
+
+
+@media (max-width: 768px) {
   html, body {
-    overflow-x: hidden !important;
+    overflow-x: hidden!important;
   }
-} */
+
+  .container {
+    margin-top: 100px!important;
+  }
+}

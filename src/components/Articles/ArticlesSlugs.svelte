@@ -84,7 +84,7 @@
 
 <div class="container">
   <div class="row">
-    <div class="col-md-8 my-5 my-md-0">
+    <div class="col-md-8 mb-3">
       <div class="card">
         <h3 class="text-center p-3 my-0">{title}</h3>
         <div class="card-content">

@@ -72,7 +72,7 @@
 
 <div class="container">
   <div class="row">
-    <div class="col-md-8 my-5 my-md-0">
+    <div class="col-md-8 mb-5 my-md-0">
       <div class="card">
         <h5 class="text-center p-3 my-0">{category}</h5>
       </div>
