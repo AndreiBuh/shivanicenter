@@ -82,8 +82,6 @@
   /* Articole pages style END */
 </style>
 
-<svelte:window bind:scrollY={y} />
-
 <div class="container">
   <div class="row">
     <div class="col-md-8 my-5 my-md-0">

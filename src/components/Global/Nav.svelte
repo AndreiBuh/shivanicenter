@@ -50,11 +50,10 @@
     width: 100%;
     background: #222736;
     transition: 0.4s;
-    position: fixed;
+    position: sticky;
     top: 0;
     z-index: 99;
     box-shadow: 0 0 5px #222736;
-    height: auto;
   }
 
   .nav-transparent {
@@ -285,7 +284,7 @@
       <div class="hamburger" class:ham={mobileMenu} />
     </div>
     <div class="mainmenu">
-      <ul class="nav-links" class:mobileMenu bind:this={navLinks}>
+      <ul class="nav-links pb-3" class:mobileMenu bind:this={navLinks}>
         <li class="mx-4 mx-lg-5" rel="prefetch">
           <a href="javascript:void(0)" on:click={toggleOpen1}>DESPRE NOI</a>
           <ul class="dropdown" class:active={open1} class:inactive={!open1}>
@@ -500,7 +499,7 @@
       <div class="hamburger" class:ham={mobileMenu} />
     </div>
     <div class="mainmenu">
-      <ul class="nav-links p-0" class:mobileMenu bind:this={navLinks}>
+      <ul class="nav-links pb-3" class:mobileMenu bind:this={navLinks}>
         <li class="mx-4 mx-lg-5" rel="prefetch">
           <a href="javascript:void(0)" on:click={toggleOpen1}>DESPRE NOI</a>
           <ul class="dropdown" class:active={open1} class:inactive={!open1}>

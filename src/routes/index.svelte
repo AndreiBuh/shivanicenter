@@ -12,6 +12,7 @@
 <svelte:head>
   <title>Shivani Center</title>
 </svelte:head>
+
 <HomeCarousel />
 <LastStories />
 <Banner title="Cine suntem?" />

@@ -21,7 +21,6 @@
     position: relative;
     margin: 0 auto;
     box-sizing: border-box;
-    margin-top: 220px;
   }
 
   .spinner {
@@ -158,10 +157,6 @@
     :global(blockquote) {
       padding: 6px 30px;
       font-size: 14px;
-    }
-
-    :global(main) {
-      margin-top: 70px !important;
     }
 
     :global(.service-title) {

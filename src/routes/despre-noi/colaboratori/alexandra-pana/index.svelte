@@ -11,10 +11,6 @@
   }
 
   @media screen and (max-width: 768px) {
-    .container {
-      margin-top: 90px;
-    }
-
     h3 {
       font-size: 25px;
     }
@@ -25,7 +21,7 @@
   <title>Psihoterapeut Alexandra Pană</title>
 </svelte:head>
 <div class="container">
-  <div class="card p-2 p-md-5">
+  <div class="card p-2 p-md-5 mt-3">
     <h3
       class="service-title my-4 pt-md-0 text-center"
       in:fly={{ x: -200, duration: 2000 }}>
