@@ -7,7 +7,7 @@
       name: "Psiholog Roxana Alecu",
       src: "slider1.png",
       text:
-        "Timpul, oamenii, evenimentele, gandurile si actiunile mi-au revelat intotdeauna ceva nou despre mine. Ma prezint in fata voastra mai intai ca fiinta umana, cu emotii, cu probleme, cu o multime de intrebari, dar mereu cu putere de a depasi momentele grele ce imi provoaca suferinta ...",
+        "Timpul, oamenii, evenimentele, gândurile și acțiunile mi-au revelat întotdeauna ceva nou despre mine. Mă prezint în fața voastră mai intâi ca ființă umană, cu emoții, cu probleme, cu o mulțime de întrebări, dar mereu cu putere de a depăși momentele grele ce îmi provoacă suferință...",
       slug: "roxana-alecu",
       quote:
         '"Poți face multe descoperiri, dar cea mai mare descoperire ești chiar tu!"'
@@ -17,7 +17,7 @@
       src: "alexandra2.jpg",
       name: "Psiholog Alexandra Tatu",
       text:
-        "La fel ca şi tine, şi eu am o poveste în spatele numelui meu. De fapt, cu toţii suntem protagoniştii vieţilor noastre. Mă numesc Tatu Alexandra şi dacă vreau să îmi descriu povestea în câteva cuvinte, acestea sunt acestea: căutare, efort, obstacole, apreciere, imaginaţie, sinceritate, pasiune  ...",
+        "La fel ca şi tine, şi eu am o poveste în spatele numelui meu. De fapt, cu toţii suntem protagoniştii vieţilor noastre. Mă numesc Tatu Alexandra şi dacă vreau să îmi descriu povestea în câteva cuvinte, acestea sunt: căutare, efort, obstacole, apreciere, imaginaţie, sinceritate, pasiune...",
       slug: "alexandra-tatu",
       quote:
         '"Mereu vor fi lucruri frumoase în lumea în care trăim, atâta timp cât știm unde și cum să privim."'
@@ -27,7 +27,7 @@
       src: "phone2.jpg",
       name: "Shivani Center",
       text:
-        "Suport psihologic GRATUIT pentru persoanele aflate in izolare sau afectate de criza generata de raspandirea virusului COVID-19.",
+        "Suport psihologic GRATUIT pentru persoanele aflate în izolare sau afectate de criza generată de răspândirea virusului COVID-19.",
       slug: "",
       quote: ""
     }

@@ -116,15 +116,15 @@
           <h4 class="p-2">Misiune</h4>
           <i class="flaticon-mission" />
           <p class="p-2">
-            Shivani Center ofera o paleta larga de servicii psihologice de
-            calitate, intr-un cadru securizant si confidential.
+            Shivani Center oferă o paletă largă de servicii psihologice de
+            calitate, într-un cadru securizant și confidențial.
           </p>
         </div>
         <div class="col-md-3 px-3 p-3 banner-item">
           <h4 class="p-2">Viziune</h4>
           <i class="flaticon-eye" />
           <p class="p-2">
-            Viziunea noastra holistica imbina in mod organic metodele de
+            Viziunea noastră holistică îmbină în mod organic metodele de
             vindecare orientale cu psihoterapiile suportive occidentale.
           </p>
         </div>
@@ -132,9 +132,9 @@
           <h4 class="p-2">Scop</h4>
           <i class="flaticon-goal" />
           <p class="p-2">
-            Va invitam sa exploram impreuna conexiunea dintre minte, corp si
-            spirit, astfel incat sa gasiti solutiile potrivite pentru o viata
-            echilibrata.
+            Vă invităm să explorăm împreună conexiunea dintre minte, corp și
+            spirit, astfel încât să găsiți soluțiile potrivite pentru o viață
+            echilibrată.
           </p>
         </div>
         <div class="col-md-3 px-3 p-3 banner-item">
@@ -142,7 +142,7 @@
           <i class="flaticon-buddhism" />
           <p class="p-2">
             Abordarea holistică este centrată pe analiza de simbol, dezvoltare
-            personală şi autoschimbare prin intermediul improvizaţiei şi
+            personală şi autoschimbare prin intermediul improvizaţiei şi al
             meditaţiei.
           </p>
         </div>

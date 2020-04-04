@@ -49,7 +49,7 @@
 
   :global(.svelte-tabs li.svelte-tabs__selected) {
     font-weight: 700;
-    border-bottom: 3px solid var(--main-bg-color);
+    border-bottom: 2px solid var(--main-bg-color);
   }
 
   @media (max-width: 992px) {

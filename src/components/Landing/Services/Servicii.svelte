@@ -4,7 +4,7 @@
   let services = [
     {
       id: 1,
-      title: "Consiliere psihologica",
+      title: "Consiliere psihologică",
       icon: "flaticon-brain",
       url: "consiliere-psihologica",
       content:
@@ -21,23 +21,23 @@
 
     {
       id: "3",
-      title: "Meditatie",
+      title: "Meditație",
       icon: "flaticon-yoga",
       content:
-        "Nu există o tehnică corectă sau gresită de meditatie, fiecare alege ce funcționează mai bine pentru el. Important este să nu renunțăm când în demersul nostru apar capcanele minții.",
+        "Nu există o tehnică corectă sau greșită de meditație, fiecare alege ce funcționează mai bine pentru el. Important este să nu renunțăm când în demersul nostru apar capcanele minții.",
       url: "meditatie"
     },
     {
       id: "4",
-      title: "Dezvoltare personala",
+      title: "Dezvoltare personală",
       icon: "flaticon-flower",
       content:
-        "A te bucura de lucrurile simple și a simți compasiune față de toate ființele înseamnă dezvoltare personală. Viața nu înseamnă doar a știi, ci și a simți!",
+        "A te bucura de lucrurile simple și a simți compasiune față de toate ființele înseamnă dezvoltare personală. Viața nu înseamnă doar a ști, ci și a simți!",
       url: "dezvoltare-personala"
     },
     {
       id: "5",
-      title: "Psihoeducatie",
+      title: "Psihoeducație",
       icon: "flaticon-mental",
       content:
         "Psihoeducația oferă oamenilor condiții de sănătate mintală, informații despre cauzele, simptomele, prognosticul și tratamentele afecțiunii lor diagnosticate.",
@@ -48,7 +48,7 @@
       title: "Workshop",
       icon: "flaticon-workshop",
       content:
-        "Workshop-urile oferă o plajă largă de teme de interes cum ar fi legate de cuplu, familie şi copil, legături între emoţii-corp-gânduri, depăşirea unor evenimente dificile.",
+        "Workshop-urile oferă o plajă largă de teme de interes cum ar fi cele legate de cuplu, familie şi copil, legături între emoţii-corp-gânduri, depăşirea unor evenimente dificile.",
       url: "workshop"
     },
     {
@@ -61,7 +61,7 @@
     },
     {
       id: "8",
-      title: "Consiliere vocationala",
+      title: "Consiliere vocațională",
       icon: "flaticon-speaker",
       content:
         "Consilierea vocaţională pune accent şi pe pasiunile, curiozităţile oamenilor, nu doar pe căutarea unui job – se doreşte ca acest job să fie strâns legat de acele pasiuni.",
