@@ -5,7 +5,7 @@
   let slides = [
     {
       name: "Psiholog Roxana Alecu",
-      src: "slider1.jpg",
+      src: "slider1",
       text:
         "Timpul, oamenii, evenimentele, gândurile și acțiunile mi-au revelat întotdeauna ceva nou despre mine. Mă prezint în fața voastră mai intâi ca ființă umană, cu emoții, cu probleme, cu o mulțime de întrebări, dar mereu cu putere de a depăși momentele grele ce îmi provoacă suferință...",
       slug: "roxana-alecu",
@@ -14,17 +14,17 @@
     },
 
     {
-      src: "alexandra2.jpg",
+      src: "alexandra2",
       name: "Psiholog Alexandra Tatu",
       text:
         "La fel ca şi tine, şi eu am o poveste în spatele numelui meu. De fapt, cu toţii suntem protagoniştii vieţilor noastre. Mă numesc Tatu Alexandra şi dacă vreau să îmi descriu povestea în câteva cuvinte, acestea sunt: căutare, efort, obstacole, apreciere, imaginaţie, sinceritate, pasiune...",
-      slug: "alexandra-tatu",
+      slug: "people/alexandra-tatu",
       quote:
         '"Mereu vor fi lucruri frumoase în lumea în care trăim, atâta timp cât știm unde și cum să privim."'
     },
 
     {
-      src: "phone2.jpg",
+      src: "phone2",
       name: "Shivani Center",
       text:
         "Suport psihologic GRATUIT pentru persoanele aflate în izolare sau afectate de criza generată de răspândirea virusului COVID-19.",
@@ -97,7 +97,11 @@
     {#each slides as { src, text, name, slug, quote }}
       <div class="slide-content row">
         <div class="pr-0 col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-          <img {src} alt="" class="img-fluid" />
+          <picture class="img-fluid">
+            <source srcset="images/people/{src}.webp" type="image/webp" />
+            <source srcset="images/people/{src}.jpg" type="image/jpeg" />
+            <img src="images/people/{src}.jpg" alt={name} />
+          </picture>
         </div>
         <div
           class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 slide-text p-5
