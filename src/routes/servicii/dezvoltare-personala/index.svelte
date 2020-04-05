@@ -118,7 +118,7 @@
         </p>
       </div>
       <div class="text-center my-4">
-        <picture class="img-top img-fluid">
+        <picture>
           <source
             srcset="images/services/dezvoltare-personala2.webp"
             type="image/webp" />
@@ -127,7 +127,8 @@
             type="image/jpeg" />
           <img
             src="images/services/dezvoltare-personala2.jpg"
-            alt="dezvoltare personala" />
+            alt="dezvoltare personala"
+            class="img-top img-fluid rounded" />
         </picture>
       </div>
       <p class="mt-5 paragraph-text">

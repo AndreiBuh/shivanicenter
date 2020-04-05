@@ -23,7 +23,7 @@
       <span class="text-elegant font-weight-bold">.</span>
     </h2>
     <div class="service-image text-center" in:fade={{ duration: 2000 }}>
-      <picture class="img-top img-fluid">
+      <picture>
         <source
           srcset="images/services/consiliere-psihologica1.webp"
           type="image/webp" />
@@ -32,7 +32,8 @@
           type="image/jpeg" />
         <img
           src="images/services/consiliere-psihologica1.jpg"
-          alt="consiliere psihologica" />
+          alt="consiliere psihologica"
+          class="img-top img-fluid rounded" />
       </picture>
     </div>
     <div class="p-2 mt-3">
@@ -83,7 +84,7 @@
         timp ce psihoterapia poate dura și câțiva ani.
       </p>
       <div class="row">
-        <div class="col-md-7">
+        <div class="col-md-6">
           <p class="paragraph-text">
             Metodele și tehnicile utilizate sunt comune psihoterapiei și
             consilierii. Orientarea terapeutică este cea care influențează pașii
@@ -97,8 +98,8 @@
             fi acolo și de a vă ajută într-un mod activ să vă autodescoperiti.
           </p>
         </div>
-        <div class="col-md-5">
-          <picture class="img-middle img-fluid">
+        <div class="col-md-6">
+          <picture>
             <source
               srcset="images/services/consiliere-psihologica2.webp"
               type="image/webp" />
@@ -107,7 +108,8 @@
               type="image/jpeg" />
             <img
               src="images/services/consiliere-psihologica2.jpg"
-              alt="consiliere psihologica" />
+              alt="consiliere psihologica"
+              class="img-top img-fluid rounded" />
           </picture>
         </div>
       </div>

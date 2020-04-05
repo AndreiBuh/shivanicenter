@@ -23,10 +23,13 @@
       <span class="text-elegant font-weight-bold">.</span>
     </h2>
     <div class="text-center" in:fade={{ duration: 2000 }}>
-      <picture class="img-top img-fluid">
+      <picture>
         <source srcset="images/people/alexandraa.webp" type="image/webp" />
         <source srcset="images/people/alexandraa.jpg" type="image/jpeg" />
-        <img src="images/people/alexandraa.jpg" alt="psiholog alexandra pana" />
+        <img
+          src="images/people/alexandraa.jpg"
+          alt="psiholog alexandra pana"
+          class="img-top img-fluid rounded" />
       </picture>
     </div>
     <div class="p-2 mt-5">

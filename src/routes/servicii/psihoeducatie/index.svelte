@@ -24,12 +24,15 @@
       <span class="text-elegant font-weight-bold">.</span>
     </h2>
     <div class="service-image text-center" in:fade={{ duration: 2000 }}>
-      <picture class="img-top img-fluid">
+      <picture>
         <source
           srcset="images/services/psihoeducatie1.webp"
           type="image/webp" />
         <source srcset="images/services/psihoeducatie1.jpg" type="image/jpeg" />
-        <img src="images/services/psihoeducatie1.jpg" alt="psihoeducatie" />
+        <img
+          src="images/services/psihoeducatie1.jpg"
+          alt="psihoeducatie"
+          class="img-top img-fluid rounded" />
       </picture>
     </div>
     <div class="p-2 mt-3">
@@ -90,14 +93,17 @@
           </p>
         </div>
         <div class="col-md-5">
-          <picture class="img-middle img-fluid">
+          <picture>
             <source
               srcset="images/services/psihoeducatie2.webp"
               type="image/webp" />
             <source
               srcset="images/services/psihoeducatie2.jpg"
               type="image/jpeg" />
-            <img src="images/services/psihoeducatie2.jpg" alt="psihoeducatie" />
+            <img
+              src="images/services/psihoeducatie2.jpg"
+              alt="psihoeducatie"
+              class="img-middle img-fluid rounded" />
           </picture>
         </div>
       </div>

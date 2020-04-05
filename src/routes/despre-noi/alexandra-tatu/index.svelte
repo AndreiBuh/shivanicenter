@@ -55,10 +55,13 @@
       <span class="text-elegant font-weight-bold">.</span>
     </h2>
     <div class="text-center" in:fade={{ duration: 2000 }}>
-      <picture class="img-top img-fluid">
+      <picture>
         <source srcset="images/people/alexandra.webp" type="image/webp" />
         <source srcset="images/people/alexandra.jpg" type="image/jpeg" />
-        <img src="images/people/alexandra.jpg" alt="psiholog alexandra tatu" />
+        <img
+          src="images/people/alexandra.jpg"
+          alt="psiholog alexandra tatu"
+          class="img-top img-fluid rounded" />
       </picture>
     </div>
     <div class="p-2">

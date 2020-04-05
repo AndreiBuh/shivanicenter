@@ -59,7 +59,10 @@
       <picture class="img-top img-fluid">
         <source srcset="images/people/shivani.webp" type="image/webp" />
         <source srcset="images/people/shivani.jpg" type="image/jpeg" />
-        <img src="images/people/shivani.jpg" alt="psiholog roxana alecu" />
+        <img
+          src="images/people/shivani.jpg"
+          alt="psiholog roxana alecu"
+          class="img-top img-fluid rounded" />
       </picture>
     </div>
     <div class="p-2">

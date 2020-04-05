@@ -24,10 +24,13 @@
       <span class="text-elegant font-weight-bold">.</span>
     </h2>
     <div class="text-center" in:fade={{ duration: 2000 }}>
-      <picture class="img-top img-fluid">
+      <picture>
         <source srcset="images/services/meditatie1.webp" type="image/webp" />
         <source srcset="images/services/meditatie1.jpg" type="image/jpeg" />
-        <img src="images/services/meditatie1.jpg" alt="mediatie" />
+        <img
+          src="images/services/meditatie1.jpg"
+          alt="mediatie"
+          class="img-top img-fluid rounded" />
       </picture>
     </div>
     <div class="p-2 mt-3">
@@ -87,12 +90,15 @@
           </p>
         </div>
         <div class="col-md-5 col-xs-12">
-          <picture class="img-middle img-fluid">
+          <picture>
             <source
               srcset="images/services/meditatie2.webp"
               type="image/webp" />
             <source srcset="images/services/meditatie2.jpg" type="image/jpeg" />
-            <img src="images/services/meditatie2.jpg" alt="mediatie" />
+            <img
+              src="images/services/meditatie2.jpg"
+              alt="mediatie"
+              class="img-middle img-fluid rounded" />
           </picture>
         </div>
       </div>

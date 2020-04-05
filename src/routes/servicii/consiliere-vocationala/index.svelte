@@ -23,7 +23,7 @@
       <span class="text-elegant font-weight-bold">.</span>
     </h2>
     <div class="text-center" in:fade={{ duration: 2000 }}>
-      <picture class="img-top img-fluid">
+      <picture>
         <source
           srcset="images/services/consiliere-vocationala1.webp"
           type="image/webp" />
@@ -32,7 +32,8 @@
           type="image/jpeg" />
         <img
           src="images/services/consiliere-vocationala1.jpg"
-          alt="consiliere vocationala" />
+          alt="consiliere vocationala"
+          class="img-top img-fluid rounded" />
       </picture>
     </div>
     <div class="p-2 mt-3">
@@ -146,7 +147,7 @@
           </ul>
         </div>
         <div class="col-md-5">
-          <picture class="img-middle img-fluid">
+          <picture>
             <source
               srcset="images/services/consiliere-vocationala2.webp"
               type="image/webp" />
@@ -155,7 +156,8 @@
               type="image/jpeg" />
             <img
               src="images/services/consiliere-vocationala2.jpg"
-              alt="consiliere vocationala" />
+              alt="consiliere vocationala"
+              class="img-middle img-fluid rounded" />
           </picture>
         </div>
       </div>

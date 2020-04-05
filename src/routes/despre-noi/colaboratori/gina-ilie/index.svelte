@@ -55,10 +55,13 @@
       <span class="text-elegant font-weight-bold">.</span>
     </h2>
     <div class="text-center" in:fade={{ duration: 2000 }}>
-      <picture class="img-top img-fluid">
+      <picture>
         <source srcset="images/people/gina.webp" type="image/webp" />
         <source srcset="images/people/gina.jpg" type="image/jpeg" />
-        <img src="images/people/gina.jpg" alt="psihoterapeut gina ilie" />
+        <img
+          src="images/people/gina.jpg"
+          alt="psihoterapeut gina ilie"
+          class="img-top img-fluid rounded" />
       </picture>
     </div>
     <div class="p-2 mt-5">
