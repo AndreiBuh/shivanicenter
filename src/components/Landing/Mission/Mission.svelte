@@ -117,7 +117,7 @@
           <i class="flaticon-mission" />
           <p class="p-2">
             Shivani Center oferă o paletă largă de servicii psihologice de
-            calitate, într-un catdru securizant și confidențial.
+            calitate, într-un cadru securizant și confidențial.
           </p>
         </div>
         <div class="col-md-3 px-3 p-3 mission-item">
