@@ -23,7 +23,6 @@
 <main>
   <HomeCarousel />
   <LastStories />
-  <Servicii />
   <Banner title="Cine suntem?" />
   <ArticlesHome />
   <Servicii />
