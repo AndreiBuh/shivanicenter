@@ -155,7 +155,9 @@
       {#if placeholder}
         <h4 class="text-elegant placeholder">{placeholder}</h4>
       {:else}
-        <h3 class="banner-title text-elegant title mb-4">{title}</h3>
+        <h3 class="banner-title text-elegant title mb-4">
+          <label for="email">{title}</label>
+        </h3>
         <form class="form" on:submit|preventDefault={addContactMessage}>
           <TextInput
             type="email"

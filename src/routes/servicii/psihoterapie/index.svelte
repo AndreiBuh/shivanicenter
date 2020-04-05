@@ -32,7 +32,7 @@
     <div class="p-2 mt-3">
       <p class="paragraph-text">
         <span class="text-elegant font-weight-bold">Psihoterapia</span>
-         este un domeniu interdisciplinar, situat la granţa dintre medicină şi
+         este un domeniu interdisciplinar, situat la graniţa dintre medicină şi
         psihologie. Psihoterapia este o modalitate de tratament cuprinzător,
         deliberat şi planificat, prin mijloace şi metodologii specifice, având
         un cadru clinic şi teoretic, centrată pe reducerea sau eliminarea unor
