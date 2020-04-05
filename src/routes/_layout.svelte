@@ -11,9 +11,9 @@
   let scroll;
   let isLoading = true;
 
-  // onMount(() => {
-  //   isLoading = false;
-  // });
+  onMount(() => {
+    isLoading = false;
+  });
 </script>
 
 <style>
