@@ -1,6 +1,5 @@
 <script>
   import Icon from "fa-svelte";
-  import Lazy from "svelte-lazy";
   import { faQuoteLeft } from "@fortawesome/free-solid-svg-icons";
 
   export let name;
@@ -34,14 +33,12 @@
 
 <div class="col-md-3">
   <div class="testimonial">
-    <Lazy offset={300}>
-      <div class="mx-auto">
-        <img
-          src={imageUrl}
-          alt=""
-          class="rounded-circle z-depth-1 img-fluid img-testimonial" />
-      </div>
-    </Lazy>
+    <div class="mx-auto">
+      <img
+        src={imageUrl}
+        alt=""
+        class="rounded-circle z-depth-1 img-fluid img-testimonial" />
+    </div>
     <h6 class="text-white mt-4">{name}</h6>
     <span class="text-elegant text-uppercase">{jobTitle}</span>
     <p class="testimonial-text">

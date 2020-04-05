@@ -1,7 +1,6 @@
 <script>
   import Button from "../../../components/UI/Button.svelte";
   import Social from "../../Global/Social.svelte";
-  import Lazy from "svelte-lazy";
 
   export let name;
   export let jobTitle;
@@ -71,14 +70,9 @@
 
 <div class="card testimonial-card">
   <div class="card-up info-color" />
-  <Lazy offset={250}>
-    <div class="avatar mx-auto white">
-      <img
-        src={imageUrl}
-        class="rounded-circle img-fluid"
-        alt="Reviwer avatar" />
-    </div>
-  </Lazy>
+  <div class="avatar mx-auto white">
+    <img src={imageUrl} class="rounded-circle img-fluid" alt="Reviwer avatar" />
+  </div>
   <div class="card-body">
     <h6>{name}</h6>
     <span class="text-uppercase">{jobTitle}</span>

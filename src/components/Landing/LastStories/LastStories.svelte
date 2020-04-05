@@ -3,7 +3,6 @@
   import Story from "./Story.svelte";
   import Heading from "../../UI/Heading.svelte";
   import LoadingSpinner from "../../UI/LoadingSpinner.svelte";
-  import Lazy from "svelte-lazy";
 
   const apiUrl = process.env.SAPPER_APP_API_URL;
   let articles = [];
@@ -40,9 +39,7 @@
   {:else}
     <div class="card-columns">
       {#each articles as article (article.id)}
-        <Lazy offset={150}>
-          <Story {...article} />
-        </Lazy>
+        <Story {...article} />
       {/each}
     </div>
   {/if}

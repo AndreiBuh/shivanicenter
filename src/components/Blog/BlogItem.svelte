@@ -1,6 +1,5 @@
 <script>
   import { fade, fly, scale } from "svelte/transition";
-  import Lazy from "svelte-lazy";
   export let blog;
 </script>
 
@@ -30,7 +29,8 @@
     box-sizing: border-box;
     overflow: hidden;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
-    height: 75%;
+    height: 600px;
+    max-height: 80%;
   }
 
   .box .imgBox {
@@ -101,19 +101,17 @@
   }
 </style>
 
-<Lazy offset={150}>
-  <div class="box" in:scale>
-    <a rel="prefetch" href={`blog/${blog.slug}`}>
-      <div class="imgBox">
-        <img src={blog.image.url} alt="" />
-      </div>
-      <div class="content p-2 p-md-3">
-        <h5>{blog.title}</h5>
-        <span class="post-details">{blog.published} | {blog.author}</span>
-        <p class="mt-2 text-truncate">
-          {@html blog.excerpt}
-        </p>
-      </div>
-    </a>
-  </div>
-</Lazy>
+<div class="box" in:scale>
+  <a rel="prefetch" href={`blog/${blog.slug}`}>
+    <div class="imgBox">
+      <img src={blog.image.url} alt="" />
+    </div>
+    <div class="content p-2 p-md-3">
+      <h5>{blog.title}</h5>
+      <span class="post-details">{blog.published} | {blog.author}</span>
+      <p class="mt-2 text-truncate">
+        {@html blog.excerpt}
+      </p>
+    </div>
+  </a>
+</div>
