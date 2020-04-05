@@ -59,7 +59,7 @@
     text-align: center;
   }
   .box .content .post-details {
-    color: #8d8d8d;
+    color: var(--main-color);
     font-size: 13px;
     font-family: var(--font-main), sans-serif;
     letter-spacing: 1px;
