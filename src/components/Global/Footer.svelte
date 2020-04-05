@@ -2,18 +2,18 @@
   import TextInput from "../UI/TextInput.svelte";
   import { isValidEmail } from "../../helpers/validation.js";
   const apiUrl = process.env.SAPPER_APP_API_URL;
-  let isLoading = false;
+  let isFilling = false;
   let placeholder = "";
   let email = "";
 
   $: emailValid = isValidEmail(email);
   $: formIsValid = emailValid;
 
-  const addEmail = async () => {
+  const handleEmail = async () => {
     let newMail = {
       email
     };
-    isLoading = true;
+    isFilling = true;
     const response = await fetch(`${apiUrl}/subscribes`, {
       method: "POST",
       body: JSON.stringify(newMail),
@@ -23,7 +23,7 @@
       }
     });
 
-    isLoading = false;
+    isFilling = false;
     email = "";
     placeholder = "Te-ai abonat cu succes la newsletterul nostru!";
 
@@ -32,7 +32,7 @@
       const data = await response.json();
       return data;
     } catch (err) {
-      isLoading = false;
+      isFilling = false;
       throw err;
     }
   };
@@ -43,13 +43,13 @@
     background: #222736;
     width: 100%;
   }
-  .footer-section .footer-text {
+  .footer-text {
     padding: 60px 0 40px;
   }
-  .footer-section .footer-text .ft-about {
+  .ft-about {
     margin-bottom: 30px;
   }
-  .footer-section .footer-text .ft-about h6 {
+  .ft-about h6 {
     font-size: 14px;
     color: var(--main-color);
     text-transform: uppercase;
@@ -57,15 +57,13 @@
     letter-spacing: 3px;
     margin-bottom: 20px;
   }
-  .footer-section .footer-text .ft-about .logo a {
-    display: inline-block;
-  }
-  .footer-section .footer-text .ft-about p {
+
+  .ft-about p {
     color: #aaaab3;
     margin-bottom: 20px;
     font-family: var(--font-text), sans-serif;
   }
-  .footer-section .footer-text .ft-about .fa-social a {
+  .fa-social a {
     display: inline-block;
     height: 40px;
     width: 40px;
@@ -80,10 +78,10 @@
     transition: all 0.3s;
     margin-right: 7px;
   }
-  .footer-section .footer-text .ft-contact {
+  .ft-contact {
     margin-bottom: 30px;
   }
-  .footer-section .footer-text .ft-contact h6 {
+  h6 {
     font-size: 14px;
     color: #dfa974;
     text-transform: uppercase;
@@ -91,13 +89,13 @@
     letter-spacing: 3px;
     margin-bottom: 20px;
   }
-  .footer-section .footer-text .ft-contact ul li {
+  ul li {
     font-size: 16px;
     color: #aaaab3;
     line-height: 32px;
     list-style: none;
   }
-  .footer-section .footer-text .ft-newslatter h6 {
+  h6 {
     font-size: 14px;
     color: #dfa974;
     text-transform: uppercase;
@@ -105,14 +103,14 @@
     letter-spacing: 3px;
     margin-bottom: 20px;
   }
-  .footer-section .footer-text .ft-newslatter p {
+  p {
     color: #aaaab3;
     margin-bottom: 20px;
   }
-  .footer-section .footer-text .ft-newslatter .form {
+  .form {
     position: relative;
   }
-  .footer-section .footer-text .ft-newslatter .form button {
+  .form button {
     position: absolute;
     right: 0;
     top: 0;
@@ -136,8 +134,7 @@
     font-size: 16px;
     color: #aaaab3;
   }
-
-  #loading {
+  #filling {
     display: inline-block;
     width: 20px;
     height: 20px;
@@ -147,17 +144,14 @@
     animation: spin 3s ease-in-out infinite;
     -webkit-animation: spin 3s ease-in-out infinite;
   }
-
   .fa-social a:hover {
     transform: translateY(-5px);
     transition: 0.4s ease-out;
   }
-
   button[disabled]:hover {
     cursor: not-allowed;
     pointer-events: all !important;
   }
-
   @keyframes spin {
     to {
       -webkit-transform: rotate(360deg);
@@ -168,7 +162,6 @@
       -webkit-transform: rotate(360deg);
     }
   }
-
   @media screen and (max-width: 768px) {
     .form {
       width: 80%;
@@ -217,7 +210,7 @@
             <h6>Contact</h6>
             <ul>
               <li>shivanicenter.psychology@gmail.com</li>
-              <li>Strada George Vraca, nr.7</li>
+              <li>Str. George Vraca, nr.7</li>
               <li>+40 790 420 493</li>
             </ul>
           </div>
@@ -229,7 +222,7 @@
             {#if placeholder}
               <h5 class="text-white">{placeholder}</h5>
             {:else}
-              <form class="form" on:submit|preventDefault={addEmail}>
+              <form class="form" on:submit|preventDefault={handleEmail}>
                 <TextInput
                   type="email"
                   id="email"
@@ -237,12 +230,12 @@
                   on:input={e => (email = e.target.value)}
                   valid={emailValid}
                   validityMessage="Te rugăm sa introduci un email valid!"
-                  placeholder="Introdu adresa ta de email" />
+                  placeholder="Introdu email" />
                 <button
                   type="submit"
                   disabled={!formIsValid}
                   aria-label="Trimite"
-                  placeholder="Introdu adresa ta de email">
+                  placeholder="Introdu email">
                   <i class="fas fa-envelope" />
                 </button>
               </form>
@@ -254,6 +247,6 @@
   </div>
 </footer>
 
-{#if isLoading}
-  <div id="loading" />
+{#if isFilling}
+  <div id="filling" />
 {/if}

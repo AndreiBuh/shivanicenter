@@ -4,7 +4,7 @@
   import { isEmpty, isValidEmail } from "../../helpers/validation.js";
   const apiUrl = process.env.SAPPER_APP_API_URL;
 
-  let isLoading = false;
+  let isFilling = false;
   let placeholder = "";
 
   let name = "";
@@ -23,13 +23,13 @@
   $: formIsValid = nameValid && emailValid && messageValid;
 
   //POST request
-  const addContactMessage = async () => {
+  const handleContactMessage = async () => {
     let newMessage = {
       name,
       email,
       message
     };
-    isLoading = true;
+    isFilling = true;
     const response = await fetch(`${apiUrl}/messages`, {
       method: "POST",
       body: JSON.stringify(newMessage),
@@ -39,7 +39,7 @@
       }
     });
 
-    isLoading = false;
+    isFilling = false;
     name = "";
     email = "";
     message = "";
@@ -51,7 +51,7 @@
       const data = await response.json();
       return data;
     } catch (err) {
-      isLoading = false;
+      isFilling = false;
       throw err;
     }
   };
@@ -119,7 +119,7 @@
     flex-direction: row;
     align-items: center;
   }
-  #loading {
+  #filling {
     display: inline-block;
     width: 20px;
     height: 20px;
@@ -244,7 +244,9 @@
         <h4 class="placeholder text-center text-white">{placeholder}</h4>
       {:else}
         <h2 class="mb-5 text-center text-white">Contactează-ne!</h2>
-        <form class="contact-form" on:submit|preventDefault={addContactMessage}>
+        <form
+          class="contact-form"
+          on:submit|preventDefault={handleContactMessage}>
           <div class="row">
             <div class="col-lg-6 p-3">
               <TextInput
@@ -287,8 +289,8 @@
                 class="btn btn-outline py-2 px-4"
                 disabled={!formIsValid}
                 aria-label="Trimite">
-                {#if isLoading}
-                  <div id="loading" />
+                {#if isFilling}
+                  <div id="isFilling" />
                 {/if}
                 <span class="text-white">TRIMITE</span>
               </button>

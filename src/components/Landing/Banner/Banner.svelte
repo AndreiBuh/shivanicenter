@@ -5,18 +5,18 @@
 
   const apiUrl = process.env.SAPPER_APP_API_URL;
   let placeholder = "";
-  let isLoading = false;
+  let isFilling = false;
   let email = "";
 
   $: emailValid = isValidEmail(email);
   $: formIsValid = emailValid;
 
   // Newsletter POST request
-  const addContactMessage = async () => {
+  const handleContactMessage = async () => {
     let newMessage = {
       email
     };
-    isLoading = true;
+    isFilling = true;
     const response = await fetch(`${apiUrl}/subscribes`, {
       method: "POST",
       body: JSON.stringify(newMessage),
@@ -26,7 +26,7 @@
       }
     });
 
-    isLoading = false;
+    isFilling = false;
     email = "";
     placeholder =
       "Te-ai abonat cu succes la newsletterul nostru! În fiecare săptămână vei primi informații legate de noile articole.";
@@ -36,7 +36,7 @@
       const data = await response.json();
       return data;
     } catch (err) {
-      isLoading = false;
+      isFilling = false;
       throw err;
     }
   };
@@ -158,7 +158,7 @@
         <h3 class="banner-title text-elegant title mb-4">
           <label for="email">{title}</label>
         </h3>
-        <form class="form" on:submit|preventDefault={addContactMessage}>
+        <form class="form" on:submit|preventDefault={handleContactMessage}>
           <TextInput
             type="email"
             id="email"
@@ -166,12 +166,8 @@
             on:input={e => (email = e.target.value)}
             valid={emailValid}
             validityMessage="Te rugăm sa introduci un email valid!"
-            placeholder="Introdu adresa ta de email" />
-          <button
-            type="submit"
-            aria-label="Trimite"
-            disabled={!formIsValid}
-            placeholder="Introdu adresa ta de email">
+            placeholder="Introdu email" />
+          <button type="submit" aria-label="Trimite" disabled={!formIsValid}>
             <i class="fa fa-envelope" />
           </button>
         </form>
