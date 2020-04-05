@@ -1,5 +1,5 @@
 <script>
-  import { onMount } from "svelte";
+  import { beforeUpdate } from "svelte";
   import { fade, fly } from "svelte/transition";
   import Nav from "../components/Global/Nav.svelte";
   import Footer from "../components/Global/Footer.svelte";
@@ -11,7 +11,7 @@
   let scroll;
   let isLoading = true;
 
-  onMount(() => {
+  beforeUpdate(() => {
     isLoading = false;
   });
 </script>
