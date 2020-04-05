@@ -119,16 +119,6 @@
     flex-direction: row;
     align-items: center;
   }
-  #filling {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    border: 2px solid rgba(204, 181, 181, 0.3);
-    border-radius: 50%;
-    border-top-color: #dfa974;
-    animation: spin 3s ease-in-out infinite;
-    -webkit-animation: spin 3s ease-in-out infinite;
-  }
   h4.placeholder {
     line-height: 40px;
     color: #222736;

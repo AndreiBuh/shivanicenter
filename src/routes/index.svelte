@@ -1,6 +1,6 @@
 <script>
   import { onMount } from "svelte";
-  import Banner from "../components/Landing/Banner/Banner.svelte";
+  import Mission from "../components/Landing/Mission/Mission.svelte";
   import Servicii from "../components/Landing/Services/Servicii.svelte";
   import HomeCarousel from "../components/Carousel/HomeCarousel.svelte";
   import ArticlesHome from "../components/Landing/Articles/ArticlesHome.svelte";
@@ -23,10 +23,10 @@
 <main>
   <HomeCarousel />
   <LastStories />
-  <Banner title="Cine suntem?" />
+  <Mission title="Cine suntem?" />
   <ArticlesHome />
   <Servicii />
   <Blog />
-  <Banner title="Îți plac articolele noastre? Abonează-te la newsletter!" />
+  <Mission title="Îți plac articolele noastre? Abonează-te la newsletter!" />
   <TestimonialsHome />
 </main>

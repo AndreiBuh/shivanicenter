@@ -44,7 +44,7 @@
 </script>
 
 <style>
-  .banner {
+  .mission {
     display: flex;
     align-items: center;
     height: auto;
@@ -54,7 +54,7 @@
     bottom: 0;
     width: 100%;
   }
-  .banner-title {
+  .mission-title {
     font-family: var(--font-main), sans-serif;
     letter-spacing: 3px;
   }
@@ -91,7 +91,7 @@
     font-size: 16px;
     letter-spacing: 1px;
   }
-  .banner-item {
+  .mission-item {
     border-radius: 6px;
   }
 
@@ -108,19 +108,19 @@
 </style>
 
 {#if title == 'Cine suntem?'}
-  <div class="banner pt-5 mt-5">
+  <div class="mission pt-5 mt-5">
     <div class="container">
-      <h3 class="banner-title mb-3 text-elegant">{title}</h3>
+      <h3 class="mission-title mb-3 text-elegant">{title}</h3>
       <div class="row">
-        <div class="col-md-3 px-3 pt-3 banner-item">
+        <div class="col-md-3 px-3 pt-3 mission-item">
           <h4 class="p-2">Misiune</h4>
           <i class="flaticon-mission" />
           <p class="p-2">
             Shivani Center oferă o paletă largă de servicii psihologice de
-            calitate, într-un cadru securizant și confidențial.
+            calitate, într-un catdru securizant și confidențial.
           </p>
         </div>
-        <div class="col-md-3 px-3 p-3 banner-item">
+        <div class="col-md-3 px-3 p-3 mission-item">
           <h4 class="p-2">Viziune</h4>
           <i class="flaticon-eye" />
           <p class="p-2">
@@ -128,7 +128,7 @@
             vindecare orientale cu psihoterapiile suportive occidentale.
           </p>
         </div>
-        <div class="col-md-3 px-3 p-3 banner-item">
+        <div class="col-md-3 px-3 p-3 mission-item">
           <h4 class="p-2">Scop</h4>
           <i class="flaticon-goal" />
           <p class="p-2">
@@ -137,7 +137,7 @@
             echilibrată.
           </p>
         </div>
-        <div class="col-md-3 px-3 p-3 banner-item">
+        <div class="col-md-3 px-3 p-3 mission-item">
           <h4 class="p-2">Abordare</h4>
           <i class="flaticon-buddhism" />
           <p class="p-2">
@@ -150,12 +150,12 @@
     </div>
   </div>
 {:else}
-  <div class="banner mb-5 py-5">
+  <div class="mission mb-5 py-5">
     <div class="container">
       {#if placeholder}
         <h4 class="text-elegant placeholder">{placeholder}</h4>
       {:else}
-        <h3 class="banner-title text-elegant title mb-4">
+        <h3 class="mission-title text-elegant title mb-4">
           <label for="email">{title}</label>
         </h3>
         <form class="form" on:submit|preventDefault={handleContactMessage}>
