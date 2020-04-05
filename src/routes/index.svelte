@@ -25,8 +25,11 @@
   <LastStories />
   <Banner title="Cine suntem?" />
   <ArticlesHome />
+  <Banner title="Cine suntem?" />
   <Servicii />
+  <Banner title="Cine suntem?" />
   <Blog />
   <Banner title="Îți plac articolele noastre? Abonează-te la newsletter!" />
   <TestimonialsHome />
+  <Banner title="Cine suntem?" />
 </main>
