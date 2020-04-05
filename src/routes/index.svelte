@@ -1,5 +1,4 @@
 <script>
-  import { onMount } from "svelte";
   import Mission from "../components/Landing/Mission/Mission.svelte";
   import Servicii from "../components/Landing/Services/Servicii.svelte";
   import HomeCarousel from "../components/Carousel/HomeCarousel.svelte";
