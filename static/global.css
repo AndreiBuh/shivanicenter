@@ -21,6 +21,7 @@ html,
 body {
   background-color: var(--main-color) !important;
   font-family: "EB Garamond", "Oswald", cursive;
+  overflow-x: hidden!important;
 }
 h1,
 h2,
@@ -73,7 +74,7 @@ a {
   text-decoration: none;
 }
 
-
+/*
 @media (max-width: 768px) {
   html, body {
     overflow-x: hidden!important;
@@ -82,4 +83,4 @@ a {
   .container {
     margin-top: 100px;
   }
-}
+} */
