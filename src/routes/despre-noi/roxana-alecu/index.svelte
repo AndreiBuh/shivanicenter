@@ -8,28 +8,28 @@
       jobTitle: "Jurnalist",
       text:
         "O persoană profundă și cu o bună intuiție asupra naturii umane, Roxana are o adevărată vocație pentru această profesie.",
-      imageUrl: "testimonial-corina.jpg"
+      imageUrl: "testimonial-corina"
     },
     {
       name: "Răzvan Brătianu",
       jobTitle: "Consilier parlamentar",
       text:
         "O recomand cu căldură, deschiderea și dedicarea ei pentru această profesie vă va deschide noi perspective în a vedea lumea reală, o lume imperfectă, dar frumoasă.",
-      imageUrl: "testimonial-razvan.jpg"
+      imageUrl: "testimonial-razvan"
     },
     {
       name: "Alina Tăriceanu",
       jobTitle: "Lector universitar doctor",
       text:
         "Inteligenta și răbdarea o recomanda ca specialist, iar abilitatea ei de a câștiga repede incerederea celorlalți face ca experiența terapeutica sa fie una excepțională.",
-      imageUrl: "testimonial-alina.jpg"
+      imageUrl: "testimonial-alina"
     },
     {
       name: "Vlad Șovărel",
       jobTitle: "Indolog și sanskritolog",
       text:
         "Înzestrată cu pasiune, răbdare și determinare, am convingerea unor rezultate pe măsura efortului depus în a implementa tehnicile din practicile meditative indiene în cadrul terapiilor psihologice occidentale",
-      imageUrl: "testimonial-vlad.jpg"
+      imageUrl: "testimonial-vlad"
     }
   ];
 </script>
@@ -56,10 +56,11 @@
       <span class="text-elegant font-weight-bold">.</span>
     </h2>
     <div class="text-center" in:fade={{ duration: 2000 }}>
-      <img
-        src="shivani.jpg"
-        alt="imagine psiholog roxana alecu"
-        class="img-top img-fluid" />
+      <picture class="img-top img-fluid">
+        <source srcset="images/people/shivani.webp" type="image/webp" />
+        <source srcset="images/people/shivani.jpg" type="image/jpeg" />
+        <img src="images/people/shivani.jpg" alt="psiholog roxana alecu" />
+      </picture>
     </div>
     <div class="p-2">
       <h1 class="text-center my-4">

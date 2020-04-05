@@ -1,6 +1,5 @@
 <script>
   import { onMount } from "svelte";
-  import { scale } from "svelte/transition";
   import LoadingSpinner from "../UI/LoadingSpinner.svelte";
 
   const apiUrl = process.env.SAPPER_APP_API_URL;
@@ -78,7 +77,7 @@
     <LoadingSpinner />
   </div>
 {:else}
-  <ol class="most-read-list" transition:scale>
+  <ol class="most-read-list">
     {#each articles as { title, slug, category, category_slug, image, published, author }, i}
       <li class="most-read-list-item row">
         <div class="text-holder col-md-6 col-12">

@@ -8,28 +8,28 @@
       jobTitle: "Jurist",
       text:
         "Profunda, dar și copilaroasa, un amalgam între tradiție și modern, deosebit de creativa, își pune sufletul în tot ceea ce face, cu dăruire și perseverentă.",
-      imageUrl: "testimonial-lacramioara-rotaru.jpg"
+      imageUrl: "testimonial-lacramioara-rotaru"
     },
     {
       name: "Craciun Beatrice",
       jobTitle: "Profesor",
       text:
         "O apreciez pe Alexandra în mod deosebit, pentru evoluția ei spirituală ",
-      imageUrl: "testimonial-craciun-beatrice.jpg"
+      imageUrl: "testimonial-craciun-beatrice"
     },
     {
       name: "Raluca Irimie",
       jobTitle: "Psiholog/Autor",
       text:
         "O persoană deschisă, generoasă în cuvinte, încurajând oamenii. Fiind atentă la detalii, îți dorești să faci lucrurile într-un mod profesionist",
-      imageUrl: "testimonial-raluca-irimie.jpg"
+      imageUrl: "testimonial-raluca-irimie"
     },
     {
       name: "Carmen Stoian",
       jobTitle: "Autor",
       text:
         "Un om serios, de cuvant, sensibil si inteligent. Ca psihoterapeut cred ca detii multe informatii si teorii bune de puse in aplicare",
-      imageUrl: "testimonial-carmen-stoian.jpg"
+      imageUrl: "testimonial-carmen-stoian"
     }
   ];
 </script>
@@ -55,10 +55,11 @@
       <span class="text-elegant font-weight-bold">.</span>
     </h2>
     <div class="text-center" in:fade={{ duration: 2000 }}>
-      <img
-        src="alexandra.jpg"
-        alt="imagine psiholog alexandra tatu"
-        class="img-top img-fluid" />
+      <picture class="img-top img-fluid">
+        <source srcset="images/people/alexandra.webp" type="image/webp" />
+        <source srcset="images/people/alexandra.jpg" type="image/jpeg" />
+        <img src="images/people/alexandra.jpg" alt="psiholog alexandra tatu" />
+      </picture>
     </div>
     <div class="p-2">
       <h1 class="text-center my-4">

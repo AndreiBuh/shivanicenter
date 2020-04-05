@@ -46,7 +46,7 @@
     width: 100px;
     margin-top: -30px;
     overflow: hidden;
-    border: 5px solid #fff;
+    border: 2px solid #fff;
     border-radius: 50%;
   }
 
@@ -71,7 +71,11 @@
 <div class="card testimonial-card">
   <div class="card-up info-color" />
   <div class="avatar mx-auto white">
-    <img src={imageUrl} class="rounded-circle img-fluid" alt="Reviwer avatar" />
+    <picture class="rounded-circle img-fluid">
+      <source srcset="images/testimonials/{imageUrl}.webp" type="image/webp" />
+      <source srcset="images/testimonials/{imageUrl}.jpg" type="image/jpeg" />
+      <img src="images/testimonials/{imageUrl}.jpg" alt={name} />
+    </picture>
   </div>
   <div class="card-body">
     <h6>{name}</h6>

@@ -24,7 +24,11 @@
       <span class="text-elegant font-weight-bold">.</span>
     </h2>
     <div class="text-center" in:fade={{ duration: 2000 }}>
-      <img src="workshop1.jpg" alt="workshop" class="img-top img-fluid" />
+      <picture class="img-middle img-fluid">
+        <source srcset="images/services/workshop1.webp" type="image/webp" />
+        <source srcset="images/services/workshop1.jpg" type="image/jpeg" />
+        <img src="images/services/workshop1.jpg" alt="workshop" />
+      </picture>
     </div>
     <div class="p-2 mt-3">
       <p class="paragraph-text">
@@ -89,10 +93,11 @@
           </p>
         </div>
         <div class="col-md-4">
-          <img
-            class="img-middle img-fluid"
-            src="workshop2.png"
-            alt="workshop" />
+          <picture class="img-middle img-fluid">
+            <source srcset="images/services/workshop2.webp" type="image/webp" />
+            <source srcset="images/services/workshop2.jpg" type="image/jpeg" />
+            <img src="images/services/workshop2.jpg" alt="workshop" />
+          </picture>
         </div>
         <blockquote class="mt-3">
           <em>

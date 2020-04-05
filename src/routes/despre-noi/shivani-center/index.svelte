@@ -24,7 +24,11 @@
       <span class="text-elegant font-weight-bold">.</span>
     </h2>
     <div class="text-center" in:fade={{ duration: 2000 }}>
-      <img src="center.jpg" alt="imagine mediatie" class="img-top img-fluid" />
+      <picture class="img-top img-fluid">
+        <source srcset="images/people/center.webp" type="image/webp" />
+        <source srcset="images/people/center.jpg" type="image/jpeg" />
+        <img src="images/people/center.jpg" alt="shivani center" />
+      </picture>
     </div>
     <div class="p-2 mt-3">
       <p class="paragraph-text">

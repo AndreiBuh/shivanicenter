@@ -5,7 +5,7 @@
   let slides = [
     {
       name: "Psiholog Roxana Alecu",
-      src: "slider1.png",
+      src: "slider1.jpg",
       text:
         "Timpul, oamenii, evenimentele, gândurile și acțiunile mi-au revelat întotdeauna ceva nou despre mine. Mă prezint în fața voastră mai intâi ca ființă umană, cu emoții, cu probleme, cu o mulțime de întrebări, dar mereu cu putere de a depăși momentele grele ce îmi provoacă suferință...",
       slug: "roxana-alecu",

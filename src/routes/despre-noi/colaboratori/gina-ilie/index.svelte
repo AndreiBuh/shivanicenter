@@ -8,28 +8,28 @@
       jobTitle: "HR",
       text:
         "Un terapeut bun, cum este Gina de altfel, vă va ghida în călătoria descoperirii resurselor personale, a dezvoltării rezilienței, a vindecării și a acceptării de sine.",
-      imageUrl: "testimonial-dragos.jpg"
+      imageUrl: "testimonial-dragos"
     },
     {
       name: "Denisa Andrei",
       jobTitle: "Studentă psihologie",
       text:
         "Odată ce o cunoști pe Gina, îți este greu să te mai despărți de ceea ce poate să pună în lumină în orice context! Dacă toți ar avea-o pe Gina în viața lor, lumea ar fi zen!",
-      imageUrl: "testimonial-denisa.jpg"
+      imageUrl: "testimonial-denisa"
     },
     {
       name: "Lucian Geană",
       jobTitle: "Student ASE",
       text:
         "M-am simțit ascultat, înțeles și ajutat. Am simțit o schimbare majoră în viața mea, iar din aceste motive aș recomanda-o cu drag pe Gina celor ce caută un psihoterapeut experimentat și inteligent.",
-      imageUrl: "testimonial-lucian.jpg"
+      imageUrl: "testimonial-lucian"
     },
     {
       name: "Daniela Simulescu",
       jobTitle: "Astrolog",
       text:
         "Întreg procesul terapeutic alături de ea este ca o călătorie. Pentru mine inițiatică. Și revelatoare. Și clar vindecătoare. Lumea are nevoie de creativitate, curaj și provocare pentru a trăi frumos, iar Gina ți le poate oferi din plin.",
-      imageUrl: "testimonial-daniela.jpg"
+      imageUrl: "testimonial-daniela"
     }
   ];
 </script>
@@ -55,10 +55,11 @@
       <span class="text-elegant font-weight-bold">.</span>
     </h2>
     <div class="text-center" in:fade={{ duration: 2000 }}>
-      <img
-        src="gina.jpg"
-        alt="psihoterapeut gina ilie"
-        class="img-top img-fluid" />
+      <picture class="img-top img-fluid">
+        <source srcset="images/people/gina.webp" type="image/webp" />
+        <source srcset="images/people/gina.jpg" type="image/jpeg" />
+        <img src="images/people/gina.jpg" alt="psihoterapeut gina ilie" />
+      </picture>
     </div>
     <div class="p-2 mt-5">
       <p class="paragraph-text">

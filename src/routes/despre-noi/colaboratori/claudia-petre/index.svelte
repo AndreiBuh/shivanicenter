@@ -8,28 +8,28 @@
       jobTitle: "HR manager",
       text:
         "Claudia este un suflet mare și dedicat către oameni. Colaborarea cu ea se bazează pe încredere, susținere și multă energie pozitivă",
-      imageUrl: "testimonial-andreea.jpg"
+      imageUrl: "testimonial-andreea"
     },
     {
       name: "Bianca Perețeanu",
       jobTitle: "Senior site management",
       text:
         "Sprijinul și cunoștințele Claudiei mi-au fost de nădejde într-o perioadă în care alimentația și ideea de program echilibrat de viață erau departe de mine",
-      imageUrl: "testimonial-bianca.jpg"
+      imageUrl: "testimonial-bianca"
     },
     {
       name: "Ana Mădălina Iana",
       jobTitle: "Farmacist specialist",
       text:
         "Claudia m-a ajutat sa îmi înțeleg foamea și metabolismul, să îi transform din dușmanii mei, în aliații mei",
-      imageUrl: "testimonial-ana.jpg"
+      imageUrl: "testimonial-ana"
     },
     {
       name: "Andrei Bogdan Nicolescu",
       jobTitle: "Senior brand ambassador",
       text:
         "Claudia Petre m-a ajutat să învăț să aleg alimentele prietenoase, să-mi organizez mesele, mi-a răspuns la toate incertitudinile mele legate de alimentație",
-      imageUrl: "testimonial-andrei.jpg"
+      imageUrl: "testimonial-andrei"
     }
   ];
 </script>
@@ -55,10 +55,11 @@
       <span class="text-elegant font-weight-bold">.</span>
     </h2>
     <div class="text-center" in:fade={{ duration: 2000 }}>
-      <img
-        src="claudia.jpg"
-        alt="imagine nutritionist claudia petre"
-        class="img-top img-fluid" />
+      <picture class="img-top img-fluid">
+        <source srcset="images/people/claudia.webp" type="image/webp" />
+        <source srcset="images/people/claudia.jpg" type="image/jpeg" />
+        <img src="images/people/claudia.jpg" alt="nutritionist claudia petre" />
+      </picture>
     </div>
     <div class="p-2 mt-5">
       <p class="paragraph-text">

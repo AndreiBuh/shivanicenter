@@ -24,10 +24,17 @@
       <span class="text-elegant font-weight-bold">.</span>
     </h2>
     <div class="text-center" in:fade={{ duration: 2000 }}>
-      <img
-        src="dezvoltare-personala1.jpg"
-        alt="dezvoltare personala"
-        class="img-top img-fluid" />
+      <picture class="img-top img-fluid">
+        <source
+          srcset="images/services/dezvoltare-personala1.webp"
+          type="image/webp" />
+        <source
+          srcset="images/services/dezvoltare-personala1.jpg"
+          type="image/jpeg" />
+        <img
+          src="images/services/dezvoltare-personala1.jpg"
+          alt="dezvoltare personala" />
+      </picture>
     </div>
     <div class="p-2 mt-3">
       <p class="paragraph-text">
@@ -90,34 +97,38 @@
         procesul său evolutiv.
       </p>
       <div class="row">
-        <div class="col-md-7 col-xs-12">
-          <p class="paragraph-text">
-            Una din teoriile psihologiei umaniste, ce îi aparține lui Abraham
-            Maslow este „piramida trebuințelor umane” cu cele șapte niveluri și
-            trei paliere. La baza acesteia sunt nevoile fiziologice și nevoia de
-            securitate, următorul palier cuprinde nevoia de proprietate și
-            dragste, nevoia de stimă și apreciere, nevoi cognitive și nevoi
-            estetice, de frumusețe.
-          </p>
-          <p class="paragraph-text">
-            În vârf acesta vorbește despre actualizarea sinelui, autorealizarea
-            la potențial maxim, nevoia omului de a-și îmbogăți viața prin valori
-            mult mai înalte precum unicitate, echilibru, ordine, perfecțiune,
-            transcendență și dorință de a crea.
-          </p>
-          <p class="paragraph-text">
-            Conform percepției lui Maslow putem spune că nevoia de dezvoltare și
-            autorealizare este chiar nevoia omului de a se adapta continuu la
-            mediu, prin a cărei satisfacere omul devine armonios cu întreg
-            mediul.
-          </p>
-        </div>
-        <div class="col-md-5 col-xs-12">
+        <p class="paragraph-text">
+          Una din teoriile psihologiei umaniste, ce îi aparține lui Abraham
+          Maslow este „piramida trebuințelor umane” cu cele șapte niveluri și
+          trei paliere. La baza acesteia sunt nevoile fiziologice și nevoia de
+          securitate, următorul palier cuprinde nevoia de proprietate și
+          dragste, nevoia de stimă și apreciere, nevoi cognitive și nevoi
+          estetice, de frumusețe.
+        </p>
+        <p class="paragraph-text">
+          În vârf acesta vorbește despre actualizarea sinelui, autorealizarea la
+          potențial maxim, nevoia omului de a-și îmbogăți viața prin valori mult
+          mai înalte precum unicitate, echilibru, ordine, perfecțiune,
+          transcendență și dorință de a crea.
+        </p>
+        <p class="paragraph-text">
+          Conform percepției lui Maslow putem spune că nevoia de dezvoltare și
+          autorealizare este chiar nevoia omului de a se adapta continuu la
+          mediu, prin a cărei satisfacere omul devine armonios cu întreg mediul.
+        </p>
+      </div>
+      <div class="text-center my-4">
+        <picture class="img-top img-fluid">
+          <source
+            srcset="images/services/dezvoltare-personala2.webp"
+            type="image/webp" />
+          <source
+            srcset="images/services/dezvoltare-personala2.jpg"
+            type="image/jpeg" />
           <img
-            class="img-middle img-fluid"
-            src="dezvoltare-personala2.jpg"
+            src="images/services/dezvoltare-personala2.jpg"
             alt="dezvoltare personala" />
-        </div>
+        </picture>
       </div>
       <p class="mt-5 paragraph-text">
         Studiile sale au evidențiat câteva caracteristici ale persoanelor aflate

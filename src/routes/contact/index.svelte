@@ -62,35 +62,35 @@
       name: "Psiholog Roxana Alecu",
       phone: "+40 790 420 493",
       email: "alecuroxana19@yahoo.com",
-      image: "testimonial-roxana.jpg"
+      image: "testimonial-roxana"
     },
     {
       id: 2,
       name: "Psiholog Alexandra Tatu ",
       phone: "+40 727 574 486",
       email: "tatu_alexandra15@yahoo.com ",
-      image: "testimonial-alexandra-tatu.jpg"
+      image: "testimonial-alexandra-tatu"
     },
     {
       id: 3,
       name: "Psihoterapeut Gina ilie",
       phone: "+40 768 137 032",
       email: "psih.ginailie@gmail.com",
-      image: "testimonial-gina.jpg"
+      image: "testimonial-gina"
     },
     {
       id: 4,
       name: "Psiholog Alexandra Pană",
       phone: "+40 721 821 910",
       email: "alexandra.pana.psihoterapeut@gmail.com",
-      image: "testimonial-alexandra.jpg"
+      image: "testimonial-alexandra"
     },
     {
       id: 5,
       name: "Nutriționist Claudia Petre",
       phone: "+40 753 465 211",
       email: "stancuclaudia23@gmail.com",
-      image: "testimonial-claudia.jpg"
+      image: "testimonial-claudia"
     }
   ];
 </script>
@@ -220,10 +220,15 @@
             </div>
           </div>
           <div class="avatar white">
-            <img
-              src={image}
-              class="rounded-circle img-fluid"
-              alt="imagine psiholog" />
+            <picture class="rounded-circle img-fluid">
+              <source
+                srcset="images/testimonials/{image}.webp"
+                type="image/webp" />
+              <source
+                srcset="images/testimonials/{image}.jpg"
+                type="image/jpeg" />
+              <img src="images/testimonials/{image}.jpg" alt={name} />
+            </picture>
           </div>
         </div>
       {/each}

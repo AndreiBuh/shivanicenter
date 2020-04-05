@@ -23,10 +23,17 @@
       <span class="text-elegant font-weight-bold">.</span>
     </h2>
     <div class="service-image text-center" in:fade={{ duration: 2000 }}>
-      <img
-        src="consiliere-psihologica1.jpg"
-        alt="imagine consiliere psihologica 1"
-        class="img-top img-fluid" />
+      <picture class="img-top img-fluid">
+        <source
+          srcset="images/services/consiliere-psihologica1.webp"
+          type="image/webp" />
+        <source
+          srcset="images/services/consiliere-psihologica1.jpg"
+          type="image/jpeg" />
+        <img
+          src="images/services/consiliere-psihologica1.jpg"
+          alt="consiliere psihologica" />
+      </picture>
     </div>
     <div class="p-2 mt-3">
       <p class="paragraph-text">
@@ -91,10 +98,17 @@
           </p>
         </div>
         <div class="col-md-5">
-          <img
-            class="img-middle img-fluid"
-            src="consiliere-psihologica2.jpg"
-            alt="Imagine consiliere psihologica 2" />
+          <picture class="img-middle img-fluid">
+            <source
+              srcset="images/services/consiliere-psihologica2.webp"
+              type="image/webp" />
+            <source
+              srcset="images/services/consiliere-psihologica2.jpg"
+              type="image/jpeg" />
+            <img
+              src="images/services/consiliere-psihologica2.jpg"
+              alt="consiliere psihologica" />
+          </picture>
         </div>
       </div>
       <p class="mt-3 paragraph-text">

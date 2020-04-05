@@ -23,7 +23,11 @@
       <span class="text-elegant font-weight-bold">.</span>
     </h2>
     <div class="service-image text-center" in:fade={{ duration: 2000 }}>
-      <img src="art-therapy1.jpg" alt="art therapy" class="img-top img-fluid" />
+      <picture class="img-top img-fluid">
+        <source srcset="images/services/art-therapy1.webp" type="image/webp" />
+        <source srcset="images/services/art-therapy1.jpg" type="image/jpeg" />
+        <img src="images/services/art-therapy1.jpg" alt="art therapy" />
+      </picture>
     </div>
     <div class="p-2 mt-3">
       <p class="paragraph-text">
@@ -117,10 +121,15 @@
           </p>
         </div>
         <div class="col-md-4">
-          <img
-            class="img-middle img-fluid"
-            src="art-therapy2.jpg"
-            alt="art therapy" />
+          <picture class="img-middle img-fluid">
+            <source
+              srcset="images/services/art-therapy2.webp"
+              type="image/webp" />
+            <source
+              srcset="images/services/art-therapy2.jpg"
+              type="image/jpeg" />
+            <img src="images/services/art-therapy2.jpg" alt="art therapy" />
+          </picture>
         </div>
       </div>
     </div>
