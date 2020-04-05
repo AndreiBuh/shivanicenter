@@ -1,6 +1,5 @@
 <script>
   import Heading from "../../components/UI/Heading.svelte";
-  import Banner from "../../components/Landing/Banner/Banner.svelte";
   import { fade, fly } from "svelte/transition";
 </script>
 
@@ -58,6 +57,5 @@
         decat am intrat.
       </p>
     </div>
-    <Banner title="evenimente" />
   </div>
 </div>
