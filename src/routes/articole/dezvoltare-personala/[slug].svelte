@@ -17,7 +17,7 @@
 
 <ArticlesSlugs {article} />
 
-<head>
+<svelte:head>
   <meta property="og:title" content={article.title} />
   <meta property="og:description" content={article.excerpt} />
-</head>
+<svelte:head>
