@@ -1,6 +1,6 @@
 <script>
   import { fade, fly } from "svelte/transition";
-  import SearchBar from "./SearchBar.svelte";
+  // import SearchBar from "./SearchBar.svelte";
   import ArticlesTop from "./ArticlesTop.svelte";
   import Social from "../Global/Social.svelte";
   import { onMount } from "svelte";
@@ -58,11 +58,11 @@
       <ArticlesTop />
     </div>
   </div>
-  <div class="card mt-5">
+  <!-- <div class="card mt-5">
     <div class="card-content text-center p-4">
       <SearchBar />
     </div>
-  </div>
+  </div> -->
 
   <div class="card mt-5">
     <h5 class="text-center p-3 my-0">Social media</h5>

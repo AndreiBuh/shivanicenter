@@ -1,9 +1,7 @@
-<script>
+<!-- <script>
   import Icon from "fa-svelte";
   import { faSearch } from "@fortawesome/free-solid-svg-icons";
-</script>
-
-<style>
+</script><style>
   form.searchbar {
     width: 100%;
     display: inline-block;
@@ -54,9 +52,7 @@
     -moz-transition: all 0.2s ease-out;
     transition: all 0.2s ease-out;
   }
-</style>
-
-<form class="searchbar">
+</style><form class="searchbar">
   <div>
     <input
       type="text"
@@ -69,4 +65,4 @@
       <Icon icon={faSearch} />
     </span>
   </div>
-</form>
+</form> -->
