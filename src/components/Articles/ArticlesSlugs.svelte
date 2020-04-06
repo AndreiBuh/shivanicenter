@@ -12,6 +12,7 @@
     published,
     content,
     category,
+    slug,
     likes,
     category_slug,
     id
@@ -105,7 +106,13 @@
                 {category.title}
               </a>
             </div>
-            <ShareSocialIcons {likes} {id} on:like />
+            <ShareSocialIcons
+              {likes}
+              {id}
+              {category_slug}
+              {slug}
+              on:like
+              {image} />
           </div>
         </div>
         <div class="card-body article-card-body">
@@ -118,3 +125,10 @@
     </div>
   </div>
 </div>
+
+<svelte:head>
+  <meta
+    property="og:url"
+    content="https://www.shivanicenter.ro/articole/{category_slug}/{slug}" />
+  <meta property="og:image" content={image.url} />
+</svelte:head>

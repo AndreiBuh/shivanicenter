@@ -1,8 +1,13 @@
 <script>
   import { createEventDispatcher } from "svelte";
   const dispatch = createEventDispatcher();
+
+  export let slug;
+  export let category_slug;
   export let likes;
   export let id;
+
+  console.log(slug, category_slug, likes, id);
   let liked = false;
 
   const handleLike = () => {
@@ -107,3 +112,14 @@
     </li>
   </ul>
 </div>
+
+<iframe
+  src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fwww.shivanicenter.ro%2Farticole%2F{category_slug}%2F{slug}&layout=button_count&size=large&width=88&height=28&appId"
+  width="88"
+  height="28"
+  style="border:none;overflow:hidden"
+  scrolling="no"
+  frameborder="0"
+  allowTransparency="true"
+  allow="encrypted-media"
+  title={id} />
