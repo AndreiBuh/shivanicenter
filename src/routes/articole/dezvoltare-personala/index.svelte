@@ -16,8 +16,6 @@
   var filteredArticles = articles.filter(
     a => a.category_slug === "dezvoltare-personala"
   );
-
-  console.log(articles);
 </script>
 
 <svelte:head>
