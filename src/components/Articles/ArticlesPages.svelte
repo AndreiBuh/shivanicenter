@@ -1,4 +1,5 @@
 <script>
+  import Lazy from "svelte-lazy";
   import ArticlesSidebar from "./ArticlesSidebar.svelte";
   import Button from "../UI/Button.svelte";
   export let articles;
@@ -108,12 +109,14 @@
                   <div class="card my-3">
                     <div class="row">
                       <div class="col-lg-5 col-md-12 mb-lg-0 mb-4">
-                        <div class="mb-lg-0">
-                          <img
-                            class="img-fluid"
-                            src={article.image.url}
-                            alt="Sample image" />
-                        </div>
+                        <Lazy offset={150}>
+                          <div class="mb-lg-0">
+                            <img
+                              class="img-fluid"
+                              src={article.image.url}
+                              alt="Sample image" />
+                          </div>
+                        </Lazy>
                       </div>
                       <div class="col-lg-7 col-md-12 mb-md-0 px-4 py-3">
                         <h5 class="font-weight-bold article-title">

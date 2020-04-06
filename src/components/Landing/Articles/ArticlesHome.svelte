@@ -1,7 +1,7 @@
 <script>
   import { onMount } from "svelte";
   import { Tabs, Tab, TabList, TabPanel } from "svelte-tabs";
-  import Pagination from "../../Global/Pagination.svelte";
+  import Lazy from "svelte-lazy";
   import Heading from "../../UI/Heading.svelte";
   import Story from "../LastStories/Story.svelte";
   import LoadingSpinner from "../../UI/LoadingSpinner.svelte";
@@ -72,31 +72,32 @@
   }
 </style>
 
-<main class="container">
-  <Heading title="Articole" />
-  {#if isLoading}
-    <div class="loading">
-      <LoadingSpinner />
-    </div>
-  {:else}
-    <Tabs>
-      <TabList>
-        {#each categories as category (category.id)}
-          <Tab>{category.title.toUpperCase()}</Tab>
+<Lazy offset={300}>
+  <main class="container">
+    <Heading title="Articole" />
+    {#if isLoading}
+      <div class="loading">
+        <LoadingSpinner />
+      </div>
+    {:else}
+      <Tabs>
+        <TabList>
+          {#each categories as category (category.id)}
+            <Tab>{category.title.toUpperCase()}</Tab>
+          {/each}
+        </TabList>
+        {#each categories as category}
+          <TabPanel>
+            <div class="card-columns">
+              {#each articles as article (article.id)}
+                {#if category.title === article.category.title}
+                  <Story {...article} />
+                {/if}
+              {/each}
+            </div>
+          </TabPanel>
         {/each}
-      </TabList>
-      {#each categories as category}
-        <TabPanel>
-          <div class="card-columns">
-            {#each articles as article (article.id)}
-              {#if category.title === article.category.title}
-                <Story {...article} />
-              {/if}
-            {/each}
-          </div>
-        </TabPanel>
-      {/each}
-    </Tabs>
-  {/if}
-  <Pagination />
-</main>
+      </Tabs>
+    {/if}
+  </main>
+</Lazy>

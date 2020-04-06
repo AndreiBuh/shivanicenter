@@ -1,9 +1,11 @@
 <script>
+  import { onMount } from "svelte";
   import { fade, fly } from "svelte/transition";
   // import SearchBar from "./SearchBar.svelte";
   import ArticlesTop from "./ArticlesTop.svelte";
   import Social from "../Global/Social.svelte";
-  import { onMount } from "svelte";
+  import InstagramSidebar from "./InstagramSidebar.svelte";
+  import FacebookSidebar from "./FacebookSidebar.svelte";
 
   const apiUrl = process.env.SAPPER_APP_API_URL;
   let categories = [];
@@ -85,35 +87,6 @@
     </div>
   </div>
 
-  <div class="card mt-5">
-    <h5 class="text-center p-3 my-0">Instagram</h5>
-  </div>
-  <div class="card">
-    <div class="card-content text-center p-4">
-      <iframe
-        title="instagram feed"
-        src="https://www.instagram.com/p/B8dVLFbJbkX/embed"
-        height="320"
-        frameborder="0"
-        scrolling="no"
-        allowtransparency="true" />
-    </div>
-  </div>
-
-  <div class="card mt-5">
-    <h5 class="text-center p-3 my-0">Facebook</h5>
-  </div>
-  <div class="card">
-    <div class="card-content text-center p-4">
-      <iframe
-        title="facebook feed"
-        src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FPsihologRoxanaAlecu%2F&tabs=timeline&width=340&height=320&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
-        height="300"
-        style="border:none;overflow:hidden"
-        scrolling="no"
-        frameborder="0"
-        allowTransparency="true"
-        allow="encrypted-media" />
-    </div>
-  </div>
+  <InstagramSidebar />
+  <FacebookSidebar />
 </div>

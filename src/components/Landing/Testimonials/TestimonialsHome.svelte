@@ -1,4 +1,5 @@
 <script>
+  import Lazy from "svelte-lazy";
   import TestimonialItem from "./TestimonialItem.svelte";
   import Heading from "../../UI/Heading.svelte";
 
@@ -34,15 +35,17 @@
   ];
 </script>
 
-<div class="container mt-5">
-  <Heading title="Testimoniale" />
-  <section class="text-center dark-grey-text">
-    <div class="row">
-      {#each testimonials as testimonial, index}
-        <div class="col-lg-3 col-md-12 mb-4">
-          <TestimonialItem {...testimonial} />
-        </div>
-      {/each}
-    </div>
-  </section>
-</div>
+<Lazy offset={300}>
+  <div class="container mt-5">
+    <Heading title="Testimoniale" />
+    <section class="text-center dark-grey-text">
+      <div class="row">
+        {#each testimonials as testimonial, index}
+          <div class="col-lg-3 col-md-12 mb-4">
+            <TestimonialItem {...testimonial} />
+          </div>
+        {/each}
+      </div>
+    </section>
+  </div>
+</Lazy>

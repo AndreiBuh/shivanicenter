@@ -3,6 +3,7 @@
   import Story from "./Story.svelte";
   import Heading from "../../UI/Heading.svelte";
   import LoadingSpinner from "../../UI/LoadingSpinner.svelte";
+  import Lazy from "svelte-lazy";
 
   const apiUrl = process.env.SAPPER_APP_API_URL;
   let articles = [];
@@ -30,17 +31,19 @@
   }
 </style>
 
-<div class="container">
-  <Heading title="Ultimele postari" />
-  {#if isLoading}
-    <div class="loading">
-      <LoadingSpinner />
-    </div>
-  {:else}
-    <div class="card-columns">
-      {#each articles as article (article.id)}
-        <Story {...article} />
-      {/each}
-    </div>
-  {/if}
-</div>
+<Lazy offset="50">
+  <div class="container">
+    <Heading title="Ultimele postari" />
+    {#if isLoading}
+      <div class="loading">
+        <LoadingSpinner />
+      </div>
+    {:else}
+      <div class="card-columns">
+        {#each articles as article (article.id)}
+          <Story {...article} />
+        {/each}
+      </div>
+    {/if}
+  </div>
+</Lazy>

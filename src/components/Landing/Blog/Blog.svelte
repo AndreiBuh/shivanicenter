@@ -1,8 +1,10 @@
 <script>
+  import Lazy from "svelte-lazy";
+  import { onMount } from "svelte";
+
   import BlogItem from "../../Blog/BlogItem.svelte";
   import Heading from "../../UI/Heading.svelte";
   import LoadingSpinner from "../../UI/LoadingSpinner.svelte";
-  import { onMount } from "svelte";
 
   const apiUrl = process.env.SAPPER_APP_API_URL;
   let blogs = [];
@@ -24,19 +26,21 @@
   <title>Blog</title>
 </svelte:head>
 
-<div class="container my-5">
-  <Heading title="Blog" />
-  {#if isLoading}
-    <div class="loading">
-      <LoadingSpinner />
-    </div>
-  {:else}
-    <div class="row">
-      {#each blogs as blog}
-        <div class="col-md-6">
-          <BlogItem {blog} />
-        </div>
-      {/each}
-    </div>
-  {/if}
-</div>
+<Lazy offset={300}>
+  <div class="container my-5">
+    <Heading title="Blog" />
+    {#if isLoading}
+      <div class="loading">
+        <LoadingSpinner />
+      </div>
+    {:else}
+      <div class="row">
+        {#each blogs as blog}
+          <div class="col-md-6">
+            <BlogItem {blog} />
+          </div>
+        {/each}
+      </div>
+    {/if}
+  </div>
+</Lazy>
