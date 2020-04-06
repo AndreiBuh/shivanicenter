@@ -126,8 +126,3 @@
     </div>
   </div>
 </div>
-
-<head>
-  <meta property="og:title" content={title} />
-  <meta property="og:description" content={excerpt} />
-</head>
