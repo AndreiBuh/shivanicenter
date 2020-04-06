@@ -61,11 +61,6 @@
     text-decoration: none;
   }
 
-  .img-fluid {
-    width: 100%;
-    height: auto;
-  }
-
   .text-white,
   .quote {
     font-family: var(--font-main);
@@ -97,11 +92,7 @@
     {#each slides as { src, text, name, slug, quote }}
       <div class="slide-content row">
         <div class="pr-0 col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-          <picture class="img-fluid">
-            <source srcset="images/people/{src}.webp" type="image/webp" />
-            <source srcset="images/people/{src}.jpg" type="image/jpeg" />
-            <img src="images/people/{src}.jpg" alt={name} />
-          </picture>
+          <img src="images/people/{src}.jpg" alt={name} />
         </div>
         <div
           class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 slide-text p-5
