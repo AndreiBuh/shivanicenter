@@ -93,7 +93,7 @@
   </p>
 </div>
 
-<div class="article-share">
+<!-- <div class="article-share">
   <ul>
     <li>
       <a href="www.facebook.com" rel="noopener">
@@ -111,7 +111,7 @@
       </a>
     </li>
   </ul>
-</div>
+</div> -->
 
 <iframe
   src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fwww.shivanicenter.ro%2Farticole%2F{category_slug}%2F{slug}&layout=button_count&size=large&width=88&height=28&appId"
