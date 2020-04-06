@@ -15,7 +15,8 @@
     slug,
     likes,
     category_slug,
-    id
+    id,
+    excerpt
   } = article[0];
 
   let y;
@@ -125,3 +126,8 @@
     </div>
   </div>
 </div>
+
+<head>
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={excerpt} />
+</head>
