@@ -62,35 +62,40 @@
       name: "Psiholog Roxana Alecu",
       phone: "+40 790 420 493",
       email: "alecuroxana19@yahoo.com",
-      image: "testimonial-roxana"
+      image: "testimonial-roxana",
+      url: "despre-noi/roxana-alecu"
     },
     {
       id: 2,
       name: "Psiholog Alexandra Tatu ",
       phone: "+40 727 574 486",
       email: "tatu_alexandra15@yahoo.com ",
-      image: "testimonial-alexandra-tatu"
+      image: "testimonial-alexandra-tatu",
+      url: "despre-noi/alexandra-tatu"
     },
     {
       id: 3,
       name: "Psihoterapeut Gina ilie",
       phone: "+40 768 137 032",
       email: "psih.ginailie@gmail.com",
-      image: "testimonial-gina"
+      image: "testimonial-gina",
+      url: "despre-noi/colaboratori/gina-ilie"
     },
     {
       id: 4,
       name: "Psiholog Alexandra Pană",
       phone: "+40 721 821 910",
       email: "alexandra.pana.psihoterapeut@gmail.com",
-      image: "testimonial-alexandra"
+      image: "testimonial-alexandra",
+      url: "despre-noi/colaboratori/alexandra-pana"
     },
     {
       id: 5,
       name: "Nutriționist Claudia Petre",
       phone: "+40 753 465 211",
       email: "stancuclaudia23@gmail.com",
-      image: "testimonial-claudia"
+      image: "testimonial-claudia",
+      url: "despre-noi/colaboratori/claudia-petre"
     }
   ];
 </script>
@@ -106,10 +111,19 @@
       -webkit-transform: rotate(360deg);
     }
   }
+
+  a {
+    text-decoration: none;
+  }
   .card {
     background-color: #222736;
     border-radius: 10px;
     box-shadow: -0.5rem 0 0.5rem #222736;
+    transition: 0.4s ease-out;
+  }
+
+  .card:hover {
+    transform: translateY(-2px);
     transition: 0.4s ease-out;
   }
 
@@ -202,35 +216,37 @@
   <Heading title="Date de contact" />
   <div class="row">
     <div class="col-lg-5">
-      {#each psychologists as { id, name, email, phone, image } (id)}
-        <div class="card my-2 p-1 p-md-2 contact-container">
-          <div class="contact-content">
-            <h5 class="text-elegant">{name}</h5>
-            <div class="row m-1">
-              <span class="mr-3 text-white">
-                <i class="fas fa-phone" />
-              </span>
-              <span class="text-white">{phone}</span>
+      {#each psychologists as { id, name, email, phone, image, url } (id)}
+        <a href={url} rel="prefetch">
+          <div class="card my-2 p-1 p-md-2 contact-container">
+            <div class="contact-content">
+              <h5 class="text-elegant">{name}</h5>
+              <div class="row m-1">
+                <span class="mr-3 text-white">
+                  <i class="fas fa-phone" />
+                </span>
+                <span class="text-white">{phone}</span>
+              </div>
+              <div class="row m-1">
+                <span class="mr-2 mr-md-3 text-white">
+                  <i class="fas fa-envelope" />
+                </span>
+                <span class="text-white">{email}</span>
+              </div>
             </div>
-            <div class="row m-1">
-              <span class="mr-2 mr-md-3 text-white">
-                <i class="fas fa-envelope" />
-              </span>
-              <span class="text-white">{email}</span>
+            <div class="avatar white">
+              <picture class="rounded-circle img-fluid">
+                <source
+                  srcset="images/testimonials/{image}.webp"
+                  type="image/webp" />
+                <source
+                  srcset="images/testimonials/{image}.jpg"
+                  type="image/jpeg" />
+                <img src="images/testimonials/{image}.jpg" alt={name} />
+              </picture>
             </div>
           </div>
-          <div class="avatar white">
-            <picture class="rounded-circle img-fluid">
-              <source
-                srcset="images/testimonials/{image}.webp"
-                type="image/webp" />
-              <source
-                srcset="images/testimonials/{image}.jpg"
-                type="image/jpeg" />
-              <img src="images/testimonials/{image}.jpg" alt={name} />
-            </picture>
-          </div>
-        </div>
+        </a>
       {/each}
     </div>
 

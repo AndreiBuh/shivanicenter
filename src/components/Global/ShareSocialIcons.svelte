@@ -27,7 +27,7 @@
 <style>
   /* social share */
 
-  ul {
+  /* ul {
     display: flex;
     justify-content: center;
     height: 40px;
@@ -45,9 +45,9 @@
     border-radius: 50%;
     font-size: 18px;
     transition: 1s;
-  }
+  } */
 
-  ul li:nth-child(1) a {
+  /* ul li:nth-child(1) a {
     background: #3b5999;
   }
   ul li:nth-child(2) a {
@@ -55,7 +55,7 @@
   }
   ul li:nth-child(3) a {
     background: #ee2a7b;
-  }
+  } */
   /* like heart */
   .heart-box i,
   .heart-box span {
@@ -75,10 +75,10 @@
     cursor: pointer;
   }
 
-  ul li a:hover {
+  /* ul li a:hover {
     transform: translateY(-5px);
     transition: 0.4s ease-out;
-  }
+  } */
 </style>
 
 <div class="heart-box">
