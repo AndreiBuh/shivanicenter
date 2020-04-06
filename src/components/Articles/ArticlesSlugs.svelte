@@ -126,9 +126,9 @@
   </div>
 </div>
 
-<svelte:head>
+<!-- <svelte:head>
   <meta
     property="og:url"
     content="https://www.shivanicenter.ro/articole/{category_slug}/{slug}" />
   <meta property="og:image" content={image.url} />
-</svelte:head>
+</svelte:head> -->
