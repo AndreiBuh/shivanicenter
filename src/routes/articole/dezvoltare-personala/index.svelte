@@ -22,10 +22,6 @@
 
 <svelte:head>
   <title>Articole</title>
-  {#each articles as article}
-    <meta property="og:title" content={article.title} />
-    <meta property="og:description" content={article.excerpt} />
-  {/each}
 </svelte:head>
 
 <ArticlesPages
