@@ -1,5 +1,6 @@
 <script>
   import { scale } from "svelte/transition";
+  import Button from "../../UI/Button.svelte";
 
   export let title;
   export let published;
@@ -94,4 +95,10 @@
   <div class="post-meta">
     <span>{author} | {published}</span>
   </div>
+  <a
+    rel="prefetch"
+    href="articole/{category_slug}/{slug}"
+    class="font-weight-bold">
+    <Button content="citește mai mult" small />
+  </a>
 </div>

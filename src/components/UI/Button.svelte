@@ -1,5 +1,6 @@
 <script>
   export let content;
+  export let small;
 </script>
 
 <style>
@@ -19,6 +20,12 @@
     padding: 10px 30px;
     margin: 0 auto;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+
+  .small {
+    padding: 8px 20px !important;
+    font-size: 9px;
+    margin-top: 10px;
   }
 
   .btn span {
@@ -46,6 +53,6 @@
   }
 </style>
 
-<button class="btn">
+<button class="btn" class:small>
   <span>{content}</span>
 </button>

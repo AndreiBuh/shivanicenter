@@ -17,7 +17,7 @@
 		"axios": "^0.19.2",
 		"bootstrap": "^4.4.1",
 		"compression": "^1.7.1",
-		"polka": "next",
+		"express": "^4.17.1",
 		"sapper-environment": "^1.0.1",
 		"siema": "^1.5.1",
 		"sirv": "^0.4.0"

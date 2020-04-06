@@ -29,8 +29,7 @@
     box-sizing: border-box;
     overflow: hidden;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
-    height: 600px;
-    max-height: 80%;
+    max-height: 500px;
   }
 
   .box .imgBox {
@@ -42,7 +41,6 @@
     height: 100%;
     transition: 0.5s;
     object-fit: cover;
-    object-position: 50% 50%;
   }
 
   .box:hover .imgBox img {

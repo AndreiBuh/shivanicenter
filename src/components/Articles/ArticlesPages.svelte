@@ -1,5 +1,6 @@
 <script>
   import ArticlesSidebar from "./ArticlesSidebar.svelte";
+  import Button from "../UI/Button.svelte";
   export let articles;
   export let category;
   export let slug;
@@ -68,6 +69,12 @@
   .articles-list .card:first-child {
     display: none;
   }
+
+  @media screen and (max-width: 768px) {
+    .article-text {
+      font-size: 15px;
+    }
+  }
 </style>
 
 <div class="container">
@@ -86,11 +93,11 @@
                 alt="Educatie fete" />
             </div>
             <div class="card-body card-body-cascade text-center p-2">
-              <h4 class="font-weight-bold article-title">
+              <h5 class="font-weight-bold article-title">
                 <a rel="prefetch" href={`articole/${slug}/${articles[0].slug}`}>
                   {articles[0].title}
                 </a>
-              </h4>
+              </h5>
               <p class="article-text">
                 {@html articles[0].excerpt}
               </p>
@@ -119,9 +126,14 @@
                         <p class="article-text">
                           {@html article.excerpt}
                         </p>
+                        <a
+                          rel="prefetch"
+                          href="articole/{slug}/{article.slug}"
+                          class="text-right">
+                          <Button content="citește mai mult" small />
+                        </a>
                       </div>
                     </div>
-
                   </div>
                 {/each}
               </div>
