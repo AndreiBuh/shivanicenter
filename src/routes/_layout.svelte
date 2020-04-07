@@ -3,6 +3,7 @@
   import { fade, fly } from "svelte/transition";
   import Nav from "../components/Global/Nav.svelte";
   import Footer from "../components/Global/Footer.svelte";
+  import Gdpr from "../components/Global/GDPR/Gdpr.svelte";
   import GoogleAnalytics from "../components/GoogleAnalytics.svelte";
   import LoadingSpinner from "../components/UI/LoadingSpinner.svelte";
 
@@ -186,4 +187,5 @@
     {/if}
   </main>
   <Footer />
+  <Gdpr />
 {/if}
