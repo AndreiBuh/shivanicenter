@@ -100,6 +100,7 @@
               alt="mediatie"
               class="img-middle img-fluid rounded" />
           </picture>
+
         </div>
       </div>
       <blockquote class="mt-3">
@@ -131,10 +132,16 @@
       </p>
       <div class="row">
         <div class="col-md-5 col-xs-12">
-          <img
-            src="meditatie3.jpg"
-            alt="alta imagine meditatie"
-            class="img-bottom img-fluid" />
+          <picture>
+            <source
+              srcset="images/services/meditatie3.webp"
+              type="image/webp" />
+            <source srcset="images/services/meditatie3.jpg" type="image/jpeg" />
+            <img
+              src="images/services/meditatie3.jpg"
+              alt="mediatie"
+              class="img-middle img-fluid rounded" />
+          </picture>
         </div>
         <div class="col-md-7 col-xs-12">
           <p class="mt-4 paragraph-text">

@@ -20,7 +20,7 @@
 
 <div class="container">
   <div class="card p-2 p-md-5 mt-3">
-    <h1 class="text-center">Politica de Cookie-uri</h1>
+    <h2 class="text-center">Politica de Cookie-uri</h2>
 
     <h2>Website-ul nostru folosește cookie-uri</h2>
     <h5>Ce este un Cookie?</h5>

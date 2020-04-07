@@ -135,6 +135,23 @@
     transition: 0.4s ease-out;
   }
 
+  .btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+  }
+  .btn {
+    border: 1px solid white !important;
+    color: color;
+    border-radius: 6px;
+    font-size: 12px;
+    font-family: var(--font-main);
+    letter-spacing: 3px;
+  }
+
+  .btn:hover {
+    color: white;
+    background: #444c54 !important;
+  }
+
   @media screen and (max-width: 768px) {
     .card {
       box-shadow: 3px 3px 3px 3px #222736;
@@ -158,6 +175,13 @@
                 <i class={icon} />
                 <h4>{title}</h4>
                 <p>{content}</p>
+                <div class="text-center mt-3">
+                  <button
+                    class="btn btn-outline py-2 px-4"
+                    aria-label="Citește mai mult">
+                    <span class="text-white">Citește</span>
+                  </button>
+                </div>
               </div>
             </a>
           </div>

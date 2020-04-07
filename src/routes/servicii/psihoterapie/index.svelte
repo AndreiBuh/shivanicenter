@@ -78,60 +78,41 @@
         despre ceea ce îl frământă, ce ar vrea să înţeleagă despre el şi mediul
         său, despre anumite comportamente, emoţii, aşteptări.
       </p>
-      <div class="row">
-        <div class="col-md-8">
-          <p class="paragraph-text">
-            Totodată, pe lângă aceste discuţii, anumite tehnici terapeutice au
-            rolul de a da o nouă perspectivă asupra unor situaţii despre care
-            clientul nu ştie să spună prea multe. Prin tehnicile de art-therapy
-            (desene, colaje, lucrul cu lutul, meditaţii creative, etc.) şi cele
-            de drama-therapy, se poate lucra creativitatea, empatia,
-            spontaneitatea de care clientul poate are nevoie să îşi depăşească
-            blocajele şi momentele de confuzie.
-          </p>
-          <p class="paragraph-text">
-            Uneori confuzia este atât de mare, încât nici prin propriile vorbe
-            clientul nu reuşeşte să înţeleagă ce se întâmplă. Sarcina
-            terapeutului este să îl susţină într-un proces de auto-cunoaştere şi
-            de explorare a lumii sale interioare.
-          </p>
-          <p class="paragraph-text">
-            Ca si abordare, Shivani Center are psihologi formați în psihoterapie
-            experienţială a unificării. „P.E.U este o metodă holistică, centrată
-            pe analiza de simbol, dezvoltare personală şi autoschimbare prin
-            intermediul exerciţiului provocator, improvizaţiei şi meditaţiei
-            creatoare cu suport artterapeutic şi expresiv. Utilizează puterea
-            transfiguratoare a metaforei şi a resemnificării experienţei trăite,
-            reconectând Egoul cu Sinele şi stimulând procesele de unificare,
-            integrare şi transgresare, interne şi externe. Este o terapie
-            individuală şi colectivă (de grup, de familie şi organizaţională),
-            atât pentru adulţi, cît şi pentru copii şi adolescenţi. Plasează în
-            centrul preocupărilor dezvoltarea şi transformarea umană.”
-          </p>
-        </div>
-        <div class="col-md-4">
-          <picture>
-            <source
-              srcset="images/services/psihoterapie2.webp"
-              type="image/webp" />
-            <source
-              srcset="images/services/psihoterapie2.jpg"
-              type="image/jpeg" />
-            <img
-              src="images/services/psihoterapie2.jpg"
-              alt="psihoterapie"
-              class="img-middle img-fluid rounded" />
-          </picture>
-        </div>
-        <blockquote class="mt-4">
-          <em>
-            Uneori confuzia este atât de mare, încât nici prin propriile vorbe
-            clientul nu reuşeşte să înţeleagă ce se întâmplă. Sarcina
-            terapeutului este să îl susţină într-un proces de auto-cunoaştere şi
-            de explorare a lumii sale interioare.
-          </em>
-        </blockquote>
-      </div>
+      <p class="paragraph-text">
+        Totodată, pe lângă aceste discuţii, anumite tehnici terapeutice au rolul
+        de a da o nouă perspectivă asupra unor situaţii despre care clientul nu
+        ştie să spună prea multe. Prin tehnicile de art-therapy (desene, colaje,
+        lucrul cu lutul, meditaţii creative, etc.) şi cele de drama-therapy, se
+        poate lucra creativitatea, empatia, spontaneitatea de care clientul
+        poate are nevoie să îşi depăşească blocajele şi momentele de confuzie.
+      </p>
+      <p class="paragraph-text">
+        Uneori confuzia este atât de mare, încât nici prin propriile vorbe
+        clientul nu reuşeşte să înţeleagă ce se întâmplă. Sarcina terapeutului
+        este să îl susţină într-un proces de auto-cunoaştere şi de explorare a
+        lumii sale interioare.
+      </p>
+      <p class="paragraph-text">
+        Ca si abordare, Shivani Center are psihologi formați în psihoterapie
+        experienţială a unificării. „P.E.U este o metodă holistică, centrată pe
+        analiza de simbol, dezvoltare personală şi autoschimbare prin
+        intermediul exerciţiului provocator, improvizaţiei şi meditaţiei
+        creatoare cu suport artterapeutic şi expresiv. Utilizează puterea
+        transfiguratoare a metaforei şi a resemnificării experienţei trăite,
+        reconectând Egoul cu Sinele şi stimulând procesele de unificare,
+        integrare şi transgresare, interne şi externe. Este o terapie
+        individuală şi colectivă (de grup, de familie şi organizaţională), atât
+        pentru adulţi, cît şi pentru copii şi adolescenţi. Plasează în centrul
+        preocupărilor dezvoltarea şi transformarea umană.”
+      </p>
     </div>
+    <blockquote class="mt-4">
+      <em>
+        Uneori confuzia este atât de mare, încât nici prin propriile vorbe
+        clientul nu reuşeşte să înţeleagă ce se întâmplă. Sarcina terapeutului
+        este să îl susţină într-un proces de auto-cunoaştere şi de explorare a
+        lumii sale interioare.
+      </em>
+    </blockquote>
   </div>
 </div>

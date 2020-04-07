@@ -83,36 +83,20 @@
         și motive; după durata, consilierea este mai scurtă (6-10 sedinte),în
         timp ce psihoterapia poate dura și câțiva ani.
       </p>
-      <div class="row">
-        <div class="col-md-6">
-          <p class="paragraph-text">
-            Metodele și tehnicile utilizate sunt comune psihoterapiei și
-            consilierii. Orientarea terapeutică este cea care influențează pașii
-            și etapele terapeutice. Scopul consilierii este de al face pe client
-            să își folosească cât mai eficient resursele personale.
-          </p>
-          <p class="paragraph-text">
-            Ceea ce-ți oferă consilierea după ce s-a încheiat este „sa te ajute
-            să te ajuți singur”, căci doar noi suntem cei care putem să ne
-            schimbăm. Rolul nostru este de a vă ghida, de a merge împreună, de a
-            fi acolo și de a vă ajută într-un mod activ să vă autodescoperiti.
-          </p>
-        </div>
-        <div class="col-md-6">
-          <picture>
-            <source
-              srcset="images/services/consiliere-psihologica2.webp"
-              type="image/webp" />
-            <source
-              srcset="images/services/consiliere-psihologica2.jpg"
-              type="image/jpeg" />
-            <img
-              src="images/services/consiliere-psihologica2.jpg"
-              alt="consiliere psihologica"
-              class="img-top img-fluid rounded" />
-          </picture>
-        </div>
-      </div>
+      6">
+      <p class="paragraph-text">
+        Metodele și tehnicile utilizate sunt comune psihoterapiei și
+        consilierii. Orientarea terapeutică este cea care influențează pașii și
+        etapele terapeutice. Scopul consilierii este de al face pe client să își
+        folosească cât mai eficient resursele personale.
+      </p>
+      <p class="paragraph-text">
+        Ceea ce-ți oferă consilierea după ce s-a încheiat este „sa te ajute să
+        te ajuți singur”, căci doar noi suntem cei care putem să ne schimbăm.
+        Rolul nostru este de a vă ghida, de a merge împreună, de a fi acolo și
+        de a vă ajută într-un mod activ să vă autodescoperiti.
+      </p>
+
       <p class="mt-3 paragraph-text">
         Iată câteva exemple ce pot constitui psihoeducație:
       </p>

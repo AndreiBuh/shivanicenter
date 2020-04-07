@@ -77,43 +77,29 @@
         participanţilor (de obicei sunt între 6 şi 10 întâlniri, o dată pe
         săptămână la o oră stabilită).
       </p>
-      <div class="row">
-        <div class="col-md-8">
-          <p class="paragraph-text">
-            Asemănările dintre cele două tipuri se referă la faptul că
-            participanţii au şansa să discute şi să afle alte păreri, poveşti de
-            viaţă, modalităţi de a comunica.
-          </p>
-          <p class="paragraph-text">
-            O altă asemănare este că la începutul primei întâlniri,
-            participanţii se vor prezenta şi astfel se va pune baza unei relaţii
-            de respect, empatie, încredere, răbdare şi acceptare mutuală.
-          </p>
-          <p class="paragraph-text">
-            Se va respecta fiecare părere în parte, fiecare participant va avea
-            ocazia să vorbească şi să împartă experienţe cu ceilalţi şi totul va
-            rămâne confidenţial.
-          </p>
-        </div>
-        <div class="col-md-4">
-          <picture>
-            <source srcset="images/services/workshop2.webp" type="image/webp" />
-            <source srcset="images/services/workshop2.jpg" type="image/jpeg" />
-            <img
-              src="images/services/workshop2.jpg"
-              alt="workshop"
-              class="img-middle img-fluid rounded" />
-          </picture>
-        </div>
-        <blockquote class="mt-3">
-          <em>
-            Importanţa workshop-urilor a crescut foarte mult în ultimii ani,
-            fiind o soluţie bună nu doar pentru dezvoltare personală şi
-            psihoeducaţie, dar şi pentru angajarea în activităţi şi discuţii
-            terapeutice.
-          </em>
-        </blockquote>
-      </div>
+      <p class="paragraph-text">
+        Asemănările dintre cele două tipuri se referă la faptul că participanţii
+        au şansa să discute şi să afle alte păreri, poveşti de viaţă, modalităţi
+        de a comunica.
+      </p>
+      <p class="paragraph-text">
+        O altă asemănare este că la începutul primei întâlniri, participanţii se
+        vor prezenta şi astfel se va pune baza unei relaţii de respect, empatie,
+        încredere, răbdare şi acceptare mutuală.
+      </p>
+      <p class="paragraph-text">
+        Se va respecta fiecare părere în parte, fiecare participant va avea
+        ocazia să vorbească şi să împartă experienţe cu ceilalţi şi totul va
+        rămâne confidenţial.
+      </p>
+
+      <blockquote class="mt-3">
+        <em>
+          Importanţa workshop-urilor a crescut foarte mult în ultimii ani, fiind
+          o soluţie bună nu doar pentru dezvoltare personală şi psihoeducaţie,
+          dar şi pentru angajarea în activităţi şi discuţii terapeutice.
+        </em>
+      </blockquote>
     </div>
   </div>
 </div>

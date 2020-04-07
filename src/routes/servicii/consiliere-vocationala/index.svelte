@@ -96,71 +96,53 @@
         pe piața muncii și elaborarea unor planuri personale de planificare a
         propriei cariere, în acord cu modificările capacității de muncă.
       </p>
-      <div class="row">
-        <div class="col-md-7">
-          <p class="paragraph-text">
-            Procesul de Consiliere Vocaţională încearcă să răspundă la întrebări
-            precum:
-          </p>
-          <ul class="px-3">
-            <li class="paragraph-list-items">
-              De ce suntem atraşi de o anumită profesie?
-            </li>
-            <li class="paragraph-list-items">
-              Cât de realistă e alegerea noastră?
-            </li>
-            <li class="paragraph-list-items">
-              Câte șanse avem să câștigăm un post?
-            </li>
-            <li class="paragraph-list-items">
-              Cum realizăm că suntem cea mai potrivită persoană pentru un anumit
-              job?
-            </li>
-            <li class="paragraph-list-items">
-              Cum aflăm dacă vom face față solicitărilor unei profesii?
-            </li>
-          </ul>
-          <p class="paragraph-text">
-            Consilierea vocaţională este activitatea prin care clientul primeşte
-            sprijin cum ar fi:
-          </p>
-          <ul class="px-3">
-            <li class="paragraph-list-items">
-              Să se cunoască mai bine pe sine
-            </li>
-            <li class="paragraph-list-items">
-              Să înțeleagă lumea muncii, piață muncii
-            </li>
-            <li class="paragraph-list-items">
-              Să descopere şi să realizeze managementul efficient al
-              abilităților pentru carieră
-            </li>
-            <li class="paragraph-list-items">
-              Să aleagă sau o profesie corespunzătoare aspirațiilor, valorilor,
-              intereselor și aptitudinilor sale
-            </li>
-            <li class="paragraph-list-items">
-              Unul dintre obiectivele importante ale cosilierii vocaționale este
-              adaptarea flexibilă și eficientă a individului la specificul
-              activitaţii de muncă
-            </li>
-          </ul>
-        </div>
-        <div class="col-md-5">
-          <picture>
-            <source
-              srcset="images/services/consiliere-vocationala2.webp"
-              type="image/webp" />
-            <source
-              srcset="images/services/consiliere-vocationala2.jpg"
-              type="image/jpeg" />
-            <img
-              src="images/services/consiliere-vocationala2.jpg"
-              alt="consiliere vocationala"
-              class="img-middle img-fluid rounded" />
-          </picture>
-        </div>
-      </div>
+
+      <p class="paragraph-text">
+        Procesul de Consiliere Vocaţională încearcă să răspundă la întrebări
+        precum:
+      </p>
+      <ul class="px-3">
+        <li class="paragraph-list-items">
+          De ce suntem atraşi de o anumită profesie?
+        </li>
+        <li class="paragraph-list-items">
+          Cât de realistă e alegerea noastră?
+        </li>
+        <li class="paragraph-list-items">
+          Câte șanse avem să câștigăm un post?
+        </li>
+        <li class="paragraph-list-items">
+          Cum realizăm că suntem cea mai potrivită persoană pentru un anumit
+          job?
+        </li>
+        <li class="paragraph-list-items">
+          Cum aflăm dacă vom face față solicitărilor unei profesii?
+        </li>
+      </ul>
+      <p class="paragraph-text">
+        Consilierea vocaţională este activitatea prin care clientul primeşte
+        sprijin cum ar fi:
+      </p>
+      <ul class="px-3">
+        <li class="paragraph-list-items">Să se cunoască mai bine pe sine</li>
+        <li class="paragraph-list-items">
+          Să înțeleagă lumea muncii, piață muncii
+        </li>
+        <li class="paragraph-list-items">
+          Să descopere şi să realizeze managementul efficient al abilităților
+          pentru carieră
+        </li>
+        <li class="paragraph-list-items">
+          Să aleagă sau o profesie corespunzătoare aspirațiilor, valorilor,
+          intereselor și aptitudinilor sale
+        </li>
+        <li class="paragraph-list-items">
+          Unul dintre obiectivele importante ale cosilierii vocaționale este
+          adaptarea flexibilă și eficientă a individului la specificul
+          activitaţii de muncă
+        </li>
+      </ul>
+
     </div>
   </div>
 </div>

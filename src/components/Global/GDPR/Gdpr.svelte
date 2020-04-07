@@ -34,7 +34,7 @@
           <a href="/contact">Contact</a>
         </span>
         <span class="mx-3">
-          <a href="/confidentialitate">Politică de confidențialitate</a>
+          <a href="/confidentialitate">Confidențialitate</a>
         </span>
         <span>
           <a href="/cookies">Cookies</a>

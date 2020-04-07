@@ -20,7 +20,7 @@
 
 <div class="container">
   <div class="card p-2 p-md-5 mt-3">
-    <h1 class="text-center">Politica de confidențialitate</h1>
+    <h2 class="text-center">Politica de confidențialitate</h2>
 
     <h5>A. Introducere</h5>
 
