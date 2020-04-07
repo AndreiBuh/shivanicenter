@@ -6,7 +6,7 @@
     transition: 0.4s ease-out;
   }
 
-  h1,
+  h2,
   h5,
   p,
   li {
