@@ -126,3 +126,9 @@
     </div>
   </div>
 </div>
+
+<svelte:head>
+  <meta
+    property="og:image"
+    content="https://res.cloudinary.com/www-shivanicenter-ro/image/upload/v1586189144/oct3fsg3gpo5wiucb7ip.jpg" />
+</svelte:head>
