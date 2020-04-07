@@ -48,13 +48,10 @@
 <div class="col-md-3">
   <div class="testimonial">
     <div class="avatar mx-auto white">
-      <picture class="rounded-circle img-fluid">
-        <source
-          srcset="images/testimonials/{imageUrl}.webp"
-          type="image/webp" />
-        <source srcset="images/testimonials/{imageUrl}.jpg" type="image/jpeg" />
-        <img src="images/testimonials/{imageUrl}.jpg" alt="Alt Text!" />
-      </picture>
+      <img
+        src="images/testimonials/{imageUrl}.jpg"
+        alt="Alt Text!"
+        class="rounded-circle img-fluid" />
     </div>
     <h6 class="text-white mt-4">{name}</h6>
     <span class="text-elegant text-uppercase">{jobTitle}</span>

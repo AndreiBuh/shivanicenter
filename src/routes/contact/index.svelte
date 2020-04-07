@@ -183,10 +183,6 @@
     width: 100%;
   }
 
-  .rounded-circle {
-    border-radius: 50%;
-  }
-
   @media screen and (max-width: 768px) {
     span {
       font-size: 18px;
@@ -235,15 +231,10 @@
               </div>
             </div>
             <div class="avatar white">
-              <picture class="rounded-circle img-fluid">
-                <source
-                  srcset="images/testimonials/{image}.webp"
-                  type="image/webp" />
-                <source
-                  srcset="images/testimonials/{image}.jpg"
-                  type="image/jpeg" />
-                <img src="images/testimonials/{image}.jpg" alt={name} />
-              </picture>
+              <img
+                src="images/testimonials/{image}.jpg"
+                alt={name}
+                class="rounded img-fluid" />
             </div>
           </div>
         </a>

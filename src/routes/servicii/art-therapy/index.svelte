@@ -23,14 +23,10 @@
       <span class="text-elegant font-weight-bold">.</span>
     </h2>
     <div class="service-image text-center" in:fade={{ duration: 2000 }}>
-      <picture>
-        <source srcset="images/services/art-therapy1.webp" type="image/webp" />
-        <source srcset="images/services/art-therapy1.jpg" type="image/jpeg" />
-        <img
-          src="images/services/art-therapy1.jpg"
-          alt="art therapy"
-          class="img-top img-fluid rounded" />
-      </picture>
+      <img
+        src="images/services/art-therapy1.jpg"
+        alt="art therapy"
+        class="img-top img-fluid rounded" />
     </div>
     <div class="p-2 mt-3">
       <p class="paragraph-text">

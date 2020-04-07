@@ -132,16 +132,10 @@
       </p>
       <div class="row">
         <div class="col-md-5 col-xs-12">
-          <picture>
-            <source
-              srcset="images/services/meditatie3.webp"
-              type="image/webp" />
-            <source srcset="images/services/meditatie3.jpg" type="image/jpeg" />
-            <img
-              src="images/services/meditatie3.jpg"
-              alt="mediatie"
-              class="img-middle img-fluid rounded" />
-          </picture>
+          <img
+            src="images/services/meditatie3.jpg"
+            alt="mediatie"
+            class="img-middle img-fluid rounded" />
         </div>
         <div class="col-md-7 col-xs-12">
           <p class="mt-4 paragraph-text">

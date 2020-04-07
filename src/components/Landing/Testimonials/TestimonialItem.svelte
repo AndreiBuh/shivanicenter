@@ -71,11 +71,10 @@
 <div class="card testimonial-card">
   <div class="card-up info-color" />
   <div class="avatar mx-auto white">
-    <picture class="rounded-circle img-fluid">
-      <source srcset="images/testimonials/{imageUrl}.webp" type="image/webp" />
-      <source srcset="images/testimonials/{imageUrl}.jpg" type="image/jpeg" />
-      <img src="images/testimonials/{imageUrl}.jpg" alt={name} />
-    </picture>
+    <img
+      src="images/testimonials/{imageUrl}.jpg"
+      alt={name}
+      class="rounded-circle img-fluid" />
   </div>
   <div class="card-body">
     <h6>{name}</h6>

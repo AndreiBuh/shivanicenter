@@ -55,14 +55,10 @@
       <span class="text-elegant font-weight-bold">.</span>
     </h2>
     <div class="text-center" in:fade={{ duration: 2000 }}>
-      <picture>
-        <source srcset="images/people/claudia.webp" type="image/webp" />
-        <source srcset="images/people/claudia.jpg" type="image/jpeg" />
-        <img
-          src="images/people/claudia.jpg"
-          alt="nutritionist claudia petre"
-          class="img-top img-fluid rounded" />
-      </picture>
+      <img
+        src="images/people/claudia.jpg"
+        alt="nutritionist claudia petre"
+        class="img-top img-fluid rounded" />
     </div>
     <div class="p-2 mt-5">
       <p class="paragraph-text">

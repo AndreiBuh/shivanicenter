@@ -23,12 +23,10 @@
       <span class="text-elegant font-weight-bold">.</span>
     </h2>
     <div class="service-image text-center" in:fade={{ duration: 2000 }}>
-
       <img
         src="images/services/consiliere-psihologica1.jpg"
         alt="consiliere psihologica"
         class="img-top img-fluid rounded" />
-
     </div>
     <div class="p-2 mt-3">
       <p class="paragraph-text">
