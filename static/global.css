@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Josefin+Sans|Oswald|Montserrat|EB+Garamond|Alex+Brush|Cormorant+SC:700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Oswald|Montserrat|Alex+Brush|Cormorant+SC:700&display=swap");
 
 @font-face {
   font-family: "Averta";
@@ -20,7 +20,7 @@
 html,
 body {
   background-color: var(--main-color) !important;
-  font-family: "EB Garamond", "Oswald", cursive;
+  font-family: "Oswald", cursive;
 }
 h1,
 h2,
