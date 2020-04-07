@@ -83,3 +83,52 @@ a {
     margin-top: 100px;
   }
 }
+
+
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 02/02/2020 15:59
+  	*/
+
+    @font-face {
+      font-family: "Flaticon";
+      src: url("font/Flaticon.eot");
+      src: url("font/Flaticon.eot?#iefix") format("embedded-opentype"),
+           url("font/Flaticon.woff") format("woff"),
+           url("fontFlaticon.ttf") format("truetype"),
+           url("font/Flaticon.svg#Flaticon") format("svg");
+      font-weight: normal;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    @media screen and (-webkit-min-device-pixel-ratio:0) {
+      @font-face {
+        font-family: "Flaticon";
+        src: url("./font/Flaticon.svg#Flaticon") format("svg");
+      }
+    }
+
+    [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+    [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+      font-family: Flaticon;
+      font-size: 40px;
+      font-style: normal;
+    }
+
+    .flaticon-mission:before { content: "\f100"; }
+    .flaticon-eye:before { content: "\f101"; }
+    .flaticon-goal:before { content: "\f102"; }
+    .flaticon-mindset:before { content: "\f103"; }
+    .flaticon-brain:before { content: "\f104"; }
+    .flaticon-workshop:before { content: "\f105"; }
+    .flaticon-flower:before { content: "\f106"; }
+    .flaticon-yoga:before { content: "\f107"; }
+    .flaticon-paint:before { content: "\f108"; }
+    .flaticon-mental:before { content: "\f109"; }
+    .flaticon-speaker:before { content: "\f10a"; }
+    .flaticon-send:before { content: "\f10b"; }
+    .flaticon-back:before { content: "\f10c"; }
+    .flaticon-buddhism:before { content: "\f10d"; }
+    .flaticon-mortar:before { content: "\f10e"; }
+    .flaticon-buddhism-1:before { content: "\f10f"; }
