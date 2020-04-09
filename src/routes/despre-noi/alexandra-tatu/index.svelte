@@ -4,14 +4,14 @@
 
   let testimonials = [
     {
-      name: "Lacramioara Rotaru",
+      name: "Lăcrămioara Rotaru",
       jobTitle: "Jurist",
       text:
-        "Profunda, dar și copilaroasa, un amalgam între tradiție și modern, deosebit de creativa, își pune sufletul în tot ceea ce face, cu dăruire și perseverentă.",
+        "Profundă, dar și copilăroasă, un amalgam între tradiție și modern, deosebit de creativă, își pune sufletul în tot ceea ce face, cu dăruire și perseverență.",
       imageUrl: "testimonial-lacramioara-rotaru"
     },
     {
-      name: "Craciun Beatrice",
+      name: "Crăciun Beatrice",
       jobTitle: "Profesor",
       text:
         "O apreciez pe Alexandra în mod deosebit, pentru evoluția ei spirituală ",
@@ -28,7 +28,7 @@
       name: "Carmen Stoian",
       jobTitle: "Autor",
       text:
-        "Un om serios, de cuvant, sensibil si inteligent. Ca psihoterapeut cred ca detii multe informatii si teorii bune de puse in aplicare",
+        "Un om serios, de cuvant, sensibil și inteligent. Ca psihoterapeut cred ca deții multe informații și teorii bune de puse în aplicare",
       imageUrl: "testimonial-carmen-stoian"
     }
   ];

@@ -78,8 +78,8 @@
 
   .article-card-body :global(li) {
     margin: 0px 10px 10px 15px;
-    font-size: 20px;
-    font-family: var(--font-text), sans-serif;
+    font-size: 18px;
+    font-family: var(--font-main), sans-serif;
   }
 
   /* Articole pages style END */
