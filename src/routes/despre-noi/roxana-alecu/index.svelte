@@ -21,7 +21,7 @@
       name: "Alina Tăriceanu",
       jobTitle: "Lector universitar doctor",
       text:
-        "Inteligenta și răbdarea o recomanda ca specialist, iar abilitatea ei de a câștiga repede incerederea celorlalți face ca experiența terapeutica sa fie una excepțională.",
+        "Inteligența și răbdarea o recomanda ca specialist, iar abilitatea ei de a câștiga repede incerederea celorlalți face ca experiența terapeutica sa fie una excepțională.",
       imageUrl: "testimonial-alina"
     },
     {
@@ -66,89 +66,89 @@
         <span class="text-elegant font-weight-bold signature">Namaste,</span>
       </h1>
       <p class="paragraph-text">
-        Inca din copilarie m-am intrebat cine sunt eu. Am crezut de foarte multe
-        ori ca mi-am gasit raspunsul la aceasta intrebare, dar fix atunci, eram
-        si mai departe de el.
+        Încă din copilărie m-am intrebat cine sunt eu. Am crezut de foarte multe
+        ori că mi-am gasit raspunsul la această intrebare, dar fix atunci, eram
+        și mai departe de el.
       </p>
       <p class="paragraph-text">
-        Timpul, oamenii, evenimentele, gandurile si actiunile mele mi-au revelat
-        mereu ceva nou despre mine. Acum, ma prezint in fata voastra mai intai
-        ca fiinta umana, cu emotii, cu probleme, cu o multime de intrebari, dar
-        mereu cu putere de a depasi momentele grele ce imi provoaca suferinta.
+        Timpul, oamenii, evenimentele, gândurile și actțunile mele mi-au revelat
+        mereu ceva nou despre mine. Acum, mă prezint în fața voastră mai întâi
+        ca ființă umană, cu emoții, cu probleme, cu o mulțime de întrebări, dar
+        mereu cu putere de a depăși momentele grele ce îmi provoacă suferință.
       </p>
       <p class="paragraph-text">
-        Am invatat in toti acesti ani sa fiu in contact cu propriile mele
-        ganduri si emotii, sa imi ascult corpul, sa accept existenta suferintei
-        in lume si sa merg mai departe atunci cand nu pot schimba nimic. Desi
-        toate acestea le-am realizat datorita mie si dorintei de a evolua pe
-        plan personal, ele nu ar fi fost posibile fara experientele avute pana
-        acum.
+        În toți acești ani, am învățat să fiu în contact cu propriile mele
+        gânduri și emotii, să îmi ascult corpul, să accept existența suferinței
+        în lume și să merg mai departe atunci când nu pot schimba nimic. Deși
+        toate acestea le-am realizat datorită mie și dorinței de a evolua pe
+        plan personal, ele nu ar fi fost posibile fără experiențele avute până
+        în prezent.
       </p>
       <p class="paragraph-text">
-        Fiind mereu interesata de cum functioneaza mintea umana, am ales sa fac
-        Facultatea de Psihologie si Stiintele Educatiei, din cadrul
-        Universitatii din Bucuresti. De aici am primit baza de care aveam nevoie
-        pentru urmatorii mei ani de studiu in domeniul psihlogiei.
+        Fiind mereu interesată de cum funcționeaza mintea umana, am ales sa fac
+        Facultatea de Psihologie și Științele Educației, din cadrul
+        Universității din București. De aici am primit baza de care aveam nevoie
+        pentru următorii mei ani de studiu în domeniul psihologiei.
       </p>
       <p class="paragraph-text">
-        Dupa obtinerea licentei in psihologie, mi-a fost publicata lucrarea cu
-        titlul “Influenta diferitelor tehnici de meditatie asupra stresului
-        ocuptional” in cartea “Mindfulness si optimizarea comportamentului
-        professional” a Editurii SPER.
+        După obținerea licenței în psihologie, mi-a fost publicată lucrarea cu
+        titlul “Influența diferitelor tehnici de meditație asupra stresului
+        ocupțional” în cartea “Mindfulness și optimizarea comportamentului
+        profesional” a Editurii SPER.
       </p>
       <p class="paragraph-text">
-        Simtind ca pentru o intelegere mai profunda a naturii umane e necesar sa
-        privesc totul ca intreg, mi-am dorit sa inteleg mai bine interactiunea
-        dintre minte, corp si spirt. Astfel in calatoria mea m-am oprit timp de
-        doi ani la Masterul de Studii Religioase - Texte si Traditii al
-        Facultatii de Limbi si Literaturi Straine. Aici am avut oportunitatea de
-        a studia si intelege sistemul de functionare a diferitelor culturi,
-        religii si traditii, precum crestinismul, iudaismul, islamul, taoismul,
-        shamanismul, hinduismul, budismul, etc.
+        Simțind că pentru o înțelegere mai profundă a naturii umane e necesar să
+        privesc totul ca pe un întreg, mi-am dorit să înțeleg mai bine
+        interacțiunea dintre minte, corp și spirt. Astfel, în călătoria mea m-am
+        oprit timp de doi ani la Masterul de Studii Religioase - Texte și
+        Tradiții al Facultății de Limbi și Literaturi Străine. Aici am avut
+        oportunitatea de a studia și înțelege sistemul de funcționare a
+        diferitelor culturi, religii și tradiții, precum creștinismul,
+        iudaismul, islamul, taoismul, shamanismul, hinduismul, budismul, etc.
       </p>
       <p class="paragraph-text">
-        Ceea ce nu v-am spus pana acum este ca am fost mereu atrasa de spatiul
-        oriental, in special de studiul culturii indiene. A fost o placere sa
-        pot descoperii tainele si sensul profund din spatele cuvintelor
+        Ceea ce nu v-am spus până acum este că am fost mereu atrasă de spațiul
+        oriental, în special de studiul culturii indiene. A fost o plăcere să
+        pot descoperi tainele și sensul profund din spatele cuvintelor
         sanskrite.
       </p>
       <p class="paragraph-text">
-        Pe parcursul acestui master m-am bucurat sa descopar o corespondenta
-        deosebita intre invataturile budiste si psihologia moderna. In paralel
-        cu explorarea fiintei umane din perspectiva spirituala, mi-am continuat
-        pregatirea profesionala printr-un program de formare complementara in
-        Psihoterapie Experientiala si a Unificarii (P.E.U.) la Institutul
-        Societatii de Psihoterapie Experientiala Romana.
+        Pe parcursul acestui master m-am bucurat să descopăr o corespondență
+        deosebită între învățăturile budiste și psihologia modernă. În paralel
+        cu explorarea ființei umane din perspectiva spirituală, mi-am continuat
+        pregătirea profesională printr-un program de formare complementară în
+        Psihoterapie Experiențială și a Unificării (P.E.U.) la Institutul
+        Societății de Psihoterapie Experiențială Română.
       </p>
       <p class="paragraph-text">
-        Astfel am dobandit un Certificat consiliere psihologică - evaluarea și
-        consilierea experiențială a copilului, adultului, cuplului și familiei
-        si Avizul de liberă practică în consiliere psihologică, eliberat de
-        Colegiul Psihologilor din România.
+        Astfel am dobandit un Certificat de consiliere psihologică - evaluarea
+        și consilierea experiențială a copilului, adultului, cuplului și a
+        familiei, precum și Avizul de liberă practică în consiliere psihologică,
+        eliberat de Colegiul Psihologilor din România.
       </p>
       <p class="paragraph-text">
-        Destinatia finala nu imi este cunoscuta, insa stiu ca nu o sa ma opresc
-        niciodata din a invata, de aceea continui sa citesc, sa merg la
-        conferinte, workshop-uri, la dezvoltare personala si sa invat de la voi
-        in fiecare zi.
+        Destinația finală nu îmi este cunoscută, însă știu că nu o să ma opresc
+        niciodată din a învăța, de aceea continui să citesc, să merg la
+        conferințe, workshop-uri, la dezvoltare personală și să învăț de la voi
+        în fiecare zi.
       </p>
       <p class="paragraph-text">
-        In timpul facultatii mi-a venit ideea de a un centru de psihologie
-        holistica care sa ofere sansa clientului de a-si incepe propria
-        calatorie spre autodescoperire, prin regasirea intelepciunii interioare,
-        constientizarea sinelui si aflarea scopului in viata. Mi-a placut mereu
-        sa privesc in jurul meu, sa inteleg cum functioneaza realitatea in care
-        ma aflu.
+        În timpul facultății mi-a venit ideea de a concepe un centru de
+        psihologie holistică care să ofere șansa clientului de a-și începe
+        propria călătorie spre autodescoperire, prin regăsirea înțelepciunii
+        interioare, conștientizarea sinelui și aflarea scopului în viață. Mi-a
+        placut mereu să privesc în jurul meu, să înțeleg cum funcționează
+        realitatea în care mă aflu.
       </p>
       <p class="paragraph-text">
-        Acum visul meu a devenit realitate si il traiesc impreuna cu voi, atunci
-        cand vad oameni mai fericiti, bucurandu-se de viata pe care o au,
-        capabili sa gaseasca singuri cele mai bune solutii pentru problemele
+        Acum visul meu a devenit realitate și il trăiesc împreună cu voi, atunci
+        când văd oameni mai fericiți, bucurându-se de viața pe care o au,
+        capabili să găsească singuri cele mai bune soluții pentru problemele
         lor.
       </p>
 
       <div class="m-3 text-right">
-        <p class="paragraph-text">Cu iubire si recunostinta,</p>
+        <p class="paragraph-text">Cu iubire și recunoștință,</p>
         <p class="signature">Roxana Alecu</p>
       </div>
       <hr class="style-hr" />
