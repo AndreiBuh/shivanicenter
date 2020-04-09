@@ -24,14 +24,10 @@
       <span class="text-elegant font-weight-bold">.</span>
     </h2>
     <div class="text-center" in:fade={{ duration: 2000 }}>
-      <picture>
-        <source srcset="images/services/meditatie1.webp" type="image/webp" />
-        <source srcset="images/services/meditatie1.jpg" type="image/jpeg" />
-        <img
-          src="images/services/meditatie1.jpg"
-          alt="mediatie"
-          class="img-top img-fluid rounded" />
-      </picture>
+      <img
+        src="images/services/meditatie1.jpg"
+        alt="mediatie"
+        class="img-top img-fluid rounded" />
     </div>
     <div class="p-2 mt-3">
       <p class="paragraph-text">
@@ -90,17 +86,10 @@
           </p>
         </div>
         <div class="col-md-5 col-xs-12">
-          <picture>
-            <source
-              srcset="images/services/meditatie2.webp"
-              type="image/webp" />
-            <source srcset="images/services/meditatie2.jpg" type="image/jpeg" />
-            <img
-              src="images/services/meditatie2.jpg"
-              alt="mediatie"
-              class="img-middle img-fluid rounded" />
-          </picture>
-
+          <img
+            src="images/services/meditatie2.jpg"
+            alt="mediatie"
+            class="img-middle img-fluid rounded" />
         </div>
       </div>
       <blockquote class="mt-3">
