@@ -8,7 +8,7 @@
       src: "slider1",
       text:
         "Timpul, oamenii, evenimentele, gândurile și acțiunile mi-au revelat întotdeauna ceva nou despre mine. Mă prezint în fața voastră mai intâi ca ființă umană, cu emoții, cu probleme, cu o mulțime de întrebări, dar mereu cu putere de a depăși momentele grele ce îmi provoacă suferință...",
-      slug: "roxana-alecu",
+      slug: "despre-noi/roxana-alecu",
       quote:
         '"Poți face multe descoperiri, dar cea mai mare descoperire ești chiar tu!"'
     },
@@ -18,7 +18,7 @@
       name: "Psiholog Alexandra Tatu",
       text:
         "La fel ca şi tine, şi eu am o poveste în spatele numelui meu. De fapt, cu toţii suntem protagoniştii vieţilor noastre. Mă numesc Tatu Alexandra şi dacă vreau să îmi descriu povestea în câteva cuvinte, acestea sunt: căutare, efort, obstacole, apreciere, imaginaţie, sinceritate, pasiune...",
-      slug: "people/alexandra-tatu",
+      slug: "despre-noi/alexandra-tatu",
       quote:
         '"Mereu vor fi lucruri frumoase în lumea în care trăim, atâta timp cât știm unde și cum să privim."'
     },
@@ -28,7 +28,7 @@
       name: "Shivani Center",
       text:
         "Suport psihologic GRATUIT pentru persoanele aflate în izolare sau afectate de criza generată de răspândirea virusului COVID-19.",
-      slug: "",
+      slug: "contact",
       quote: ""
     }
   ];
@@ -101,7 +101,7 @@
           <p class="mb-4 text-elegant quote">{`${quote}`}</p>
           <p class="text-white">{text}</p>
           <div class="p-4">
-            <a href="despre-noi/{slug}">
+            <a href={slug}>
               <button class="btn btn-outline py-2 px-4" aria-label="Citeste">
                 <span class="text-white">CITEȘTE MAI MULT</span>
               </button>
