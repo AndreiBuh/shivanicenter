@@ -28,7 +28,7 @@
     padding: 12px 0;
     text-align: left;
     position: relative;
-    line-height: 22px;
+    line-height: 18px;
     font-size: 14px;
     font-weight: 400;
     color: #8c8c8c;
@@ -68,7 +68,6 @@
     font-size: 2rem;
     margin-right: 0.5rem;
     font-family: "Abril Fatface", serif;
-    line-height: 1;
   }
 </style>
 

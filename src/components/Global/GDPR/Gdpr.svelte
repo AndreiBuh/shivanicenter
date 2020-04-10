@@ -16,6 +16,10 @@
     text-decoration: none;
   }
 
+  .copyright {
+    font-size: 12px;
+  }
+
   @media screen and (max-width: 768px) {
     .container {
       margin-top: 0;
@@ -26,7 +30,7 @@
 <div class="gdpr-container p-2">
   <div class="container">
     <div class="row">
-      <div class="col-lg-6 col-12 text-center text-lg-left my-2">
+      <div class="col-lg-6 col-12 text-center text-lg-left my-2 copyright">
         @2020 Toate drepturile rezervate Shivani Center
       </div>
       <div class="col-lg-6 col-12 text-center text-lg-right my-2">

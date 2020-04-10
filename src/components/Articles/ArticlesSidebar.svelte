@@ -28,7 +28,7 @@
     padding: 12px 0;
     text-align: left;
     position: relative;
-    line-height: 22px;
+    line-height: 18px;
     font-size: 14px;
   }
 

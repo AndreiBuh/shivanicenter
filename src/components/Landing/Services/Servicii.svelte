@@ -103,6 +103,7 @@
     color: #b5b5bf;
     font-family: var(--font-text), sans-serif;
     font-size: 17px;
+    line-height: 21px;
   }
 
   .title {

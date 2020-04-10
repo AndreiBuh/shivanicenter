@@ -8,7 +8,7 @@
     text-transform: uppercase;
     overflow: hidden;
     font-size: 30px;
-    line-height: 40px;
+    line-height: 34px;
     font-weight: 500;
     letter-spacing: 3px;
     margin: 0 0 2em 0;
