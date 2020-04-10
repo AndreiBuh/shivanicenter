@@ -177,9 +177,11 @@
       </ul>
       <p class="paragraph-text">
         Cel mai important este să fim sinceri cu noi, să ne asumăm propriile
-        decizii și să fim cea mai mare responsabilitate a noastră. Dezvoltarea
-        personală ne va ajuta cu siguranță să devenim mai buni, mai liniștiți,
-        mai iubitori, mai echilibrați și în armonie cu tot ceea ce ne
+        decizii și să fim cea mai mare responsabilitate a noastră.
+      </p>
+      <p class="paragraph-text">
+        Dezvoltarea personală ne va ajuta cu siguranță să devenim mai buni, mai
+        liniștiți, mai iubitori, mai echilibrați și în armonie cu tot ceea ce ne
         înconjoară.
       </p>
     </div>

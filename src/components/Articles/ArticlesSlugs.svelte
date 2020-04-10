@@ -125,3 +125,6 @@
     </div>
   </div>
 </div>
+
+<meta property="og:description" content={excerpt} />
+<meta property="og:image" content={image.url} />
