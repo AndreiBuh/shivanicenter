@@ -80,7 +80,7 @@
   <ol class="most-read-list">
     {#each articles as { title, slug, category, category_slug, image, published, author }, i}
       <li class="most-read-list-item row">
-        <div class="text-holder col-md-6 col-12">
+        <div class="text-holder col-6">
           <div class="category">
             <a
               rel="prefetch"
@@ -99,7 +99,7 @@
         <a
           rel="prefetch"
           href="articole/{category_slug}/{slug}"
-          class="image-holder col-md-6 col-6">
+          class="image-holder col-6">
           <img src={image.url} alt={title} class="rounded" />
         </a>
       </li>
