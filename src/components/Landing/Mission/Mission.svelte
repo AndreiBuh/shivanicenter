@@ -64,8 +64,8 @@
     font-family: var(--font-text), sans-serif;
   }
 
-  i {
-    color: white;
+  img {
+    width: 25%;
   }
 
   .form {
@@ -108,6 +108,10 @@
     .container {
       margin-top: 0px !important;
     }
+
+    img {
+      width: 15%;
+    }
   }
 </style>
 
@@ -118,7 +122,7 @@
       <div class="row">
         <div class="col-md-3 px-3 pt-3 mission-item">
           <h4 class="p-2">Misiune</h4>
-          <i class="flaticon-mission" />
+          <img src="/images/flaticon/mission.svg" alt="mission" />
           <p class="p-2">
             Shivani Center oferă o paletă largă de servicii psihologice de
             calitate, într-un cadru securizant și confidențial.
@@ -126,7 +130,7 @@
         </div>
         <div class="col-md-3 px-3 p-3 mission-item">
           <h4 class="p-2">Viziune</h4>
-          <i class="flaticon-eye" />
+          <img src="/images/flaticon/eye.svg" alt="eye" />
           <p class="p-2">
             Viziunea noastră holistică îmbină în mod organic metodele de
             vindecare orientale cu psihoterapiile suportive occidentale.
@@ -134,7 +138,7 @@
         </div>
         <div class="col-md-3 px-3 p-3 mission-item">
           <h4 class="p-2">Scop</h4>
-          <i class="flaticon-goal" />
+          <img src="/images/flaticon/goal.svg" alt="goal" />
           <p class="p-2">
             Vă invităm să explorăm împreună conexiunea dintre minte, corp și
             spirit, astfel încât să găsiți soluțiile potrivite pentru o viață
@@ -143,7 +147,7 @@
         </div>
         <div class="col-md-3 px-3 p-3 mission-item">
           <h4 class="p-2">Abordare</h4>
-          <i class="flaticon-buddhism" />
+          <img src="/images/flaticon/belief.svg" alt="belief" />
           <p class="p-2">
             Abordarea holistică este centrată pe analiza de simbol, dezvoltare
             personală şi autoschimbare prin intermediul improvizaţiei şi al

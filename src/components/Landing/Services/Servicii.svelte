@@ -5,7 +5,7 @@
     {
       id: 1,
       title: "Consiliere psihologică",
-      icon: "flaticon-brain",
+      icon: "brain.svg",
       url: "consiliere-psihologica",
       content:
         "Consilierea psihologică este o intervenție psihologică în care o persoană specializată oferă ajutor, la cerere, persoanelor aflate într-o perioadă dificilă din viața lor."
@@ -13,7 +13,7 @@
     {
       id: "2",
       title: "Psihoterapie",
-      icon: "flaticon-mindset",
+      icon: "mindset.svg",
       content:
         "Psihoterapia pune accent pe profunzimea trăirilor şi gândurilor, acceptarea acestora şi întelegerea lor, cu scopul de a trece peste comportamente disfuncţionale.",
       url: "psihoterapie"
@@ -22,7 +22,7 @@
     {
       id: "3",
       title: "Meditație",
-      icon: "flaticon-yoga",
+      icon: "yoga.svg",
       content:
         "Nu există o tehnică corectă sau greșită de meditație, fiecare alege ce funcționează mai bine pentru el. Important este să nu renunțăm când în demersul nostru apar capcanele minții.",
       url: "meditatie"
@@ -30,7 +30,7 @@
     {
       id: "4",
       title: "Dezvoltare personală",
-      icon: "flaticon-flower",
+      icon: "flower.svg",
       content:
         "A te bucura de lucrurile simple și a simți compasiune față de toate ființele înseamnă dezvoltare personală. Viața nu înseamnă doar a ști, ci și a simți!",
       url: "dezvoltare-personala"
@@ -38,7 +38,7 @@
     {
       id: "5",
       title: "Psihoeducație",
-      icon: "flaticon-mental",
+      icon: "mental.svg",
       content:
         "Psihoeducația oferă oamenilor condiții de sănătate mintală, informații despre cauzele, simptomele, prognosticul și tratamentele afecțiunii lor diagnosticate.",
       url: "psihoeducatie"
@@ -46,7 +46,7 @@
     {
       id: "6",
       title: "Workshop",
-      icon: "flaticon-workshop",
+      icon: "workshop.svg",
       content:
         "Workshop-urile oferă o plajă largă de teme de interes cum ar fi cele legate de cuplu, familie şi copil, legături între emoţii-corp-gânduri, depăşirea unor evenimente dificile.",
       url: "workshop"
@@ -54,7 +54,7 @@
     {
       id: "7",
       title: "Art-therapy",
-      icon: "flaticon-paint",
+      icon: "paint.svg",
       content:
         "Arta eliberează omul de stresul celorlalte activităţi, schimbă anumite pattern-uri de gândire şi comportament, ajută persoana să intre în contact cu propriile emoţii şi nevoi.",
       url: "art-therapy"
@@ -62,7 +62,7 @@
     {
       id: "8",
       title: "Consiliere vocațională",
-      icon: "flaticon-speaker",
+      icon: "speaker.svg",
       content:
         "Consilierea vocaţională pune accent şi pe pasiunile, curiozităţile oamenilor, nu doar pe căutarea unui job – se doreşte ca acest job să fie strâns legat de acele pasiuni.",
       url: "consiliere-vocationala"
@@ -83,12 +83,8 @@
     text-decoration: none;
   }
 
-  .service-item i {
-    display: inline-block;
-    color: #dfa974;
-    -webkit-transition: all 0.4s;
-    -o-transition: all 0.4s;
-    transition: all 0.4s;
+  img {
+    width: 25%;
   }
   .service-item h4 {
     color: #fff;
@@ -104,15 +100,6 @@
     font-family: var(--font-text), sans-serif;
     font-size: 17px;
     line-height: 21px;
-  }
-
-  .title {
-    font-size: 18px;
-    color: #fff;
-    margin-bottom: 0;
-    margin-right: auto;
-    font-family: var(--font-main), sans-serif;
-    font-weight: 700;
   }
 
   h4 {
@@ -161,6 +148,10 @@
     .container {
       margin-top: 0 !important;
     }
+
+    img {
+      width: 15%;
+    }
   }
 </style>
 
@@ -173,7 +164,7 @@
           <div class="card mb-3 p-3">
             <a rel="prefetch" href="servicii/{url}">
               <div class="service-item">
-                <i class={icon} />
+                <img src="/images/flaticon/{icon}" alt={icon} />
                 <h4>{title}</h4>
                 <p>{content}</p>
                 <div class="text-center mt-3">
