@@ -33,8 +33,7 @@
     <h1
       class="service-title my-4 pt-md-0 text-center"
       in:fly={{ x: -200, duration: 2000 }}>
-      În curând
-      <span class="text-elegant font-weight-bold">...</span>
+      În curând...
     </h1>
     <div class="p-2">
       <p class="paragraph-text">

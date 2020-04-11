@@ -85,6 +85,12 @@
     font-size: 18px;
   }
 
+  @media screen and (max-width: 768px) {
+    .article-card-body {
+      width: 90%;
+    }
+  }
+
   /* Articole pages style END */
 </style>
 
