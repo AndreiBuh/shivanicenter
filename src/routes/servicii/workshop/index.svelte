@@ -47,12 +47,12 @@
         de implicare şi de socializare, atât între coordonator şi grup, cât şi
         între ei ca participanţi.
       </p>
-      <blockquote>
+      <p class="paragraph-text">
         În funcţie de nevoile fiecăruia, workshop-urile oferă o plajă largă de
         subiecte şi teme de interes cum ar fi teme legate de cuplu, familie şi
         copil, psihoeducaţie, legături între emoţii-corp-gânduri, depăşirea unor
         evenimente dificile.
-      </blockquote>
+      </p>
       <p class="paragraph-text">
         Pornind de la acest aspect, există două tipuri de workshop-uri: cele de
         dezvoltare personală si cele pentru grupurile de suport.
@@ -89,13 +89,11 @@
         rămâne confidenţial.
       </p>
 
-      <blockquote class="mt-3">
-        <em>
-          Importanţa workshop-urilor a crescut foarte mult în ultimii ani, fiind
-          o soluţie bună nu doar pentru dezvoltare personală şi psihoeducaţie,
-          dar şi pentru angajarea în activităţi şi discuţii terapeutice.
-        </em>
-      </blockquote>
+      <p class="paragraph-text">
+        Importanţa workshop-urilor a crescut foarte mult în ultimii ani, fiind o
+        soluţie bună nu doar pentru dezvoltare personală şi psihoeducaţie, dar
+        şi pentru angajarea în activităţi şi discuţii terapeutice.
+      </p>
     </div>
   </div>
 </div>

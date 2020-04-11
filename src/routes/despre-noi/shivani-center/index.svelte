@@ -34,99 +34,100 @@
         <a href="despre-noi/shivani-center" class="links">
           <span class="text-elegant font-weight-bold">Shivani Center</span>
         </a>
-        ofera servicii de consiliere psihologica centrata pe
+        oferă servicii de consiliere psihologică centrată pe
         adult-cuplu-familie-copil, art-terapie, consiliere pentru dezvoltare
-        personală, interpersonala, transpersoala si workshop-uri tematice.
+        personală, interpersonală, transpersonală și workshop-uri tematice.
       </p>
       <p class="paragraph-text">
-        Viziunea noastra holistica imbina in mod organic metodele de vindecare
-        orientale cu psihoterapiile suportive occidentale. Va invit sa exploram
-        impreuna conexiunea dintre minte, corp si spirit.
+        Viziunea noastră holistică îmbină în mod organic metodele de vindecare
+        orientale cu psihoterapiile suportive occidentale. Vă invit să explorăm
+        împreună conexiunea dintre minte, corp și spirit.
       </p>
       <p class="paragraph-text">
-        Shivani Center considera ca bunastarea psihologica a oamenilor este
-        strans legata de modul in care evoluam ca societate. Noi ne dorim sa va
-        oferim servicii de cea mai inalta calitate pentru a putea creste
-        impreuna atat pe plan intrapersonal cat si in relatiile interumane.
+        Shivani Center consideră că bunăstarea psihologică a oamenilor este
+        strâns legată de modul în care evoluăm ca societate. Ne dorim să vă
+        oferim servicii de cea mai înaltă calitate pentru a putea crește
+        împreună atat pe plan intrapersonal cât și în relațiile interumane.
       </p>
       <p class="paragraph-text">
-        Centrul nostru are o abordare psihologica moderna, care imbina in mod
+        Centrul nostru are o abordare psihologică modernă, care îmbină în mod
         organic metodele de vindecare orientale cu psihoterapiile suportive
         occidentale.
       </p>
-      <blockquote>
+      <p class="paragraph-text">
+        Nelson Mandela spunea ca
         <em>
-          Nelson Mandela spunea ca „Educaţia este cea mai puternică armă pe care
-          voi o puteţi folosi pentru a schimba lumea.” Cu totii ne dorim sa
-          schimbam lumea, dar asta porneste de la fiecare dintre noi. Doar aici
-          si acum putem actiona sa ne educam mintea spre a deveni cea mai buna
-          varianta a noastra.
+          „Educaţia este cea mai puternică armă pe care voi o puteţi folosi
+          pentru a schimba lumea.”
         </em>
-      </blockquote>
-      <p class="paragraph-text">
-        Orientarea noastra in psihoterapie experentiala urmeaza un proces
-        terapeutic ce ofera sansa fiecaruia de a iesi singur la lumina, de a
-        gasi solutii, de a se acepta pe sine, de a se ierta, de a se
-        responsabiliza sa-si schimbe perspectiva asupra lucrurilor si asupra lui
-        insusi. El experimenteaza bucuria de a evolua constient, de a-si
-        descoperi singur conflictele interioare, vulnerabilitatile si blocajele
-        ce l-au oprit pana acum sa fie in armonie cu propria persoana si cu
-        ceilalti.
+        Cu toții ne dorim să schimbăm lumea, dar asta pornește de la fiecare
+        dintre noi. Doar aici și acum putem acționa să ne educăm mintea spre a
+        deveni cea mai bună variantă a noastră.
       </p>
       <p class="paragraph-text">
-        Acest tip de proces da posibilitatea clientilor nostri sa isi dezvolte
-        potentialul de adaptare creativ si sa isi deblocheze spontan propriile
-        resurse, beneficiind de insight-urile autoexplorarii asistate, intr-un
-        mediu relaxant si sigur.*
+        Orientarea noastră în psihoterapie experiențială urmează un proces
+        terapeutic ce oferă sansa fiecăruia de a ieși singur la lumină, de a
+        găsi soluții, de a se accepta pe sine, de a se ierta, de a se
+        responsabiliza să-și schimbe perspectiva asupra lucrurilor și asupra lui
+        însuși. El experimentează bucuria de a evolua conștient, de a-și
+        descoperi singur conflictele interioare, vulnerabilitățile și blocajele
+        ce l-au oprit până acum să fie în armonie cu propria persoană și cu
+        ceilalți.
       </p>
       <p class="paragraph-text">
-        Centru este fondat in anul 2019, la initiativa psihologului
+        Acest tip de proces oferă posibilitatea clienților noștri să își
+        dezvolte potențialul de adaptare creativ și să își deblocheze spontan
+        propriile resurse, beneficiind de insight-urile autoexplorării asistate,
+        într-un mediu relaxant și sigur.*
+      </p>
+      <p class="paragraph-text">
+        Centru este fondat în anul 2019, la inițiativa psihologului
         <a href="despre-noi/roxana-alecu" class="links">
           <span class="text-elegant font-weight-bold">Alecu F. Roxana</span>
         </a>
-        in colaborare cu psihologul
+        în colaborare cu psihologul
         <a href="despre-noi/alexandra-tatu" class="links">
           <span class="text-elegant font-weight-bold">Tatu Alexandra</span>
         </a>
-        , pornind din dorinta de a imbina metode variate de psihoterapie si
-        practici stravechi spirituale, mereu redescoperite, re-asimilate si
-        adaptate in functie de fiecare persoana. Shivani Center porneste de la
-        ideea ca o singura metoda nu este eficienta pentru toata lumea, de aceea
-        ne-am propus sa infiintam acest centru privind fiecare individ ca fiind
+        , pornind din dorința de a îmbina metode variate de psihoterapie și
+        practici străvechi spirituale, mereu redescoperite, re-asimilate și
+        adaptate în funcție de fiecare persoană. Shivani Center pornește de la
+        ideea că o singură metodă nu este eficientă pentru toată lumea, de aceea
+        ne-am propus să înființăm acest centru privind fiecare individ ca fiind
         unic.
       </p>
       <p class="paragraph-text">
-        Sanatatea este deseori asociata cu buna functionare a organismului, insa
-        sanatatea in sens larg cuprinde toate cele trei planuri: psihic, fizic
-        si spiritual. Neglijand una dinte ele, este afectat intregul echilibru
-        personal. Alimentatia, sportul, dezvoltarea personala si transpersonala
-        sunt aspecte vitale pentru o viata traita in armonie si continua
+        Sănătatea este deseori asociată cu buna funcționare a organismului, însă
+        sănătatea în sens larg cuprinde toate cele trei planuri: psihic, fizic
+        și spiritual. Neglijând una dinte ele, este afectat întregul echilibru
+        personal. Alimentația, sportul, dezvoltarea personală și transpersonală
+        sunt aspecte vitale pentru o viață trăită în armonie și continuă
         dezvoltare.
       </p>
       <p class="paragraph-text">
-        Ne adresam tuturor oamenilor care isi doresc o schimbare in stilul lor
-        de viata, o imbunatatire a sanatatii si a interactiunii cu cei din jur
-        si mai ales celor care simt ca nu mai pot face fata problemelor zilnice,
-        se confrunta cu stari de stres, anxietate, depresie, vinovatie,
-        frustrare, sentimente de neputinta, probleme in relatia de cuplu, de
-        familie, etc.
+        Ne adresăm tuturor oamenilor care își doresc o schimbare în stilul lor
+        de viață, o îmbunătățire a sănătății și a interacțiunii cu cei din jur
+        și mai ales celor care simt că nu mai pot face față problemelor zilnice,
+        se confruntă cu stări de stres, anxietate, depresie, vinovăție,
+        frustrare, sentimente de neputință, probleme în relația de cuplu, de
+        familie etc.
       </p>
       <p class="paragraph-text">
-        Articolele noastre va vin si ele in intampinare, pentru a va tine la
-        curent cu cele mai noi informatii despre sanatatea psihica, fizica si
-        spirituala. Pentru acestea am creat sectiuni separate in functie de
-        interesele fiecarui cititor. Puteti fi mereu la curent cu cele mai noi
-        articole abonandu-va la newsletter-ul nostru.
+        Articolele noastre vă vin și ele întâmpinare, pentru a vă ține la curent
+        cu cele mai noi informații despre sănătatea psihică, fizică și
+        spirituală. Pentru acestea am creat secțiuni separate în funcție de
+        interesele fiecărui cititor. Puteți fi mereu la curent cu cele mai noi
+        articole abonându-vă la newsletter-ul nostru.
       </p>
       <p class="paragraph-text">
-        Serviciile noastre sunt prezentate separat si le poti descoperi chiar
+        Serviciile noastre sunt prezentate separat și le puteți descoperi chiar
         <a href="." class="links">
           <span class="text-elegant font-weight-bold">aici</span>
         </a>
         .
       </p>
       <div class="m-3 text-right">
-        <p class="paragraph-text">Cu stima,</p>
+        <p class="paragraph-text">Cu stimă,</p>
         <p class="signature">Shivani Center</p>
       </div>
 

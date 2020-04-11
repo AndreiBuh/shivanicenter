@@ -59,16 +59,18 @@
         autocunoasterii potențialului de care dispunem la un moment dat:
       </p>
       <ul class="px-3 text-white">
-        <li>
+        <li class="paragraph-list-items">
           se oferă informații relevante despre nivelului de dezvoltare a
           aptitudinilor, despre structura intereselor și valorilor personale
         </li>
-        <li>
+        <li class="paragraph-list-items">
           cunoașterea tehnicilor și strategiilor de căutare a unui loc de muncă:
           anunțuri online, ofertele agențiilor de specialitate, târguri de
           joburi etc.
         </li>
-        <li>cunoașterea structurii și dinamicii pieței muncii</li>
+        <li class="paragraph-list-items">
+          cunoașterea structurii și dinamicii pieței muncii
+        </li>
       </ul>
       <p class="paragraph-text">
         2. Funcția formativă și de dezvoltare personală-dezvoltarea stimei de
@@ -93,7 +95,7 @@
         Procesul de Consiliere Vocaţională încearcă să răspundă la întrebări
         precum:
       </p>
-      <ul class="px-3">
+      <ul class="px-3 text-white">
         <li class="paragraph-list-items">
           De ce suntem atraşi de o anumită profesie?
         </li>
@@ -115,7 +117,7 @@
         Consilierea vocaţională este activitatea prin care clientul primeşte
         sprijin cum ar fi:
       </p>
-      <ul class="px-3">
+      <ul class="px-3 text-white">
         <li class="paragraph-list-items">Să se cunoască mai bine pe sine</li>
         <li class="paragraph-list-items">
           Să înțeleagă lumea muncii, piață muncii

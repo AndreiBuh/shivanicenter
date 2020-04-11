@@ -121,11 +121,11 @@
         lucruri frumoase în lumea în care trăim, atâta timp cât știm unde și cum
         să privim.” – Cheile Sinelui (editura Berg). 
       </p>
-      <blockquote>
+      <p class="paragraph-text">
         Fie că suntem prinși în capcanele trecutului sau în viitorul nesigur,
         prezentul este cel care ne oferă cele mai concrete trăiri. În esență,
         „aici și acum” este tot ce avem de fapt.
-      </blockquote>
+      </p>
       <p class="paragraph-text">
         Ce ar fi să privim dincolo de tot ce nu înțelegem sau nu acceptăm? Să
         vedem dincolo de barierele zidite uneori chiar de noi. Când nu judeci

@@ -71,22 +71,22 @@
         și mai departe de el.
       </p>
       <p class="paragraph-text">
-        Timpul, oamenii, evenimentele, gândurile și actțunile mele mi-au revelat
-        mereu ceva nou despre mine. Acum, mă prezint în fața voastră mai întâi
-        ca ființă umană, cu emoții, cu probleme, cu o mulțime de întrebări, dar
+        Timpul, oamenii, evenimentele, gândurile și acțiunile mi-au revelat
+        mereu ceva nou despre mine. Acum mă prezint în fața voastră mai întâi ca
+        ființă umană, cu emoții, cu probleme, cu o mulțime de întrebări, dar
         mereu cu putere de a depăși momentele grele ce îmi provoacă suferință.
       </p>
       <p class="paragraph-text">
         În toți acești ani, am învățat să fiu în contact cu propriile mele
-        gânduri și emotii, să îmi ascult corpul, să accept existența suferinței
+        gânduri și emoții, să îmi ascult corpul, să accept existența suferinței
         în lume și să merg mai departe atunci când nu pot schimba nimic. Deși
         toate acestea le-am realizat datorită mie și dorinței de a evolua pe
         plan personal, ele nu ar fi fost posibile fără experiențele avute până
         în prezent.
       </p>
       <p class="paragraph-text">
-        Fiind mereu interesată de cum funcționeaza mintea umana, am ales sa fac
-        Facultatea de Psihologie și Științele Educației, din cadrul
+        Fiind mereu interesată de cum funcționeaza mintea umana, am ales sa
+        studiez la Facultatea de Psihologie și Științele Educației, din cadrul
         Universității din București. De aici am primit baza de care aveam nevoie
         pentru următorii mei ani de studiu în domeniul psihologiei.
       </p>
@@ -99,12 +99,12 @@
       <p class="paragraph-text">
         Simțind că pentru o înțelegere mai profundă a naturii umane e necesar să
         privesc totul ca pe un întreg, mi-am dorit să înțeleg mai bine
-        interacțiunea dintre minte, corp și spirt. Astfel, în călătoria mea m-am
-        oprit timp de doi ani la Masterul de Studii Religioase - Texte și
+        interacțiunea dintre minte, corp și spirit. Astfel, în călătoria mea
+        m-am oprit timp de doi ani la Masterul de Studii Religioase - Texte și
         Tradiții al Facultății de Limbi și Literaturi Străine. Aici am avut
         oportunitatea de a studia și înțelege sistemul de funcționare a
         diferitelor culturi, religii și tradiții, precum creștinismul,
-        iudaismul, islamul, taoismul, shamanismul, hinduismul, budismul, etc.
+        iudaismul, islamul, taoismul, shamanismul, hinduismul, budismul etc.
       </p>
       <p class="paragraph-text">
         Ceea ce nu v-am spus până acum este că am fost mereu atrasă de spațiul
@@ -141,7 +141,7 @@
         realitatea în care mă aflu.
       </p>
       <p class="paragraph-text">
-        Acum visul meu a devenit realitate și il trăiesc împreună cu voi, atunci
+        Acum visul meu a devenit realitate și îl trăiesc împreună cu voi, atunci
         când văd oameni mai fericiți, bucurându-se de viața pe care o au,
         capabili să găsească singuri cele mai bune soluții pentru problemele
         lor.

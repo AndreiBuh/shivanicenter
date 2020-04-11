@@ -76,14 +76,9 @@
           </p>
           <p class="paragraph-text">
             El spune despre mindfulness că este conștiința care apare atunci
-            când acordăm atenție non-judiciară momentului prezent. Permite
-            accesul la aspectele de bază ale propriilor noastre minți și corpuri
-            de care depinde chiar sănătatea noastră.
+            când acordăm atenție non-judiciară momentului prezent.
           </p>
-          <p class="paragraph-text">
-            Când mintea ta se clarifică și se deschide, inima ta se clarifică și
-            se deschide.
-          </p>
+
         </div>
         <div class="col-md-5 col-xs-12">
           <img
@@ -92,14 +87,17 @@
             class="img-middle img-fluid rounded" />
         </div>
       </div>
-      <blockquote class="mt-3">
-        <em>
-          Mindfulness eliberează substanțe chimice „fericite” în creier, scade
-          tensiunea arterială, imbunătăteste digestia și relaxează tensiunea
-          cauzată de durere. Este simplu de practicat și are efecte minunate.
-          Atunci când oferim atenție, schimbarea devine posibilă.
-        </em>
-      </blockquote>
+      <p class="paragraph-text">
+        Permite accesul la aspectele de bază ale propriilor noastre minți și
+        corpuri de care depinde chiar sănătatea noastră. Când mintea ta se
+        clarifică și se deschide, inima ta se clarifică și se deschide.
+      </p>
+      <p class="paragraph-text">
+        Mindfulness eliberează substanțe chimice „fericite” în creier, scade
+        tensiunea arterială, imbunătăteste digestia și relaxează tensiunea
+        cauzată de durere. Este simplu de practicat și are efecte minunate.
+        Atunci când oferim atenție, schimbarea devine posibilă.
+      </p>
       <p class="paragraph-text">
         Mindfulness și meditația sunt reflecții asemănătoare și au anumite
         corespondențe: mindfulness susține și imbogăteste meditația, în timp ce
@@ -127,7 +125,7 @@
             class="img-middle img-fluid rounded" />
         </div>
         <div class="col-md-7 col-xs-12">
-          <p class="mt-4 paragraph-text">
+          <p class="paragraph-text">
             Mindfulness este o formă de meditație Clear Mind, în timpul căreia
             se acordă atenție ritmului natural al respirației în timpul șederii
             și ritmului mersului lent.. În cele din urmă, metoda este pur și
@@ -141,19 +139,17 @@
             vieții, că un vechi prieten la care apelăm atunci când avem nevoie
             de direcție, inspirație și claritate.
           </p>
-          <p class="mt-4 paragraph-text">
-            Hai să descoperim împreună ce este potrivit penru tine și să ne
-            bucurăm de această călătorie!
-          </p>
+
         </div>
       </div>
-      <blockquote>
-        <em>
-          Nu există nici o tehnică corectă sau gresită de practică, fiecare
-          alege ce funcționează mai bine pentru el. Important este să nu
-          renunțăm atunci când în demersul nostru apar capcanele minții.
-        </em>
-      </blockquote>
+
+      <p class="paragraph-text mt-3">
+        Hai să descoperim împreună ce este potrivit penru tine și să ne bucurăm
+        de această călătorie! Nu există nici o tehnică corectă sau gresită de
+        practică, fiecare alege ce funcționează mai bine pentru el. Important
+        este să nu renunțăm atunci când în demersul nostru apar capcanele
+        minții.
+      </p>
     </div>
   </div>
 </div>

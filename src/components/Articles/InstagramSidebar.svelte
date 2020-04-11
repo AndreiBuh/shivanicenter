@@ -11,7 +11,7 @@
       <iframe
         title="instagram feed"
         src="https://www.instagram.com/p/B8dVLFbJbkX/embed"
-        height="320"
+        height="400"
         frameborder="0"
         scrolling="no"
         allowtransparency="true" />

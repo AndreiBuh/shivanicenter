@@ -34,24 +34,24 @@
         <span class="text-elegant font-weight-bold">Psihoeducația</span>
         a apărut în urmă cu peste 100 de ani, dar termenul a fost popularizat în
         1980 de către C.M. Anderson. Psihoeducația îmbină psihoterapia și
-        educația cu scopul de a ajuta oamenii să înțeleagă și să învețe cum să
+        educația, cu scopul de a ajuta oamenii să înțeleagă și să învețe cum să
         gestioneze anumite situații cu care se confruntă în viața cotidiană.
       </p>
       <p class="paragraph-text">
         Ea poate fi folosită într-o arie largă de situații, atât în problematici
         de natură emoțională, psihică, cât și în situații profesionale sau în
-        instituții de învățământ. Psihoeducatia se centrează pe informarea
+        instituții de învățământ. Psihoeducația se centrează pe informarea
         oamenilor, ajutându-i să-și îmbunătățească abilitățile de comunicare, să
-        devină mai conștienți de adevărată cauză a problemelor și să cunoască
+        devină mai conștienți de adevărata cauză a problemelor și să cunoască
         modul de funcționare al lumii în care trăim.
       </p>
-      <blockquote>
+      <p class="paragraph-text">
         <em>
           „Dacă îi dai cuiva un pește, îl hrănești numai o dată. Dacă îl inveți
-          să pescuiască, se poate hrăni singur pentru totdeauna.”(Din
-          înțelepciunea orientală)
+          să pescuiască, se poate hrăni singur pentru totdeauna.”
         </em>
-      </blockquote>
+        (din înțelepciunea orientală)
+      </p>
       <p class="paragraph-text">
         Psihoeducația s-a dovedit ca fiind foarte eficientă în tratamentul
         tulburărilor de sănătate mentală. Ea oferă oamenilor condiții de
@@ -59,26 +59,27 @@
         tratamentele afecțiunii lor diagnosticate.
       </p>
       <p class="paragraph-text">
-        Dacă te angajezi în psihoeducatie ca elev, poți află la ce să te
-        aștepți, ce poți face și cum să îți imbunătătesti starea. Lipsa
-        informațiilor despre diverse aspect ale vieții poate fi un factor al
+        Dacă te angajezi în psihoeducație ca elev, poți află la ce să te
+        aștepți, ce poți face și cum să îți îmbunătătesti starea. Lipsa
+        informațiilor despre diverse aspecte ale vieții poate fi un factor al
         problemelor personale cu care se confruntă oamenii.
       </p>
-      <h3 class="mt-5 text-white">Cine facilitează psihoeducația?</h3>
+      <p class="paragraph-text">
+        <strong>Cine facilitează psihoeducația?</strong>
+      </p>
       <div class="row">
         <div class="col-md-7">
           <p class="paragraph-text">
             Mai multe tipuri diferite de profesioniști din domeniul sănătății
-            mintale pot oferi psihoeducație.
+            mintale pot oferi psihoeducație:
           </p>
-          <p class="paragraph-text">Acestea includ:</p>
           <ul class="px-3">
-            <li class="paragraph-list-items">Terapeuţii</li>
-            <li class="paragraph-list-items">Psihiatrii</li>
+            <li class="paragraph-list-items">Terapeuţi</li>
+            <li class="paragraph-list-items">Psihiatri</li>
             <li class="paragraph-list-items">
-              Coordonatorii grupurilor de suport
+              Coordonatori ai grupurilor de suport
             </li>
-            <li class="paragraph-list-items">Specialiști în psihoeducare</li>
+            <li class="paragraph-list-items">Specialiști în psihoeducație</li>
           </ul>
           <p class="paragraph-text">
             După ce au primit psihoeducație de la oricare dintre acești
@@ -88,13 +89,13 @@
         </div>
         <div class="col-md-5">
           <img
-            src="images/services/psihoeducatie2.jpg"
+            src="images/services/psihoeducatie2.png"
             alt="psihoeducatie"
             class="img-middle img-fluid rounded" />
         </div>
       </div>
-      <p class="mt-5 paragraph-text">
-        Iată câteva exemple ce pot constitui psihoeducație:
+      <p class="paragraph-text">
+        <strong>Iată câteva exemple ce pot constitui psihoeducație:</strong>
       </p>
       <ul class="p-3">
         <li class="paragraph-list-items">
@@ -107,7 +108,7 @@
         </li>
         <li class="paragraph-list-items">
           Un spital psihiatric care oferă sprijin și educație membrilor familiei
-          celor primiți tratament
+          celor primiți în tratament
         </li>
         <li class="paragraph-list-items">
           Clasele formale destinate educării populației, atât asupra condițiilor
@@ -115,13 +116,13 @@
           general
         </li>
         <li class="paragraph-list-items">
-          Asistență în managementul comportamentului în clasă pentru studenții
+          Asistență în managementul comportamentului în clasă, pentru studenții
           diagnosticați cu probleme de comportament
         </li>
         <li class="paragraph-list-items">
           Grupuri de ajutor și de sprijin concepute pentru a încuraja persoanele
           diagnosticate cu probleme de sănătate mintală să împărtășească
-          strategii și informații unul cu altul.
+          strategii și informații unul cu altul
         </li>
       </ul>
     </div>

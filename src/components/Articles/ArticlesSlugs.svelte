@@ -126,10 +126,10 @@
   </div>
 </div>
 
-<svelte:head>
+<!-- <svelte:head>
   <meta property="og:description" content={excerpt} />
   <meta property="og:image" content={image.url} />
   <meta
     property="og:url"
     content="https://www.shivanicenter.ro/articole/{category_slug}/{slug}" />
-</svelte:head>
+</svelte:head> -->

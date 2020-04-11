@@ -9,6 +9,10 @@
     box-shadow: -0.5rem 0 0.5rem #222736;
     transition: 0.4s ease-out;
   }
+
+  a {
+    text-decoration: none;
+  }
 </style>
 
 <svelte:head>
@@ -29,7 +33,7 @@
         alt="psihoterapie"
         class="img-top img-fluid rounded" />
     </div>
-    <div class="p-2 mt-3">
+    <div class="p-2 mt-5">
       <p class="paragraph-text">
         <span class="text-elegant font-weight-bold">Psihoterapia</span>
          este un domeniu interdisciplinar, situat la graniţa dintre medicină şi
@@ -40,18 +44,16 @@
         psihosomatice şi comportamentale disfuncţionale. (Conform definiţiei
         date de Federaţia Română de Psihoterapie).
       </p>
-      <blockquote>
-        <em>
-          Psihoterapia oferă servicii specifice fiecărei categorii de vârstă:
-          copii, adolescenţi, tineri, adulti, varstnici. De aceea psihoterapia
-          este esenţială şi poate ajuta înţelegerea unor aspecte/situatii din
-          viaţa omului, fiind mult mai complexă faţă de simplele sfaturi din
-          partea altora.
-        </em>
-      </blockquote>
+      <p class="paragraph-text">
+        Psihoterapia oferă servicii specifice fiecărei categorii de vârstă:
+        copii, adolescenţi, tineri, adulți, vârstnici. De aceea, psihoterapia
+        este esenţială şi poate ajuta înţelegerea unor aspecte/situații din
+        viaţa omului, fiind mult mai complexă faţă de simplele sfaturi din
+        partea altora.
+      </p>
       <p class="paragraph-text">
         Ea pune accent pe profunzimea trăirilor şi gândurilor, acceptarea
-        acestora şi întelegerea lor cu scopul de a trece peste dificultăţi,
+        acestora şi înțelegerea lor cu scopul de a trece peste dificultăţi,
         blocaje, comportamente disfuncţionale. Familia şi prietenii reprezintă
         un suport esenţial în dezvoltarea noastră, dar lucrul cu un specialist
         trece dincolo de acele simple sfaturi şi păreri.
@@ -78,8 +80,8 @@
         Totodată, pe lângă aceste discuţii, anumite tehnici terapeutice au rolul
         de a da o nouă perspectivă asupra unor situaţii despre care clientul nu
         ştie să spună prea multe. Prin tehnicile de art-therapy (desene, colaje,
-        lucrul cu lutul, meditaţii creative, etc.) şi cele de drama-therapy, se
-        poate lucra creativitatea, empatia, spontaneitatea de care clientul
+        lucrul cu lutul, meditaţii creative etc.) şi cele de drama-therapy, se
+        poate lucra creativitatea, empatia, spontaneitatea, de care clientul
         poate are nevoie să îşi depăşească blocajele şi momentele de confuzie.
       </p>
       <p class="paragraph-text">
@@ -89,26 +91,29 @@
         lumii sale interioare.
       </p>
       <p class="paragraph-text">
-        Ca si abordare, Shivani Center are psihologi formați în psihoterapie
-        experienţială a unificării. „P.E.U este o metodă holistică, centrată pe
-        analiza de simbol, dezvoltare personală şi autoschimbare prin
-        intermediul exerciţiului provocator, improvizaţiei şi meditaţiei
-        creatoare cu suport artterapeutic şi expresiv. Utilizează puterea
-        transfiguratoare a metaforei şi a resemnificării experienţei trăite,
-        reconectând Egoul cu Sinele şi stimulând procesele de unificare,
-        integrare şi transgresare, interne şi externe. Este o terapie
-        individuală şi colectivă (de grup, de familie şi organizaţională), atât
-        pentru adulţi, cît şi pentru copii şi adolescenţi. Plasează în centrul
-        preocupărilor dezvoltarea şi transformarea umană.”
+        Ca si abordare,
+        <a href="/despre-noi/shivani-center">
+          <span class="text-elegant font-weight-bold">Shivani Center</span>
+        </a>
+        are psihologi formați în psihoterapie experienţială a unificării. „P.E.U
+        este o metodă holistică, centrată pe analiza de simbol, dezvoltare
+        personală şi autoschimbare prin intermediul exerciţiului provocator,
+        improvizaţiei şi meditaţiei creatoare cu suport artterapeutic şi
+        expresiv. Utilizează puterea transfiguratoare a metaforei şi a
+        resemnificării experienţei trăite, reconectând Egoul cu Sinele şi
+        stimulând procesele de unificare, integrare şi transgresare, interne şi
+        externe. Este o terapie individuală şi colectivă (de grup, de familie şi
+        organizaţională), atât pentru adulţi, cît şi pentru copii şi
+        adolescenţi. Plasează în centrul preocupărilor dezvoltarea şi
+        transformarea umană.”
       </p>
-    </div>
-    <blockquote class="mt-4">
-      <em>
+
+      <p class="paragraph-text">
         Uneori confuzia este atât de mare, încât nici prin propriile vorbe
         clientul nu reuşeşte să înţeleagă ce se întâmplă. Sarcina terapeutului
         este să îl susţină într-un proces de auto-cunoaştere şi de explorare a
         lumii sale interioare.
-      </em>
-    </blockquote>
+      </p>
+    </div>
   </div>
 </div>

@@ -65,7 +65,7 @@
   }
 
   img {
-    width: 25%;
+    width: 22%;
   }
 
   .form {

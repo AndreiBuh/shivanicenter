@@ -77,6 +77,10 @@
     font-size: 20px;
     color: #fff;
   }
+
+  :global(.paragraph-list-items) {
+    font-size: 18px;
+  }
   :global(.text-elegant) {
     color: var(--main-color);
   }
