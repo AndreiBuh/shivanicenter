@@ -84,29 +84,7 @@
   :global(.text-elegant) {
     color: var(--main-color);
   }
-  :global(blockquote) {
-    position: relative;
-    margin: 50px 0;
-    font-weight: 700;
-    display: block;
-    padding: 8px 65px;
-    text-align: center;
-    line-height: 1.6em;
-    font-size: 1.1em;
-    border-left: none;
-    border-right: none;
-    color: #fff;
-  }
-  :global(blockquote::before) {
-    top: 20px;
-    content: "\201C";
-    position: absolute;
-    left: 0;
-    font-size: 75px;
-    color: #fff;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    font-style: initial;
-  }
+
   /*  Servicii pages style END */
 
   /* Despre noi pages style START */
@@ -153,15 +131,6 @@
     }
     :global(.img-top) {
       width: 100%;
-    }
-
-    :global(blockquote::before) {
-      font-size: 40px;
-    }
-
-    :global(blockquote) {
-      padding: 6px 30px;
-      font-size: 14px;
     }
 
     :global(.service-title) {

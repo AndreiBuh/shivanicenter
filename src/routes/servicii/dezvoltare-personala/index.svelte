@@ -39,13 +39,15 @@
     </div>
     <div class="p-2 mt-5">
       <p class="paragraph-text">
-        Am auzit foarte des această expresie de
+        Auzim din ce în ce mai des expresia
         <span class="text-elegant font-weight-bold">
           <a href="https://ro.wikipedia.org/wiki/Dezvoltare_personal%C4%83">
-            dezvoltare personală
+            "dezvoltare personală".
           </a>
         </span>
-        . Am putea spune că a devenit o modă, un trend și asta a dus la
+      </p>
+      <p class="paragraph-text">
+        Am putea spune că a devenit o modă, un trend, iar asta a dus la
         pierderea adevăratului sens.
       </p>
       <p class="paragraph-text">
@@ -67,17 +69,19 @@
       <p class="paragraph-text">
         După apariția nevoii de "a te cunoaște pe tine însuți", așa cum spunea
         Socrate, de a te descoperi cu autenticitate, de a înțelege cine ești cu
-        adevărat și ce te face să fi cel din prezent, e necesar să ieșim din
+        adevărat și ce te face să fii cel din prezent, e necesar să ieșim din
         zona noastră de comfort și să schimbăm ce nu a funcționat până acum.
       </p>
       <p class="paragraph-text">
         Conștientizarea se produce printr-un insight(în psihologie, insight
         apare atunci când o soluție la o problemă se prezintă rapid și fără
         avertisment) și este total diferită de a ști, de a cunoaște informații
-        provenite din diverse surse. Ea ne împinge spre acțiune și ne pune în
-        contact cu acele părți din noi pe care le putem îmbunătăți. În acel
-        moment trăim în prezent, conștienți de noi, de acțiunile și
-        comportamentul nostru.
+        provenite din diverse surse.
+      </p>
+      <p class="paragraph-text">
+        Ea ne împinge spre acțiune și ne pune în contact cu acele părți din noi
+        pe care le putem îmbunătăți. În acel moment trăim în prezent, conștienți
+        de noi, de acțiunile și de comportamentul nostru.
       </p>
       <p class="paragraph-text">
         În momentul în care înțelegi care este sensul vieții tale și practici
@@ -86,11 +90,9 @@
         în procesul de autorealizare.
       </p>
       <p class="paragraph-text">
-        <strong>
-          A te bucura de lucrurile simple și a simți compasiune față de toate
-          ființele înseamnă dezvoltare personală. Viața nu înseamnă doar a știi,
-          ci și a simți!
-        </strong>
+        A te bucura de lucrurile simple și a simți compasiune față de toate
+        ființele înseamnă dezvoltare personală. Viața nu înseamnă doar a ști, ci
+        și a simți!
       </p>
       <p class="paragraph-text">
         Atunci când suntem întrebați cine suntem obișnuim să ne spunem numele și
@@ -142,8 +144,8 @@
         la enculturație, percepția realității etc.
       </p>
       <p class="paragraph-text">
-        În următoarele paragrafe o să vorbesc și eu despre câteva dintre ele,
-        pentru a putea înțelege mai bine ce presupune dezvoltarea personală.
+        În următoarele paragrafe o să vorbim despre câteva dintre ele, pentru a
+        putea înțelege mai bine ce presupune dezvoltarea personală.
         Disponibilitatea și deschiderea spre schimbare este cheia pentru o
         persoană ce a pornit pe această cale care nu se dovedește a fi ușoară,
         însă odată ce viața se îmbunătățește semnificativ, satisfacția e pe
