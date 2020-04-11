@@ -53,7 +53,7 @@
     font-family: var(--font-main), sans-serif;
   }
 
-  a.category-link {
+  a {
     text-decoration: none;
     font-size: 12px;
     color: var(--category-color);
@@ -125,11 +125,3 @@
     </div>
   </div>
 </div>
-
-<!-- <svelte:head>
-  <meta property="og:description" content={excerpt} />
-  <meta property="og:image" content={image.url} />
-  <meta
-    property="og:url"
-    content="https://www.shivanicenter.ro/articole/{category_slug}/{slug}" />
-</svelte:head> -->
