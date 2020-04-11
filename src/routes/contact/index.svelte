@@ -58,6 +58,16 @@
 
   let psychologists = [
     {
+      id: 0,
+      name: "Cabinet Shivani Center",
+      phone: "+40 790 420 493",
+      email: "shivanicenter.psychology@gmail.com",
+      image: "shivani-center",
+      url: "shivani-center",
+      address: "Str. George Vraca, nr.7 (zona Sala Palatului)",
+      program: "10:00 - 19:00"
+    },
+    {
       id: 1,
       name: "Psiholog Roxana Alecu",
       phone: "+40 790 420 493",
@@ -139,7 +149,7 @@
     font-family: var(--font-text);
     letter-spacing: 2px;
   }
-  span {
+  .contact-content span {
     font-size: 18px;
     color: var(--main-bg-color);
     font-family: var(--font-main);
@@ -183,11 +193,18 @@
     width: 100%;
   }
 
+  h4 {
+    width: 70%;
+  }
+
+  .contact {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
   @media screen and (max-width: 768px) {
-    span {
-      font-size: 18px;
-    }
-    span {
+    .contact-content span {
       font-size: 14px;
     }
 
@@ -210,9 +227,23 @@
 
 <div class="container">
   <Heading title="Date de contact" />
+  <div class="card my-5 p-5">
+    <div class="contact">
+      <h4 class="text-white text-center">
+        În această perioadă serviciile noastre sunt oferite
+        <span class="text-elegant">online.</span>
+      </h4>
+      <h4 class="text-white text-center">
+        Dacă doriți să intrați în contact cu noi, fie pentru simple întrebări,
+        curiozități, fie pentru a stabili o programare, ne puteți contacta prin
+        una din modalitățile puse la dispoziție.
+      </h4>
+      <h4 class="text-white text-center">Vă mulțumim!</h4>
+    </div>
+  </div>
   <div class="row">
     <div class="col-lg-5">
-      {#each psychologists as { id, name, email, phone, image, url } (id)}
+      {#each psychologists as { id, name, email, phone, image, url, address, program } (id)}
         <a href={url} rel="prefetch">
           <div class="card my-2 p-1 p-md-2 contact-container">
             <div class="contact-content">
@@ -229,6 +260,22 @@
                 </span>
                 <span class="text-white">{email}</span>
               </div>
+              {#if program}
+                <div class="row m-1">
+                  <span class="mr-3 text-white">
+                    <i class="fas fa-clock" />
+                  </span>
+                  <span class="text-white">{program}</span>
+                </div>
+              {/if}
+              {#if address}
+                <div class="row m-1">
+                  <span class="mr-3 text-white">
+                    <i class="fas fa-map-marker-alt" />
+                  </span>
+                  <span class="text-white">{address}</span>
+                </div>
+              {/if}
             </div>
             <div class="avatar white">
               <img
@@ -276,7 +323,7 @@
               <div class="col-md-12 p-3">
                 <TextInput
                   controlType="textarea"
-                  rows="10"
+                  rows="15"
                   id="mesaj"
                   label="Mesaj"
                   value={message}

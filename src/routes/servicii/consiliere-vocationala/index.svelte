@@ -32,7 +32,7 @@
       <p class="paragraph-text">
         Într-o societate grăbită şi în permanentă schimbare, serviciile
         psihologilor s-au extins şi s-au dezvoltat în funcţie de noile nevoi ale
-        oamenilor. Un astfel de serviciu care a apărut este
+        oamenilor. Un astfel de serviciu este
         <span class="text-elegant font-weight-bold">
           consilierea vocaţională
         </span>
@@ -40,9 +40,9 @@
       </p>
       <p class="paragraph-text">
         Aşteptările, perspectivele, chiar şi conceptul de satisfacţie la locul
-        de muncă s-a schimbat major în ultimii ani. Apariţia noilor locuri de
+        de muncă, s-au schimbat major în ultimii ani. Apariţia noilor locuri de
         muncă, dezvoltarea tehnologiei şi uşurinţa prin care avem acces la
-        informaţie a determinat schimbări frecvente ale acestor nevoi, diferite
+        informaţie, a determinat schimbări frecvente ale acestor nevoi, diferite
         la fiecare om în parte.
       </p>
       <p class="paragraph-text">
@@ -52,15 +52,15 @@
       </p>
       <p class="paragraph-text">
         Funcțiile procesului de consiliere vocațională - funcții prezente în
-        formarea unor strategii realiste de opțiuni profesionale
+        formarea unor strategii realiste de opțiuni profesionale:
       </p>
       <p class="paragraph-text">
         1. Funcția cognitivă se materializează în procesul cunoașterii și
-        autocunoasterii potențialului de care dispunem la un moment dat:
+        autocunoașterii potențialului de care dispunem la un moment dat:
       </p>
       <ul class="px-3 text-white">
         <li class="paragraph-list-items">
-          se oferă informații relevante despre nivelului de dezvoltare a
+          se oferă informații relevante despre nivelul de dezvoltare a
           aptitudinilor, despre structura intereselor și valorilor personale
         </li>
         <li class="paragraph-list-items">
@@ -73,26 +73,26 @@
         </li>
       </ul>
       <p class="paragraph-text">
-        2. Funcția formativă și de dezvoltare personală-dezvoltarea stimei de
+        2. Funcția formativă și de dezvoltare personală - dezvoltarea stimei de
         sine, încredere în forțele proprii, dezvoltarea abilităților sociale
       </p>
       <p class="paragraph-text">
-        3. Funcția de inițiere și reglare a comportamentului decizional-analiză
-        competențelor și independența în luarea deciziilor
+        3. Funcția de inițiere și reglare ale comportamentului decizional -
+        analiza competențelor și independența în luarea deciziilor
       </p>
       <p class="paragraph-text">
         4. Funcția de planificare a carierei pe termen mediu și lung
       </p>
       <p class="paragraph-text">
-        5. Funcția de reabilitare,reorientare și reconversie profesională în
+        5. Funcția de reabilitare, reorientare și reconversie profesională în
         situații de criză economică sau a scăderii capacității de muncă.
         Adoptarea unor măsuri personale de monitorizare a schimbărilor survenite
-        pe piața muncii și elaborarea unor planuri personale de planificare a
-        propriei cariere, în acord cu modificările capacității de muncă.
+        pe piața muncii și elaborarea unor planuri personale a propriei cariere,
+        în acord cu modificările capacității de muncă.
       </p>
 
       <p class="paragraph-text">
-        Procesul de Consiliere Vocaţională încearcă să răspundă la întrebări
+        Procesul de consiliere vocaţională încearcă să răspundă la întrebări
         precum:
       </p>
       <ul class="px-3 text-white">
@@ -115,7 +115,7 @@
       </ul>
       <p class="paragraph-text">
         Consilierea vocaţională este activitatea prin care clientul primeşte
-        sprijin cum ar fi:
+        sprijin precum:
       </p>
       <ul class="px-3 text-white">
         <li class="paragraph-list-items">Să se cunoască mai bine pe sine</li>
@@ -123,11 +123,11 @@
           Să înțeleagă lumea muncii, piață muncii
         </li>
         <li class="paragraph-list-items">
-          Să descopere şi să realizeze managementul efficient al abilităților
+          Să descopere şi să realizeze managementul eficient al abilităților
           pentru carieră
         </li>
         <li class="paragraph-list-items">
-          Să aleagă sau o profesie corespunzătoare aspirațiilor, valorilor,
+          Să aleagă sau nu o profesie corespunzătoare aspirațiilor, valorilor,
           intereselor și aptitudinilor sale
         </li>
         <li class="paragraph-list-items">

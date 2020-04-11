@@ -35,7 +35,7 @@
         a apărut în urmă cu peste 100 de ani, dar termenul a fost popularizat în
         1980 de către C.M. Anderson. Psihoeducația îmbină psihoterapia și
         educația, cu scopul de a ajuta oamenii să înțeleagă și să învețe cum să
-        gestioneze anumite situații cu care se confruntă în viața cotidiană.
+        gestioneze anumite situații, cu care se confruntă în viața cotidiană.
       </p>
       <p class="paragraph-text">
         Ea poate fi folosită într-o arie largă de situații, atât în problematici
@@ -53,14 +53,14 @@
         (din înțelepciunea orientală)
       </p>
       <p class="paragraph-text">
-        Psihoeducația s-a dovedit ca fiind foarte eficientă în tratamentul
-        tulburărilor de sănătate mentală. Ea oferă oamenilor condiții de
-        sănătate mintală, informații despre cauzele, simptomele, prognosticul și
-        tratamentele afecțiunii lor diagnosticate.
+        Psihoeducația s-a dovedit foarte eficientă în tratamentul tulburărilor
+        de sănătate mintală. Ea oferă oamenilor condiții de sănătate mintală,
+        informații despre cauzele, simptomele, prognosticul și tratamentele
+        afecțiunilor diagnosticate.
       </p>
       <p class="paragraph-text">
-        Dacă te angajezi în psihoeducație ca elev, poți află la ce să te
-        aștepți, ce poți face și cum să îți îmbunătătesti starea. Lipsa
+        Dacă te angajezi în psihoeducație ca elev, poți afla la ce să te
+        aștepți, ce poți face și cum să îți îmbunătățești starea. Lipsa
         informațiilor despre diverse aspecte ale vieții poate fi un factor al
         problemelor personale cu care se confruntă oamenii.
       </p>
@@ -73,7 +73,7 @@
             Mai multe tipuri diferite de profesioniști din domeniul sănătății
             mintale pot oferi psihoeducație:
           </p>
-          <ul class="px-3">
+          <ul class="ml-3">
             <li class="paragraph-list-items">Terapeuţi</li>
             <li class="paragraph-list-items">Psihiatri</li>
             <li class="paragraph-list-items">
@@ -81,11 +81,6 @@
             </li>
             <li class="paragraph-list-items">Specialiști în psihoeducație</li>
           </ul>
-          <p class="paragraph-text">
-            După ce au primit psihoeducație de la oricare dintre acești
-            profesioniști, alte persoane pot ajuta la schimbul de informații cu
-            persoanele care primesc tratament.
-          </p>
         </div>
         <div class="col-md-5">
           <img
@@ -100,7 +95,7 @@
       <ul class="p-3">
         <li class="paragraph-list-items">
           Un terapeut care explică unei persoane aflate în terapie modalitățile
-          în care poate avea un impact asupra stării de sănătate mintală
+          care pot avea un impact asupra stării de sănătate mintală
         </li>
         <li class="paragraph-list-items">
           Un psihiatru care descrie modul în care un medicament prescris poate

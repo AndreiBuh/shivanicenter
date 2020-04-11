@@ -41,7 +41,7 @@
         ajutor, la cerere, persoanelor aflate într-o perioadă dificilă din viața
         lor. Aceștia se află într-un moment de criză, într-un impas, în ceea ce
         privește găsirea unor soluții la problemele cu care se confruntă pe plan
-        personal sau professional.
+        personal sau profesional.
       </p>
       <p class="paragraph-text">
         Asociația Britanică pentru Consiliere spune despre consilierea
@@ -61,29 +61,40 @@
       </p>
       <p class="paragraph-text">
         Consilierea psihologică este similară psihoterapiei în multe privințe,
-        însă există câteva distincții: după gradul de severitate al tuburării
-        clientului - consilierea este indicată pentru prevenirea apariției
-        tulburărilor psihologice și se adresează persoanelor cu dezechilibre
-        ușoare ale personalității, în timp ce psihoterapia acoperă un spectru
-        mai larg de intervenție, ce cuprinde afecțiuni majore ale
-        personalității; după natura problemelor cu care vine clientul,
-        consilierea este indicată pentru problemele interpersonale care se pot
-        rezolva prin luarea unor decizii in armonie cu propriile nevoi, dorințe
-        și motive; după durata, consilierea este mai scurtă (6-10 sedinte),în
-        timp ce psihoterapia poate dura și câțiva ani.
+        însă există câteva distincții:
       </p>
+      <ul class="ml-3">
+        <li class="paragraph-list-items">
+          după gradul de severitate al tulburării clientului - consilierea este
+          indicată pentru prevenirea apariției tulburărilor psihologice și se
+          adresează persoanelor cu dezechilibre ușoare ale personalității, în
+          timp ce psihoterapia acoperă un spectru mai larg de intervenție, ce
+          cuprinde afecțiuni majore ale personalității
+        </li>
+        <li class="paragraph-list-items">
+          după natura problemelor cu care vine clientul - consilierea este
+          indicată pentru problemele interpersonale care se pot rezolva prin
+          luarea unor decizii în armonie cu propriile nevoi, dorințe și motive
+        </li>
+        <li class="paragraph-list-items">
+          după durată - consilierea este mai scurtă (6-10 ședințe),în timp ce
+          psihoterapia poate dura și câțiva ani
+        </li>
+      </ul>
 
       <p class="paragraph-text">
-        Metodele și tehnicile utilizate sunt comune psihoterapiei și
-        consilierii. Orientarea terapeutică este cea care influențează pașii și
-        etapele terapeutice. Scopul consilierii este de a îl face pe client să
-        își folosească cât mai eficient resursele personale.
+        Metodele și tehnicile utilizate sunt comune cu cele ale psihoterapiei.
+        Orientarea terapeutică este cea care influențează pașii și etapele
+        terapeutice. Scopul consilierii este de a-l face pe client să își
+        folosească cât mai eficient resursele personale.
       </p>
       <p class="paragraph-text">
         La final, ceea ce-ți oferă consilierea este „să te ajute să te ajuți
-        singur”, căci doar noi suntem cei care putem să ne schimbăm. Rolul
-        nostru este de a vă ghida, de a merge împreună, de a fi acolo și de a vă
-        ajută într-un mod activ să vă autodescoperiți.
+        singur”, căci doar noi suntem cei care putem să ne schimbăm.
+      </p>
+      <p class="paragraph-text">
+        Rolul nostru este de a vă ghida, de a merge împreună, de a fi acolo și
+        de a vă ajută într-un mod activ să vă autodescoperiți.
       </p>
 
       <p class="mt-3 paragraph-text">
@@ -112,14 +123,14 @@
 
       <p class="paragraph-text">
         Abordarea noastră este una umanist-experiențială, holistică, integrativă
-        și transpersonală centrată pe analiză de simbol, auto-schimbare prin
+        și transpersonală, centrată pe analiză de simbol, auto-schimbare prin
         intermediul exercițiului provocator, improvizației și meditației
         creatoare cu suport art-terapeutic și expresiv.
       </p>
       <p class="paragraph-text">
         Metoda P.E.U. (psihoterapia experiențială a unificării) utilizează
         puterea transfiguratoare a metaforei și a resemnificării experienței
-        trăite, reconectand Egoul cu Sinele și stimulând procesele de unificare
+        trăite, reconectând Egoul cu Sinele și stimulând procesele de unificare
         și integrare interne și externe.
       </p>
       <p class="paragraph-text">

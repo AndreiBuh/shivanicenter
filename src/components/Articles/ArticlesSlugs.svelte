@@ -62,6 +62,10 @@
     text-transform: uppercase;
   }
   /* Articole pages style START */
+  .article-card-body {
+    width: 90%;
+    margin: 0 auto;
+  }
 
   .article-card-body :global(p) {
     font-family: var(--font-text), sans-serif;

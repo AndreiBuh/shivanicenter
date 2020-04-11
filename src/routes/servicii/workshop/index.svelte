@@ -35,21 +35,23 @@
         <span class="text-elegant font-weight-bold">workshop</span>
         reprezintă un eveniment la care participă un grup restrâns de persoane,
         pornind de la un subiect de interes unde participanţii vor lucra,
-        discuta şi cunoaşte mai bine tematica respectivă pentru a ajunge la
+        discuta şi cunoaşte mai bine tematica respectivă, pentru a ajunge la
         nişte rezultate concrete.
       </p>
       <p class="paragraph-text">
         Diferenţa dintre o conferinţă şi un workshop nu se referă doar la
         numărul participanţilor, ci şi la modul de prezentare a informaţiilor şi
-        a modului în care oamenii sunt implicaţi. De cele mai multe ori în
-        cadrul unei conferinţe publicul ascultă şi află informaţii prezentate
-        sub formă de “lecţie”, în timp ce un workshop presupune un grad ridicat
-        de implicare şi de socializare, atât între coordonator şi grup, cât şi
-        între ei ca participanţi.
+        al felului în care oamenii sunt implicaţi.
+      </p>
+      <p class="paragraph-text">
+        De cele mai multe ori, în cadrul unei conferinţe publicul ascultă şi
+        află informaţii prezentate sub formă de “lecţie”, în timp ce un workshop
+        presupune un grad ridicat de implicare şi de socializare, atât între
+        coordonator şi grup, cât şi între participanţi.
       </p>
       <p class="paragraph-text">
         În funcţie de nevoile fiecăruia, workshop-urile oferă o plajă largă de
-        subiecte şi teme de interes cum ar fi teme legate de cuplu, familie şi
+        subiecte şi teme de interes, cum ar fi teme legate de cuplu, familie şi
         copil, psihoeducaţie, legături între emoţii-corp-gânduri, depăşirea unor
         evenimente dificile.
       </p>
@@ -58,20 +60,20 @@
         dezvoltare personală si cele pentru grupurile de suport.
       </p>
       <p class="paragraph-text">
-        În prima variantă avem grupuri orientate spre autocunoaştere, dorind să
-        îşi exerseze şi să îşi dezvolte abilităţile creative, tipul de
-        comunicare, modul de relaţionare cu anumite persoane. În cadrul acestora
-        tehnicile de art-therapy au un rol esenţial în a da şansa oamenilor să
-        se exprime într-un mod diferit, să fie spontani şi creativi.
+        În prima variantă, avem grupuri orientate spre autocunoaştere, care
+        doresc să îşi exerseze şi să îşi dezvolte abilităţile creative, tipul de
+        comunicare, modul de relaţionare cu anumite persoane. În cadrul
+        acestora, tehnicile de art-therapy au un rol esenţial în a da şansa
+        oamenilor să se exprime într-un mod diferit, să fie spontani şi
+        creativi.
       </p>
       <p class="paragraph-text">
-        În a doua variantă avem persoane cu o nevoie de a fi ascultate, de a
-        face faţă unor evenimente din trecut sau din prezent ce îi afectează în
+        În a doua variantă, avem persoane cu nevoia de a fi ascultate, de a face
+        faţă unor evenimente din trecut sau din prezent ce îi afectează în
         relaţia de cuplu, familie sau la locul de muncă. Subiectele discutate
-        vor fi mult mai personale şi profunde şi tocmai de aceea spre deosebire
-        de conferinţă, vor fi mai multe întâlniri în funcţie de nevoile
-        participanţilor (de obicei sunt între 6 şi 10 întâlniri, o dată pe
-        săptămână la o oră stabilită).
+        vor fi mult mai personale şi profunde. Spre deosebire de conferinţă, vor
+        fi mai multe întâlniri, în funcţie de nevoile participanţilor (de obicei
+        sunt între 6 şi 10 întâlniri, o dată pe săptămână la o oră stabilită).
       </p>
       <p class="paragraph-text">
         Asemănările dintre cele două tipuri se referă la faptul că participanţii
@@ -85,14 +87,15 @@
       </p>
       <p class="paragraph-text">
         Se va respecta fiecare părere în parte, fiecare participant va avea
-        ocazia să vorbească şi să împartă experienţe cu ceilalţi şi totul va
+        ocazia să vorbească şi să împartă experienţe cu ceilalţi, iar totul va
         rămâne confidenţial.
       </p>
 
       <p class="paragraph-text">
         Importanţa workshop-urilor a crescut foarte mult în ultimii ani, fiind o
-        soluţie bună nu doar pentru dezvoltare personală şi psihoeducaţie, dar
-        şi pentru angajarea în activităţi şi discuţii terapeutice.
+        soluţie bună nu doar pentru dezvoltare personală şi pentru
+        psihoeducaţie, ci şi pentru angajarea în activităţi şi discuţii
+        terapeutice.
       </p>
     </div>
   </div>

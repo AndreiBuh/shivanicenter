@@ -31,12 +31,14 @@
     <div class="p-2 mt-3">
       <p class="paragraph-text">
         <span class="text-elegant font-weight-bold">Terapia prin artă</span>
-        , o formă de terapie din ce în ce mai des întâlnită, ajută persoanele
-        indiferent de gen, vârstă sau statut social, prin posibilitatea ei de a
-        pătrunde adânc în psihicul individului, folosindu-se de puterea
-        simbolului pentru a scoate la iveală atât potenţialul, cât şi
-        posibilitatea persoanei de a se manifesta sincer faţă de ea însăşi,
-        într-un mediu armonios.
+        este o formă de terapie din ce în ce mai des întâlnită. Este utilă
+        tuturor persoanelor, indiferent de gen, vârstă sau statut social, prin
+        posibilitatea ei de a pătrunde adânc în psihicul individului.
+      </p>
+      <p class="paragraph-text">
+        Se folosește de puterea simbolului pentru a scoate la iveală atât
+        potenţialul, cât şi posibilitatea persoanei de a se manifesta sincer
+        faţă de ea însăşi, într-un mediu armonios.
       </p>
       <p class="paragraph-text">
         Exemple de activităţi: colaje, desene, lucrul cu lutul, diverse tipuri
@@ -54,14 +56,14 @@
         la restul proceselor complexe.
       </p>
       <p class="paragraph-text">
-        Fie că este vorba de art-teraphy, meloterapie sau dramaterapie, acestea
+        Fie că este vorba de art-therapy, meloterapie sau dramaterapie, acestea
         scot la iveală aspecte unice şi inconștiente, oferind o nouă
         perspectivă.
       </p>
       <p class="paragraph-text">
         Viața interioară a oamenilor este incredibil de bogată, fie prin
-        complexitatea ei, fie prin faptul că tocmai diferențele dintre ei îi fac
-        atât de speciali.
+        complexitatea ei, fie prin faptul că tocmai diferențele dintre aceștia
+        îi fac atât de speciali.
       </p>
       <p class="paragraph-text">
         În celebra sa piramidă a nevoilor, Maslow prezintă anumite tipuri de
@@ -70,11 +72,12 @@
         de a face ceva special pentru tine şi pentru ceilalţi.
       </p>
       <p class="paragraph-text">
-        În concepţia sa, creativitatea şi lipsa prejudiciilor, alături de
+        În concepţia sa, creativitatea şi lipsa prejudecăților, alături de
         celelalte nevoi complexe, aduc linişte şi împlinire emoţională, scoţând
         persoana din acel stadiu al stagnării. Productivitatea este şi ea
         valorificată într-un mod pozitiv, iar dacă se manifestă sub forma
-        pasiunilor, atunci personalitatea se diferenţiază treptat faţă de alţii.
+        pasiunilor, atunci personalitatea se diferenţiază treptat faţă de
+        altele.
       </p>
       <p class="paragraph-text">
         Sentimentul că ai ceva al tău, pe care doar tu poţi să-l faci în felul
@@ -96,9 +99,8 @@
           <p class="paragraph-text">
             Această experienţă nu dispare subit, rămâne alături de individ,
             oferindu-i o perspectivă unică, iar dacă el o va aprecia ca fiind
-            pozitivă şi benefică contextului în care se află, dacă oferă
-            răspunsurile celor mai marcante întrebări, atunci impactul ei va
-            influenţa structura sa psihică.
+            pozitivă şi benefică contextului în care se află, atunci impactul ei
+            va influenţa structura sa psihică.
           </p>
           <p class="paragraph-text">
             Fie că este vorba de gânduri repetitive negative, stări de nelinişte
@@ -108,10 +110,10 @@
           </p>
           <p class="paragraph-text">
             Acea schimbare va determina activarea adevăratului său potenţial,
-            conectându-l cu propriul sine după acea perioadă de stagnare şi
-            agitaţie psihică. Astfel am învăţat că schimbarea este normală,
-            chiar benefică pentru descoperirea adevăratelor resurse şi valori,
-            cele care întăresc până la urmă rezilienţa.
+            conectându-l cu sinele după acea perioadă de stagnare şi agitaţie
+            psihică. Astfel am învăţat că schimbarea este normală, chiar
+            benefică pentru descoperirea adevăratelor resurse şi valori, care
+            întăresc până la urmă rezilienţa.
           </p>
         </div>
         <div class="col-md-4">

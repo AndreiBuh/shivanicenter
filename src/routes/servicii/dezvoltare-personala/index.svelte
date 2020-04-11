@@ -52,7 +52,7 @@
       </p>
       <p class="paragraph-text">
         Să citim cărți, să participăm la cursuri, să ne uităm la filme
-        motivaționale și să ascultăm speakeri motivaționali nu înseamnă
+        motivaționale și să ascultăm speakeri motivaționali, nu înseamnă
         dezvoltare personală. Toate acestea au rolul lor în viața noastră, însă
         autorealizarea presupune schimbare și acțiune, ce determină apariția
         unor efecte semnificative în personalitatea fiecăruia.
@@ -73,7 +73,7 @@
         zona noastră de comfort și să schimbăm ce nu a funcționat până acum.
       </p>
       <p class="paragraph-text">
-        Conștientizarea se produce printr-un insight(în psihologie, insight
+        Conștientizarea se produce printr-un insight (în psihologie, insight-ul
         apare atunci când o soluție la o problemă se prezintă rapid și fără
         avertisment) și este total diferită de a ști, de a cunoaște informații
         provenite din diverse surse.
@@ -95,8 +95,8 @@
         și a simți!
       </p>
       <p class="paragraph-text">
-        Atunci când suntem întrebați cine suntem obișnuim să ne spunem numele și
-        apoi să ne identificăm cu diferite roluri din viața noastră (mamă,
+        Atunci când suntem întrebați cine suntem, obișnuim să ne spunem numele
+        și apoi să ne identificăm cu diferite roluri din viața noastră (mamă,
         fiică, meserie etc.), însă noi suntem mai mult de atât. Dezvoltarea
         personală ne ajută să descoperim care sunt credințele, convingerile și
         limitele noastre ce ne definesc alegerile, personalitatea, faptele.
@@ -117,7 +117,7 @@
         securitate.
       </p>
       <p class="paragraph-text">
-        Următorul palier cuprinde nevoia de proprietate și dragste, nevoia de
+        Următorul palier cuprinde nevoia de proprietate și dragoste, nevoia de
         stimă și apreciere, nevoi cognitive și nevoi estetice, de frumusețe.
       </p>
       <p class="paragraph-text">
@@ -127,9 +127,9 @@
         transcendență și dorință de a crea.
       </p>
       <p class="paragraph-text">
-        Conform percepției lui Maslow putem spune că nevoia de dezvoltare și
+        Conform percepției lui Maslow, putem spune că nevoia de dezvoltare și
         autorealizare este chiar nevoia omului de a se adapta continuu la mediu,
-        prin a cărei satisfacere omul devine armonios cu întreg mediul.
+        prin a cărei satisfacere devine armonios cu întreg mediul.
       </p>
       <div class="text-center my-4">
         <img
@@ -146,13 +146,15 @@
       <p class="paragraph-text">
         În următoarele paragrafe o să vorbim despre câteva dintre ele, pentru a
         putea înțelege mai bine ce presupune dezvoltarea personală.
+      </p>
+      <p class="paragraph-text">
         Disponibilitatea și deschiderea spre schimbare este cheia pentru o
-        persoană ce a pornit pe această cale care nu se dovedește a fi ușoară,
+        persoană ce a pornit pe această cale, care nu se dovedește a fi ușoară,
         însă odată ce viața se îmbunătățește semnificativ, satisfacția e pe
         măsură.
       </p>
       <p class="paragraph-text">
-        Iată câțiva indicatori a persoanelor aflate în procesul dezvoltării
+        Iată câțiva indicatori ai persoanelor aflate în procesul dezvoltării
         personale:
       </p>
       <ul class="px-3">
@@ -169,8 +171,8 @@
         <li class="paragraph-list-items">Prospețime și vitalitate continuă</li>
         <li class="paragraph-list-items">Experiență mistică</li>
         <li class="paragraph-list-items">
-          Redimensionarea, integrarea și redirecționarea responsabilă și
-          eficientă a propriului scenariu de viață
+          Redimensionarea, integrarea, redirecționarea responsabilă și eficientă
+          a propriului scenariu de viață
         </li>
         <li class="paragraph-list-items">
           Îmbunătățirea dinamicii relaționale și colective
