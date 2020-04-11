@@ -218,6 +218,11 @@
     .avatar img {
       width: 70px;
     }
+
+    h4 {
+      width: 100%;
+      font-size: 20px;
+    }
   }
 </style>
 
@@ -270,7 +275,7 @@
               {/if}
               {#if address}
                 <div class="row m-1">
-                  <span class="mr-3 text-white">
+                  <span class="mr-2 mr-md-3 text-white">
                     <i class="fas fa-map-marker-alt" />
                   </span>
                   <span class="text-white">{address}</span>

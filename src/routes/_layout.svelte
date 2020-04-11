@@ -25,9 +25,11 @@
   }
 
   .spinner {
-    position: absolute;
-    top: 45%;
-    left: 45%;
+    position: fixed;
+    z-index: 1031;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
   .btn-scroll {
