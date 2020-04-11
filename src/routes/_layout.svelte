@@ -136,6 +136,14 @@
     :global(.service-title) {
       font-size: 24px !important;
     }
+
+    :global(.paragraph-text) {
+      font-size: 18px;
+    }
+
+    :global(.paragraph-list-items) {
+      font-size: 16px;
+    }
   }
 </style>
 

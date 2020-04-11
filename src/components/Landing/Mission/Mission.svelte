@@ -65,7 +65,7 @@
   }
 
   img {
-    width: 22%;
+    width: 15%;
   }
 
   .form {
@@ -110,7 +110,7 @@
     }
 
     img {
-      width: 15%;
+      width: 10%;
     }
   }
 </style>
