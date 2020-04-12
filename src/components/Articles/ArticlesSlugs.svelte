@@ -148,3 +148,13 @@
     </div>
   </div>
 </div>
+
+<svelte:head>
+  <meta
+    property="og:url"
+    content="https://www.shivanicenter.ro/articole/{category_slug}/{slug}" />
+  <meta property="og:description" content={excerpt} />
+  <meta
+    property="og:image"
+    content="https://res.cloudinary.com/www-shivanicenter-ro/image/upload/v1586201690/t7bvt6iov9qterpe0hnw.jpg" />
+</svelte:head>
