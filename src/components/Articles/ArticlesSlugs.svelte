@@ -156,8 +156,12 @@
   </div>
 </div>
 
-<svelte:head>
-  <meta
-    property="og:url"
-    content="https://www.shivanicenter.ro/articole/{category_slug}/{slug}" />
-</svelte:head>
+<iframe
+  src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fwww.shivanicenter.ro%2Farticole%2Fmeditatie-yoga%2Frespira-din-nou-exercitii-de-combatere-a-stresului&layout=button_count&size=small&width=77&height=20&appId"
+  width="77"
+  height="20"
+  style="border:none;overflow:hidden"
+  scrolling="no"
+  frameborder="0"
+  allowTransparency="true"
+  allow="encrypted-media" />
