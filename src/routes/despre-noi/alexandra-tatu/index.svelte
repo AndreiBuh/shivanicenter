@@ -135,18 +135,6 @@
         <p class="paragraph-text">Cu drag,</p>
         <p class="signature">Tatu Alexandra</p>
       </div>
-      <div
-        class="fb-share-button"
-        data-href="https://www.shivanicenter.ro/articole/dezvoltare-personala/reactiv-sau-proactiv"
-        data-layout="button_count"
-        data-size="small">
-        <a
-          target="_blank"
-          href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.shivanicenter.ro%2Farticole%2Fdezvoltare-personala%2Freactiv-sau-proactiv&amp;src=sdkpreparse"
-          class="fb-xfbml-parse-ignore">
-          Share
-        </a>
-      </div>
 
       <hr class="style-hr" />
       <TestimonialList {testimonials} />
