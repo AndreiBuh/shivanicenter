@@ -83,7 +83,7 @@
         într-un mediu relaxant și sigur.*
       </p>
       <p class="paragraph-text">
-        Centru este fondat în anul 2019, la inițiativa psihologului
+        Centrul este fondat în anul 2019, la inițiativa psihologului
         <a href="despre-noi/roxana-alecu" class="links">
           <span class="text-elegant font-weight-bold">Alecu F. Roxana</span>
         </a>
