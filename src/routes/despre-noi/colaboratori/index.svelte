@@ -8,7 +8,7 @@
       imageUrl: "testimonial-alexandra",
       jobTitle: "Psihoterapeut exeperiențial",
       text:
-        "După ce am obținut Certificatul de Liberă Practică, am înființat propriul meu cabinet unde ofer ca și servicii, consiliere psihologică și psihoterapie.",
+        "Psiholog clinician, psihosexolog și psihoterapeut experiențial format în terapia unificării, calificat pentru a oferi consiliere si terapie individuală, de cuplu, de familie, cu copiii și cu grupuri.",
       slug: "alexandra-pana",
       button: true,
       facebook: "https://www.facebook.com/alexandrapana.psihoterapeut/",

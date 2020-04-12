@@ -107,12 +107,10 @@
         pot satisface nevoia de a te conecta la interior și simultan, la
         exterior cu mediul tău natural și social.
       </p>
-      <blockquote>
-        <em>
-          Nu îți voi oferi soluții, ci te voi iniția în a descoperi, crea și
-          evalua propriile soluții pentru că TU ești expertul în propria viață.
-        </em>
-      </blockquote>
+      <p class="paragraph-text">
+        Nu îți voi oferi soluții, ci te voi iniția în a descoperi, crea și
+        evalua propriile soluții pentru că TU ești expertul în propria viață.
+      </p>
       <p class="paragraph-text">
         Și pentru a folosi o metaforă, nu îți voi oferi „pești”, ci te voi ajuta
         să devii pescar, dar ca orice pescar, tu poți pescui mai mult sau mai
