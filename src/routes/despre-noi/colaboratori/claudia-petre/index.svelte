@@ -75,17 +75,15 @@
         De când am absolvit cursul sunt într-o continuă documentare, participând
         la conferințe și seminarii despre nutriție.
       </p>
-      <blockquote>
-        <em>
-          Ca farmacist, interacționez cu foarte mulți oameni ce suferă de
-          diferite afacțiuni. Am ajuns la concluzia că orice tratament cronic
-          trebuie să înceapă cu adoptarea unui stil de viață sănătos și o
-          alimentație corespunzătoare. 
-        </em>
-      </blockquote>
+      <p class="paragraph-text">
+        Ca farmacist, interacționez cu foarte mulți oameni ce suferă de diferite
+        afacțiuni. Am ajuns la concluzia că orice tratament cronic trebuie să
+        înceapă cu adoptarea unui stil de viață sănătos și o alimentație
+        corespunzătoare. 
+      </p>
       <p class="paragraph-text">
         Astfel, am încercat să sfatuiesc pacienții ce au călcat pragul farmaciei
-        nu numai asupra medicamentelor ci și asupra alimentației, reușind, în
+        nu numai asupra medicamentelor, ci și asupra alimentației, reușind, în
         unele cazuri, sa îi conving să renunțe la alimentele ce puteau agrava
         afecțiunile de care sufereau.
       </p>
@@ -107,7 +105,7 @@
         ci este un proces îndelungat.
       </p>
       <p class="paragraph-text">
-        Urmând cu strictețe planul alimentar, vă va simți mai energic, veți
+        Urmând cu strictețe planul alimentar, vă veți simți mai energic, veți
         simți schimbarea în bine a tonusului general și veți ajunge la
         rezultatele dorite fără a depune efort.
       </p>

@@ -8,7 +8,7 @@
       imageUrl: "testimonial-alexandra",
       jobTitle: "Psihoterapeut exeperiențial",
       text:
-        "Numele meu este Alexandra Pană și sunt psihoterapeut! Pe fundal aud în cor câteva persoane “Bună Alexandraaa”, cam așa încep întâlnirile în grupurile de terapie pe care le mai vedem prin filme. Nu au fost puține ipostazele în care am fost pusă în postura de a mă prezenta de-a lungul vieții și de fiecare dată am ales să o fac într-un mod cât mai creativ.",
+        "După ce am obținut Certificatul de Liberă Practică, am înființat propriul meu cabinet unde ofer ca și servicii, consiliere psihologică și psihoterapie.",
       slug: "alexandra-pana",
       button: true,
       facebook: "https://www.facebook.com/alexandrapana.psihoterapeut/",
@@ -20,7 +20,7 @@
       imageUrl: "testimonial-gina",
       jobTitle: "Psihoterapeut exeperiențial",
       text:
-        "Sunt Gina Ilie și dacă ar fi să îmi definesc statutul profesional, probabil că aș spune că sunt psiholog clinician, consilier psihologic și psihoterapeut experiențial centrat pe adult-cuplu-familie-copil, artterapeut și psihosexolog.",
+        "Psiholog clinician, consilier psihologic și psihoterapeut experiențial centrat pe adult-cuplu-familie-copil, artterapeut și psihosexolog.",
       slug: "gina-ilie",
       button: true,
       facebook: "https://www.facebook.com/PsiGinaIlie/",
@@ -32,7 +32,7 @@
       imageUrl: "testimonial-claudia",
       jobTitle: "Tehnician nutriționist",
       text:
-        "Numele meu este Claudia Petre și sunt de meserie farmacist. Am absolvit Facultatea de medicină și Farmacie din cadrul UMF Carol Davila în anul 2013. Fiind pasionată de nutriție, am urmat un curs de 8 luni în cadrul Școlii Fitness Scandinavia, în urma căruia am obținut acreditarea de tehnician nutriționist. ",
+        "Tehnician nutriționist, sfaturi, idei și soluții nutriționale, construirea unui plan alimentar personalizat, adecvat nevoilor tale. ",
       slug: "claudia-petre",
       button: true,
       facebook: "https://www.facebook.com/claudia.stancu.33",
