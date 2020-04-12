@@ -25,37 +25,6 @@
 </script>
 
 <style>
-  /* social share */
-
-  /* ul {
-    display: flex;
-    justify-content: center;
-    height: 40px;
-  }
-  ul li {
-    list-style: none;
-  }
-  ul li a {
-    display: block;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    color: #fff;
-    margin: 0 2px;
-    border-radius: 50%;
-    font-size: 18px;
-    transition: 1s;
-  } */
-
-  /* ul li:nth-child(1) a {
-    background: #3b5999;
-  }
-  ul li:nth-child(2) a {
-    background: #0077b5;
-  }
-  ul li:nth-child(3) a {
-    background: #ee2a7b;
-  } */
   /* like heart */
   .heart-box i,
   .heart-box span {
@@ -74,11 +43,6 @@
     color: #d20057;
     cursor: pointer;
   }
-
-  /* ul li a:hover {
-    transform: translateY(-5px);
-    transition: 0.4s ease-out;
-  } */
 </style>
 
 <div class="heart-box">
@@ -92,45 +56,3 @@
     <span>{likes}</span>
   </p>
 </div>
-
-<!-- <div class="article-share">
-  <ul>
-    <li>
-      <a href="www.facebook.com" rel="noopener">
-        <i class="fa fa-facebook" aria-hidden="true" />
-      </a>
-    </li>
-    <li>
-      <a href="www.linkedin.com" rel="noopener">
-        <i class="fa fa-linkedin" aria-hidden="true" />
-      </a>
-    </li>
-    <li>
-      <a href="www.instagram.com" rel="noopener">
-        <i class="fa fa-instagram" aria-hidden="true" />
-      </a>
-    </li>
-  </ul>
-</div> -->
-
-<!-- <iframe
-  src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fwww.shivanicenter.ro%2Farticole%2F{category_slug}%2F{slug}&layout=button_count&size=large&width=88&height=28&appId"
-  width="88"
-  height="28"
-  style="border:none;overflow:hidden"
-  scrolling="no"
-  frameborder="0"
-  allowTransparency="true"
-  allow="encrypted-media"
-  title={id} /> -->
-
-<a
-  href="whatsapp://send?text=https://www.shivanicenter.ro/articole/{category_slug}/{slug}"
-  data-action="share/whatsapp/share"
-  onClick="javascript:window.open(this.href, '',
-  'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return
-  false;"
-  target="_blank"
-  title="Share on whatsapp">
-  bla
-</a>
