@@ -80,9 +80,7 @@
     <h6>{name}</h6>
     <span class="text-uppercase">{jobTitle}</span>
     <hr />
-    <em>
-      <p class="dark-grey-text mt-4">{text}</p>
-    </em>
+    <p class="dark-grey-text mt-4">{text}</p>
     {#if button}
       <a href="/despre-noi/colaboratori/{slug}">
         <Button content="Citește mai mult" />

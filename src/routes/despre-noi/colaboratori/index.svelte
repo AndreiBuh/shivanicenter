@@ -32,7 +32,7 @@
       imageUrl: "testimonial-claudia",
       jobTitle: "Tehnician nutriționist",
       text:
-        "Tehnician nutriționist, sfaturi, idei și soluții nutriționale, construirea unui plan alimentar personalizat, adecvat nevoilor tale. ",
+        "Tehnician nutriționist, ofer sfaturi, idei și soluții nutriționale, construirea unui plan alimentar personalizat, adecvat nevoilor tale. ",
       slug: "claudia-petre",
       button: true,
       facebook: "https://www.facebook.com/claudia.stancu.33",
