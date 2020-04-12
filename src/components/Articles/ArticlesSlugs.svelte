@@ -155,3 +155,9 @@
     </div>
   </div>
 </div>
+
+<svelte:head>
+  <meta
+    property="og:url"
+    content="https://www.shivanicenter.ro/articole/{category_slug}/{slug}" />
+</svelte:head>
