@@ -65,6 +65,7 @@
   .quote {
     font-family: var(--font-main);
     font-size: 16px;
+    line-height: 20px;
     letter-spacing: 1px;
   }
 

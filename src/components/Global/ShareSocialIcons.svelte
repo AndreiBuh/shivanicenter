@@ -123,3 +123,14 @@
   allowTransparency="true"
   allow="encrypted-media"
   title={id} /> -->
+
+<a
+  href="whatsapp://send?text=https://www.shivanicenter.ro/articole/{category_slug}/{slug}"
+  data-action="share/whatsapp/share"
+  onClick="javascript:window.open(this.href, '',
+  'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return
+  false;"
+  target="_blank"
+  title="Share on whatsapp">
+  bla
+</a>
