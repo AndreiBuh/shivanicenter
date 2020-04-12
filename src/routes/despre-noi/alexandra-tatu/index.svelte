@@ -82,13 +82,11 @@
         obstacole mi-au dat șansa să văd ce este important pentru mine, ce îmi
         doresc să fac și ce îmi propun pentru viitor.
       </p>
-      <blockquote>
-        <em>
-          În iunie 2019 la Bookfest mi s-a îndeplinit visul, acela de a publica
-          romanul meu de debut, Cheile Sinelui (editura Berg), un proiect la
-          care am lucrat cu trup și suflet. 
-        </em>
-      </blockquote>
+      <p class="paragraph-text">
+        În iunie 2019 la Bookfest mi s-a îndeplinit visul, acela de a publica
+        romanul meu de debut, Cheile Sinelui (editura Berg), un proiect la care
+        am lucrat cu trup și suflet. 
+      </p>
       <p class="paragraph-text">
         Atunci când privești în tine găsești toate răspunsurile și asta am făcut
         și eu atunci când am avut propriile dubii. Totodată, pot spune că
@@ -136,6 +134,18 @@
       <div class="m-3 text-right">
         <p class="paragraph-text">Cu drag,</p>
         <p class="signature">Tatu Alexandra</p>
+      </div>
+      <div
+        class="fb-share-button"
+        data-href="https://www.shivanicenter.ro/articole/dezvoltare-personala/reactiv-sau-proactiv"
+        data-layout="button_count"
+        data-size="small">
+        <a
+          target="_blank"
+          href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.shivanicenter.ro%2Farticole%2Fdezvoltare-personala%2Freactiv-sau-proactiv&amp;src=sdkpreparse"
+          class="fb-xfbml-parse-ignore">
+          Share
+        </a>
       </div>
 
       <hr class="style-hr" />
