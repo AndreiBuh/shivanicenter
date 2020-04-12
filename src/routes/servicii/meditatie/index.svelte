@@ -51,11 +51,12 @@
         secolelor VI-V î.Hr., alte forme de meditație s-au dezvoltat în China
         taoistă și India budistă.
       </p>
-      <p class="paragraph-text">
-        În timp meditația a devenit mai răspândită în toată lumea.
-      </p>
+
       <div class="row">
         <div class="col-md-7 col-xs-12">
+          <p class="paragraph-text">
+            În timp meditația a devenit mai răspândită în toată lumea.
+          </p>
           <p class="paragraph-text">
             Pe de altă parte, termenul "mindfulness" este o traducere a
             cuvântului din pali sati din tradiția budistă, ce se bazează pe
@@ -92,7 +93,7 @@
             class="img-middle img-fluid rounded" />
         </div>
       </div>
-      <p class="paragraph-text">
+      <p class="paragraph-text mt-3">
         Permite accesul la aspectele de bază ale propriilor noastre minți și
         corpuri de care depinde chiar sănătatea noastră. Când mintea ta se
         clarifică și se deschide, inima ta o reflectă.
@@ -122,12 +123,7 @@
         iubirea, compasiunea sau iertarea, cunoscute sub numele de meditații
         „Open heart”.
       </p>
-      <p class="paragraph-text">
-        Se poate folosi corpul ca mijloc de dezvoltare a conștientizării,
-        practicând yoga, se poate folosi sunetul (din natura, boluri tibetane,
-        muzică etc.), ori se poate cânta sau intona cuvinte sacre, respectiv
-        mantre.
-      </p>
+
       <div class="row">
         <div class="col-md-5 col-xs-12">
           <img
@@ -135,7 +131,13 @@
             alt="mediatie"
             class="img-middle img-fluid rounded" />
         </div>
-        <div class="col-md-7 col-xs-12">
+        <div class="col-md-7 col-xs-12 mt-3">
+          <p class="paragraph-text">
+            Se poate folosi corpul ca mijloc de dezvoltare a conștientizării,
+            practicând yoga, se poate folosi sunetul (din natura, boluri
+            tibetane, muzică etc.), ori se poate cânta sau intona cuvinte sacre,
+            respectiv mantre.
+          </p>
           <p class="paragraph-text">
             Mindfulness este o formă de meditație Clear Mind, în timpul căreia
             se acordă atenție ritmului natural al respirației în timpul șederii.

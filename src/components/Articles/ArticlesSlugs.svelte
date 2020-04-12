@@ -87,7 +87,11 @@
 
   @media screen and (max-width: 768px) {
     .article-card-body {
-      width: 90%;
+      width: 95%;
+    }
+
+    .article-card-body :global(p) {
+      font-size: 16px;
     }
   }
 

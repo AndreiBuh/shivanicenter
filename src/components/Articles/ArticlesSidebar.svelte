@@ -1,20 +1,13 @@
 <script>
   import { onMount } from "svelte";
   import { fade, fly } from "svelte/transition";
-  // import SearchBar from "./SearchBar.svelte";
   import ArticlesTop from "./ArticlesTop.svelte";
   import Social from "../Global/Social.svelte";
   import InstagramSidebar from "./InstagramSidebar.svelte";
   import FacebookSidebar from "./FacebookSidebar.svelte";
+  import { categories } from "../../helpers/constants.js";
 
   const apiUrl = process.env.SAPPER_APP_API_URL;
-  let categories = [];
-
-  onMount(async () => {
-    const res = await fetch(`${apiUrl}/categories`);
-    const json = await res.json();
-    categories = json;
-  });
 </script>
 
 <style>
@@ -60,11 +53,6 @@
       <ArticlesTop />
     </div>
   </div>
-  <!-- <div class="card mt-5">
-    <div class="card-content text-center p-4">
-      <SearchBar />
-    </div>
-  </div> -->
 
   <div class="card mt-5">
     <h5 class="text-center p-3 my-0">Social media</h5>

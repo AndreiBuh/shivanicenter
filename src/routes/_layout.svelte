@@ -77,11 +77,13 @@
   :global(.paragraph-text, .paragraph-list-items) {
     font-family: var(--font-text);
     font-size: 20px;
+    line-height: 24px;
     color: #fff;
   }
 
   :global(.paragraph-list-items) {
     font-size: 18px;
+    line-height: 22px;
   }
   :global(.text-elegant) {
     color: var(--main-color);
@@ -141,10 +143,12 @@
 
     :global(.paragraph-text) {
       font-size: 18px;
+      line-height: 22px;
     }
 
     :global(.paragraph-list-items) {
       font-size: 16px;
+      line-height: 20px;
     }
   }
 </style>

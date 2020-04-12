@@ -89,6 +89,7 @@
     color: #b5b5bf;
     font-family: var(--font-text), sans-serif;
     font-size: 16px;
+    line-height: 20px;
     letter-spacing: 1px;
   }
   .mission-item {

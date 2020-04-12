@@ -13,14 +13,6 @@
     box-shadow: -0.5rem 0 0.5rem #222736;
     transition: 0.4s ease-out;
   }
-
-  .paragraph-text {
-    font-size: 20px;
-  }
-
-  .container {
-    margin-bottom: 200px;
-  }
 </style>
 
 <svelte:head>
@@ -47,13 +39,12 @@
         interioară.
       </p>
       <p class="paragraph-text">
-        Până atunci, suntem alaturi de tine prin serviciile noastre online
+        Până atunci, suntem alături de tine prin serviciile noastre online
         <span class="text-elegant text-uppercase">gratuite</span>
         de consiliere psihologică.
       </p>
       <p class="paragraph-text">
-        Împreună vom trece peste această perioadă și vom fi mult mai puternici
-        decat am intrat.
+        Împreună vom trece peste această perioadă și vom fi mult mai puternici.
       </p>
     </div>
   </div>
