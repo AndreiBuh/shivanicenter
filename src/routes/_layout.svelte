@@ -74,7 +74,7 @@
       0 2px 10px 0 rgba(0, 0, 0, 0.12);
   }
 
-  :global(.paragraph-text, .paragraph-list-items) {
+  :global(.paragraph-text) {
     font-family: var(--font-text);
     font-size: 20px;
     line-height: 24px;
@@ -82,8 +82,10 @@
   }
 
   :global(.paragraph-list-items) {
+    font-family: var(--font-text);
     font-size: 18px;
     line-height: 22px;
+    color: #fff;
   }
   :global(.text-elegant) {
     color: var(--main-color);
@@ -146,7 +148,7 @@
       line-height: 22px;
     }
 
-    :global(.paragraph-list-items) {
+    :global(.paragraph-list-items, li) {
       font-size: 16px;
       line-height: 20px;
     }

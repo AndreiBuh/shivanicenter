@@ -36,7 +36,7 @@
       slug: "claudia-petre",
       button: true,
       facebook: "https://www.facebook.com/claudia.stancu.33",
-      instagram: "https://www.instagram.com/stclaudia.nutritionist/",
+      instagram: "https://www.instagram.com/smart.nutrition_healthy.living/",
       linkedin: "https://www.linkedin.com/in/petre-claudia-74740054/"
     }
   ];

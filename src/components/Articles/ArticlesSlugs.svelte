@@ -85,6 +85,11 @@
     font-size: 18px;
   }
 
+  :global(.iframe) {
+    height: 450px;
+    width: 95%;
+  }
+
   @media screen and (max-width: 768px) {
     .article-card-body {
       width: 95%;
@@ -92,6 +97,10 @@
 
     .article-card-body :global(p) {
       font-size: 16px;
+    }
+
+    :global(.iframe) {
+      height: 200px;
     }
   }
 
