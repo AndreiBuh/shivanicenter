@@ -60,6 +60,8 @@
           „Educaţia este cea mai puternică armă pe care voi o puteţi folosi
           pentru a schimba lumea.”
         </em>
+      </p>
+      <p class="paragraph-text">
         Cu toții ne dorim să schimbăm lumea, dar asta pornește de la fiecare
         dintre noi. Doar aici și acum putem acționa să ne educăm mintea spre a
         deveni cea mai bună variantă a noastră.

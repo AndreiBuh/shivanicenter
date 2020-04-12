@@ -101,6 +101,10 @@
     pointer-events: all !important;
   }
 
+  i {
+    color: white;
+  }
+
   @media screen and (max-width: 768px) {
     .form {
       width: 80%;

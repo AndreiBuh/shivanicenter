@@ -32,6 +32,7 @@
     color: #b5b5bf;
     font-family: var(--font-text), sans-serif;
     font-size: 14px;
+    line-height: 18px;
   }
 
   .rounded-circle {

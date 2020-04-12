@@ -25,9 +25,18 @@
     transition: 0.4s ease-out;
   }
 
+  :global(.iframe) {
+    height: 450px;
+    width: 95%;
+  }
+
   @media screen and (max-width: 768px) {
     .container {
       margin-top: 90px;
+    }
+
+    :global(.iframe) {
+      height: 200px;
     }
   }
 </style>

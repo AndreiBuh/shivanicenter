@@ -63,7 +63,7 @@
       phone: "+40 790 420 493",
       email: "shivanicenter.psychology@gmail.com",
       image: "shivani-center",
-      url: "shivani-center",
+      url: "despre-noi/shivani-center",
       address: "Str. George Vraca, nr.7 (zona Sala Palatului)",
       program: "10:00 - 19:00"
     },
