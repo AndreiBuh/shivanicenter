@@ -115,8 +115,8 @@
         familie etc.
       </p>
       <p class="paragraph-text">
-        Articolele noastre vă vin și ele întâmpinare, pentru a vă ține la curent
-        cu cele mai noi informații despre sănătatea psihică, fizică și
+        Articolele noastre vă vin și ele în întâmpinare, pentru a vă ține la
+        curent cu cele mai noi informații despre sănătatea psihică, fizică și
         spirituală. Pentru acestea am creat secțiuni separate în funcție de
         interesele fiecărui cititor. Puteți fi mereu la curent cu cele mai noi
         articole abonându-vă la newsletter-ul nostru.
