@@ -82,7 +82,8 @@
 
   .article-card-body :global(li) {
     font-family: var(--font-text);
-    font-size: 18px;
+    font-size: 16px;
+    line-height: 20px;
   }
 
   :global(.iframe) {
@@ -97,6 +98,12 @@
 
     .article-card-body :global(p) {
       font-size: 16px;
+      line-height: 20px;
+    }
+
+    .article-card-body :global(li) {
+      font-size: 15px;
+      line-height: 19px;
     }
 
     :global(.iframe) {
