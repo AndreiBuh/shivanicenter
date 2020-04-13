@@ -63,7 +63,7 @@
     <div class="p-2 mt-5">
       <p class="paragraph-text">
         Numele meu este Claudia Petre și sunt de meserie farmacist. Am absolvit
-        Facultatea de medicină și Farmacie din cadrum UMF Carol Davila în anul
+        Facultatea de medicină și Farmacie din cadrul UMF Carol Davila în anul
         2013.
       </p>
       <p class="paragraph-text">
@@ -92,7 +92,7 @@
         echilibrat, adaptat programului și nevoilor dumneavoastră.
       </p>
       <p class="paragraph-text">
-        Consider că un plan de alimentare nu se bazaează pe o dietă restrictivă
+        Consider că un plan de alimentare nu se bazează pe o dietă restrictivă
         ce poate dăuna pe termen lung, privând organismul de anumiți nutrienți.
       </p>
       <p class="paragraph-text">
