@@ -68,7 +68,7 @@
         artterapeut și psihosexolog.
       </p>
       <div class="row">
-        <div class="col-lg-7">
+        <div class="col-lg-7 col-12">
           <p class="paragraph-text">
             Am experiență și activitatea didactică la Facultatea de Medicină,
             Universitatea de Medicină și Farmacie Carol Davila din București și
@@ -99,11 +99,11 @@
             sau proiectate în viitor.
           </p>
         </div>
-        <div class="col-lg-5">
+        <div class="col-lg-5 col-12">
           <img
             src="/images/people/carte-gina-ilie.jpg"
             alt="carte gina ilie"
-            class="rounded m-2" />
+            class="img-middle img-fluid rounded" />
         </div>
       </div>
       <p class="paragraph-text mt-3">

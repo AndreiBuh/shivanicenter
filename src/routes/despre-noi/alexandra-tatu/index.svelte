@@ -72,7 +72,7 @@
         pasiune.
       </p>
       <div class="row">
-        <div class="col-lg-8">
+        <div class="col-lg-7 col-12">
           <p class="paragraph-text">
             O viaţă (poveste) perfectă nu există. Încă de mică am căutat un drum
             al meu, ceva care să mă definească şi în același timp să îmi păstrez
@@ -103,11 +103,11 @@
             subiect important în tot ce scriu. 
           </p>
         </div>
-        <div class="col-lg-4 col-12">
+        <div class="col-lg-5 col-12">
           <img
             src="/images/people/carte-alexandra-tatu.jpg"
             alt="carte alexandra tatu"
-            class="rounded m-2" />
+            class="img-middle img-fluid rounded" />
         </div>
       </div>
 

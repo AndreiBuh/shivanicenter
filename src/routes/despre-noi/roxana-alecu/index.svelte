@@ -109,7 +109,7 @@
           <img
             src="/images/people/carte-roxana-alecu.jpg"
             alt="carte roxana alecu"
-            class="rounded m-2" />
+            class="img-middle img-fluid rounded" />
         </div>
       </div>
       <p class="paragraph-text mt-3">
