@@ -17,10 +17,19 @@
 </script>
 
 <ArticlesSlugs {article} />
+
 <div
   class="fb-share-button"
-  data-href="https://www.shivanicenter.ro/articole/{category_slug}/{slug}"
-  data-layout="button_count" />
+  data-href="https://www.shivanicenter.com/articole/&#123;category_slug&#125;/&#123;slug&#125;"
+  data-layout="button_count"
+  data-size="small">
+  <a
+    target="_blank"
+    href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.shivanicenter.com%2Farticole%2F%257Bcategory_slug%257D%2F%257Bslug%257D&amp;src=sdkpreparse"
+    class="fb-xfbml-parse-ignore">
+    Share
+  </a>
+</div>
 
 <svelte:head>
   <title>{title}</title>
