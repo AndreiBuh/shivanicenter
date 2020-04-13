@@ -103,7 +103,7 @@
             subiect important în tot ce scriu. 
           </p>
         </div>
-        <div class="col-md-4">
+        <div class="col-lg-4 col-12">
           <img
             src="/images/people/carte-alexandra-tatu.jpg"
             alt="carte alexandra tatu"

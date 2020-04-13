@@ -53,7 +53,7 @@
       </p>
 
       <div class="row">
-        <div class="col-md-7 col-xs-12">
+        <div class="col-lg-7 col-12">
           <p class="paragraph-text">
             În timp meditația a devenit mai răspândită în toată lumea.
           </p>
@@ -86,7 +86,7 @@
           </p>
 
         </div>
-        <div class="col-md-5 col-xs-12">
+        <div class="col-lg-5 col-12">
           <img
             src="images/services/meditatie2.jpg"
             alt="mediatie"

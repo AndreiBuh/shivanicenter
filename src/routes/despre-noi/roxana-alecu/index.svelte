@@ -105,7 +105,7 @@
             bine interacțiunea dintre minte, corp și spirit.
           </p>
         </div>
-        <div class="col-lg-5">
+        <div class="col-lg-5 col-12">
           <img
             src="/images/people/carte-roxana-alecu.jpg"
             alt="carte roxana alecu"
