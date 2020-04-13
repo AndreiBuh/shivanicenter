@@ -18,7 +18,7 @@
     height: 45px;
     border: 1px solid #d7d6d6;
     display: inline-block;
-    transition: 0.3s all ease-in-out;
+    transition: 0.4s all ease-in-out;
     border-radius: 8px;
   }
 
