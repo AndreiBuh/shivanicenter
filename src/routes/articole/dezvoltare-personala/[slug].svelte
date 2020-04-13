@@ -13,10 +13,22 @@
 <script>
   import ArticlesSlugs from "../../../components/Articles/ArticlesSlugs.svelte";
   export let article;
+  const { title, category_slug, slug, image, excerpt } = article[0];
 </script>
 
 <ArticlesSlugs {article} />
+<div
+  class="fb-share-button"
+  data-href="https://www.your-domain.com/your-page.html"
+  data-layout="button_count" />
 
 <svelte:head>
-  <title>{article[0].title}</title>
+  <title>{title}</title>
+  <meta property="og:type" content="website" />
+  <meta
+    property="og:url"
+    content="https://www.shivanicenter.ro/articole/{category_slug}/{slug}" />
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={excerpt} />
+  <meta property="og:image" content={image.url} />
 </svelte:head>
