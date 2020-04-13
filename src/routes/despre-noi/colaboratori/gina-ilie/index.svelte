@@ -80,17 +80,18 @@
         </em>
       </p>
       <p class="paragraph-text">
-        Dacă ar fi să mă definesc ca ființă, persoană, om, femeie, mi-ar fi un
-        pic dificil. De ce? Pentru că încă sunt în continuă dezvoltare personală
-        și aleg să nu mă atașez de ceea ce „știu/aflu/cunosc” despre mine ca și
-        cum ar fi suficent și bine delimitat.
-      </p>
-      <p class="paragraph-text">
         <img
           src="/images/people/carte-gina-ilie.jpg"
           alt="carte gina ilie"
           class="float-right rounded m-5" />
       </p>
+      <p class="paragraph-text">
+        Dacă ar fi să mă definesc ca ființă, persoană, om, femeie, mi-ar fi un
+        pic dificil. De ce? Pentru că încă sunt în continuă dezvoltare personală
+        și aleg să nu mă atașez de ceea ce „știu/aflu/cunosc” despre mine ca și
+        cum ar fi suficent și bine delimitat.
+      </p>
+
       <p class="paragraph-text">
         Atât în viața personală, cât și în cabinet, folosesc metofora ca pe un
         instrument de explorare indirectă a experiențelor trăite de către
