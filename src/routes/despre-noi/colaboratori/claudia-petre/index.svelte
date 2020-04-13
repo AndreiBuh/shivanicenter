@@ -77,7 +77,7 @@
       </p>
       <p class="paragraph-text">
         Ca farmacist, interacționez cu foarte mulți oameni ce suferă de diferite
-        afacțiuni. Am ajuns la concluzia că orice tratament cronic trebuie să
+        afecțiuni. Am ajuns la concluzia că orice tratament cronic trebuie să
         înceapă cu adoptarea unui stil de viață sănătos și o alimentație
         corespunzătoare. 
       </p>
