@@ -16,3 +16,7 @@
 </script>
 
 <ArticlesSlugs {article} />
+
+<svelte:head>
+  <title>{article[0].title}</title>
+</svelte:head>

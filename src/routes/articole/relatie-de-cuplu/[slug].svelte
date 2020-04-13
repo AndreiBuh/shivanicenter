@@ -41,3 +41,7 @@
 </script>
 
 <ArticlesSlugs {article} on:like={onLikeHandler} />
+
+<svelte:head>
+  <title>{article[0].title}</title>
+</svelte:head>

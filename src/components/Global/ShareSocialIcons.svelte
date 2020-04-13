@@ -2,12 +2,8 @@
   import { createEventDispatcher } from "svelte";
   const dispatch = createEventDispatcher();
 
-  export let slug;
-  export let category_slug;
   export let likes;
   export let id;
-
-  console.log(slug, category_slug, likes, id);
   let liked = false;
 
   const handleLike = () => {
