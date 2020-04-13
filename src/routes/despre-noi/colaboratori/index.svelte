@@ -6,7 +6,7 @@
     {
       name: "Alexandra Pană",
       imageUrl: "testimonial-alexandra",
-      jobTitle: "Psihoterapeut exeperiențial",
+      jobTitle: "Psihoterapeut experiențial",
       text:
         "Psiholog clinician, psihosexolog și psihoterapeut experiențial format în terapia unificării, calificat pentru a oferi consiliere si terapie individuală, de cuplu, de familie, cu copiii și cu grupuri.",
       slug: "alexandra-pana",
@@ -18,7 +18,7 @@
     {
       name: "Gina Ilie",
       imageUrl: "testimonial-gina",
-      jobTitle: "Psihoterapeut exeperiențial",
+      jobTitle: "Psihoterapeut experiențial",
       text:
         "Psiholog clinician, consilier psihologic și psihoterapeut experiențial centrat pe adult-cuplu-familie-copil, artterapeut și psihosexolog.",
       slug: "gina-ilie",
