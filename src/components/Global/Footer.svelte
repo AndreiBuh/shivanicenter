@@ -212,18 +212,6 @@
               <li>shivanicenter.psychology@gmail.com</li>
               <li>Str. George Vraca, nr.7</li>
               <li>+40 790 420 493</li>
-              <li>
-                <iframe
-                  src="https://www.facebook.com/plugins/share_button.php?href=http%3A%2F%2Flocalhost%3A3000%2Farticole%2Fsanatate%2Fcana-mea-de-ceai-verde&layout=button_count&size=small&width=78&height=20&appId"
-                  width="78"
-                  height="20"
-                  style="border:none;overflow:hidden"
-                  scrolling="no"
-                  frameborder="0"
-                  allowTransparency="true"
-                  allow="encrypted-media"
-                  title="cana mea de ceai verde" />
-              </li>
             </ul>
           </div>
         </div>
