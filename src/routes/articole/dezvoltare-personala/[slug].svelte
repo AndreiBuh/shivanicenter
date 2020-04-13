@@ -19,7 +19,7 @@
 <ArticlesSlugs {article} />
 <div
   class="fb-share-button"
-  data-href="https://www.your-domain.com/your-page.html"
+  data-href="https://www.shivanicenter.ro/articole/{category_slug}/{slug}"
   data-layout="button_count" />
 
 <svelte:head>
