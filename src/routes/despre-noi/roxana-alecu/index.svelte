@@ -97,6 +97,12 @@
         profesional” a Editurii SPER.
       </p>
       <p class="paragraph-text">
+        <img
+          src="/images/people/carte-roxana-alecu.jpg"
+          alt="carte roxana alecu"
+          class="float-right rounded m-5" />
+      </p>
+      <p class="paragraph-text">
         Simțind că pentru o înțelegere mai profundă a naturii umane e necesar să
         privesc totul ca pe un întreg, mi-am dorit să înțeleg mai bine
         interacțiunea dintre minte, corp și spirit. Astfel, în călătoria mea

@@ -85,7 +85,12 @@
         și aleg să nu mă atașez de ceea ce „știu/aflu/cunosc” despre mine ca și
         cum ar fi suficent și bine delimitat.
       </p>
-
+      <p class="paragraph-text">
+        <img
+          src="/images/people/carte-gina-ilie.jpg"
+          alt="carte gina ilie"
+          class="float-right rounded m-5" />
+      </p>
       <p class="paragraph-text">
         Atât în viața personală, cât și în cabinet, folosesc metofora ca pe un
         instrument de explorare indirectă a experiențelor trăite de către

@@ -88,6 +88,12 @@
         am lucrat cu trup și suflet. 
       </p>
       <p class="paragraph-text">
+        <img
+          src="/images/people/carte-alexandra-tatu.jpg"
+          alt="carte alexandra tatu"
+          class="float-right rounded m-5" />
+      </p>
+      <p class="paragraph-text">
         Atunci când privești în tine găsești toate răspunsurile și asta am făcut
         și eu atunci când am avut propriile dubii. Totodată, pot spune că
         această experiență m-a ajutat foarte mult să înțeleg, să empatizez, să
