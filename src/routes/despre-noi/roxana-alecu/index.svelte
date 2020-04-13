@@ -76,41 +76,49 @@
         ființă umană, cu emoții, cu probleme, cu o mulțime de întrebări, dar
         mereu cu putere de a depăși momentele grele ce îmi provoacă suferință.
       </p>
-      <p class="paragraph-text">
-        În toți acești ani, am învățat să fiu în contact cu propriile mele
-        gânduri și emoții, să îmi ascult corpul, să accept existența suferinței
-        în lume și să merg mai departe atunci când nu pot schimba nimic. Deși
-        toate acestea le-am realizat datorită mie și dorinței de a evolua pe
-        plan personal, ele nu ar fi fost posibile fără experiențele avute până
-        în prezent.
-      </p>
-      <p class="paragraph-text">
-        Fiind mereu interesată de cum funcționeaza mintea umana, am ales sa
-        studiez la Facultatea de Psihologie și Științele Educației, din cadrul
-        Universității din București. De aici am primit baza de care aveam nevoie
-        pentru următorii mei ani de studiu în domeniul psihologiei.
-      </p>
-      <p class="paragraph-text">
-        După obținerea licenței în psihologie, mi-a fost publicată lucrarea cu
-        titlul “Influența diferitelor tehnici de meditație asupra stresului
-        ocupțional” în cartea “Mindfulness și optimizarea comportamentului
-        profesional” a Editurii SPER.
-      </p>
-      <p class="paragraph-text">
-        <img
-          src="/images/people/carte-roxana-alecu.jpg"
-          alt="carte roxana alecu"
-          class="float-right rounded m-5" />
-      </p>
-      <p class="paragraph-text">
-        Simțind că pentru o înțelegere mai profundă a naturii umane e necesar să
-        privesc totul ca pe un întreg, mi-am dorit să înțeleg mai bine
-        interacțiunea dintre minte, corp și spirit. Astfel, în călătoria mea
-        m-am oprit timp de doi ani la Masterul de Studii Religioase - Texte și
-        Tradiții al Facultății de Limbi și Literaturi Străine. Aici am avut
-        oportunitatea de a studia și înțelege sistemul de funcționare a
-        diferitelor culturi, religii și tradiții, precum creștinismul,
-        iudaismul, islamul, taoismul, shamanismul, hinduismul, budismul etc.
+      <div class="row">
+        <div class="col-lg-7">
+          <p class="paragraph-text">
+            În toți acești ani, am învățat să fiu în contact cu propriile mele
+            gânduri și emoții, să îmi ascult corpul, să accept existența
+            suferinței în lume și să merg mai departe atunci când nu pot schimba
+            nimic. Deși toate acestea le-am realizat datorită mie și dorinței de
+            a evolua pe plan personal, ele nu ar fi fost posibile fără
+            experiențele avute până în prezent.
+          </p>
+          <p class="paragraph-text">
+            Fiind mereu interesată de cum funcționeaza mintea umana, am ales sa
+            studiez la Facultatea de Psihologie și Științele Educației, din
+            cadrul Universității din București. De aici am primit baza de care
+            aveam nevoie pentru următorii mei ani de studiu în domeniul
+            psihologiei.
+          </p>
+          <p class="paragraph-text">
+            După obținerea licenței în psihologie, mi-a fost publicată lucrarea
+            cu titlul “Influența diferitelor tehnici de meditație asupra
+            stresului ocupțional” în cartea “Mindfulness și optimizarea
+            comportamentului profesional” a Editurii SPER.
+          </p>
+          <p class="paragraph-text">
+            Simțind că pentru o înțelegere mai profundă a naturii umane e
+            necesar să privesc totul ca pe un întreg, mi-am dorit să înțeleg mai
+            bine interacțiunea dintre minte, corp și spirit.
+          </p>
+        </div>
+        <div class="col-lg-5">
+          <img
+            src="/images/people/carte-roxana-alecu.jpg"
+            alt="carte roxana alecu"
+            class="rounded m-2" />
+        </div>
+      </div>
+      <p class="paragraph-text mt-3">
+        Astfel, în călătoria mea m-am oprit timp de doi ani la Masterul de
+        Studii Religioase - Texte și Tradiții al Facultății de Limbi și
+        Literaturi Străine. Aici am avut oportunitatea de a studia și înțelege
+        sistemul de funcționare a diferitelor culturi, religii și tradiții,
+        precum creștinismul, iudaismul, islamul, taoismul, shamanismul,
+        hinduismul, budismul etc.
       </p>
       <p class="paragraph-text">
         Ceea ce nu v-am spus până acum este că am fost mereu atrasă de spațiul

@@ -71,37 +71,47 @@
         acestea: căutare, efort, obstacole, apreciere, imaginaţie, sinceritate,
         pasiune.
       </p>
-      <p class="paragraph-text">
-        O viaţă (poveste) perfectă nu există. Încă de mică am căutat un drum al
-        meu, ceva care să mă definească şi în același timp să îmi păstrez
-        dorința de a cunoaște cât mai multe lucruri și perspective.
-      </p>
-      <p class="paragraph-text">
-        În această căutare au fost şi obstacole şi greutăţi, însă prin care am
-        învăţat să apreciez viaţa, oamenii şi fiecare moment. Totuși, aceste
-        obstacole mi-au dat șansa să văd ce este important pentru mine, ce îmi
-        doresc să fac și ce îmi propun pentru viitor.
-      </p>
-      <p class="paragraph-text">
-        În iunie 2019 la Bookfest mi s-a îndeplinit visul, acela de a publica
-        romanul meu de debut, Cheile Sinelui (editura Berg), un proiect la care
-        am lucrat cu trup și suflet. 
-      </p>
-      <p class="paragraph-text">
-        <img
-          src="/images/people/carte-alexandra-tatu.jpg"
-          alt="carte alexandra tatu"
-          class="float-right rounded m-5" />
-      </p>
-      <p class="paragraph-text">
-        Atunci când privești în tine găsești toate răspunsurile și asta am făcut
-        și eu atunci când am avut propriile dubii. Totodată, pot spune că
-        această experiență m-a ajutat foarte mult să înțeleg, să empatizez, să
-        am răbdarea necesară, să mă conectez la emoţiile şi gândurile mele.
-        Condiția umană este atât de complexă, devenind pentru mine un subiect
-        important în tot ce scriu. 
-      </p>
-      <p class="paragraph-text">
+      <div class="row">
+        <div class="col-lg-8">
+          <p class="paragraph-text">
+            O viaţă (poveste) perfectă nu există. Încă de mică am căutat un drum
+            al meu, ceva care să mă definească şi în același timp să îmi păstrez
+            dorința de a cunoaște cât mai multe lucruri și perspective.
+          </p>
+          <p class="paragraph-text">
+            În această căutare au fost şi obstacole şi greutăţi, însă prin care
+            am învăţat să apreciez viaţa, oamenii şi fiecare moment. Totuși,
+            aceste obstacole mi-au dat șansa să văd ce este important pentru
+            mine, ce îmi doresc să fac și ce îmi propun pentru viitor.
+          </p>
+          <p class="paragraph-text">
+            În iunie 2019 la Bookfest mi s-a îndeplinit visul, acela de a
+            publica romanul meu de debut, Cheile Sinelui (editura Berg), un
+            proiect la care am lucrat cu trup și suflet. 
+          </p>
+          <p class="paragraph-text">
+            Atunci când privești în tine găsești toate răspunsurile și asta am
+            făcut și eu atunci când am avut propriile dubii.
+          </p>
+          <p class="paragraph-text">
+            Totodată, pot spune că această experiență m-a ajutat foarte mult să
+            înțeleg, să empatizez, să am răbdarea necesară, să mă conectez la
+            emoţiile şi gândurile mele.
+          </p>
+          <p class="paragraph-text">
+            Condiția umană este atât de complexă, devenind pentru mine un
+            subiect important în tot ce scriu. 
+          </p>
+        </div>
+        <div class="col-md-4">
+          <img
+            src="/images/people/carte-alexandra-tatu.jpg"
+            alt="carte alexandra tatu"
+            class="rounded m-2" />
+        </div>
+      </div>
+
+      <p class="paragraph-text mt-3">
         Sunt de părere că noi ca oameni avem un potențial creativ şi de
         dezvoltare foarte mare, chiar dacă uneori este astupat de anumite trăiri
         sau experiențe. De aceea pot spune cu încredere că scrisul mă ajută și

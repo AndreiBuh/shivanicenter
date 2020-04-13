@@ -67,38 +67,46 @@
         psihoterapeut experiențial centrat pe adult-cuplu-familie-copil,
         artterapeut și psihosexolog.
       </p>
-      <p class="paragraph-text">
-        Am experiență și activitatea didactică la Facultatea de Medicină,
-        Universitatea de Medicină și Farmacie Carol Davila din București și în
-        prezent sunt și doctorandă la Facultatea de Psihologie și Științele
-        Educației, Universitatea București. Tema centrală a interesului meu
-        actual, care reprezintă și obiectivul tezei de doctorat este:
-        <em>
-          Identificarea factori psihologici implicați în declanșarea,
-          menținerea, agravarea și remedierea astmului bronșic. Intervenție și
-          evaluare psihologice.
-        </em>
-      </p>
-      <p class="paragraph-text">
-        <img
-          src="/images/people/carte-gina-ilie.jpg"
-          alt="carte gina ilie"
-          class="float-right rounded m-5" />
-      </p>
-      <p class="paragraph-text">
-        Dacă ar fi să mă definesc ca ființă, persoană, om, femeie, mi-ar fi un
-        pic dificil. De ce? Pentru că încă sunt în continuă dezvoltare personală
-        și aleg să nu mă atașez de ceea ce „știu/aflu/cunosc” despre mine ca și
-        cum ar fi suficent și bine delimitat.
-      </p>
+      <div class="row">
+        <div class="col-lg-7">
+          <p class="paragraph-text">
+            Am experiență și activitatea didactică la Facultatea de Medicină,
+            Universitatea de Medicină și Farmacie Carol Davila din București și
+            în prezent sunt și doctorandă la Facultatea de Psihologie și
+            Științele Educației, Universitatea București.
+          </p>
+          <p class="paragraph-text">
+            Tema centrală a interesului meu actual, care reprezintă și
+            obiectivul tezei de doctorat este:
+            <em>
+              Identificarea factori psihologici implicați în declanșarea,
+              menținerea, agravarea și remedierea astmului bronșic. Intervenție
+              și evaluare psihologice.
+            </em>
+          </p>
 
-      <p class="paragraph-text">
-        Atât în viața personală, cât și în cabinet, folosesc metofora ca pe un
-        instrument de explorare indirectă a experiențelor trăite de către
-        mine/de către client, atât a celor prezente, cât și a celor trecute sau
-        proiectate în viitor.
-      </p>
-      <p class="paragraph-text">
+          <p class="paragraph-text">
+            Dacă ar fi să mă definesc ca ființă, persoană, om, femeie, mi-ar fi
+            un pic dificil. De ce? Pentru că încă sunt în continuă dezvoltare
+            personală și aleg să nu mă atașez de ceea ce „știu/aflu/cunosc”
+            despre mine ca și cum ar fi suficent și bine delimitat.
+          </p>
+
+          <p class="paragraph-text">
+            Atât în viața personală, cât și în cabinet, folosesc metofora ca pe
+            un instrument de explorare indirectă a experiențelor trăite de către
+            mine/de către client, atât a celor prezente, cât și a celor trecute
+            sau proiectate în viitor.
+          </p>
+        </div>
+        <div class="col-lg-5">
+          <img
+            src="/images/people/carte-gina-ilie.jpg"
+            alt="carte gina ilie"
+            class="rounded m-2" />
+        </div>
+      </div>
+      <p class="paragraph-text mt-3">
         Este ca și cum, tu, cel care mi-ai permis să te însoțesc, te pregătești
         pentru o „re-naștere”, iar eu, asemenea unei moașe, îți ofer tot
         sprijinul necesar, securizant și încurajator, cu toate astea, neputând
