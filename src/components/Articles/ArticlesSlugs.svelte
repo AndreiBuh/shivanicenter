@@ -1,6 +1,6 @@
 <script>
   import ArticlesSidebar from "./ArticlesSidebar.svelte";
-  import ShareSocialIcons from "../Global/ShareSocialIcons.svelte";
+  // import ShareSocialIcons from "../Global/ShareSocialIcons.svelte";
 
   export let article;
 
@@ -34,7 +34,7 @@
 
   .avatar {
     display: block;
-    width: 120px;
+    width: 100px;
     margin-top: -60px;
     overflow: hidden;
   }
@@ -42,7 +42,7 @@
   .avatar img {
     width: 100%;
     background: none repeat scroll 0 0 #fff;
-    border: 5px solid #fff;
+    border: 2px solid #fff;
   }
 
   .details {
@@ -126,13 +126,13 @@
                 {category.title}
               </a>
             </div>
-            <ShareSocialIcons
+            <!-- <ShareSocialIcons
               {likes}
               {id}
               {category_slug}
               {slug}
               on:like
-              {image} />
+              {image} /> -->
           </div>
         </div>
         <div class="card-body article-card-body">

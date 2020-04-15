@@ -1,4 +1,4 @@
-<script>
+<!-- <script>
   import { createEventDispatcher } from "svelte";
   const dispatch = createEventDispatcher();
 
@@ -18,9 +18,7 @@
       id
     });
   };
-</script>
-
-<style>
+</script><style>
   /* like heart */
   .heart-box i,
   .heart-box span {
@@ -39,9 +37,7 @@
     color: #d20057;
     cursor: pointer;
   }
-</style>
-
-<div class="heart-box">
+</style><div class="heart-box">
   <p class="text-center">
     <i
       id="btn"
@@ -51,4 +47,4 @@
       on:click={handleLike} />
     <span>{likes}</span>
   </p>
-</div>
+</div> -->
