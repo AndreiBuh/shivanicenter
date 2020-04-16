@@ -36,7 +36,6 @@
   ];
 
   let isLoading = true;
-
   onMount(() => {
     isLoading = false;
   });

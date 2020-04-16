@@ -5,7 +5,6 @@
   import Footer from "../components/Global/Footer.svelte";
   import Gdpr from "../components/Global/GDPR/Gdpr.svelte";
   import GoogleAnalytics from "../components/GoogleAnalytics.svelte";
-  import LoadingSpinner from "../components/UI/LoadingSpinner.svelte";
 
   export let segment;
 
