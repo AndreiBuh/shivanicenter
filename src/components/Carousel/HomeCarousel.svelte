@@ -1,6 +1,8 @@
 <script>
+  import { onMount } from "svelte";
   import { fade, fly } from "svelte/transition";
   import Carousel from "./Carousel.svelte";
+  import LoadingSpinner from "../UI/LoadingSpinner.svelte";
 
   let slides = [
     {
@@ -32,6 +34,12 @@
       quote: ""
     }
   ];
+
+  let isLoading = true;
+
+  onMount(() => {
+    isLoading = false;
+  });
 </script>
 
 <style>
@@ -85,34 +93,40 @@
   }
 </style>
 
-<div in:fade={{ duration: 300 }} class="mb-5">
-  <Carousel perPage={1} loop autoplay={6000}>
-    <span class="control" slot="left-control">
-      <i class="fa fa-chevron-left" />
-    </span>
-    {#each slides as { src, text, name, slug, quote }}
-      <div class="slide-content row">
-        <div class="pr-0 col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-          <img src="images/people/{src}.jpg" alt={name} />
-        </div>
-        <div
-          class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 slide-text p-5
-          text-center">
-          <h3 class="pb-3 text-white">{name}</h3>
-          <p class="mb-4 text-elegant quote">{`${quote}`}</p>
-          <p class="text-white">{text}</p>
-          <div class="p-4">
-            <a href={slug}>
-              <button class="btn btn-outline py-2 px-4" aria-label="Citeste">
-                <span class="text-white">CITEȘTE MAI MULT</span>
-              </button>
-            </a>
+{#if isLoading}
+  <div class="spinner">
+    <LoadingSpinner />
+  </div>
+{:else}
+  <div in:fade={{ duration: 300 }} class="mb-5">
+    <Carousel perPage={1} loop autoplay={6000}>
+      <span class="control" slot="left-control">
+        <i class="fa fa-chevron-left" />
+      </span>
+      {#each slides as { src, text, name, slug, quote }}
+        <div class="slide-content row">
+          <div class="pr-0 col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+            <img src="images/people/{src}.jpg" alt={name} />
+          </div>
+          <div
+            class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 slide-text p-5
+            text-center">
+            <h3 class="pb-3 text-white">{name}</h3>
+            <p class="mb-4 text-elegant quote">{`${quote}`}</p>
+            <p class="text-white">{text}</p>
+            <div class="p-4">
+              <a href={slug}>
+                <button class="btn btn-outline py-2 px-4" aria-label="Citeste">
+                  <span class="text-white">CITEȘTE MAI MULT</span>
+                </button>
+              </a>
+            </div>
           </div>
         </div>
-      </div>
-    {/each}
-    <span class="control" slot="right-control">
-      <i class="fa fa-chevron-right" />
-    </span>
-  </Carousel>
-</div>
+      {/each}
+      <span class="control" slot="right-control">
+        <i class="fa fa-chevron-right" />
+      </span>
+    </Carousel>
+  </div>
+{/if}

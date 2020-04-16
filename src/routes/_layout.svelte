@@ -10,11 +10,6 @@
   export let segment;
 
   let scroll;
-  let isLoading = true;
-
-  onMount(() => {
-    isLoading = false;
-  });
 </script>
 
 <style>
@@ -22,14 +17,6 @@
     position: relative;
     margin: 0 auto;
     box-sizing: border-box;
-  }
-
-  .spinner {
-    position: fixed;
-    z-index: 1031;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
   }
 
   .btn-scroll {
@@ -158,23 +145,17 @@
 <GoogleAnalytics />
 <svelte:window bind:scrollY={scroll} id:slides />
 
-{#if isLoading}
-  <div class="spinner">
-    <LoadingSpinner />
-  </div>
-{:else}
-  <svelte:component this={Nav} {segment} />
-  <main>
-    <slot />
-    {#if scroll > '800'}
-      <button
-        class="btn-scroll"
-        aria-label="Top"
-        on:click={() => (scroll = 0)}
-        in:fly={{ y: 50, duration: 400 }}
-        out:fade />
-    {/if}
-  </main>
-  <Footer />
-  <Gdpr />
-{/if}
+<svelte:component this={Nav} {segment} />
+<main>
+  <slot />
+  {#if scroll > '800'}
+    <button
+      class="btn-scroll"
+      aria-label="Top"
+      on:click={() => (scroll = 0)}
+      in:fly={{ y: 50, duration: 400 }}
+      out:fade />
+  {/if}
+</main>
+<Footer />
+<Gdpr />
