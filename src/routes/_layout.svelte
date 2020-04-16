@@ -78,8 +78,6 @@
     color: var(--main-color);
   }
 
-  /*  Servicii pages style END */
-
   /* Despre noi pages style START */
   :global(hr.style-hr) {
     border: 0;
