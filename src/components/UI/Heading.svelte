@@ -36,7 +36,7 @@
 
   .decor-heading span:after {
     right: 100%;
-    left: -9999px;
+    left: -999px;
   }
 
   .elegant-shadow {
