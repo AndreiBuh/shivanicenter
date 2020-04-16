@@ -1,0 +1,9 @@
+[[redirects]]
+  from = "/blog"
+  to = "/index.html"
+
+[[headers]]
+  for = "/*"
+
+  [headers.values]
+	max-age=86400

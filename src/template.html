@@ -37,9 +37,18 @@
     <link rel="manifest" href="manifest.json">
     <link rel="icon" type="image/png" href="icons/logo-192.png">
     <link rel="apple-touch-icon" href="/icons/logo-192.png" sizes="192x192">
+    <!-- This contains the contents of the <svelte:head> component, if
+	     the current page has one -->
+       <script async src="https://kit.fontawesome.com/beadad6626.js" crossorigin="anonymous"></script>
+       <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162205149-1"></script>
+       <script>
+         window.dataLayer = window.dataLayer || [];
+         function gtag(){dataLayer.push(arguments);}
+         gtag('js', new Date());
 
+         gtag('config', 'UA-162205149-1');
 
-
+       </script>
   </head>
   <body>
     <!-- The application will be rendered inside this element,
