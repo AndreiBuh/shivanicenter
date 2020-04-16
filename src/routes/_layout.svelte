@@ -23,6 +23,14 @@
     box-sizing: border-box;
   }
 
+  .spinner {
+    position: fixed;
+    z-index: 1031;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
   .btn-scroll {
     display: inline-block;
     background-color: #fff;
