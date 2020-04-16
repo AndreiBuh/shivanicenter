@@ -1,11 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Oswald|Montserrat|Alex+Brush|Cormorant+SC:700&display=swap");
 
-@font-face {
-  font-family: "Averta";
-  src: url("font/Averta.otf") format("opentype");
-  font-display: swap;
-}
-
 
 :root {
   --main-bg-color: #222736;

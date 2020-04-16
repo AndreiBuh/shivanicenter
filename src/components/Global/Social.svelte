@@ -1,7 +1,8 @@
 <script>
   export let facebook = "https://www.facebook.com/PsihologRoxanaAlecu/";
   export let instagram = "https://www.instagram.com/psiholog.roxana.alecu/";
-  export let linkedin = "https://www.instagram.com/psiholog.roxana.alecu/";
+  export let linkedin =
+    "https://www.linkedin.com/in/florentina-roxana-alecu-78a220186/";
 </script>
 
 <style>

@@ -7,6 +7,7 @@
       .then(article => {
         return { article };
       });
+    console.log(article);
   }
 </script>
 

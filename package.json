@@ -20,8 +20,7 @@
 		"express": "^4.17.1",
 		"sapper-environment": "^1.0.1",
 		"siema": "^1.5.1",
-		"sirv": "^0.4.0",
-		"svelte-lazy": "^0.1.8"
+		"sirv": "^0.4.0"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.0.0",
@@ -40,6 +39,7 @@
 		"rollup-plugin-terser": "^4.0.4",
 		"sapper": "^0.27.11",
 		"svelte": "^3.0.0",
-		"svelte-tabs": "^1.1.0"
+		"svelte-tabs": "^1.1.0",
+		"svelte-lazy": "^0.1.8"
 	}
 }

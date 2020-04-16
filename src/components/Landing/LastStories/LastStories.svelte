@@ -5,16 +5,13 @@
   import LoadingSpinner from "../../UI/LoadingSpinner.svelte";
   import Lazy from "svelte-lazy";
 
-  const apiUrl = process.env.SAPPER_APP_API_URL;
-  let articles = [];
   let isLoading = true;
 
   onMount(async () => {
-    const res = await fetch(`${apiUrl}/articles?_limit=3&featured=true`);
-    const json = await res.json();
-    articles = json;
     isLoading = false;
   });
+
+  export let filteredArticles;
 </script>
 
 <style>
@@ -40,7 +37,7 @@
       </div>
     {:else}
       <div class="card-columns">
-        {#each articles as article (article.id)}
+        {#each filteredArticles as article (article.id)}
           <Story {...article} />
         {/each}
       </div>

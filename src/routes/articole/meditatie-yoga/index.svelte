@@ -2,7 +2,7 @@
   const apiUrl = process.env.SAPPER_APP_API_URL;
 
   export function preload({ params, query }) {
-    return this.fetch(`${apiUrl}/articles`)
+    return this.fetch(`${apiUrl}/articles?category_slug=meditatie-yoga`)
       .then(res => res.json())
       .then(articles => {
         return { articles };
@@ -13,16 +13,10 @@
 <script>
   import ArticlesPages from "../../../components/Articles/ArticlesPages.svelte";
   export let articles;
-  var filteredArticles = articles.filter(
-    a => a.category_slug === "meditatie-yoga"
-  );
 </script>
 
 <svelte:head>
   <title>Articole</title>
 </svelte:head>
 
-<ArticlesPages
-  articles={filteredArticles}
-  category="Meditatie/Yoga"
-  slug="meditatie-yoga" />
+<ArticlesPages {articles} category="Meditatie/Yoga" slug="meditatie-yoga" />

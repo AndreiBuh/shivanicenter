@@ -171,7 +171,7 @@
         class="btn-scroll"
         aria-label="Top"
         on:click={() => (scroll = 0)}
-        in:fly={{ y: 50, duration: 1000 }}
+        in:fly={{ y: 50, duration: 400 }}
         out:fade />
     {/if}
   </main>

@@ -9,16 +9,13 @@
   import { categories } from "../../../helpers/constants.js";
 
   //fetch articles
-  const apiUrl = process.env.SAPPER_APP_API_URL;
   let isLoading = true;
 
-  let articles = [];
   onMount(async () => {
-    const res = await fetch(`${apiUrl}/articles`);
-    const json = await res.json();
-    articles = json;
     isLoading = false;
   });
+
+  export let articles;
 </script>
 
 <style>

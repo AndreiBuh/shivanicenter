@@ -85,7 +85,7 @@
     font-size: 10px;
     letter-spacing: 4px;
     color: #dfa974;
-    font-family: "Averta", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-display: swap;
   }
 
