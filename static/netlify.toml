@@ -2,4 +2,4 @@
   for = "/*"
 
   [headers.values]
-    Cache-Control = "public, max-age=0"
+    Cache-Control = "public, max-age=600"
