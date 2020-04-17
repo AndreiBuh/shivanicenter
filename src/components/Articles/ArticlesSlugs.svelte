@@ -126,6 +126,15 @@
                 {category.title}
               </a>
             </div>
+            <iframe
+              src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fwww.shivanicenter.ro%2Farticole%2Frelatie-de-cuplu%2Fparadoxul-dragostei&layout=button_count&size=small&width=77&height=20&appId"
+              width="77"
+              height="20"
+              style="border:none;overflow:hidden"
+              scrolling="no"
+              frameborder="0"
+              allowTransparency="true"
+              allow="encrypted-media" />
             <!-- <ShareSocialIcons
               {likes}
               {id}
