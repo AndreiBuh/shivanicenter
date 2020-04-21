@@ -154,13 +154,13 @@
 
 <GoogleAnalytics />
 <svelte:window bind:scrollY={scroll} id:slides />
+<svelte:component this={Nav} {segment} />
 
 {#if isLoading}
   <div class="spinner">
     <LoadingSpinner />
   </div>
 {:else}
-  <svelte:component this={Nav} {segment} />
   <main>
     <slot />
     {#if scroll > '800'}
