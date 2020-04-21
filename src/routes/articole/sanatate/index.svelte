@@ -2,7 +2,7 @@
   const apiUrl = process.env.SAPPER_APP_API_URL;
 
   export function preload({ params, query }) {
-    return this.fetch(`${apiUrl}/articles?category_slug=dezvoltare-personala`)
+    return this.fetch(`${apiUrl}/articles?category_slug=sanatate`)
       .then(res => res.json())
       .then(articles => {
         return { articles };
