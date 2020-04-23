@@ -138,13 +138,7 @@
                 Share
               </a>
             </div>
-            <!-- <ShareSocialIcons
-              {likes}
-              {id}
-              {category_slug}
-              {slug}
-              on:like
-              {image} /> -->
+
           </div>
         </div>
         <div class="card-body article-card-body">
