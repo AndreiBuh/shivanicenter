@@ -1,6 +1,5 @@
 <script>
   import ArticlesSidebar from "./ArticlesSidebar.svelte";
-  // import ShareSocialIcons from "../Global/ShareSocialIcons.svelte";
 
   export let article;
 
@@ -86,6 +85,36 @@
     width: 95%;
   }
 
+  /* social share */
+  ul {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+  }
+  ul li {
+    list-style: none;
+  }
+  ul li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    margin: 0 2px;
+    border-radius: 50%;
+    font-size: 18px;
+    transition: 1s;
+  }
+  ul li:nth-child(1) a {
+    background: #3b5999;
+  }
+  ul li:nth-child(2) a {
+    background: #0077b5;
+  }
+  ul li:nth-child(3) a {
+    background: #25d366;
+  }
+
   @media screen and (max-width: 768px) {
     .article-card-body {
       width: 95%;
@@ -126,17 +155,37 @@
                 {category.title}
               </a>
             </div>
-            <div
-              class="fb-share-button"
-              data-href="https://www.shivanicenter.ro/articole/{category_slug}/{slug}"
-              data-layout="button_count"
-              data-size="small">
-              <a
-                target="_blank"
-                href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.shivanicenter.ro%2Farticole%2F{category_slug}%2F{slug}&amp;src=sdkpreparse"
-                class="fb-xfbml-parse-ignore">
-                Share
-              </a>
+
+            <div class="article-share">
+              <ul>
+                <li>
+                  <div
+                    class="fb-share-button"
+                    data-href="https://www.shivanicenter.ro/articole/{category_slug}/{slug}"
+                    data-layout="button_count"
+                    data-size="small">
+                    <a
+                      target="_blank"
+                      href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.shivanicenter.ro%2Farticole%2F{category_slug}%2F{slug}&amp;src=sdkpreparse"
+                      class="fb-xfbml-parse-ignore">
+                      <i class="fa fa-facebook" aria-hidden="true" />
+                    </a>
+                  </div>
+                </li>
+                <li>
+                  <a href="www.linkedin.com" rel="noopener">
+                    <i class="fa fa-linkedin" aria-hidden="true" />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    target="_blank"
+                    href="https://web.whatsapp.com/send?text=https://www.shivanicenter.ro/articole/{category_slug}/{slug}"
+                    data-action="share/whatsapp/share">
+                    <i class="fa fa-whatsapp" aria-hidden="true" />
+                  </a>
+                </li>
+              </ul>
             </div>
 
           </div>
