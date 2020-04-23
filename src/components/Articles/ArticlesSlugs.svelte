@@ -133,7 +133,7 @@
               data-size="small">
               <a
                 target="_blank"
-                href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.shivanicenter.ro%2Farticole%2Fdezvoltare-personala%2F{slug}&amp;src=sdkpreparse"
+                href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.shivanicenter.ro%2Farticole%2F{category_slug}%2F{slug}&amp;src=sdkpreparse"
                 class="fb-xfbml-parse-ignore">
                 Share
               </a>
