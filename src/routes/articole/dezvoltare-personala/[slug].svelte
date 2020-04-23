@@ -121,25 +121,7 @@
                 {category.title}
               </a>
             </div>
-            <div
-              class="fb-share-button"
-              data-href="https://www.shivanicenter.ro/articole/{category_slug}/{slug}"
-              data-layout="button_count"
-              data-size="small">
-              <a
-                target="_blank"
-                href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.shivanicenter.ro%2Farticole%2Fdezvoltare-personala%2F{slug}&amp;src=sdkpreparse"
-                class="fb-xfbml-parse-ignore">
-                Share
-              </a>
-            </div>
-            <!-- <ShareSocialIcons
-              {likes}
-              {id}
-              {category_slug}
-              {slug}
-              on:like
-              {image} /> -->
+
           </div>
         </div>
         <div class="card-body article-card-body">
@@ -152,12 +134,3 @@
     </div>
   </div>
 </div>
-
-<svelte:head>
-  <meta property="og:title" content={title} />
-  <meta
-    property="og:url"
-    content="https://www.shivanicenter.ro/articole/{category_slug}/{slug}" />
-  <meta property="og:description" content={excerpt} />
-  <meta property="og:image" content={image.url} />
-</svelte:head>
