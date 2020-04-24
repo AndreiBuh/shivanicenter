@@ -109,7 +109,7 @@
                   <div class="card my-3">
                     <div class="row">
                       <div class="col-lg-5 col-md-12 mb-lg-0 mb-4">
-                        <Lazy offset={150}>
+                        <Lazy offset={300}>
                           <div class="mb-lg-0">
                             <img
                               class="img-fluid"

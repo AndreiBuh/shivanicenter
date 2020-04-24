@@ -89,16 +89,16 @@
   ul {
     display: flex;
     justify-content: center;
-    height: 40px;
+    height: 50px;
   }
   ul li {
     list-style: none;
   }
   ul li a {
     display: block;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
     color: #fff;
     margin: 0 2px;
     border-radius: 50%;
@@ -114,6 +114,13 @@
   ul li:nth-child(3) a {
     background: #25d366;
   }
+
+  ul li a:hover {
+    transform: translateY(-5px);
+    transition: 0.4s ease-out;
+  }
+
+  /* Social share inside end */
 
   @media screen and (max-width: 768px) {
     .article-card-body {
@@ -155,8 +162,7 @@
                 {category.title}
               </a>
             </div>
-
-            <div class="article-share">
+            <div class="article-share mt-3">
               <ul>
                 <li>
                   <div

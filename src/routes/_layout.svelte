@@ -144,6 +144,8 @@
     }
   }
 
+  /* end spinner css */
+
   main {
     position: relative;
     margin: 0 auto;
