@@ -1,21 +1,9 @@
 <!DOCTYPE html>
 <html lang="ro">
   <head>
-
-
-
-    <!-- Facebook Share -->
-     <meta property="og:type" content="website" />
+    <meta property="og:type" content="website" />
     <meta property="fb:app_id" content="104049824442778" />
-    <!-- <meta property="og:title" content="Shivani Center" />
-    <meta property="og:url" content="https://www.shivanicenter.ro" />
-    <meta property="og:description" content="Centru psihologic Shivani Center" />
-    <meta property="og:image" content="https://res.cloudinary.com/www-shivanicenter-ro/image/upload/v1586189144/oct3fsg3gpo5wiucb7ip.jpg" />
- -->
-
-
     <title>Psihologie Shivani Center</title>
-
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta name="theme-color" content="#222736" />
@@ -28,7 +16,6 @@
     <meta name="msapplication-TileColor" content="#222736">
     %sapper.base%
 
-
     %sapper.head%
     <link rel="stylesheet" href="global.css">
     %sapper.styles%
@@ -37,18 +24,15 @@
     <link rel="manifest" href="manifest.json">
     <link rel="icon" type="image/png" href="icons/logo-192.png">
     <link rel="apple-touch-icon" href="/icons/logo-192.png" sizes="192x192">
-    <!-- This contains the contents of the <svelte:head> component, if
-	     the current page has one -->
-       <script async src="https://kit.fontawesome.com/beadad6626.js" crossorigin="anonymous"></script>
-       <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162205149-1"></script>
-       <script>
-         window.dataLayer = window.dataLayer || [];
-         function gtag(){dataLayer.push(arguments);}
-         gtag('js', new Date());
 
-         gtag('config', 'UA-162205149-1');
-
-       </script>
+    <script async src="https://kit.fontawesome.com/beadad6626.js" crossorigin="anonymous"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162205149-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-162205149-1');
+    </script>
   </head>
   <body>
     <div id="fb-root"></div>
@@ -59,14 +43,9 @@
       js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
-    <!-- The application will be rendered inside this element,
-	     because `src/client.js` references it -->
+
     <div id="sapper">%sapper.html%</div>
 
-    <!-- Sapper creates a <script> tag containing `src/client.js`
-	     and anything else it needs to hydrate the app and
-       initialise the router -->
     %sapper.scripts%
-
   </body>
 </html>

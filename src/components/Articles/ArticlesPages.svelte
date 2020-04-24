@@ -71,6 +71,14 @@
     display: none;
   }
 
+  .details {
+    color: var(--category-color);
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: var(--font-main), sans-serif;
+  }
+
   @media screen and (max-width: 768px) {
     .article-text {
       font-size: 15px;
@@ -94,6 +102,9 @@
                 alt="Educatie fete" />
             </div>
             <div class="card-body card-body-cascade text-center p-2">
+              <div class="details">
+                {articles[0].author} | {articles[0].published}
+              </div>
               <h5 class="font-weight-bold article-title">
                 <a rel="prefetch" href={`articole/${slug}/${articles[0].slug}`}>
                   {articles[0].title}
@@ -102,6 +113,12 @@
               <p class="article-text">
                 {@html articles[0].excerpt}
               </p>
+              <a
+                rel="prefetch"
+                href="articole/{articles[0].slug}/{articles[0].slug}"
+                class="text-right">
+                <Button content="citește mai mult" small />
+              </a>
             </div>
             <div class="card-content">
               <div class="articles-list mt-5">
@@ -119,6 +136,9 @@
                         </Lazy>
                       </div>
                       <div class="col-lg-7 col-md-12 mb-md-0 px-4 py-3">
+                        <div class="details">
+                          {articles[0].author} | {articles[0].published}
+                        </div>
                         <h5 class="font-weight-bold article-title">
                           <a
                             rel="prefetch"

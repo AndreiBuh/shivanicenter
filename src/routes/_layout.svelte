@@ -30,7 +30,7 @@
     right: 0;
   }
 
-  /* Transparent Overlay */
+  /*  Overlay */
   .loading:before {
     content: "";
     display: block;
@@ -270,6 +270,11 @@
       font-size: 16px;
       line-height: 20px;
     }
+  }
+
+  .counter {
+    font-size: 12em;
+    color: black;
   }
 </style>
 

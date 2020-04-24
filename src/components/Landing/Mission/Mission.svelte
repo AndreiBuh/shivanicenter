@@ -1,4 +1,5 @@
 <script>
+  import Lazy from "svelte-lazy";
   import TextInput from "../../UI/TextInput.svelte";
   import { isValidEmail } from "../../../helpers/validation.js";
   export let title;
@@ -41,6 +42,38 @@
     }
   };
   // End Newsletter
+
+  let missions = [
+    {
+      id: 1,
+      title: "Misiune",
+      icon: "mission.svg",
+      content:
+        "Shivani Center oferă o paletă largă de servicii psihologice de calitate, într-un cadru securizant și confidențial."
+    },
+    {
+      id: "2",
+      title: "Viziune",
+      icon: "eye.svg",
+      content:
+        "Viziunea noastră holistică îmbină în mod organic metodele de vindecare orientale cu psihoterapiile suportive occidentale."
+    },
+
+    {
+      id: "3",
+      title: "Scop",
+      icon: "goal.svg",
+      content:
+        "Vă invităm să explorăm împreună conexiunea dintre minte, corp și spirit, astfel încât să găsiți soluțiile potrivite pentru o viață echilibrată."
+    },
+    {
+      id: "4",
+      title: "Abordate",
+      icon: "belief.svg",
+      content:
+        "Abordarea holistică este centrată pe analiza de simbol, dezvoltare personală şi autoschimbare prin intermediul improvizaţiei şi al meditaţiei."
+    }
+  ];
 </script>
 
 <style>
@@ -125,40 +158,15 @@
     <div class="container">
       <h3 class="mission-title mb-3 text-elegant">{title}</h3>
       <div class="row">
-        <div class="col-md-3 px-3 pt-3 mission-item">
-          <h4 class="p-2">Misiune</h4>
-          <img src="/images/flaticon/mission.svg" alt="mission" />
-          <p class="p-2">
-            Shivani Center oferă o paletă largă de servicii psihologice de
-            calitate, într-un cadru securizant și confidențial.
-          </p>
-        </div>
-        <div class="col-md-3 px-3 p-3 mission-item">
-          <h4 class="p-2">Viziune</h4>
-          <img src="/images/flaticon/eye.svg" alt="eye" />
-          <p class="p-2">
-            Viziunea noastră holistică îmbină în mod organic metodele de
-            vindecare orientale cu psihoterapiile suportive occidentale.
-          </p>
-        </div>
-        <div class="col-md-3 px-3 p-3 mission-item">
-          <h4 class="p-2">Scop</h4>
-          <img src="/images/flaticon/goal.svg" alt="goal" />
-          <p class="p-2">
-            Vă invităm să explorăm împreună conexiunea dintre minte, corp și
-            spirit, astfel încât să găsiți soluțiile potrivite pentru o viață
-            echilibrată.
-          </p>
-        </div>
-        <div class="col-md-3 px-3 p-3 mission-item">
-          <h4 class="p-2">Abordare</h4>
-          <img src="/images/flaticon/belief.svg" alt="belief" />
-          <p class="p-2">
-            Abordarea holistică este centrată pe analiza de simbol, dezvoltare
-            personală şi autoschimbare prin intermediul improvizaţiei şi al
-            meditaţiei.
-          </p>
-        </div>
+        {#each missions as { id, title, icon, content } (id)}
+          <div class="col-md-3 px-3 pt-3 mission-item">
+            <h4 class="p-2">Misiune</h4>
+            <Lazy offset={200}>
+              <img src="/images/flaticon/{icon}" alt={title} />
+            </Lazy>
+            <p class="p-2">{content}</p>
+          </div>
+        {/each}
       </div>
     </div>
   </div>

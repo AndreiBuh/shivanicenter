@@ -1,5 +1,6 @@
 <script>
   import Heading from "../../UI/Heading.svelte";
+  import Lazy from "svelte-lazy";
 
   let services = [
     {
@@ -164,7 +165,9 @@
           <div class="card mb-3 p-3">
             <a rel="prefetch" href="servicii/{url}">
               <div class="service-item">
-                <img src="/images/flaticon/{icon}" alt={icon} />
+                <Lazy offset={200}>
+                  <img src="/images/flaticon/{icon}" alt={icon} />
+                </Lazy>
                 <h4>{title}</h4>
                 <p>{content}</p>
                 <div class="text-center mt-3">
