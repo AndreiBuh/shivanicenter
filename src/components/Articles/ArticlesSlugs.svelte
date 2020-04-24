@@ -214,4 +214,10 @@
     content="https://www.shivanicenter.ro/articole/{category_slug}/{slug}" />
   <meta property="og:description" content={excerpt} />
   <meta property="og:image" content={image.url} />
+  <script
+    type="text/javascript"
+    src="https://platform-api.sharethis.com/js/sharethis.js#property=5e9306cde660d50012073753&product=inline-share-buttons"
+    async="async">
+
+  </script>
 </svelte:head>
