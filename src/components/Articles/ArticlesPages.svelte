@@ -106,7 +106,9 @@
                 {articles[0].author} | {articles[0].published}
               </div>
               <h5 class="font-weight-bold article-title">
-                <a rel="prefetch" href={`articole/${slug}/${articles[0].slug}`}>
+                <a
+                  rel="prefetch"
+                  href={`articole/${articles[0].category_slug}/${articles[0].slug}`}>
                   {articles[0].title}
                 </a>
               </h5>
@@ -115,7 +117,7 @@
               </p>
               <a
                 rel="prefetch"
-                href="articole/{articles[0].slug}/{articles[0].slug}"
+                href="articole/{articles[0].category_slug}/{articles[0].slug}"
                 class="text-right">
                 <Button content="citește mai mult" small />
               </a>
