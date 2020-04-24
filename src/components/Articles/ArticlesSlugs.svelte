@@ -120,10 +120,6 @@
     transition: 0.4s ease-out;
   }
 
-  .whatsapp-mobile {
-    display: none;
-  }
-
   /* Social share inside end */
 
   @media screen and (max-width: 768px) {
@@ -141,6 +137,12 @@
     }
 
     .whatsapp-desktop {
+      display: none;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .whatsapp-mobile {
       display: none;
     }
   }
@@ -179,6 +181,7 @@
                     data-layout="button_count"
                     data-size="small">
                     <a
+                      target="_blank"
                       href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.shivanicenter.ro%2Farticole%2F{category_slug}%2F{slug}&amp;src=sdkpreparse"
                       class="fb-xfbml-parse-ignore">
                       <i class="fa fa-facebook" aria-hidden="true" />
@@ -189,7 +192,10 @@
                   <a
                     href="https://www.linkedin.com/shareArticle?mini=true&url=https://www.shivanicenter.ro/articole/{category_slug}/{slug}&title=Create
                     LinkedIn Share button on Website
-                    Webpages&summary=chillyfacts.com&source=Chillyfacts">
+                    Webpages&summary=chillyfacts.com&source=Chillyfacts"
+                    onclick="window.open(this.href, 'mywin',
+                    'left=20,top=20,width=500,height=500,toolbar=1,resizable=0');
+                    return false;">
                     <i class="fa fa-linkedin" aria-hidden="true" />
                   </a>
                 </li>
