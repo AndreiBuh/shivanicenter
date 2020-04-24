@@ -212,7 +212,7 @@
                     target="_blank"
                     href="whatsapp://send?text=https://www.shivanicenter.ro/articole/{category_slug}/{slug}"
                     data-action="share/whatsapp/share">
-                    Share in Whatsapp
+                    <i class="fa fa-whatsapp" aria-hidden="true" />
                   </a>
                 </li>
               </ul>
