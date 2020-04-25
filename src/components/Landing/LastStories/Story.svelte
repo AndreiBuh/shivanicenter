@@ -76,7 +76,10 @@
   <a rel="prefetch" href="articole/{category_slug}/{slug}">
     <img src={image.url} alt="image" class="post-overlay" />
   </a>
-  <div class="post-categories mt-md-4 mt-0">
+  <div class="post-meta mt-md-4 mt-0">
+    <span>{author} | {published}</span>
+  </div>
+  <div class="post-categories">
     <a rel="prefetch" href="articole/{category_slug}" class="font-weight-bold">
       {category.title}
     </a>
@@ -91,9 +94,6 @@
   </div>
   <div class="post-content">
     {@html excerpt}
-  </div>
-  <div class="post-meta">
-    <span>{author} | {published}</span>
   </div>
   <a
     rel="prefetch"
