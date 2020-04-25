@@ -139,7 +139,7 @@
                       </div>
                       <div class="col-lg-7 col-md-12 mb-md-0 px-4 py-3">
                         <div class="details">
-                          {articles[0].author} | {articles[0].published}
+                          {article.author} | {article.published}
                         </div>
                         <h5 class="font-weight-bold article-title">
                           <a
