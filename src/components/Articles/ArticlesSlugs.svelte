@@ -101,7 +101,7 @@
     line-height: 50px;
     color: #fff;
     margin: 0 2px;
-    border-radius: 50%;
+    border-radius: 30%;
     font-size: 18px;
     transition: 1s;
   }
