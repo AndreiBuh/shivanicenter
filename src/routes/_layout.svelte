@@ -95,15 +95,15 @@
 
   :global(.paragraph-text) {
     font-family: var(--font-text);
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 18px;
+    line-height: 22px;
     color: #fff;
   }
 
   :global(.paragraph-list-items) {
     font-family: var(--font-text);
-    font-size: 18px;
-    line-height: 22px;
+    font-size: 17px;
+    line-height: 21px;
     color: #fff;
   }
   :global(.text-elegant) {
@@ -157,17 +157,17 @@
     }
 
     :global(.service-title) {
-      font-size: 24px !important;
+      font-size: 22px !important;
     }
 
     :global(.paragraph-text) {
-      font-size: 18px;
-      line-height: 22px;
+      font-size: 17px;
+      line-height: 21px;
     }
 
     :global(.paragraph-list-items, li) {
-      font-size: 16px;
-      line-height: 20px;
+      font-size: 15px;
+      line-height: 19px;
     }
   }
 </style>
