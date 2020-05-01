@@ -68,7 +68,7 @@
     },
     {
       id: "4",
-      title: "Abordate",
+      title: "Abordare",
       icon: "belief.svg",
       content:
         "Abordarea holistică este centrată pe analiza de simbol, dezvoltare personală şi autoschimbare prin intermediul improvizaţiei şi al meditaţiei."
@@ -160,7 +160,7 @@
       <div class="row">
         {#each missions as { id, title, icon, content } (id)}
           <div class="col-md-3 px-3 pt-3 mission-item">
-            <h4 class="p-2">Misiune</h4>
+            <h4 class="p-2">{title}</h4>
             <Lazy offset={200}>
               <img src="/images/flaticon/{icon}" alt={title} />
             </Lazy>
