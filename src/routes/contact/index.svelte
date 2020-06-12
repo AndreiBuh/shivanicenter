@@ -10,6 +10,7 @@
   let name = "";
   let email = "";
   let message = "";
+  let check = false;
   let formIsValid = false;
 
   //validation
@@ -124,6 +125,9 @@
 
   a {
     text-decoration: none;
+  }
+  a:hover {
+    color: white;
   }
   .card {
     background-color: #222736;
@@ -337,11 +341,25 @@
                   validityMessage="Te rugăm sa introduci un mesaj valid!" />
               </div>
             </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" bind:checked={check} />
+                <span class="text-white">
+                  Sunt de acord cu prelucrarea datelor mele personale conform
+                  <a
+                    href="/confidentialitate"
+                    rel="prefetch"
+                    class="text-elegant">
+                    politicii de confidentialitate
+                  </a>
+                </span>
+              </label>
+            </div>
             <div class="text-center mt-3">
               <button
                 type="submit"
                 class="btn btn-outline py-2 px-4"
-                disabled={!formIsValid}
+                disabled={!formIsValid && !check}
                 aria-label="Trimite">
                 {#if isFilling}
                   <div id="isFilling" />

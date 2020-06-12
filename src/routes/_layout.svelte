@@ -6,8 +6,11 @@
   import Gdpr from "../components/Global/GDPR/Gdpr.svelte";
   import GoogleAnalytics from "../components/GoogleAnalytics.svelte";
   import Tree from "../components/UI/Tree.svelte";
+  import Button from "../components/UI/Button.svelte";
 
   export let segment;
+
+  $: cookie = true;
 
   let scroll;
   let isLoading = true;
@@ -132,6 +135,14 @@
     opacity: 0.8;
   }
 
+  :global(.cookie) {
+    background: var(--category-color);
+    padding: 20px;
+    width: 20%;
+    position: fixed;
+    bottom: 0;
+    z-index: 10;
+  }
   /* container override css */
 
   @media screen and (min-width: 1200px) {
@@ -174,12 +185,12 @@
 
 <GoogleAnalytics />
 <svelte:window bind:scrollY={scroll} id:slides />
-
+<!--
 {#if isLoading}
   <div class="loading">
     <Tree />
   </div>
-{/if}
+{/if} -->
 <svelte:component this={Nav} {segment} />
 <main>
   <slot />
@@ -191,6 +202,19 @@
       in:fly={{ y: 50, duration: 400 }}
       out:fade />
   {/if}
+
+  {#if cookie === true}
+    <div class="cookie">
+      <p class="text-white">
+        Acest website foloseste cookie-uri pentru o mai buna experienta a
+        utilizatorului.
+      </p>
+      <span on:click|once={() => (cookie = false)}>
+        <Button content="Acceptare" />
+      </span>
+    </div>
+  {/if}
 </main>
+
 <Footer />
 <Gdpr />
