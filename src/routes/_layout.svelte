@@ -136,7 +136,7 @@
   }
 
   :global(.cookie) {
-    background: var(--category-color);
+    background: var(--main-bg-color);
     padding: 20px;
     width: 20%;
     position: fixed;
