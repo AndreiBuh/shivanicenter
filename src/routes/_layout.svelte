@@ -180,6 +180,11 @@
       font-size: 15px;
       line-height: 19px;
     }
+
+    .cookie {
+      width: 100%;
+      padding: 10px;
+    }
   }
 </style>
 
