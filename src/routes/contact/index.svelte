@@ -359,7 +359,7 @@
               <button
                 type="submit"
                 class="btn btn-outline py-2 px-4"
-                disabled={!formIsValid && !check}
+                disabled={!formIsValid || !check}
                 aria-label="Trimite">
                 {#if isFilling}
                   <div id="isFilling" />
