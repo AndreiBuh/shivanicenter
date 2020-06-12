@@ -190,12 +190,12 @@
 
 <GoogleAnalytics />
 <svelte:window bind:scrollY={scroll} id:slides />
-<!--
+
 {#if isLoading}
   <div class="loading">
     <Tree />
   </div>
-{/if} -->
+{/if}
 <svelte:component this={Nav} {segment} />
 <main>
   <slot />
